@@ -6,8 +6,10 @@ on:
     - cron: '0 13-21 * * 1-5'
     # GameStop bot: días hábiles a las 21:30 UTC (cierre de mercado)
     - cron: '30 21 * * 1-5'
-    # FVG + ICT: días hábiles a las 15:30 UTC (11:30 AM ET, mercado con 2h de volumen)
-    - cron: '30 15 * * 1-5'
+    # FVG: días hábiles a las 13:30 UTC (9:30 AM ET = apertura, backtest óptimo)
+    - cron: '30 13 * * 1-5'
+    # ICT: días hábiles a las 18:30 UTC (14:30 PM ET, backtest óptimo)
+    - cron: '30 18 * * 1-5'
   workflow_dispatch:  # permite correr manualmente desde GitHub
 
 permissions:
@@ -87,7 +89,7 @@ jobs:
   fvg-bot:
     name: FVG Strategy Bot
     runs-on: ubuntu-latest
-    if: github.event.schedule == '30 15 * * 1-5' || github.event_name == 'workflow_dispatch'
+    if: github.event.schedule == '30 13 * * 1-5' || github.event_name == 'workflow_dispatch'
 
     steps:
       - uses: actions/checkout@v4
@@ -116,7 +118,7 @@ jobs:
   ict-bot:
     name: ICT Strategy Bot
     runs-on: ubuntu-latest
-    if: github.event.schedule == '30 15 * * 1-5' || github.event_name == 'workflow_dispatch'
+    if: github.event.schedule == '30 18 * * 1-5' || github.event_name == 'workflow_dispatch'
 
     steps:
       - uses: actions/checkout@v4
