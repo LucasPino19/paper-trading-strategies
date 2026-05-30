@@ -1,6 +1,6 @@
 """
-Bot diario FVG: elige el activo con mayor volumen del día y busca confluencia FVG+VWAP+Breakout.
-Lógica fiel al fvg_bot.py original: primero seleccionar activo por volumen, luego analizar.
+Bot diario FVG: elige los activos con mayor volumen relativo del día y busca confluencia FVG+VWAP+Breakout.
+Lógica fiel al fvg_bot.py original: primero rankear por volumen, luego analizar.
 """
 from __future__ import annotations
 
@@ -13,32 +13,37 @@ import pandas as pd
 from strategy import scan_signals, check_exit
 from paper_trader import PaperTrader
 
-WATCHLIST = [
+UNIVERSE = [
     "AAPL", "MSFT", "NVDA", "AMZN", "META",
     "GOOGL", "TSLA", "JPM", "V", "XOM",
     "UNH", "JNJ", "PG", "MA", "HD",
     "BAC", "ABBV", "CVX", "MRK", "PEP",
+    "QQQ", "SPY", "AMD", "AVGO",
 ]
 
 
-def seleccionar_activo_por_volumen(tickers: list[str] = WATCHLIST, periodo: str = "5d") -> str:
-    """Devuelve el ticker con mayor volumen promedio de los últimos días (igual que el original)."""
-    print("[fvg] Buscando activo con mayor volumen...")
-    volumenes: dict[str, float] = {}
+def rankear_universe(tickers: list[str] = UNIVERSE, top_n: int = 10) -> list[str]:
+    """Rankea por ratio volumen hoy / promedio 20d. Devuelve top_n tickers."""
+    print("[fvg] Rankeando universo por volumen relativo...")
+    scores: dict[str, float] = {}
     for ticker in tickers:
         try:
-            df = yf.download(ticker, period=periodo, interval="1d",
+            df = yf.download(ticker, period="5d", interval="1d",
                              progress=False, auto_adjust=True)
             df.columns = [c[0] if isinstance(c, tuple) else c for c in df.columns]
-            if not df.empty:
-                volumenes[ticker] = float(df["Volume"].mean())
+            df.dropna(inplace=True)
+            if len(df) < 2:
+                continue
+            avg_vol = float(df["Volume"].iloc[:-1].mean())
+            today_vol = float(df["Volume"].iloc[-1])
+            if avg_vol > 0:
+                scores[ticker] = today_vol / avg_vol
         except Exception:
             continue
-    if not volumenes:
-        return "NVDA"
-    mejor = max(volumenes, key=volumenes.get)
-    print(f"  → Activo seleccionado: {mejor} (vol promedio: {volumenes[mejor]:,.0f})")
-    return mejor
+    ranked = sorted(scores, key=scores.get, reverse=True)[:top_n]
+    if ranked:
+        print(f"[rank] Top instrumentos: {', '.join(ranked[:3])}")
+    return ranked
 
 
 def descargar_datos(ticker: str) -> pd.DataFrame:
@@ -72,21 +77,26 @@ def run_fvg_bot(trader: Optional[PaperTrader] = None) -> None:
     print(f"{'='*65}")
     print(f"  Capital: ${trader.cash:,.0f} | Posiciones: {len(trader.open_positions)}/3")
 
-    # ── Selección de activo por volumen (fiel al original) ────────────────
+    # ── Rankear universo y escanear candidatos ────────────────────────────
     all_signals = []
     if trader.can_open_position():
-        ticker = seleccionar_activo_por_volumen()
+        candidates = rankear_universe()
 
-        # Si ya tenemos posición en ese activo, igual actualizamos pero no abrimos doble
-        if ticker not in trader.open_positions:
+        for ticker in candidates:
+            if ticker in trader.open_positions:
+                continue
             df = descargar_datos(ticker)
-            if not df.empty:
-                sigs = scan_signals(ticker, df)
-                if sigs:
-                    print(f"\n[fvg] {ticker}: {len(sigs)} señal(es) — {sigs[0]['label']}")
-                    all_signals = sigs
-                else:
-                    print(f"\n[fvg] {ticker}: sin confluencia FVG+VWAP+Breakout hoy.")
+            if df.empty:
+                continue
+            sigs = scan_signals(ticker, df)
+            if sigs:
+                print(f"\n[fvg] {ticker}: {len(sigs)} señal(es) — {sigs[0]['label']}")
+                all_signals.extend(sigs)
+
+        if not all_signals:
+            print("\n[fvg] Sin confluencia FVG+VWAP+Breakout en los candidatos hoy.")
+
+        all_signals.sort(key=lambda x: x["score"], reverse=True)
 
         # ── Abrir posición si hay señal ────────────────────────────────────
         for sig in all_signals:

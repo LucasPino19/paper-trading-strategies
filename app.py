@@ -138,11 +138,17 @@ st.caption(f"Actualizado: {datetime.now().strftime('%d/%m/%Y %H:%M')}  |  $10,00
 st.divider()
 
 # ── Tabs por estrategia ───────────────────────────────────────────────────────
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10 = st.tabs([
     "🎮 GameStop Squeeze",
     "🦅 Trump Trades",
     "📐 FVG + VWAP",
     "🧱 ICT Order Blocks",
+    "🚀 Gap & Go",
+    "📊 ORB + Breakout",
+    "📈 Breakout 50d",
+    "⚡ Momentum 10d",
+    "🎯 BB Bounce",
+    "↩️ Pullback EMA50",
 ])
 
 with tab1:
@@ -204,3 +210,93 @@ with tab4:
         render_trade_history(ict)
     with st.expander("¿Cómo funciona?"):
         st.markdown("Detecta **Order Blocks ICT** en velas de 1h. Entra cuando el precio retoca un OB con VWAP y EMA(20) alineados. Stop 1.5×OB, target 3×OB.")
+
+with tab5:
+    gap = load_portfolio("gap-strategy")
+    s_gap = summary(gap)
+    render_kpis(s_gap)
+    render_equity_curve(gap, s_gap)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader("Posiciones abiertas")
+        render_open_positions(gap)
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(gap)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown("Detecta **gaps alcistas >1%** en apertura. Entra a las 10:30 ET si el precio mantiene el gap y el volumen es 1.5× la media. Stop -8%, target +30%, trail desde +12%.")
+
+with tab6:
+    orb = load_portfolio("orb-breakout-strategy")
+    s_orb = summary(orb)
+    render_kpis(s_orb)
+    render_equity_curve(orb, s_orb)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader("Posiciones abiertas")
+        render_open_positions(orb)
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(orb)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown("Combina **Opening Range Breakout** (supera máximo de la primera vela de 1h) con rotura del **máximo de 20 días**, volumen elevado y precio sobre EMA20. Stop -7%, target +20%.")
+
+with tab7:
+    b50d = load_portfolio("breakout50d-strategy")
+    s_b50d = summary(b50d)
+    render_kpis(s_b50d)
+    render_equity_curve(b50d, s_b50d)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader("Posiciones abiertas")
+        render_open_positions(b50d)
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(b50d)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown("Opera en **datos diarios**. Entra en el primer cierre que supera el máximo de los últimos **50 días**. Sin hard target — usa trailing stop puro (trail 8% desde pico). Backtest: +89.8% total en 4.7 años.")
+
+with tab8:
+    mom = load_portfolio("momentum-strategy")
+    s_mom = summary(mom)
+    render_kpis(s_mom)
+    render_equity_curve(mom, s_mom)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader("Posiciones abiertas")
+        render_open_positions(mom)
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(mom)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown("Detecta **cruce de momentum positivo**: retorno de 10 días (70 barras de 1h) que cruza por encima del 4% por primera vez, con precio sobre EMA50. Stop -6%, target +12%. 77% meses positivos en backtest.")
+
+with tab9:
+    bb = load_portfolio("bb-bounce-strategy")
+    s_bb = summary(bb)
+    render_kpis(s_bb)
+    render_equity_curve(bb, s_bb)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader("Posiciones abiertas")
+        render_open_positions(bb)
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(bb)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown("**BB Lower Bounce**: compra cuando el precio toca la Banda de Bollinger inferior y rebota al día siguiente, con RSI < 45 y precio sobre EMA200 (tendencia alcista). Stop -7%, target +15%. Backtest: **62% win rate, PF 2.29, DD -12%**.")
+
+with tab10:
+    pull = load_portfolio("pullback-strategy")
+    s_pull = summary(pull)
+    render_kpis(s_pull)
+    render_equity_curve(pull, s_pull)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader("Posiciones abiertas")
+        render_open_positions(pull)
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(pull)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown("**Pullback EMA50 + ADX**: compra cuando el precio retrocede a tocar la EMA50 en tendencia alcista (precio > EMA200), rebota, y el ADX > 20 confirma que el mercado está en tendencia (no lateral). Stop -6%, trailing stop puro. Backtest: **+21.5% anual, DD -33%**.")

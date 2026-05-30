@@ -1,4 +1,4 @@
-"""Bot diario ICT: escanea ETF proxies de futuros institucionales, entra cuando hay confluencia OB+VWAP+EMA."""
+"""Bot Breakout 50d: detecta el primer cierre sobre el máximo de 50 días. Usa datos diarios."""
 from __future__ import annotations
 
 from datetime import datetime
@@ -10,18 +10,18 @@ import pandas as pd
 from strategy import scan_signals, check_exit
 from paper_trader import PaperTrader
 
-# ICT fue diseñado para futuros (ES, NQ, bonds, gold). Usamos ETF proxies institucionales.
+# Breakout 50d funciona mejor con instrumentos trending: ETFs, sector ETFs, commodity ETFs.
 UNIVERSE = [
-    "QQQ", "SPY", "IWM", "GLD", "TLT",
-    "SLV", "USO", "DIA", "NVDA", "MSFT",
-    "AAPL", "META", "AMZN", "GOOGL", "JPM",
-    "GS", "BAC", "XOM", "CVX", "TSLA",
+    "NVDA", "MSFT", "AAPL", "META", "AMZN",
+    "GOOGL", "AVGO", "QQQ", "SPY", "XLK",
+    "SOXX", "XLE", "XLF", "XLV", "IWM",
+    "GLD", "SLV", "USO", "EEM", "AMD",
 ]
 
 
-def rankear_universe(tickers: list[str] = UNIVERSE, top_n: int = 10) -> list[str]:
-    """Rankea por ratio volumen hoy / promedio 20d. ICT necesita volumen institucional."""
-    print("[ict] Rankeando universo por volumen institucional...")
+def rankear_universe(tickers: list[str] = UNIVERSE, top_n: int = 15) -> list[str]:
+    """Rankea por momentum reciente: (close hoy - avg close 20d) / avg close 20d."""
+    print("[b50d] Rankeando universo por momentum reciente...")
     scores: dict[str, float] = {}
     for ticker in tickers:
         try:
@@ -31,10 +31,10 @@ def rankear_universe(tickers: list[str] = UNIVERSE, top_n: int = 10) -> list[str
             df.dropna(inplace=True)
             if len(df) < 2:
                 continue
-            avg_vol = float(df["Volume"].iloc[:-1].mean())
-            today_vol = float(df["Volume"].iloc[-1])
-            if avg_vol > 0:
-                scores[ticker] = today_vol / avg_vol
+            avg_close = float(df["Close"].mean())
+            today_close = float(df["Close"].iloc[-1])
+            if avg_close > 0:
+                scores[ticker] = (today_close - avg_close) / avg_close
         except Exception:
             continue
     ranked = sorted(scores, key=scores.get, reverse=True)[:top_n]
@@ -45,7 +45,7 @@ def rankear_universe(tickers: list[str] = UNIVERSE, top_n: int = 10) -> list[str
 
 def descargar_datos(ticker: str) -> pd.DataFrame:
     try:
-        df = yf.download(ticker, period="3mo", interval="1h",
+        df = yf.download(ticker, period="1y", interval="1d",
                          progress=False, auto_adjust=True)
         df.columns = [c[0] if isinstance(c, tuple) else c for c in df.columns]
         df.dropna(inplace=True)
@@ -65,20 +65,20 @@ def get_current_price(ticker: str) -> Optional[float]:
     return None
 
 
-def run_ict_bot(trader: Optional[PaperTrader] = None) -> None:
+def run_breakout50d_bot(trader: Optional[PaperTrader] = None) -> None:
     if trader is None:
         trader = PaperTrader()
 
     print(f"\n{'='*65}")
-    print(f"  ICT BOT — {datetime.now().strftime('%d/%m/%Y %H:%M')}")
+    print(f"  BREAKOUT 50D BOT — {datetime.now().strftime('%d/%m/%Y %H:%M')}")
     print(f"{'='*65}")
     print(f"  Capital: ${trader.cash:,.0f} | Posiciones: {len(trader.open_positions)}/3")
 
     # ── Rankear universo y escanear candidatos ────────────────────────────
-    all_signals = []
     if trader.can_open_position():
         candidates = rankear_universe()
-        print(f"\n[ict] Escaneando {len(candidates)} candidatos...")
+        print(f"\n[b50d] Escaneando {len(candidates)} candidatos...")
+        all_signals = []
 
         for ticker in candidates:
             if ticker in trader.open_positions:
@@ -88,17 +88,14 @@ def run_ict_bot(trader: Optional[PaperTrader] = None) -> None:
                 continue
             sigs = scan_signals(ticker, df)
             if sigs:
-                print(f"  {ticker}: {len(sigs)} señal(es) — {sigs[0]['label']}")
-            all_signals.extend(sigs)
+                print(f"  {ticker}: {sigs[0]['label']}")
+                all_signals.extend(sigs)
 
         all_signals.sort(key=lambda x: x["score"], reverse=True)
 
-        # ── Abrir posiciones ───────────────────────────────────────────────
         for sig in all_signals:
             if not trader.can_open_position():
                 break
-            if sig["ticker"] in trader.open_positions:
-                continue
             price = get_current_price(sig["ticker"])
             if not price:
                 continue
@@ -108,9 +105,6 @@ def run_ict_bot(trader: Optional[PaperTrader] = None) -> None:
                 sps_score=sig["score"] * 1000,
                 metrics={"short_float_pct": 0, "float_shares_m": 0, "dtc": 0},
             )
-
-        if not all_signals:
-            print("[ict] Sin OBs tocados hoy.")
 
     # ── Actualizar posiciones abiertas ────────────────────────────────────
     to_close = []
@@ -140,4 +134,4 @@ def run_ict_bot(trader: Optional[PaperTrader] = None) -> None:
 
 
 if __name__ == "__main__":
-    run_ict_bot()
+    run_breakout50d_bot()

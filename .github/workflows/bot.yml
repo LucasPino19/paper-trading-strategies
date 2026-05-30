@@ -4,12 +4,16 @@ on:
   schedule:
     # Trump bot: cada hora en días hábiles, 13:00–21:00 UTC (9AM-5PM ET)
     - cron: '0 13-21 * * 1-5'
-    # GameStop bot: días hábiles a las 21:30 UTC (cierre de mercado)
+    # GameStop + Breakout50d: días hábiles a las 21:30 UTC (cierre de mercado)
     - cron: '30 21 * * 1-5'
     # FVG: días hábiles a las 13:30 UTC (9:30 AM ET = apertura, backtest óptimo)
     - cron: '30 13 * * 1-5'
     # ICT: días hábiles a las 18:30 UTC (14:30 PM ET, backtest óptimo)
     - cron: '30 18 * * 1-5'
+    # Gap + ORB + Momentum: días hábiles a las 14:30 UTC (10:30 AM ET)
+    - cron: '30 14 * * 1-5'
+    # Reporte diario: días hábiles a las 22:00 UTC (después del cierre)
+    - cron: '0 22 * * 1-5'
   workflow_dispatch:  # permite correr manualmente desde GitHub
 
 permissions:
@@ -19,8 +23,8 @@ jobs:
   trump-bot:
     name: Trump Sentiment Bot
     runs-on: ubuntu-latest
-    # Corre en todas las ejecuciones programadas excepto la de las 21:30 (esa es del GameStop bot)
-    if: github.event.schedule != '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+    # Corre en las ejecuciones de hora en punto (13-21 UTC); excluye los slots de otros bots
+    if: (github.event.schedule == '0 13-21 * * 1-5' || github.event_name == 'workflow_dispatch')
 
     steps:
       - uses: actions/checkout@v4
@@ -142,4 +146,207 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add ict-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(ict): update $(date -u +'%Y-%m-%d')"
+          git push
+
+  gap-bot:
+    name: Gap & Go Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '30 14 * * 1-5' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install yfinance pandas numpy
+
+      - name: Correr Gap bot
+        working-directory: gap-strategy
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add gap-strategy/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(gap): update $(date -u +'%Y-%m-%d')"
+          git push
+
+  orb-breakout-bot:
+    name: ORB + Breakout Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '30 14 * * 1-5' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install yfinance pandas numpy
+
+      - name: Correr ORB+Breakout bot
+        working-directory: orb-breakout-strategy
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add orb-breakout-strategy/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(orb-breakout): update $(date -u +'%Y-%m-%d')"
+          git push
+
+  breakout50d-bot:
+    name: Breakout 50d Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install yfinance pandas numpy
+
+      - name: Correr Breakout50d bot
+        working-directory: breakout50d-strategy
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add breakout50d-strategy/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(breakout50d): update $(date -u +'%Y-%m-%d')"
+          git push
+
+  momentum-bot:
+    name: Momentum 10d Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '30 14 * * 1-5' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install yfinance pandas numpy
+
+      - name: Correr Momentum bot
+        working-directory: momentum-strategy
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add momentum-strategy/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(momentum): update $(date -u +'%Y-%m-%d')"
+          git push
+
+  bb-bounce-bot:
+    name: BB Lower Bounce Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install yfinance pandas numpy
+
+      - name: Correr BB Bounce bot
+        working-directory: bb-bounce-strategy
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add bb-bounce-strategy/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(bb-bounce): update $(date -u +'%Y-%m-%d')"
+          git push
+
+  pullback-bot:
+    name: Pullback EMA50 + ADX Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install yfinance pandas numpy
+
+      - name: Correr Pullback bot
+        working-directory: pullback-strategy
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add pullback-strategy/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(pullback): update $(date -u +'%Y-%m-%d')"
+          git push
+
+  daily-report:
+    name: Reporte Diario
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 22 * * 1-5' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0   # necesario para ver el historial completo
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install yfinance pandas numpy
+
+      - name: Generar reporte
+        run: python report.py
+
+      - name: Guardar reporte
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add reports/
+          git diff --staged --quiet || git commit -m "report: daily $(date -u +'%Y-%m-%d')"
           git push
