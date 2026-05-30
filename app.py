@@ -138,7 +138,12 @@ st.caption(f"Actualizado: {datetime.now().strftime('%d/%m/%Y %H:%M')}  |  $10,00
 st.divider()
 
 # ── Tabs por estrategia ───────────────────────────────────────────────────────
-tab1, tab2 = st.tabs(["🎮 GameStop Squeeze", "🦅 Trump Trades"])
+tab1, tab2, tab3, tab4 = st.tabs([
+    "🎮 GameStop Squeeze",
+    "🦅 Trump Trades",
+    "📐 FVG + VWAP",
+    "🧱 ICT Order Blocks",
+])
 
 with tab1:
     gme = load_portfolio("gamestop-squeeze")
@@ -152,13 +157,8 @@ with tab1:
     with col_b:
         st.subheader("Trades cerrados")
         render_trade_history(gme)
-    with st.expander("¿Cómo funciona esta estrategia?"):
-        st.markdown("""
-        Busca **mensualmente** acciones con short interest >40%, float <100M shares y
-        volumen >2x promedio — las mismas condiciones que tenía GameStop en enero 2021.
-        Entra cuando el squeeze parece inminente y sale por stop loss, target, trailing
-        stop, tiempo o agotamiento de volumen.
-        """)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown("Busca **mensualmente** acciones con short interest >40%, float <100M y volumen >2x promedio. Entra cuando el squeeze parece inminente.")
 
 with tab2:
     trump = load_portfolio("trump-strategy")
@@ -172,10 +172,35 @@ with tab2:
     with col_b:
         st.subheader("Trades cerrados")
         render_trade_history(trump)
-    with st.expander("¿Cómo funciona esta estrategia?"):
-        st.markdown("""
-        Lee noticias de Trump **cada hora** (Google News RSS). Si menciona una empresa
-        con tono positivo → compra. Si la menciona negativamente y está en portfolio → vende.
-        Stop loss -8%, target +50%, trailing stop +15%, y tiempo máximo 5 días
-        (las noticias de Trump duran poco).
-        """)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown("Lee Google News **cada hora** buscando declaraciones de Trump sobre acciones. Positivo → compra. Negativo sobre posición abierta → vende.")
+
+with tab3:
+    fvg = load_portfolio("fvg-strategy")
+    s_fvg = summary(fvg)
+    render_kpis(s_fvg)
+    render_equity_curve(fvg, s_fvg)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader("Posiciones abiertas")
+        render_open_positions(fvg)
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(fvg)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown("Detecta **Fair Value Gaps** en velas de 1h sobre las 20 acciones más líquidas del S&P 500. Entra solo cuando FVG + VWAP + Breakout coinciden. Stop 1.5×FVG, target 2×FVG.")
+
+with tab4:
+    ict = load_portfolio("ict-strategy")
+    s_ict = summary(ict)
+    render_kpis(s_ict)
+    render_equity_curve(ict, s_ict)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader("Posiciones abiertas")
+        render_open_positions(ict)
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(ict)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown("Detecta **Order Blocks ICT** en velas de 1h. Entra cuando el precio retoca un OB con VWAP y EMA(20) alineados. Stop 1.5×OB, target 3×OB.")

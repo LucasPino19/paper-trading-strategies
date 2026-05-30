@@ -81,3 +81,61 @@ jobs:
           git add gamestop-squeeze/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(gamestop): update $(date -u +'%Y-%m-%d')"
           git push
+
+  fvg-bot:
+    name: FVG Strategy Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install yfinance pandas numpy
+
+      - name: Correr FVG bot
+        working-directory: fvg-strategy
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add fvg-strategy/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(fvg): update $(date -u +'%Y-%m-%d')"
+          git push
+
+  ict-bot:
+    name: ICT Strategy Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install yfinance pandas numpy
+
+      - name: Correr ICT bot
+        working-directory: ict-strategy
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add ict-strategy/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(ict): update $(date -u +'%Y-%m-%d')"
+          git push
