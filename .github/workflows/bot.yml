@@ -1,26 +1,60 @@
-name: GameStop Squeeze Bot
+name: Paper Trading Bots
 
 on:
   schedule:
-    # Corre de lunes a viernes a las 21:30 UTC (17:30 ET, después del cierre de mercado)
+    # Trump bot: cada hora en días hábiles, 13:00–21:00 UTC (9AM-5PM ET)
+    - cron: '0 13-21 * * 1-5'
+    # GameStop bot: días hábiles a las 21:30 UTC (cierre de mercado)
     - cron: '30 21 * * 1-5'
-  workflow_dispatch:  # permite correrlo manualmente desde GitHub
+  workflow_dispatch:  # permite correr manualmente desde GitHub
 
 permissions:
   contents: write
 
 jobs:
-  run-bot:
+  trump-bot:
+    name: Trump Sentiment Bot
     runs-on: ubuntu-latest
+    # Corre en todas las ejecuciones programadas excepto la de las 21:30 (esa es del GameStop bot)
+    if: github.event.schedule != '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: trump-strategy/requirements.txt
+
+      - name: Instalar dependencias
+        run: pip install -r trump-strategy/requirements.txt
+
+      - name: Correr Trump bot
+        working-directory: trump-strategy
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add trump-strategy/data/portfolio.json trump-strategy/data/processed_articles.json
+          git diff --staged --quiet || git commit -m "bot(trump): update $(date -u +'%Y-%m-%d %H:%M')"
+          git push
+
+  gamestop-bot:
+    name: GameStop Squeeze Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -29,24 +63,21 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r gamestop-squeeze/requirements.txt
 
-      - name: Scanner mensual (corre el 1ro de cada mes)
+      - name: Scanner mensual (solo el 1ro de cada mes)
         working-directory: gamestop-squeeze
         run: |
           if [ "$(date +%d)" = "01" ]; then
-            echo "=== Primer día del mes: ejecutando scanner ==="
             python run.py --scan
-          else
-            echo "=== No es el 1ro del mes, saltando scanner ==="
           fi
 
       - name: Update diario
         working-directory: gamestop-squeeze
         run: python run.py --update
 
-      - name: Guardar cambios al repo
+      - name: Guardar portfolio
         run: |
           git config --local user.email "bot@github-actions"
-          git config --local user.name "GameStop Squeeze Bot"
-          git add "gamestop-squeeze/data/portfolio.json"
-          git diff --staged --quiet || git commit -m "bot: portfolio update $(date -u +'%Y-%m-%d')"
+          git config --local user.name "Paper Trading Bot"
+          git add gamestop-squeeze/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(gamestop): update $(date -u +'%Y-%m-%d')"
           git push
