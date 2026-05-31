@@ -1,7 +1,60 @@
 {
   "initial_capital": 10000.0,
-  "cash": 10000.0,
-  "open_positions": {},
+  "cash": 2000.0,
+  "open_positions": {
+    "0x1a62f72054c8fd5deb1116b78738ab99f337240906a0bf46931870f031629094": {
+      "ticker": "[YES] Roland Garros ATP: Casper Ruud vs Joao",
+      "direction": "YES",
+      "condition_id": "0x1a62f72054c8fd5deb1116b78738ab99f337240906a0bf46931870f031629094",
+      "entry_price": 0.695,
+      "shares": 2877.697841726619,
+      "entry_value": 2000.0,
+      "current_price": 0.695,
+      "peak_price": 0.695,
+      "entry_date": "2026-05-31T21:07:19.752570",
+      "trading_days_held": 0,
+      "last_update_date": "2026-05-31"
+    },
+    "0x231230299aed967bb1d402e322aad1b402a4613a010d4603523032a48323b957": {
+      "ticker": "[YES] San Francisco Giants vs. Colorado Rock",
+      "direction": "YES",
+      "condition_id": "0x231230299aed967bb1d402e322aad1b402a4613a010d4603523032a48323b957",
+      "entry_price": 0.605,
+      "shares": 3305.785123966942,
+      "entry_value": 2000.0,
+      "current_price": 0.605,
+      "peak_price": 0.605,
+      "entry_date": "2026-05-31T21:07:19.752570",
+      "trading_days_held": 0,
+      "last_update_date": "2026-05-31"
+    },
+    "0x11c8c050fc30fe455d8659cea74d8a584e6e3b9b3371f02b6db8da2b1f99b25f": {
+      "ticker": "[YES] San Francisco Giants vs. Colorado Rock",
+      "direction": "YES",
+      "condition_id": "0x11c8c050fc30fe455d8659cea74d8a584e6e3b9b3371f02b6db8da2b1f99b25f",
+      "entry_price": 0.68,
+      "shares": 2941.176470588235,
+      "entry_value": 2000.0,
+      "current_price": 0.68,
+      "peak_price": 0.68,
+      "entry_date": "2026-05-31T21:07:19.752570",
+      "trading_days_held": 0,
+      "last_update_date": "2026-05-31"
+    },
+    "0x3018c90688ef2487dd1351f15dec041bf7e63327eefddece6ce57b74f5f3a3f2": {
+      "ticker": "[YES] Philadelphia Phillies vs. Los Angeles ",
+      "direction": "YES",
+      "condition_id": "0x3018c90688ef2487dd1351f15dec041bf7e63327eefddece6ce57b74f5f3a3f2",
+      "entry_price": 0.755,
+      "shares": 2649.0066225165565,
+      "entry_value": 2000.0,
+      "current_price": 0.755,
+      "peak_price": 0.755,
+      "entry_date": "2026-05-31T21:07:19.752570",
+      "trading_days_held": 0,
+      "last_update_date": "2026-05-31"
+    }
+  },
   "closed_trades": [],
   "equity_history": [
     {
