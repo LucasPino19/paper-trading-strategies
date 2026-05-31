@@ -1,1 +1,33 @@
-{"initial_capital": 10000.0, "cash": 10000.0, "open_positions": {}, "closed_trades": [], "equity_history": [{"date": "2026-05-30", "equity": 10000.0}]}
+{
+  "initial_capital": 10000.0,
+  "cash": 7000.0,
+  "open_positions": {
+    "JNJ": {
+      "ticker": "JNJ",
+      "entry_price": 225.3300018310547,
+      "shares": 13.313806309065338,
+      "entry_value": 3000.0,
+      "current_price": 225.3300018310547,
+      "peak_price": 225.3300018310547,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-05-31",
+      "entry_date": "2026-05-31T19:54:21.551069",
+      "sps_score": 0.4883706609343914,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    }
+  },
+  "closed_trades": [],
+  "equity_history": [
+    {
+      "date": "2026-05-30",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-05-31",
+      "equity": 10000.0
+    }
+  ]
+}
