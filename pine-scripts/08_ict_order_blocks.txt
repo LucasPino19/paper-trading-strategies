@@ -90,13 +90,11 @@ plot(vwap_val,  "VWAP",      color=color.new(color.teal, 20), linewidth=2)
 plot(ema_trend, "EMA 20d",   color=color.blue, linewidth=2)
 
 // Marcar zona del OB
-p_ob_high = plot(ob_is_valid ? ob_high : na, "OB High",
-                 color=color.new(color.orange, 50), style=plot.style_linebr)
-p_ob_low  = plot(ob_is_valid ? ob_low  : na, "OB Low",
-                 color=color.new(color.orange, 50), style=plot.style_linebr)
-fill(p_ob_high, p_ob_low,
-     color=ob_is_valid ? color.new(color.orange, 88) : na,
-     title="Zona OB")
+ob_high_plot = ob_is_valid ? ob_high : na
+ob_low_plot  = ob_is_valid ? ob_low  : na
+p_ob_high = plot(ob_high_plot, "OB High", color=color.new(color.orange, 50), style=plot.style_linebr)
+p_ob_low  = plot(ob_low_plot,  "OB Low",  color=color.new(color.orange, 50), style=plot.style_linebr)
+fill(p_ob_high, p_ob_low, color=color.new(color.orange, 88), title="Zona OB")
 
 plotshape(long_signal and strategy.position_size == 0,
           "OB Entry", shape.labelup, location.belowbar,
