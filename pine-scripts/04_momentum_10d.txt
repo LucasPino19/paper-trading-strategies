@@ -3,7 +3,7 @@
 // Activo recomendado: NVDA (momentum explosivo, buenas tendencias)
 // Backtest: +17.3% anual, 77% meses positivos
 // Lógica: 70 barras de 1h ≈ 10 días de trading
-//@version=5
+//@version=6
 strategy("⚡ Momentum 10d", overlay=true,
          initial_capital=10000,
          default_qty_type=strategy.percent_of_equity,

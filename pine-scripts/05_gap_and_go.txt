@@ -3,7 +3,7 @@
 // Activo recomendado: QQQ (gaps frecuentes en aperturas, volumen alto)
 // Backtest: +24.1% anual, 62% win rate, PF 3.05
 // Lógica: Gap alcista >1% en apertura, precio mantiene el gap a las 10:30 ET con volumen
-//@version=5
+//@version=6
 strategy("🚀 Gap & Go", overlay=true,
          initial_capital=10000,
          default_qty_type=strategy.percent_of_equity,

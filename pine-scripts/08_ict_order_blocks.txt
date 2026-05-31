@@ -4,7 +4,7 @@
 // Backtest: +16.1% anual, 51% win rate, PF 1.72
 // Lógica: vela bajista + 3 velas alcistas de impulso = OB alcista.
 //         Precio vuelve a tocar la zona con VWAP y tendencia alineados.
-//@version=5
+//@version=6
 strategy("🧱 ICT Order Blocks + VWAP", overlay=true,
          initial_capital=10000,
          default_qty_type=strategy.percent_of_equity,

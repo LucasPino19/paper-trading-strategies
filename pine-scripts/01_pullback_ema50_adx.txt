@@ -2,7 +2,7 @@
 // Timeframe: Daily (1D)
 // Activo recomendado: NVDA (tendencias claras, ADX alto)
 // Backtest: +21.5% anual, 50% win rate, PF 1.37, DD -33%
-//@version=5
+//@version=6
 strategy("↩️ Pullback EMA50 + ADX", overlay=true,
          initial_capital=10000,
          default_qty_type=strategy.percent_of_equity,

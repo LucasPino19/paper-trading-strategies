@@ -3,7 +3,7 @@
 // Activo recomendado: QQQ (FVGs frecuentes, VWAP bien respetado)
 // Backtest: +18.2% anual, 53% win rate, PF 1.94
 // Lógica: Fair Value Gap alcista + precio sobre VWAP + breakout de 20 barras
-//@version=5
+//@version=6
 strategy("📐 FVG + VWAP + Breakout", overlay=true,
          initial_capital=10000,
          default_qty_type=strategy.percent_of_equity,

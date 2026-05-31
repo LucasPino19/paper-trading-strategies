@@ -2,7 +2,7 @@
 // Timeframe: Daily (1D)
 // Activo recomendado: QQQ (momentum fuerte, rompimientos limpios)
 // Backtest: +14.5% anual, +89.8% total en 4.7 años
-//@version=5
+//@version=6
 strategy("📈 Breakout 50d", overlay=true,
          initial_capital=10000,
          default_qty_type=strategy.percent_of_equity,

@@ -2,7 +2,7 @@
 // Timeframe: Daily (1D)
 // Activo recomendado: SPY (ETF estable, revierte a la media)
 // Backtest: +15.4% anual, 62% win rate, PF 2.29, DD -12%
-//@version=5
+//@version=6
 strategy("🎯 BB Lower Bounce", overlay=true,
          initial_capital=10000,
          default_qty_type=strategy.percent_of_equity,
