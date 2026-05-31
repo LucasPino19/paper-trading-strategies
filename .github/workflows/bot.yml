@@ -4,14 +4,17 @@ on:
   schedule:
     # Trump bot: cada hora en días hábiles, 13:00–21:00 UTC (9AM-5PM ET)
     - cron: '0 13-21 * * 1-5'
-    # GameStop + Breakout50d: días hábiles a las 21:30 UTC (cierre de mercado)
+    # GameStop: días hábiles a las 21:30 UTC (cierre de mercado)
     - cron: '30 21 * * 1-5'
-    # FVG: días hábiles a las 13:30 UTC (9:30 AM ET = apertura, backtest óptimo)
+    # FVG: días hábiles a las 13:30 UTC (9:30 AM ET = apertura)
     - cron: '30 13 * * 1-5'
-    # ICT: días hábiles a las 18:30 UTC (14:30 PM ET, backtest óptimo)
+    # ICT: días hábiles a las 18:30 UTC (14:30 PM ET)
     - cron: '30 18 * * 1-5'
     # Gap + ORB + Momentum: días hábiles a las 14:30 UTC (10:30 AM ET)
     - cron: '30 14 * * 1-5'
+    # Swing bots (BB Bounce + Pullback + Breakout50d): 14:00 UTC (10:00 AM ET)
+    # Movidos a horario de mercado para que Alpaca pueda ejecutar las órdenes
+    - cron: '0 14 * * 1-5'
     # Reporte diario: días hábiles a las 22:00 UTC (después del cierre)
     - cron: '0 22 * * 1-5'
   workflow_dispatch:  # permite correr manualmente desde GitHub
@@ -19,11 +22,14 @@ on:
 permissions:
   contents: write
 
+env:
+  ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+  ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+
 jobs:
   trump-bot:
     name: Trump Sentiment Bot
     runs-on: ubuntu-latest
-    # Corre en las ejecuciones de hora en punto (13-21 UTC); excluye los slots de otros bots
     if: (github.event.schedule == '0 13-21 * * 1-5' || github.event_name == 'workflow_dispatch')
 
     steps:
@@ -38,7 +44,7 @@ jobs:
           cache-dependency-path: trump-strategy/requirements.txt
 
       - name: Instalar dependencias
-        run: pip install -r trump-strategy/requirements.txt
+        run: pip install -r trump-strategy/requirements.txt alpaca-py
 
       - name: Correr Trump bot
         working-directory: trump-strategy
@@ -69,7 +75,7 @@ jobs:
           cache-dependency-path: gamestop-squeeze/requirements.txt
 
       - name: Instalar dependencias
-        run: pip install -r gamestop-squeeze/requirements.txt
+        run: pip install -r gamestop-squeeze/requirements.txt alpaca-py
 
       - name: Scanner mensual (solo el 1ro de cada mes)
         working-directory: gamestop-squeeze
@@ -105,7 +111,7 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependencias
-        run: pip install yfinance pandas numpy
+        run: pip install yfinance pandas numpy alpaca-py
 
       - name: Correr FVG bot
         working-directory: fvg-strategy
@@ -134,7 +140,7 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependencias
-        run: pip install yfinance pandas numpy
+        run: pip install yfinance pandas numpy alpaca-py
 
       - name: Correr ICT bot
         working-directory: ict-strategy
@@ -163,7 +169,7 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependencias
-        run: pip install yfinance pandas numpy
+        run: pip install yfinance pandas numpy alpaca-py
 
       - name: Correr Gap bot
         working-directory: gap-strategy
@@ -192,7 +198,7 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependencias
-        run: pip install yfinance pandas numpy
+        run: pip install yfinance pandas numpy alpaca-py
 
       - name: Correr ORB+Breakout bot
         working-directory: orb-breakout-strategy
@@ -209,7 +215,7 @@ jobs:
   breakout50d-bot:
     name: Breakout 50d Bot
     runs-on: ubuntu-latest
-    if: github.event.schedule == '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+    if: github.event.schedule == '0 14 * * 1-5' || github.event_name == 'workflow_dispatch'
 
     steps:
       - uses: actions/checkout@v4
@@ -221,7 +227,7 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependencias
-        run: pip install yfinance pandas numpy
+        run: pip install yfinance pandas numpy alpaca-py
 
       - name: Correr Breakout50d bot
         working-directory: breakout50d-strategy
@@ -250,7 +256,7 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependencias
-        run: pip install yfinance pandas numpy
+        run: pip install yfinance pandas numpy alpaca-py
 
       - name: Correr Momentum bot
         working-directory: momentum-strategy
@@ -267,7 +273,7 @@ jobs:
   bb-bounce-bot:
     name: BB Lower Bounce Bot
     runs-on: ubuntu-latest
-    if: github.event.schedule == '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+    if: github.event.schedule == '0 14 * * 1-5' || github.event_name == 'workflow_dispatch'
 
     steps:
       - uses: actions/checkout@v4
@@ -279,7 +285,7 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependencias
-        run: pip install yfinance pandas numpy
+        run: pip install yfinance pandas numpy alpaca-py
 
       - name: Correr BB Bounce bot
         working-directory: bb-bounce-strategy
@@ -296,7 +302,7 @@ jobs:
   pullback-bot:
     name: Pullback EMA50 + ADX Bot
     runs-on: ubuntu-latest
-    if: github.event.schedule == '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+    if: github.event.schedule == '0 14 * * 1-5' || github.event_name == 'workflow_dispatch'
 
     steps:
       - uses: actions/checkout@v4
@@ -308,7 +314,7 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependencias
-        run: pip install yfinance pandas numpy
+        run: pip install yfinance pandas numpy alpaca-py
 
       - name: Correr Pullback bot
         working-directory: pullback-strategy
@@ -331,14 +337,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0   # necesario para ver el historial completo
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Instalar dependencias
-        run: pip install yfinance pandas numpy
+        run: pip install yfinance pandas numpy alpaca-py
 
       - name: Generar reporte
         run: python report.py

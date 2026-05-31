@@ -180,7 +180,18 @@ def extract_signals(articles: list[dict]) -> list[dict]:
 
 
 def get_current_price(ticker: str) -> Optional[float]:
-    """Precio actual del ticker."""
+    """Precio actual del ticker. Alpaca primero, yfinance como fallback."""
+    import os, sys
+    _root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if _root not in sys.path:
+        sys.path.insert(0, _root)
+    try:
+        from alpaca_trader import get_alpaca_price
+        price = get_alpaca_price(ticker)
+        if price:
+            return price
+    except Exception:
+        pass
     try:
         price = yf.Ticker(ticker).fast_info.last_price
         if price and float(price) > 0:

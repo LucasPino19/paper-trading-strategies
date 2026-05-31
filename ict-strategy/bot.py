@@ -4,6 +4,7 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Optional
 
+import os
 import yfinance as yf
 import pandas as pd
 
@@ -56,6 +57,11 @@ def descargar_datos(ticker: str) -> pd.DataFrame:
 
 
 def get_current_price(ticker: str) -> Optional[float]:
+    # Alpaca primero (tiempo real), yfinance como fallback
+    from alpaca_trader import get_alpaca_price
+    price = get_alpaca_price(ticker)
+    if price:
+        return price
     try:
         price = yf.Ticker(ticker).fast_info.last_price
         if price and float(price) > 0:
