@@ -138,7 +138,7 @@ st.caption(f"Actualizado: {datetime.now().strftime('%d/%m/%Y %H:%M')}  |  $10,00
 st.divider()
 
 # ── Tabs por estrategia ───────────────────────────────────────────────────────
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12, tab13 = st.tabs([
     "🎮 GameStop Squeeze",
     "🦅 Trump Trades",
     "📐 FVG + VWAP",
@@ -150,6 +150,8 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11 = st.tabs([
     "🎯 BB Bounce",
     "↩️ Pullback EMA50",
     "🏆 Momentum SP500",
+    "🐸 Memecoins",
+    "🔮 Polymarket",
 ])
 
 with tab1:
@@ -339,4 +341,93 @@ with tab11:
             "**Backtest honesto (2011–2026):** CAGR ~18% vs SPY ~14%, "
             "alpha +4% anual out-of-sample. ⚠️ Survivorship bias presente: "
             "alpha real estimado +1-2% sobre SPY."
+        )
+
+with tab12:
+    meme = load_portfolio("memecoin-strategy")
+    s_meme = summary(meme)
+
+    n_meme = len(meme.get("open_positions", {}))
+    c1, c2, c3, c4, c5 = st.columns(5)
+    c1.metric("Equity", f"${s_meme['total_equity']:,.0f}", delta=f"{s_meme['total_return']:+.1%}")
+    c2.metric("Cash", f"${s_meme['cash']:,.0f}")
+    c3.metric("P&L realizado", f"${s_meme['realized_pnl']:+,.0f}")
+    c4.metric("Posiciones", f"{n_meme} (5 target)")
+    c5.metric(
+        "Win Rate",
+        f"{s_meme['win_rate']:.0%}" if s_meme["closed"] else "—",
+        delta=f"{s_meme['wins']}W / {s_meme['losses']}L" if s_meme["closed"] else None,
+    )
+
+    render_equity_curve(meme, s_meme)
+
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader(f"Posiciones actuales ({n_meme})")
+        render_open_positions(meme)
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(meme)
+
+    with st.expander("¿Cómo funciona?"):
+        st.markdown(
+            "**Memecoin Momentum — rotación semanal.** "
+            "Cada lunes selecciona las **top 5 memecoins** (de DOGE, SHIB, PEPE, WIF, BONK, etc.) "
+            "con mayor retorno de los últimos 7 días, filtrando por market cap >$50M y volumen >$1M. "
+            "Excluye pumps extremos (>1000% en 7d = probable manipulación). "
+            "Peso igual entre las 5 posiciones. Sin stop loss individual — "
+            "la rotación semanal actúa como filtro. Datos: CoinGecko API (gratis)."
+        )
+
+with tab13:
+    poly = load_portfolio("polymarket-strategy")
+    s_poly = summary(poly)
+
+    n_poly = len(poly.get("open_positions", {}))
+    c1, c2, c3, c4, c5 = st.columns(5)
+    c1.metric("Equity", f"${s_poly['total_equity']:,.0f}", delta=f"{s_poly['total_return']:+.1%}")
+    c2.metric("Cash", f"${s_poly['cash']:,.0f}")
+    c3.metric("P&L realizado", f"${s_poly['realized_pnl']:+,.0f}")
+    c4.metric("Posiciones", f"{n_poly} (5 target)")
+    c5.metric(
+        "Win Rate",
+        f"{s_poly['win_rate']:.0%}" if s_poly["closed"] else "—",
+        delta=f"{s_poly['wins']}W / {s_poly['losses']}L" if s_poly["closed"] else None,
+    )
+
+    render_equity_curve(poly, s_poly)
+
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader(f"Posiciones actuales ({n_poly})")
+        if poly.get("open_positions"):
+            rows = []
+            for cid, pos in poly["open_positions"].items():
+                current = pos.get("current_price", pos["entry_price"])
+                pnl_pct = (current - pos["entry_price"]) / pos["entry_price"] if pos["entry_price"] > 0 else 0
+                rows.append({
+                    "Mercado"  : pos.get("ticker", cid)[:40],
+                    "Outcome"  : pos.get("outcome", "YES"),
+                    "Entrada"  : f"{pos['entry_price']:.3f}",
+                    "Actual"   : f"{current:.3f}",
+                    "P&L %"    : f"{pnl_pct:+.1%}",
+                    "P&L $"    : f"${pos['shares']*(current-pos['entry_price']):+,.0f}",
+                    "Días"     : pos.get("trading_days_held", 0),
+                })
+            st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+        else:
+            st.info("No hay posiciones abiertas.")
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(poly)
+
+    with st.expander("¿Cómo funciona?"):
+        st.markdown(
+            "**Polymarket Momentum — mercados de predicción.** "
+            "Selecciona los 5 mercados más activos (>$5k volumen 24h) donde la probabilidad "
+            "del outcome favorito lleva subiendo 3 días seguidos (momentum de probabilidad). "
+            "Compra contratos YES a precio actual (= probabilidad implícita $0–1). "
+            "**Take profit:** +20 puntos de probabilidad. "
+            "**Stop loss:** −15 puntos de probabilidad. "
+            "Datos: Polymarket Gamma API (gratis)."
         )
