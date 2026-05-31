@@ -1,9 +1,65 @@
 {
   "initial_capital": 10000.0,
-  "cash": 10000.0,
-  "open_positions": {},
+  "cash": 3430.0,
+  "open_positions": {
+    "AVGO": {
+      "ticker": "AVGO",
+      "entry_price": 446.7699890136719,
+      "shares": 6.714864636774417,
+      "entry_value": 3000.0,
+      "current_price": 446.7699890136719,
+      "peak_price": 446.7699890136719,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-05-31",
+      "entry_date": "2026-05-31T19:59:06.744808",
+      "sps_score": 70.51764375992717,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "entry_price": 516.0999755859375,
+      "shares": 4.06897907254468,
+      "entry_value": 2100.0,
+      "current_price": 516.0999755859375,
+      "peak_price": 516.0999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-05-31",
+      "entry_date": "2026-05-31T19:59:06.817470",
+      "sps_score": 27.352257881788287,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "entry_price": 312.05999755859375,
+      "shares": 4.710632607513196,
+      "entry_value": 1470.0,
+      "current_price": 312.05999755859375,
+      "peak_price": 312.05999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-05-31",
+      "entry_date": "2026-05-31T19:59:06.987627",
+      "sps_score": 22.028903274683152,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    }
+  },
   "closed_trades": [],
   "equity_history": [
-    {"date": "2026-05-30", "equity": 10000.0}
+    {
+      "date": "2026-05-30",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-05-31",
+      "equity": 10000.0
+    }
   ]
 }
