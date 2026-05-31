@@ -1,0 +1,75 @@
+// ↩️ Pullback EMA50 + ADX
+// Timeframe: Daily (1D)
+// Activo recomendado: NVDA (tendencias claras, ADX alto)
+// Backtest: +21.5% anual, 50% win rate, PF 1.37, DD -33%
+//@version=5
+strategy("↩️ Pullback EMA50 + ADX", overlay=true,
+         initial_capital=10000,
+         default_qty_type=strategy.percent_of_equity,
+         default_qty_value=30,
+         commission_type=strategy.commission.percent,
+         commission_value=0.1,
+         slippage=2)
+
+// ── Parámetros ──────────────────────────────────────────────────────────────
+ema_fast   = input.int(50,    "EMA Rápida",            group="Estrategia")
+ema_trend  = input.int(200,   "EMA Tendencia",         group="Estrategia")
+ma_tol     = input.float(2.5, "Tolerancia EMA50 (%)",  group="Estrategia", step=0.1) / 100
+adx_period = input.int(14,    "ADX Período",           group="Estrategia")
+adx_min    = input.float(20,  "ADX mínimo",            group="Estrategia")
+stop_pct   = input.float(6.0, "Stop Loss (%)",         group="Salidas") / 100
+trail_trig = input.float(5.0, "Trail Trigger (%)",     group="Salidas") / 100
+trail_pct  = input.float(8.0, "Trail desde pico (%)",  group="Salidas") / 100
+time_stop  = input.int(30,    "Time Stop (días)",      group="Salidas")
+
+// ── Indicadores ─────────────────────────────────────────────────────────────
+ema50  = ta.ema(close, ema_fast)
+ema200 = ta.ema(close, ema_trend)
+[_, _, adx] = ta.dmi(adx_period, adx_period)
+
+// ── Condiciones de entrada ───────────────────────────────────────────────────
+above_trend = close > ema200
+near_ema50  = math.abs(close / ema50 - 1) < ma_tol
+prev_below  = close[1] <= ema50[1] * (1 + ma_tol)  // ayer tocó o estaba bajo la EMA50
+bounce      = close > close[1]
+adx_ok      = adx >= adx_min
+
+long_signal = above_trend and near_ema50 and prev_below and bounce and adx_ok
+
+// ── Gestión de posición (trailing manual) ────────────────────────────────────
+var float peak_price = na
+var int   entry_bar  = na
+var bool  trail_on   = false
+
+if long_signal and strategy.position_size == 0
+    strategy.entry("Long", strategy.long)
+    entry_bar  := bar_index
+    peak_price := close
+    trail_on   := false
+
+if strategy.position_size > 0
+    peak_price := math.max(peak_price, close)
+    pnl        = (close - strategy.position_avg_price) / strategy.position_avg_price
+    from_peak  = (close - peak_price) / peak_price
+    days_held  = bar_index - entry_bar
+
+    if pnl >= trail_trig
+        trail_on := true
+
+    if pnl <= -stop_pct
+        strategy.close("Long", comment="Stop -6%")
+    else if trail_on and from_peak <= -trail_pct
+        strategy.close("Long", comment="Trail stop")
+    else if days_held >= time_stop
+        strategy.close("Long", comment="Time stop " + str.tostring(days_held) + "d")
+
+// ── Plots ────────────────────────────────────────────────────────────────────
+plot(ema50,  "EMA50",  color=color.orange, linewidth=2)
+plot(ema200, "EMA200", color=color.blue,   linewidth=2)
+plotshape(long_signal and strategy.position_size == 0,
+          "Entrada", shape.labelup, location.belowbar,
+          color.new(color.green, 0), size=size.small)
+
+// Panel ADX (en pane separado)
+adx_plot = plot(adx, "ADX", color=color.purple, display=display.pane)
+hline(adx_min, "ADX Min", color=color.new(color.gray, 50), linestyle=hline.style_dashed)

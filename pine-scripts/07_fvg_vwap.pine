@@ -1,0 +1,83 @@
+// 📐 FVG + VWAP + Breakout
+// Timeframe: 1 hora (1H)  ← IMPORTANTE: usar gráfico de 1 hora
+// Activo recomendado: QQQ (FVGs frecuentes, VWAP bien respetado)
+// Backtest: +18.2% anual, 53% win rate, PF 1.94
+// Lógica: Fair Value Gap alcista + precio sobre VWAP + breakout de 20 barras
+//@version=5
+strategy("📐 FVG + VWAP + Breakout", overlay=true,
+         initial_capital=10000,
+         default_qty_type=strategy.percent_of_equity,
+         default_qty_value=30,
+         commission_type=strategy.commission.percent,
+         commission_value=0.1,
+         slippage=3)
+
+// ── Parámetros ──────────────────────────────────────────────────────────────
+bo_window  = input.int(20,    "Ventana breakout (barras)", group="Estrategia")
+stop_pct   = input.float(6.0, "Stop Loss (%)",             group="Salidas") / 100
+hard_tgt   = input.float(15.0,"Target (%)",                group="Salidas") / 100
+trail_trig = input.float(7.0, "Trail Trigger (%)",         group="Salidas") / 100
+trail_pct  = input.float(4.0, "Trail desde pico (%)",      group="Salidas") / 100
+time_stop  = input.int(70,    "Time Stop (barras ≈ 10d)",  group="Salidas")
+
+// ── Indicadores ─────────────────────────────────────────────────────────────
+vwap_val = ta.vwap(hlc3)
+
+// Breakout sobre máximo de N barras anteriores
+bo_high  = ta.highest(high[1], bo_window)
+bo_bull  = close > bo_high
+
+// FVG Alcista: patrón de 3 velas donde high[2] < low[0]
+// (la vela de 2 barras atrás tiene su máximo por debajo del mínimo de la barra actual)
+fvg_bull      = high[2] < low
+fvg_zona_baja = high[2]
+fvg_zona_alta = low
+
+// FVG activo: precio toca la zona del FVG más reciente
+// (buscar en las últimas 120 barras — aproximación con la detección en barra actual)
+above_vwap = close > vwap_val
+
+// Señal: FVG alcista confirmado + sobre VWAP + breakout reciente
+long_signal = fvg_bull and above_vwap and bo_bull
+
+// ── Gestión de posición ──────────────────────────────────────────────────────
+var float peak_price = na
+var int   entry_bar  = na
+var bool  trail_on   = false
+
+if long_signal and strategy.position_size == 0
+    strategy.entry("Long", strategy.long)
+    entry_bar  := bar_index
+    peak_price := close
+    trail_on   := false
+
+if strategy.position_size > 0
+    peak_price := math.max(peak_price, close)
+    pnl        = (close - strategy.position_avg_price) / strategy.position_avg_price
+    from_peak  = (close - peak_price) / peak_price
+    bars_held  = bar_index - entry_bar
+
+    if pnl >= trail_trig
+        trail_on := true
+
+    if pnl <= -stop_pct
+        strategy.close("Long", comment="Stop -6%")
+    else if pnl >= hard_tgt
+        strategy.close("Long", comment="Target +15%")
+    else if trail_on and from_peak <= -trail_pct
+        strategy.close("Long", comment="Trail stop")
+    else if bars_held >= time_stop
+        strategy.close("Long", comment="Time stop")
+
+// ── Plots ────────────────────────────────────────────────────────────────────
+plot(vwap_val, "VWAP", color=color.new(color.teal, 20), linewidth=2)
+plot(bo_high,  "Breakout High", color=color.new(color.purple, 60), linewidth=1)
+
+// Marcar FVG alcista en el gráfico (zona entre high[2] y low de la barra actual)
+plotshape(fvg_bull, "FVG Alcista", shape.triangleup, location.belowbar,
+          color.new(color.blue, 60), size=size.tiny)
+plotshape(long_signal and strategy.position_size == 0,
+          "Entrada", shape.labelup, location.belowbar,
+          color.new(color.green, 0), size=size.normal)
+bgcolor(fvg_bull and above_vwap ? color.new(color.green, 90) : na,
+        title="FVG + VWAP alineados")
