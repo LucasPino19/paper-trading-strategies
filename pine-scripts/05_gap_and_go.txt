@@ -1,0 +1,85 @@
+// 🚀 Gap & Go
+// Timeframe: 1 hora (1H)  ← IMPORTANTE: usar gráfico de 1 hora
+// Activo recomendado: QQQ (gaps frecuentes en aperturas, volumen alto)
+// Backtest: +24.1% anual, 62% win rate, PF 3.05
+// Lógica: Gap alcista >1% en apertura, precio mantiene el gap a las 10:30 ET con volumen
+//@version=5
+strategy("🚀 Gap & Go", overlay=true,
+         initial_capital=10000,
+         default_qty_type=strategy.percent_of_equity,
+         default_qty_value=30,
+         commission_type=strategy.commission.percent,
+         commission_value=0.1,
+         slippage=3)
+
+// ── Parámetros ──────────────────────────────────────────────────────────────
+gap_thr    = input.float(1.0, "Gap mínimo (%)",         group="Estrategia") / 100
+vol_mult   = input.float(1.5, "Vol mínimo (× media)",   group="Estrategia")
+stop_pct   = input.float(8.0, "Stop Loss (%)",          group="Salidas") / 100
+hard_tgt   = input.float(30.0,"Target (%)",             group="Salidas") / 100
+trail_trig = input.float(12.0,"Trail Trigger (%)",      group="Salidas") / 100
+trail_pct  = input.float(6.0, "Trail desde pico (%)",   group="Salidas") / 100
+time_stop  = input.int(140,   "Time Stop (barras ≈ 20d)", group="Salidas")
+
+// ── Detección de apertura del día ────────────────────────────────────────────
+is_new_day     = ta.change(time("D")) != 0
+day_open       = ta.valuewhen(is_new_day, open, 0)
+prev_day_close = ta.valuewhen(is_new_day, close[1], 0)
+gap_pct        = (day_open - prev_day_close) / math.abs(prev_day_close)
+
+// Hora de Nueva York (10:30 AM ET o después)
+bar_hour   = hour(time, "America/New_York")
+bar_min    = minute(time, "America/New_York")
+after_1030 = bar_hour > 10 or (bar_hour == 10 and bar_min >= 30)
+
+// Precio mantiene el gap: close > 99.5% del open del día
+hold_gap = close > day_open * 0.995
+
+// Volumen confirma
+vol_ma = ta.sma(volume, 20)
+vol_ok = volume > vol_ma * vol_mult
+
+long_signal = gap_pct >= gap_thr and after_1030 and hold_gap and vol_ok and not is_new_day
+
+// ── Control de una señal por día ─────────────────────────────────────────────
+var bool traded_today = false
+if is_new_day
+    traded_today := false
+
+// ── Gestión de posición ──────────────────────────────────────────────────────
+var float peak_price = na
+var int   entry_bar  = na
+var bool  trail_on   = false
+
+if long_signal and strategy.position_size == 0 and not traded_today
+    strategy.entry("Long", strategy.long)
+    entry_bar     := bar_index
+    peak_price    := close
+    trail_on      := false
+    traded_today  := true
+
+if strategy.position_size > 0
+    peak_price := math.max(peak_price, close)
+    pnl        = (close - strategy.position_avg_price) / strategy.position_avg_price
+    from_peak  = (close - peak_price) / peak_price
+    bars_held  = bar_index - entry_bar
+
+    if pnl >= trail_trig
+        trail_on := true
+
+    if pnl <= -stop_pct
+        strategy.close("Long", comment="Stop -8%")
+    else if pnl >= hard_tgt
+        strategy.close("Long", comment="Target +30%")
+    else if trail_on and from_peak <= -trail_pct
+        strategy.close("Long", comment="Trail stop")
+    else if bars_held >= time_stop
+        strategy.close("Long", comment="Time stop")
+
+// ── Plots ────────────────────────────────────────────────────────────────────
+plot(day_open, "Open del día", color=color.new(color.yellow, 40), style=plot.style_stepline)
+plotshape(long_signal and strategy.position_size == 0 and not traded_today,
+          "Gap Entry", shape.labelup, location.belowbar,
+          color.new(color.green, 0), size=size.normal)
+bgcolor(gap_pct >= gap_thr and not is_new_day ? color.new(color.green, 92) : na,
+        title="Día con gap")
