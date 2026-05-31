@@ -20,6 +20,10 @@ on:
     - cron: '15 22 * * *'
     # Polymarket: todos los días a las 22:30 UTC (chequea señales y exits diariamente)
     - cron: '30 22 * * *'
+    # Soccer bots: todos los días a las 23:00–23:20 UTC (después de partidos europeos)
+    - cron: '0 23 * * *'
+    - cron: '10 23 * * *'
+    - cron: '20 23 * * *'
   workflow_dispatch:
 
 permissions:
@@ -460,6 +464,107 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add polymarket-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(polymarket): update $(date -u +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Intento $i fallido, reintentando en $((i * 5))s..."
+            sleep $((i * 5))
+          done
+
+  polysoccer-favorite-bot:
+    name: Soccer Favorite Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 23 * * *' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Correr Soccer Favorite bot
+        working-directory: polysoccer-favorite
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add polysoccer-favorite/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(soccer-favorite): update $(date -u +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Intento $i fallido, reintentando en $((i * 5))s..."
+            sleep $((i * 5))
+          done
+
+  polysoccer-arb-bot:
+    name: Soccer Arb Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '10 23 * * *' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Correr Soccer Arb bot
+        working-directory: polysoccer-arb
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add polysoccer-arb/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(soccer-arb): update $(date -u +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Intento $i fallido, reintentando en $((i * 5))s..."
+            sleep $((i * 5))
+          done
+
+  polysoccer-model-bot:
+    name: Soccer Elo Model Bot
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '20 23 * * *' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Correr Soccer Elo Model bot
+        working-directory: polysoccer-model
+        run: python bot.py
+
+      - name: Guardar portfolio
+        run: |
+          git config --local user.email "bot@github-actions"
+          git config --local user.name "Paper Trading Bot"
+          git add polysoccer-model/data/portfolio.json
+          git diff --staged --quiet || git commit -m "bot(soccer-model): update $(date -u +'%Y-%m-%d')"
           for i in 1 2 3 4 5; do
             git pull --rebase origin main && git push && break
             echo "Intento $i fallido, reintentando en $((i * 5))s..."

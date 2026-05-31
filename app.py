@@ -138,7 +138,7 @@ st.caption(f"Actualizado: {datetime.now().strftime('%d/%m/%Y %H:%M')}  |  $10,00
 st.divider()
 
 # ── Tabs por estrategia ───────────────────────────────────────────────────────
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12, tab13 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12, tab13, tab14, tab15, tab16 = st.tabs([
     "🎮 GameStop Squeeze",
     "🦅 Trump Trades",
     "📐 FVG + VWAP",
@@ -151,7 +151,10 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12, tab13
     "↩️ Pullback EMA50",
     "🏆 Momentum SP500",
     "🐸 Memecoins",
-    "🔮 Polymarket",
+    "🔮 Polymarket Fade",
+    "⚽ Soccer Favorito",
+    "📡 Soccer Arb",
+    "🧮 Soccer Elo",
 ])
 
 with tab1:
@@ -438,3 +441,82 @@ with tab13:
             "**Take profit:** +10pp de reversión. **Stop loss:** −10pp de continuación. "
             "**Max hold:** 14 días. Datos: Polymarket Gamma API + Google News RSS (gratis)."
         )
+
+
+def _render_soccer_tab(data: dict, description: str) -> None:
+    s     = summary(data)
+    n_pos = len(data.get("open_positions", {}))
+    c1, c2, c3, c4, c5 = st.columns(5)
+    c1.metric("Equity", f"${s['total_equity']:,.0f}", delta=f"{s['total_return']:+.1%}")
+    c2.metric("Cash", f"${s['cash']:,.0f}")
+    c3.metric("P&L realizado", f"${s['realized_pnl']:+,.0f}")
+    c4.metric("Posiciones", f"{n_pos} (5 target)")
+    c5.metric(
+        "Win Rate",
+        f"{s['win_rate']:.0%}" if s["closed"] else "—",
+        delta=f"{s['wins']}W / {s['losses']}L" if s["closed"] else None,
+    )
+    render_equity_curve(data, s)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader(f"Posiciones actuales ({n_pos})")
+        if data.get("open_positions"):
+            rows = []
+            for cid, pos in data["open_positions"].items():
+                current = pos.get("current_price", pos["entry_price"])
+                entry   = pos["entry_price"]
+                pnl_pct = (current - entry) / entry if entry > 0 else 0
+                rows.append({
+                    "Mercado"   : pos.get("ticker", cid)[:45],
+                    "Dir."      : pos.get("direction", "YES"),
+                    "Entrada"   : f"{entry:.3f}",
+                    "Actual"    : f"{current:.3f}",
+                    "P&L %"     : f"{pnl_pct:+.1%}",
+                    "P&L $"     : f"${pos['shares']*(current-entry):+,.0f}",
+                    "Días"      : pos.get("trading_days_held", 0),
+                })
+            st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+        else:
+            st.info("No hay posiciones abiertas.")
+    with col_b:
+        st.subheader("Trades cerrados")
+        render_trade_history(data)
+    with st.expander("¿Cómo funciona?"):
+        st.markdown(description)
+
+
+with tab14:
+    _render_soccer_tab(
+        load_portfolio("polysoccer-favorite"),
+        "**Fútbol — Favorite-Longshot Bias.** "
+        "Los participantes de mercados de predicción sobrevaloran a los underdogs y "
+        "subvaloran a los favoritos (documentado en literatura académica). "
+        "El bot apuesta en favoritos con **60–80% de probabilidad** en mercados de fútbol "
+        "de alta liquidez (>$5k volumen 24h). Rango 60–80% es clave: debajo = sin ventaja, "
+        "arriba = poco upside. **TP:** +12pp. **SL:** −12pp. **Max hold:** 10 días. "
+        "Datos: Polymarket Gamma API (gratis)."
+    )
+
+with tab15:
+    _render_soccer_tab(
+        load_portfolio("polysoccer-arb"),
+        "**Fútbol — Arbitraje vs Bookmakers.** "
+        "Compara probabilidades de Polymarket vs el consenso de casas de apuestas europeas "
+        "(Pinnacle, Bet365, etc.) usando **The Odds API**. Si Polymarket difiere >8pp del "
+        "consenso, hay una ineficiencia: si Polymarket sobrevalúa → compra NO; "
+        "si subvalúa → compra YES. Técnica usada por bettors profesionales para "
+        "\"beat the closing line\". **TP:** +12pp. **SL:** −12pp. **Max hold:** 10 días. "
+        "Requiere `ODDS_API_KEY` (gratis en the-odds-api.com, 500 req/mes)."
+    )
+
+with tab16:
+    _render_soccer_tab(
+        load_portfolio("polysoccer-model"),
+        "**Fútbol — Modelo Elo vs Mercado.** "
+        "Descarga ratings Elo actualizados de **Club Elo** (clubelo.com, gratis, sin API key) "
+        "para todos los clubes de las principales ligas. Calcula la probabilidad \"justa\" "
+        "de cada partido con la fórmula Elo estándar (+50 puntos de ventaja local). "
+        "Si Polymarket difiere del modelo en >8pp → entra en la dirección que favorece al modelo. "
+        "Elo supera a modelos más complejos en la mayoría de evaluaciones OOS de fútbol. "
+        "**TP:** +12pp. **SL:** −12pp. **Max hold:** 10 días. Datos: Club Elo + Polymarket (ambos gratis)."
+    )
