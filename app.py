@@ -138,7 +138,7 @@ st.caption(f"Actualizado: {datetime.now().strftime('%d/%m/%Y %H:%M')}  |  $10,00
 st.divider()
 
 # ── Tabs por estrategia ───────────────────────────────────────────────────────
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11 = st.tabs([
     "🎮 GameStop Squeeze",
     "🦅 Trump Trades",
     "📐 FVG + VWAP",
@@ -149,6 +149,7 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10 = st.tabs([
     "⚡ Momentum 10d",
     "🎯 BB Bounce",
     "↩️ Pullback EMA50",
+    "🏆 Momentum SP500",
 ])
 
 with tab1:
@@ -300,3 +301,42 @@ with tab10:
         render_trade_history(pull)
     with st.expander("¿Cómo funciona?"):
         st.markdown("**Pullback EMA50 + ADX**: compra cuando el precio retrocede a tocar la EMA50 en tendencia alcista (precio > EMA200), rebota, y el ADX > 20 confirma que el mercado está en tendencia (no lateral). Stop -6%, trailing stop puro. Backtest: **+21.5% anual, DD -33%**.")
+
+with tab11:
+    sp500mom = load_portfolio("momentum-sp500-strategy")
+    s_sp500  = summary(sp500mom)
+
+    # KPIs adaptados para basket (más de 3 posiciones)
+    n_pos = len(sp500mom.get("open_positions", {}))
+    c1, c2, c3, c4, c5 = st.columns(5)
+    c1.metric("Equity", f"${s_sp500['total_equity']:,.0f}", delta=f"{s_sp500['total_return']:+.1%}")
+    c2.metric("Cash", f"${s_sp500['cash']:,.0f}")
+    c3.metric("P&L realizado", f"${s_sp500['realized_pnl']:+,.0f}")
+    c4.metric("Posiciones", f"{n_pos} (~22 target)")
+    c5.metric(
+        "Win Rate",
+        f"{s_sp500['win_rate']:.0%}" if s_sp500["closed"] else "—",
+        delta=f"{s_sp500['wins']}W / {s_sp500['losses']}L" if s_sp500["closed"] else None,
+    )
+
+    render_equity_curve(sp500mom, s_sp500)
+
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader(f"Posiciones actuales ({n_pos})")
+        render_open_positions(sp500mom)
+    with col_b:
+        st.subheader("Trades cerrados (rebalanceos)")
+        render_trade_history(sp500mom)
+
+    with st.expander("¿Cómo funciona?"):
+        st.markdown(
+            "**Momentum SP500 — factor cuantitativo.** "
+            "Cada mes selecciona el **top 5% del S&P 500** (≈22 acciones) "
+            "por retorno de los últimos 12 meses, saltando el último mes para evitar "
+            "reversión de corto plazo. Peso igual entre todas las posiciones. "
+            "Sin stop loss individual — el filtro es el propio ranking mensual. "
+            "**Backtest honesto (2011–2026):** CAGR ~18% vs SPY ~14%, "
+            "alpha +4% anual out-of-sample. ⚠️ Survivorship bias presente: "
+            "alpha real estimado +1-2% sobre SPY."
+        )
