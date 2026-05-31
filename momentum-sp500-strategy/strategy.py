@@ -124,6 +124,11 @@ def compute_momentum_top(
                 continue
 
             mom = (price_end - price_start) / price_start
+
+            # Excluir artefactos de spinoffs/IPOs recientes (momentum irreal > 500%)
+            if mom > 5.0:
+                continue
+
             monthly[ticker] = mom
 
             # Precio de ejecución = último cierre disponible (ayer o hoy premarket)
