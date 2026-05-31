@@ -1,9 +1,65 @@
 {
   "initial_capital": 10000.0,
-  "cash": 10000.0,
-  "open_positions": {},
+  "cash": 3430.0,
+  "open_positions": {
+    "SMCI": {
+      "ticker": "SMCI",
+      "entry_price": 46.09000015258789,
+      "shares": 65.09004100820239,
+      "entry_value": 3000.0,
+      "current_price": 46.09000015258789,
+      "peak_price": 46.09000015258789,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-05-31",
+      "entry_date": "2026-05-31T19:54:20.225879",
+      "sps_score": 112.35232187914801,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AVGO": {
+      "ticker": "AVGO",
+      "entry_price": 446.7699890136719,
+      "shares": 4.7004052457420915,
+      "entry_value": 2100.0,
+      "current_price": 446.7699890136719,
+      "peak_price": 446.7699890136719,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-05-31",
+      "entry_date": "2026-05-31T19:54:20.379095",
+      "sps_score": 98.31569932171136,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "TQQQ": {
+      "ticker": "TQQQ",
+      "entry_price": 84.55999755859375,
+      "shares": 17.384106462176753,
+      "entry_value": 1470.0,
+      "current_price": 84.55999755859375,
+      "peak_price": 84.55999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-05-31",
+      "entry_date": "2026-05-31T19:54:20.510120",
+      "sps_score": 97.8997667575019,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    }
+  },
   "closed_trades": [],
   "equity_history": [
-    {"date": "2026-05-30", "equity": 10000.0}
+    {
+      "date": "2026-05-30",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-05-31",
+      "equity": 10000.0
+    }
   ]
 }
