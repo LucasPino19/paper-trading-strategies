@@ -1,52 +1,61 @@
 """
-Señal para Polymarket — sin lookahead bias.
+Polymarket — Fade de overreaction con confirmación de noticias.
 
-Estrategia: momentum de probabilidad.
-  - Obtiene los mercados más activos (mayor volumen de las últimas 24h).
-  - Selecciona mercados donde la probabilidad del outcome favorito lleva
-    varios días subiendo (momentum de probabilidad).
-  - Entra comprando YES del outcome con momentum positivo.
-  - Precio de entrada = probabilidad actual (0.0–1.0), equivale a pagar
-    $X por un contrato que vale $1 si resuelve YES.
+Estrategia:
+  Los mercados de predicción sobreajustan a noticias recientes: cuando una
+  probabilidad se mueve >15 puntos en 24h, tiende a corregir parcialmente
+  en los días siguientes (anchoring + recency bias de participantes retail).
+
+  Señal de entrada (requiere AMBAS condiciones):
+    1. El mercado se movió >15pp en las últimas 24h (detectado comparando
+       el precio guardado ayer con el precio actual de la Gamma API).
+    2. Google News RSS devuelve al menos 1 artículo reciente (<24h) sobre
+       el tema del mercado (confirma que el movimiento fue por una noticia
+       real, no por un error de liquidez o spam).
+
+  Dirección del trade:
+    - Si el precio subió >15pp  → compramos NO (fade del alza).
+    - Si el precio bajó  >15pp  → compramos YES (fade de la baja).
 
 Sin lookahead bias:
-  - La señal usa precios históricos ya confirmados (no precio del día actual
-    como señal de entrada: la señal es el momentum de días anteriores).
-  - El precio de ejecución es el precio actual de mercado.
+  - Usamos SIEMPRE el precio guardado del run anterior como referencia.
+  - El precio de entrada es el precio actual de mercado (no futuro).
+  - Google News RSS solo devuelve artículos ya publicados.
 """
 from __future__ import annotations
 
 import time
+import urllib.parse
+import xml.etree.ElementTree as ET
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timezone, timedelta
 
 GAMMA_BASE = "https://gamma-api.polymarket.com"
-CLOB_BASE  = "https://clob.polymarket.com"
 HEADERS    = {"Accept": "application/json", "User-Agent": "paper-trading-bot/1.0"}
 
-# Mínimos para filtrar mercados poco líquidos
-MIN_VOLUME_24H = 5_000    # $5k volumen en 24h
-MIN_LIQUIDITY  = 2_000    # $2k liquidez
+MOVE_THRESHOLD = 0.15   # 15 puntos de probabilidad = overreaction
+NEWS_WINDOW_H  = 36     # buscar noticias en las últimas 36h
 
 
-def get_active_markets(limit: int = 50) -> list[dict]:
-    """Obtiene mercados activos ordenados por volumen."""
+# ── CoinGecko / Gamma API ─────────────────────────────────────────────────────
+
+def get_active_markets(limit: int = 100) -> list[dict]:
+    """Obtiene mercados activos de Polymarket ordenados por volumen 24h."""
     try:
         r = requests.get(
             f"{GAMMA_BASE}/markets",
             params={
-                "active"  : "true",
-                "closed"  : "false",
-                "limit"   : limit,
-                "order"   : "volume24hr",
-                "ascending": "false",
+                "active"    : "true",
+                "closed"    : "false",
+                "limit"     : limit,
+                "order"     : "volume24hr",
+                "ascending" : "false",
             },
             headers=HEADERS,
             timeout=15,
         )
         r.raise_for_status()
         data = r.json()
-        # La API puede devolver list o dict con "markets"
         if isinstance(data, list):
             return data
         return data.get("markets", data.get("data", []))
@@ -55,127 +64,190 @@ def get_active_markets(limit: int = 50) -> list[dict]:
         return []
 
 
-def get_market_prices(condition_id: str) -> list[dict]:
-    """Obtiene historial de precios de un mercado desde el CLOB."""
+def parse_yes_price(market: dict) -> float | None:
+    """Extrae la probabilidad actual del outcome YES (o el favorito)."""
+    outcomes       = market.get("outcomes", "[]")
+    outcome_prices = market.get("outcomePrices", "[]")
+
+    if isinstance(outcomes, str):
+        import json
+        try:
+            outcomes       = json.loads(outcomes)
+            outcome_prices = json.loads(outcome_prices)
+        except Exception:
+            return None
+
+    if not outcomes or not outcome_prices:
+        return None
+
+    for out, pr in zip(outcomes, outcome_prices):
+        if out.lower() == "yes":
+            try:
+                p = float(pr)
+                if 0.01 <= p <= 0.99:
+                    return p
+            except (ValueError, TypeError):
+                pass
+
+    # Si no hay YES explícito, tomar el primer outcome
     try:
-        r = requests.get(
-            f"{CLOB_BASE}/prices-history",
-            params={
-                "market"     : condition_id,
-                "interval"   : "1d",
-                "fidelity"   : 7,
-            },
-            headers=HEADERS,
-            timeout=10,
-        )
-        if r.status_code == 200:
-            return r.json().get("history", [])
-    except Exception:
+        p = float(outcome_prices[0])
+        if 0.01 <= p <= 0.99:
+            return p
+    except (ValueError, TypeError, IndexError):
         pass
-    return []
+
+    return None
 
 
-def compute_momentum_signals(top_n: int = 5) -> tuple[list[dict], list[dict]]:
+# ── Google News RSS ───────────────────────────────────────────────────────────
+
+def search_recent_news(query: str, hours: int = NEWS_WINDOW_H) -> bool:
     """
-    Retorna (seleccionados, todos) donde cada elemento tiene:
-      condition_id, question, outcome, price, price_3d_ago, momentum, volume_24h
-
-    Selecciona los top_n mercados con mayor momentum de probabilidad positivo.
+    Retorna True si hay al menos 1 artículo reciente en Google News RSS
+    sobre la consulta dada. Proxy de actividad de noticias reciente.
     """
-    markets = get_active_markets(limit=100)
-    print(f"[strategy] {len(markets)} mercados activos obtenidos")
+    try:
+        encoded = urllib.parse.quote(query)
+        url     = (
+            f"https://news.google.com/rss/search"
+            f"?q={encoded}&hl=en-US&gl=US&ceid=US:en"
+        )
+        r = requests.get(url, headers={**HEADERS, "Accept": "application/rss+xml"}, timeout=10)
+        if r.status_code != 200:
+            return False
 
-    candidates = []
+        root  = ET.fromstring(r.content)
+        items = root.findall(".//item")
+        cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+
+        for item in items[:10]:  # solo revisamos los 10 más recientes
+            pub_raw = item.findtext("pubDate", "")
+            try:
+                from email.utils import parsedate_to_datetime
+                pub_dt = parsedate_to_datetime(pub_raw)
+                if pub_dt >= cutoff:
+                    title = item.findtext("title", "")
+                    print(f"    [news] ✓ '{title[:70]}'")
+                    return True
+            except Exception:
+                continue
+
+    except Exception as e:
+        print(f"    [news] Error buscando '{query[:40]}': {e}")
+
+    return False
+
+
+# ── Señal principal ───────────────────────────────────────────────────────────
+
+def _extract_news_keywords(question: str) -> str:
+    """Extrae 3-4 palabras clave del título del mercado para buscar en Google News."""
+    # Remover stop words comunes en preguntas de Polymarket
+    stop = {"will", "the", "a", "an", "be", "in", "by", "to", "of", "on",
+            "at", "is", "are", "win", "lose", "for", "with", "or", "and"}
+    words = [w for w in question.split() if w.lower().rstrip("?") not in stop]
+    return " ".join(words[:5])
+
+
+def detect_fade_signals(
+    markets      : list[dict],
+    prev_prices  : dict[str, float],  # condition_id → precio YES de ayer
+    top_n        : int   = 5,
+    min_vol_24h  : float = 10_000,    # $10k volumen mínimo
+) -> tuple[list[dict], dict[str, float]]:
+    """
+    Retorna (señales_fade, precios_actuales).
+
+    precios_actuales: dict con todos los condition_id → precio YES de HOY,
+    para guardarlo como prev_prices en el próximo run.
+
+    Cada señal_fade tiene:
+      condition_id, question, direction ("YES" o "NO"),
+      price (precio de entrada), move (cuánto se movió), volume_24h
+    """
+    current_prices: dict[str, float] = {}
+    candidates: list[dict] = []
 
     for m in markets:
         try:
-            # Filtrar por liquidez y volumen
+            cond_id = m.get("conditionId") or m.get("id", "")
+            if not cond_id:
+                continue
+
             vol = float(m.get("volume24hr") or m.get("volume") or 0)
-            liq = float(m.get("liquidity") or 0)
-
-            if vol < MIN_VOLUME_24H:
-                continue
-            if liq < MIN_LIQUIDITY:
+            if vol < min_vol_24h:
                 continue
 
-            # Mercado no resuelto
             if m.get("closed") or m.get("resolved"):
                 continue
 
-            # Obtener outcomes
-            outcomes       = m.get("outcomes", "[]")
-            outcome_prices = m.get("outcomePrices", "[]")
-
-            if isinstance(outcomes, str):
-                import json
-                try:
-                    outcomes       = json.loads(outcomes)
-                    outcome_prices = json.loads(outcome_prices)
-                except Exception:
-                    continue
-
-            if not outcomes or not outcome_prices:
+            yes_price = parse_yes_price(m)
+            if yes_price is None:
                 continue
 
-            # Buscar el outcome YES (o el que tenga mayor precio)
-            yes_idx   = None
-            yes_price = 0.0
-            for i, (out, pr) in enumerate(zip(outcomes, outcome_prices)):
-                p = float(pr)
-                if out.lower() == "yes" or p > yes_price:
-                    yes_idx   = i
-                    yes_price = p
+            current_prices[cond_id] = yes_price
 
-            if yes_idx is None or not (0.05 <= yes_price <= 0.95):
+            # Sin precio previo: no podemos calcular movimiento
+            if cond_id not in prev_prices:
                 continue
 
-            yes_outcome = outcomes[yes_idx]
+            move = yes_price - prev_prices[cond_id]
 
-            # Obtener historial de precios para calcular momentum
-            cond_id  = m.get("conditionId") or m.get("id", "")
-            price_3d = yes_price  # fallback: sin historial = momentum 0
+            if abs(move) < MOVE_THRESHOLD:
+                continue
 
-            history = get_market_prices(cond_id)
-            if len(history) >= 4:
-                # Precio de hace 3 días (sin lookahead)
-                history_sorted = sorted(history, key=lambda x: x.get("t", 0))
-                price_3d = float(history_sorted[-4].get("p", yes_price))
+            question = m.get("question", m.get("title", "Unknown"))
 
-            momentum = yes_price - price_3d
+            # Dirección del fade: si subió, vendemos YES (compramos NO)
+            # Si bajó, compramos YES
+            direction    = "NO"  if move > 0 else "YES"
+            entry_price  = (1.0 - yes_price) if direction == "NO" else yes_price
 
             candidates.append({
                 "condition_id" : cond_id,
-                "question"     : m.get("question", m.get("title", "Unknown"))[:80],
-                "outcome"      : yes_outcome,
-                "price"        : yes_price,
-                "price_3d_ago" : price_3d,
-                "momentum"     : momentum,
+                "question"     : question[:80],
+                "direction"    : direction,
+                "price"        : entry_price,
+                "yes_price"    : yes_price,
+                "move"         : move,
                 "volume_24h"   : vol,
-                "liquidity"    : liq,
                 "end_date"     : m.get("endDate", m.get("endDateIso", "")),
             })
-
-            time.sleep(0.2)
 
         except Exception as e:
             print(f"[strategy] Error procesando mercado: {e}")
             continue
 
-    # Ordenar por momentum descendente
-    candidates.sort(key=lambda x: x["momentum"], reverse=True)
+    # Ordenar por magnitud del movimiento (los mayores overreactions primero)
+    candidates.sort(key=lambda x: abs(x["move"]), reverse=True)
 
-    # Solo entrar en mercados con momentum positivo
-    positivos = [c for c in candidates if c["momentum"] > 0]
-    selected  = positivos[:top_n]
+    print(f"\n[strategy] {len(candidates)} mercados con movimiento >{MOVE_THRESHOLD:.0%} en 24h")
 
-    if selected:
-        print(f"[strategy] Top {len(selected)} mercados seleccionados:")
-        for c in selected:
-            print(
-                f"  [{c['outcome']:<4}] {c['question'][:50]:<50} "
-                f"p={c['price']:.2f} mom={c['momentum']:+.3f}"
-            )
+    # Filtrar por confirmación de noticias
+    confirmed: list[dict] = []
+    for c in candidates:
+        if len(confirmed) >= top_n:
+            break
+
+        keywords = _extract_news_keywords(c["question"])
+        print(f"  [{c['direction']} fade] {c['question'][:55]}  move={c['move']:+.3f}  vol=${c['volume_24h']:,.0f}")
+        print(f"    Buscando noticias: '{keywords}'")
+
+        has_news = search_recent_news(keywords, hours=NEWS_WINDOW_H)
+        if has_news:
+            confirmed.append(c)
+            print(f"    → Confirmado con noticias ✓")
+        else:
+            print(f"    → Sin noticias recientes — descartado")
+
+        time.sleep(1.0)  # no spamear Google
+
+    if confirmed:
+        print(f"\n[strategy] {len(confirmed)} señales fade confirmadas:")
+        for c in confirmed:
+            print(f"  {c['direction']} @ {c['price']:.3f}  — {c['question'][:60]}")
     else:
-        print("[strategy] Sin mercados con momentum positivo")
+        print("[strategy] Sin señales fade confirmadas por noticias")
 
-    return selected, candidates
+    return confirmed, current_prices

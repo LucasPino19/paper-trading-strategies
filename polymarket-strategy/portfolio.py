@@ -1,4 +1,4 @@
-"""Portfolio manager para Polymarket — mercados de predicción."""
+"""Portfolio manager para Polymarket — fade de overreaction."""
 from __future__ import annotations
 
 import json
@@ -6,14 +6,14 @@ import os
 from datetime import date, datetime
 from typing import Optional
 
-INITIAL_CAPITAL   = 10_000.0
-_HERE             = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_DATA_FILE = os.path.join(_HERE, "data", "portfolio.json")
+INITIAL_CAPITAL    = 10_000.0
+_HERE              = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_DATA_FILE  = os.path.join(_HERE, "data", "portfolio.json")
 
-# Stop loss: salir si la probabilidad cae X puntos desde la entrada
-STOP_LOSS_POINTS = 0.15   # -15 puntos de probabilidad
-# Take profit: salir si la probabilidad sube Y puntos desde la entrada
-TAKE_PROFIT_POINTS = 0.20  # +20 puntos de probabilidad
+# Exit rules para el fade
+TAKE_PROFIT_POINTS = 0.10   # +10pp de reversión → salir con ganancia
+STOP_LOSS_POINTS   = 0.10   # −10pp de continuación → cortar pérdida
+MAX_HOLD_DAYS      = 14     # máximo días en posición (mercado no resuelto)
 
 
 class PolyPortfolio:
@@ -34,6 +34,8 @@ class PolyPortfolio:
             "open_positions" : {},   # condition_id → position dict
             "closed_trades"  : [],
             "equity_history" : [{"date": date.today().isoformat(), "equity": INITIAL_CAPITAL}],
+            # Precios YES de mercados del último run (para detectar movimientos)
+            "last_market_prices": {},  # condition_id → precio YES de ayer
         }
 
     def save(self) -> None:
@@ -50,51 +52,68 @@ class PolyPortfolio:
     def open_positions(self) -> dict:
         return self._state["open_positions"]
 
+    @property
+    def last_market_prices(self) -> dict[str, float]:
+        return self._state.get("last_market_prices", {})
+
     def total_equity(self) -> float:
-        # En mercados de predicción, el valor de una posición = shares * current_price
-        # donde shares = número de contratos YES (cada uno vale $1 si resuelve)
         mkt = sum(
             p["shares"] * p.get("current_price", p["entry_price"])
             for p in self.open_positions.values()
         )
         return self._state["cash"] + mkt
 
-    # ── Actualizar precios y verificar exits ──────────────────────────────────
+    # ── Actualizar precios previos ─────────────────────────────────────────────
 
-    def update_and_check_exits(self, current_signals: list[dict]) -> None:
+    def update_last_prices(self, current_yes_prices: dict[str, float]) -> None:
+        """Guarda los precios YES actuales para usarlos como referencia mañana."""
+        self._state["last_market_prices"] = current_yes_prices
+        print(f"[portfolio] Guardados {len(current_yes_prices)} precios para referencia de mañana")
+
+    # ── Actualizar posiciones abiertas ────────────────────────────────────────
+
+    def update_positions(self, current_yes_prices: dict[str, float]) -> None:
         """
-        Actualiza precios de posiciones abiertas y cierra las que:
-          - alcanzaron take profit (+20 puntos)
-          - tocaron stop loss (-15 puntos)
-          - ya no están en el top de mercados (momentum negativo)
+        Actualiza current_price de cada posición y registra equity del día.
+        El precio de una posición es:
+          - Para YES: precio YES actual.
+          - Para NO: 1 - precio YES actual.
         """
-        today       = date.today().isoformat()
-        price_map   = {s["condition_id"]: s["price"] for s in current_signals}
-        active_ids  = {s["condition_id"] for s in current_signals if s["momentum"] > 0}
-        to_close    = []
+        today    = date.today().isoformat()
+        to_close = []
 
         for cond_id, pos in self.open_positions.items():
-            current_price = price_map.get(cond_id, pos.get("current_price", pos["entry_price"]))
-            pos["current_price"] = current_price
-            pos["peak_price"]    = max(pos.get("peak_price", 0), current_price)
+            if cond_id not in current_yes_prices:
+                # No hay precio fresco — mantener precio anterior
+                if pos.get("last_update_date") != today:
+                    pos["trading_days_held"] = pos.get("trading_days_held", 0) + 1
+                    pos["last_update_date"]  = today
+                continue
+
+            yes_p = current_yes_prices[cond_id]
+            current = yes_p if pos["direction"] == "YES" else (1.0 - yes_p)
+            pos["current_price"] = current
+            pos["peak_price"]    = max(pos.get("peak_price", 0), current)
 
             if pos.get("last_update_date") != today:
                 pos["trading_days_held"] = pos.get("trading_days_held", 0) + 1
                 pos["last_update_date"]  = today
 
+            # Verificar exits
             entry = pos["entry_price"]
-            move  = current_price - entry
-
+            move  = current - entry
+            days  = pos.get("trading_days_held", 0)
             reason = None
+
             if move >= TAKE_PROFIT_POINTS:
                 reason = f"Take profit (+{move:.3f})"
             elif move <= -STOP_LOSS_POINTS:
                 reason = f"Stop loss ({move:.3f})"
-            elif cond_id not in active_ids and len(self.open_positions) >= 5:
-                reason = "Salió del top de momentum"
+            elif days >= MAX_HOLD_DAYS:
+                reason = f"Max hold ({days} días)"
 
             if reason:
-                to_close.append((cond_id, current_price, reason))
+                to_close.append((cond_id, current, reason))
 
         for cond_id, price, reason in to_close:
             self._close_position(cond_id, price, reason)
@@ -113,34 +132,38 @@ class PolyPortfolio:
         pos = self.open_positions.pop(cond_id)
         pnl = pos["shares"] * (price - pos["entry_price"])
         self._state["cash"] += pos["shares"] * price
+        entry = pos["entry_price"]
         self._state["closed_trades"].append({
-            "ticker"           : pos["ticker"],
-            "entry_price"      : pos["entry_price"],
+            "ticker"           : pos["ticker"][:50],
+            "entry_price"      : entry,
             "exit_price"       : price,
             "shares"           : pos["shares"],
             "entry_value"      : pos["entry_value"],
             "pnl"              : pnl,
-            "pnl_pct"         : (price - pos["entry_price"]) / pos["entry_price"] if pos["entry_price"] > 0 else 0,
+            "pnl_pct"         : (price - entry) / entry if entry > 0 else 0,
             "entry_date"       : pos["entry_date"],
             "exit_date"        : datetime.now().isoformat(),
             "exit_reason"      : reason[:60],
             "trading_days_held": pos.get("trading_days_held", 0),
         })
-        print(f"[close] {pos['ticker']}  p={price:.3f}  P&L: ${pnl:+,.2f}  ({reason})")
+        print(f"[close] {pos['ticker'][:40]}  p={price:.3f}  P&L: ${pnl:+,.2f}  ({reason})")
 
-    # ── Abrir nuevas posiciones ───────────────────────────────────────────────
+    # ── Abrir posiciones de fade ───────────────────────────────────────────────
 
-    def open_positions_from_signals(
+    def open_fade_positions(
         self,
-        signals    : list[dict],
-        max_pos    : int   = 5,
-        pos_size   : float = 0.20,  # 20% del capital por posición
+        signals  : list[dict],
+        max_pos  : int   = 5,
+        pos_size : float = 0.20,  # 20% del equity por posición
     ) -> None:
-        """Abre posiciones en los top signals que no están ya en cartera."""
-        today     = datetime.now().isoformat()
-        today_d   = date.today().isoformat()
-        existing  = set(self.open_positions.keys())
-        n_open    = len(existing)
+        """
+        Abre posiciones de fade sobre los signals confirmados.
+        Cada signal tiene: condition_id, direction, price, question, move.
+        """
+        today   = datetime.now().isoformat()
+        today_d = date.today().isoformat()
+        existing = set(self.open_positions.keys())
+        n_open   = len(existing)
 
         for sig in signals:
             if n_open >= max_pos:
@@ -152,17 +175,18 @@ class PolyPortfolio:
             price  = sig["price"]
             invest = min(
                 self.total_equity() * pos_size,
-                self._state["cash"]
+                self._state["cash"],
             )
             if invest < 10 or price <= 0:
                 continue
 
-            # shares = número de contratos YES comprados
             shares = invest / price
             self._state["cash"] -= invest
+            label  = f"[{sig['direction']}] {sig['question'][:38]}"
+
             self.open_positions[cond_id] = {
-                "ticker"           : sig["question"][:40],
-                "outcome"          : sig["outcome"],
+                "ticker"           : label,
+                "direction"        : sig["direction"],
                 "condition_id"     : cond_id,
                 "entry_price"      : price,
                 "shares"           : shares,
@@ -172,8 +196,9 @@ class PolyPortfolio:
                 "entry_date"       : today,
                 "trading_days_held": 0,
                 "last_update_date" : today_d,
-                "momentum_entry"   : sig["momentum"],
+                "move_at_entry"    : sig["move"],
             }
             existing.add(cond_id)
             n_open += 1
-            print(f"[buy]  p={price:.3f}  ${invest:,.2f}  — {sig['question'][:55]}")
+            print(f"[buy]  {sig['direction']} @ {price:.3f}  ${invest:,.2f}  — {sig['question'][:55]}")
+            print(f"       (movimiento previo: {sig['move']:+.3f}, fadeamos)")

@@ -371,12 +371,15 @@ with tab12:
 
     with st.expander("¿Cómo funciona?"):
         st.markdown(
-            "**Memecoin Momentum — rotación semanal.** "
-            "Cada lunes selecciona las **top 5 memecoins** (de DOGE, SHIB, PEPE, WIF, BONK, etc.) "
-            "con mayor retorno de los últimos 7 días, filtrando por market cap >$50M y volumen >$1M. "
-            "Excluye pumps extremos (>1000% en 7d = probable manipulación). "
-            "Peso igual entre las 5 posiciones. Sin stop loss individual — "
-            "la rotación semanal actúa como filtro. Datos: CoinGecko API (gratis)."
+            "**Memecoin — doble señal: Trending × Momentum.** "
+            "Cada lunes selecciona memecoins que cumplen **dos condiciones simultáneas**: "
+            "(1) están en el top de búsquedas de CoinGecko en las últimas 24h (atención social); "
+            "(2) tienen retorno 7d positivo (precio confirma). "
+            "Trending sin precio subiendo = hype sin soporte → ignorado. "
+            "Precio subiendo sin trending = momentum silencioso → ignorado. "
+            "Ambos juntos = mayor probabilidad de continuación. "
+            "Filtros: market cap >$50M, volumen >$1M, excluye pumps >1000% (manipulación). "
+            "Datos: CoinGecko /trending + /coins/markets (gratis)."
         )
 
 with tab13:
@@ -404,15 +407,18 @@ with tab13:
             rows = []
             for cid, pos in poly["open_positions"].items():
                 current = pos.get("current_price", pos["entry_price"])
-                pnl_pct = (current - pos["entry_price"]) / pos["entry_price"] if pos["entry_price"] > 0 else 0
+                entry   = pos["entry_price"]
+                pnl_pct = (current - entry) / entry if entry > 0 else 0
+                move    = pos.get("move_at_entry", 0)
                 rows.append({
-                    "Mercado"  : pos.get("ticker", cid)[:40],
-                    "Outcome"  : pos.get("outcome", "YES"),
-                    "Entrada"  : f"{pos['entry_price']:.3f}",
-                    "Actual"   : f"{current:.3f}",
-                    "P&L %"    : f"{pnl_pct:+.1%}",
-                    "P&L $"    : f"${pos['shares']*(current-pos['entry_price']):+,.0f}",
-                    "Días"     : pos.get("trading_days_held", 0),
+                    "Mercado"   : pos.get("ticker", cid)[:45],
+                    "Dirección" : pos.get("direction", "?"),
+                    "Mov. 24h"  : f"{move:+.3f}",
+                    "Entrada"   : f"{entry:.3f}",
+                    "Actual"    : f"{current:.3f}",
+                    "P&L %"     : f"{pnl_pct:+.1%}",
+                    "P&L $"     : f"${pos['shares']*(current-entry):+,.0f}",
+                    "Días"      : pos.get("trading_days_held", 0),
                 })
             st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
         else:
@@ -423,11 +429,12 @@ with tab13:
 
     with st.expander("¿Cómo funciona?"):
         st.markdown(
-            "**Polymarket Momentum — mercados de predicción.** "
-            "Selecciona los 5 mercados más activos (>$5k volumen 24h) donde la probabilidad "
-            "del outcome favorito lleva subiendo 3 días seguidos (momentum de probabilidad). "
-            "Compra contratos YES a precio actual (= probabilidad implícita $0–1). "
-            "**Take profit:** +20 puntos de probabilidad. "
-            "**Stop loss:** −15 puntos de probabilidad. "
-            "Datos: Polymarket Gamma API (gratis)."
+            "**Polymarket Fade — overreaction en mercados de predicción.** "
+            "Cada día detecta mercados donde la probabilidad se movió **>15 puntos en 24h** "
+            "y confirma con **Google News RSS** que el movimiento fue por una noticia real. "
+            "Si la probabilidad subió → compra NO (fade del alza). "
+            "Si bajó → compra YES (fade de la baja). "
+            "Los participantes retail sobreajustan a noticias y el mercado corrige parcialmente. "
+            "**Take profit:** +10pp de reversión. **Stop loss:** −10pp de continuación. "
+            "**Max hold:** 14 días. Datos: Polymarket Gamma API + Google News RSS (gratis)."
         )
