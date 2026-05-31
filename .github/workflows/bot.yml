@@ -51,7 +51,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add trump-strategy/data/portfolio.json trump-strategy/data/processed_articles.json
           git diff --staged --quiet || git commit -m "bot(trump): update $(date -u +'%Y-%m-%d %H:%M')"
-          git push
+          git pull --rebase origin main && git push
 
   gamestop-bot:
     name: GameStop Squeeze Bot
@@ -89,7 +89,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add gamestop-squeeze/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(gamestop): update $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
 
   fvg-bot:
     name: FVG Strategy Bot
@@ -118,7 +118,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add fvg-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(fvg): update $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
 
   ict-bot:
     name: ICT Strategy Bot
@@ -147,7 +147,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add ict-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(ict): update $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
 
   gap-bot:
     name: Gap & Go Bot
@@ -176,7 +176,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add gap-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(gap): update $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
 
   orb-breakout-bot:
     name: ORB + Breakout Bot
@@ -205,7 +205,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add orb-breakout-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(orb-breakout): update $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
 
   breakout50d-bot:
     name: Breakout 50d Bot
@@ -234,7 +234,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add breakout50d-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(breakout50d): update $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
 
   momentum-bot:
     name: Momentum 10d Bot
@@ -263,7 +263,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add momentum-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(momentum): update $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
 
   bb-bounce-bot:
     name: BB Lower Bounce Bot
@@ -292,7 +292,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add bb-bounce-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(bb-bounce): update $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
 
   pullback-bot:
     name: Pullback EMA50 + ADX Bot
@@ -321,7 +321,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add pullback-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(pullback): update $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
 
   momentum-sp500-bot:
     name: Momentum SP500 Bot
@@ -350,7 +350,7 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add momentum-sp500-strategy/data/portfolio.json
           git diff --staged --quiet || git commit -m "bot(momentum-sp500): update $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
 
   daily-report:
     name: Reporte Diario
@@ -379,4 +379,4 @@ jobs:
           git config --local user.name "Paper Trading Bot"
           git add reports/
           git diff --staged --quiet || git commit -m "report: daily $(date -u +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main && git push
