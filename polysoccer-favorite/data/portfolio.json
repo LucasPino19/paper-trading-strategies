@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 2000.0,
+  "cash": 0.0,
   "open_positions": {
     "0x1a62f72054c8fd5deb1116b78738ab99f337240906a0bf46931870f031629094": {
       "ticker": "[YES] Roland Garros ATP: Casper Ruud vs Joao",
@@ -51,6 +51,19 @@
       "current_price": 0.755,
       "peak_price": 0.755,
       "entry_date": "2026-05-31T21:07:19.752570",
+      "trading_days_held": 0,
+      "last_update_date": "2026-05-31"
+    },
+    "0x7a6bd71bcc1f8cbd5c207ac58a0d4ee2789a0f4e4fb31ae7812d903ef271e8a7": {
+      "ticker": "[YES] Chicago Cubs vs. St. Louis Cardinals",
+      "direction": "YES",
+      "condition_id": "0x7a6bd71bcc1f8cbd5c207ac58a0d4ee2789a0f4e4fb31ae7812d903ef271e8a7",
+      "entry_price": 0.715,
+      "shares": 2797.2027972027972,
+      "entry_value": 2000.0,
+      "current_price": 0.715,
+      "peak_price": 0.715,
+      "entry_date": "2026-05-31T23:54:22.618789",
       "trading_days_held": 0,
       "last_update_date": "2026-05-31"
     }
