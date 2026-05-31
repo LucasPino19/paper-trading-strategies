@@ -4,6 +4,13 @@
   "open_positions": {},
   "closed_trades": [],
   "equity_history": [
-    {"date": "2026-05-30", "equity": 10000.0}
+    {
+      "date": "2026-05-30",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-05-31",
+      "equity": 10000.0
+    }
   ]
 }
