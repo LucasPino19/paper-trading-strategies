@@ -1,1 +1,49 @@
-{"initial_capital": 10000.0, "cash": 10000.0, "open_positions": {}, "closed_trades": [], "equity_history": [{"date": "2026-05-30", "equity": 10000.0}]}
+{
+  "initial_capital": 10000.0,
+  "cash": 4900.0,
+  "open_positions": {
+    "NVDA": {
+      "ticker": "NVDA",
+      "entry_price": 211.13999938964844,
+      "shares": 14.20858202459141,
+      "entry_value": 3000.0,
+      "current_price": 211.13999938964844,
+      "peak_price": 211.13999938964844,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-05-31",
+      "entry_date": "2026-05-31T19:59:03.919261",
+      "sps_score": 8.904079990021627,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "entry_price": 312.05999755859375,
+      "shares": 6.72947515359028,
+      "entry_value": 2100.0,
+      "current_price": 312.05999755859375,
+      "peak_price": 312.05999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-05-31",
+      "entry_date": "2026-05-31T19:59:04.090298",
+      "sps_score": 4.862745711628598,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    }
+  },
+  "closed_trades": [],
+  "equity_history": [
+    {
+      "date": "2026-05-30",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-05-31",
+      "equity": 10000.0
+    }
+  ]
+}
