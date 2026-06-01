@@ -1,7 +1,73 @@
 {
   "initial_capital": 10000.0,
-  "cash": 10000.0,
-  "open_positions": {},
+  "cash": 0.0,
+  "open_positions": {
+    "memecore": {
+      "ticker": "M",
+      "name": "MemeCore",
+      "entry_price": 3.28,
+      "shares": 609.7560975609756,
+      "entry_value": 2000.0,
+      "current_price": 3.28,
+      "peak_price": 3.28,
+      "entry_date": "2026-06-01T18:39:46.861284",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-01",
+      "momentum_7d": 12.696838963728219
+    },
+    "purr-2": {
+      "ticker": "PURR",
+      "name": "Purr",
+      "entry_price": 0.124124,
+      "shares": 16112.919338725791,
+      "entry_value": 2000.0,
+      "current_price": 0.124124,
+      "peak_price": 0.124124,
+      "entry_date": "2026-06-01T18:39:46.861284",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-01",
+      "momentum_7d": 8.02474239056865
+    },
+    "ribbita-by-virtuals": {
+      "ticker": "TIBBIR",
+      "name": "Ribbita by Virtuals",
+      "entry_price": 0.119253,
+      "shares": 16771.066555977628,
+      "entry_value": 2000.0,
+      "current_price": 0.119253,
+      "peak_price": 0.119253,
+      "entry_date": "2026-06-01T18:39:46.861284",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-01",
+      "momentum_7d": 12.569050377726526
+    },
+    "bianrensheng": {
+      "ticker": "\u5e01\u5b89\u4eba\u751f",
+      "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+      "entry_price": 0.6237,
+      "shares": 3206.6698733365397,
+      "entry_value": 2000.0,
+      "current_price": 0.6237,
+      "peak_price": 0.6237,
+      "entry_date": "2026-06-01T18:39:46.861284",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-01",
+      "momentum_7d": 43.51295437988973
+    },
+    "siren-2": {
+      "ticker": "SIREN",
+      "name": "Siren",
+      "entry_price": 0.653128,
+      "shares": 3062.186891390355,
+      "entry_value": 2000.0,
+      "current_price": 0.653128,
+      "peak_price": 0.653128,
+      "entry_date": "2026-06-01T18:39:46.861284",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-01",
+      "momentum_7d": 30.319103253378117
+    }
+  },
   "closed_trades": [],
   "equity_history": [
     {
@@ -9,5 +75,5 @@
       "equity": 10000.0
     }
   ],
-  "last_rebalance": null
+  "last_rebalance": "2026-22"
 }
