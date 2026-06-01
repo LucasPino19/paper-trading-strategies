@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4900.0,
+  "cash": 3430.0,
   "open_positions": {
     "NVDA": {
       "ticker": "NVDA",
       "entry_price": 211.13999938964844,
       "shares": 14.20858202459141,
       "entry_value": 3000.0,
-      "current_price": 211.13999938964844,
-      "peak_price": 211.13999938964844,
+      "current_price": 224.27499389648438,
+      "peak_price": 224.27499389648438,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-05-31",
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-01",
       "entry_date": "2026-05-31T16:55:46.987869",
       "sps_score": 8.904079990021627,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 312.05999755859375,
       "shares": 6.72947515359028,
       "entry_value": 2100.0,
-      "current_price": 312.05999755859375,
+      "current_price": 307.70001220703125,
       "peak_price": 312.05999755859375,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-05-31",
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-01",
       "entry_date": "2026-05-31T16:55:47.427717",
       "sps_score": 4.862745711628598,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "IWM": {
+      "ticker": "IWM",
+      "entry_price": 289.9700012207031,
+      "shares": 5.069489925894602,
+      "entry_value": 1470.0,
+      "current_price": 289.9700012207031,
+      "peak_price": 289.9700012207031,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-01",
+      "entry_date": "2026-06-01T18:40:02.167664",
+      "sps_score": 10.518392584429563,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -44,6 +60,10 @@
     {
       "date": "2026-05-31",
       "equity": 10000.0
+    },
+    {
+      "date": "2026-06-01",
+      "equity": 10157.28923374958
     }
   ]
 }
