@@ -12,8 +12,8 @@
       "current_price": 0.695,
       "peak_price": 0.695,
       "entry_date": "2026-05-31T21:07:19.752570",
-      "trading_days_held": 0,
-      "last_update_date": "2026-05-31"
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-01"
     },
     "0x231230299aed967bb1d402e322aad1b402a4613a010d4603523032a48323b957": {
       "ticker": "[YES] San Francisco Giants vs. Colorado Rock",
@@ -25,8 +25,8 @@
       "current_price": 0.605,
       "peak_price": 0.605,
       "entry_date": "2026-05-31T21:07:19.752570",
-      "trading_days_held": 0,
-      "last_update_date": "2026-05-31"
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-01"
     },
     "0x11c8c050fc30fe455d8659cea74d8a584e6e3b9b3371f02b6db8da2b1f99b25f": {
       "ticker": "[YES] San Francisco Giants vs. Colorado Rock",
@@ -38,8 +38,8 @@
       "current_price": 0.68,
       "peak_price": 0.68,
       "entry_date": "2026-05-31T21:07:19.752570",
-      "trading_days_held": 0,
-      "last_update_date": "2026-05-31"
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-01"
     },
     "0x3018c90688ef2487dd1351f15dec041bf7e63327eefddece6ce57b74f5f3a3f2": {
       "ticker": "[YES] Philadelphia Phillies vs. Los Angeles ",
@@ -51,8 +51,8 @@
       "current_price": 0.755,
       "peak_price": 0.755,
       "entry_date": "2026-05-31T21:07:19.752570",
-      "trading_days_held": 0,
-      "last_update_date": "2026-05-31"
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-01"
     },
     "0x7a6bd71bcc1f8cbd5c207ac58a0d4ee2789a0f4e4fb31ae7812d903ef271e8a7": {
       "ticker": "[YES] Chicago Cubs vs. St. Louis Cardinals",
@@ -64,14 +64,18 @@
       "current_price": 0.715,
       "peak_price": 0.715,
       "entry_date": "2026-05-31T23:54:22.618789",
-      "trading_days_held": 0,
-      "last_update_date": "2026-05-31"
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-01"
     }
   },
   "closed_trades": [],
   "equity_history": [
     {
       "date": "2026-05-31",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-06-01",
       "equity": 10000.0
     }
   ]
