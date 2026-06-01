@@ -1,13 +1,13 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4900.0,
+  "cash": 3430.0,
   "open_positions": {
     "JNJ": {
       "ticker": "JNJ",
       "entry_price": 225.3300018310547,
       "shares": 13.313806309065338,
       "entry_value": 3000.0,
-      "current_price": 223.46499633789062,
+      "current_price": 223.9499969482422,
       "peak_price": 225.3300018310547,
       "volume_spiked": false,
       "trading_days_held": 2,
@@ -23,13 +23,29 @@
       "entry_price": 263.010009765625,
       "shares": 7.984486985386465,
       "entry_value": 2100.0,
-      "current_price": 263.010009765625,
-      "peak_price": 263.010009765625,
+      "current_price": 263.57000732421875,
+      "peak_price": 263.57000732421875,
       "volume_spiked": false,
       "trading_days_held": 1,
       "last_update_date": "2026-06-01",
       "entry_date": "2026-06-01T18:39:56.888795",
       "sps_score": 23.495418297132705,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "entry_price": 418.8598937988281,
+      "shares": 3.5095267457285324,
+      "entry_value": 1470.0,
+      "current_price": 418.8598937988281,
+      "peak_price": 418.8598937988281,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-01",
+      "entry_date": "2026-06-01T19:06:44.228123",
+      "sps_score": 17.78746973762125,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -47,7 +63,7 @@
     },
     {
       "date": "2026-06-01",
-      "equity": 9975.169678098671
+      "equity": 9986.09817550311
     }
   ]
 }
