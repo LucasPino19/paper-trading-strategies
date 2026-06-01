@@ -69,7 +69,7 @@ def render_kpis(s: dict) -> None:
     )
 
 
-def render_equity_curve(data: dict, s: dict) -> None:
+def render_equity_curve(data: dict, s: dict, key: str = "") -> None:
     history = data.get("equity_history", [])
     if len(history) < 2:
         st.info("La curva de equity aparecerá después del primer día de operaciones.")
@@ -90,7 +90,7 @@ def render_equity_curve(data: dict, s: dict) -> None:
     )
     fig.update_layout(height=260, margin=dict(l=0, r=0, t=10, b=0),
                       yaxis_tickprefix="$", yaxis_tickformat=",")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True, key=f"equity_{key}")
 
 
 def render_open_positions(data: dict) -> None:
@@ -161,7 +161,7 @@ with tab1:
     gme = load_portfolio("gamestop-squeeze")
     s_gme = summary(gme)
     render_kpis(s_gme)
-    render_equity_curve(gme, s_gme)
+    render_equity_curve(gme, s_gme, key="gme")
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader("Posiciones abiertas")
@@ -176,7 +176,7 @@ with tab2:
     trump = load_portfolio("trump-strategy")
     s_trump = summary(trump)
     render_kpis(s_trump)
-    render_equity_curve(trump, s_trump)
+    render_equity_curve(trump, s_trump, key="trump")
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader("Posiciones abiertas")
@@ -191,7 +191,7 @@ with tab3:
     fvg = load_portfolio("fvg-strategy")
     s_fvg = summary(fvg)
     render_kpis(s_fvg)
-    render_equity_curve(fvg, s_fvg)
+    render_equity_curve(fvg, s_fvg, key="fvg")
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader("Posiciones abiertas")
@@ -206,7 +206,7 @@ with tab4:
     ict = load_portfolio("ict-strategy")
     s_ict = summary(ict)
     render_kpis(s_ict)
-    render_equity_curve(ict, s_ict)
+    render_equity_curve(ict, s_ict, key="ict")
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader("Posiciones abiertas")
@@ -221,7 +221,7 @@ with tab5:
     gap = load_portfolio("gap-strategy")
     s_gap = summary(gap)
     render_kpis(s_gap)
-    render_equity_curve(gap, s_gap)
+    render_equity_curve(gap, s_gap, key="gap")
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader("Posiciones abiertas")
@@ -236,7 +236,7 @@ with tab6:
     orb = load_portfolio("orb-breakout-strategy")
     s_orb = summary(orb)
     render_kpis(s_orb)
-    render_equity_curve(orb, s_orb)
+    render_equity_curve(orb, s_orb, key="orb")
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader("Posiciones abiertas")
@@ -251,7 +251,7 @@ with tab7:
     b50d = load_portfolio("breakout50d-strategy")
     s_b50d = summary(b50d)
     render_kpis(s_b50d)
-    render_equity_curve(b50d, s_b50d)
+    render_equity_curve(b50d, s_b50d, key="b50d")
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader("Posiciones abiertas")
@@ -266,7 +266,7 @@ with tab8:
     mom = load_portfolio("momentum-strategy")
     s_mom = summary(mom)
     render_kpis(s_mom)
-    render_equity_curve(mom, s_mom)
+    render_equity_curve(mom, s_mom, key="mom")
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader("Posiciones abiertas")
@@ -281,7 +281,7 @@ with tab9:
     bb = load_portfolio("bb-bounce-strategy")
     s_bb = summary(bb)
     render_kpis(s_bb)
-    render_equity_curve(bb, s_bb)
+    render_equity_curve(bb, s_bb, key="bb")
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader("Posiciones abiertas")
@@ -296,7 +296,7 @@ with tab10:
     pull = load_portfolio("pullback-strategy")
     s_pull = summary(pull)
     render_kpis(s_pull)
-    render_equity_curve(pull, s_pull)
+    render_equity_curve(pull, s_pull, key="pull")
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader("Posiciones abiertas")
@@ -324,7 +324,7 @@ with tab11:
         delta=f"{s_sp500['wins']}W / {s_sp500['losses']}L" if s_sp500["closed"] else None,
     )
 
-    render_equity_curve(sp500mom, s_sp500)
+    render_equity_curve(sp500mom, s_sp500, key="sp500")
 
     col_a, col_b = st.columns(2)
     with col_a:
@@ -362,7 +362,7 @@ with tab12:
         delta=f"{s_meme['wins']}W / {s_meme['losses']}L" if s_meme["closed"] else None,
     )
 
-    render_equity_curve(meme, s_meme)
+    render_equity_curve(meme, s_meme, key="meme")
 
     col_a, col_b = st.columns(2)
     with col_a:
@@ -401,7 +401,7 @@ with tab13:
         delta=f"{s_poly['wins']}W / {s_poly['losses']}L" if s_poly["closed"] else None,
     )
 
-    render_equity_curve(poly, s_poly)
+    render_equity_curve(poly, s_poly, key="poly")
 
     col_a, col_b = st.columns(2)
     with col_a:
@@ -443,7 +443,7 @@ with tab13:
         )
 
 
-def _render_soccer_tab(data: dict, description: str) -> None:
+def _render_soccer_tab(data: dict, description: str, key: str = "") -> None:
     s     = summary(data)
     n_pos = len(data.get("open_positions", {}))
     c1, c2, c3, c4, c5 = st.columns(5)
@@ -456,7 +456,7 @@ def _render_soccer_tab(data: dict, description: str) -> None:
         f"{s['win_rate']:.0%}" if s["closed"] else "—",
         delta=f"{s['wins']}W / {s['losses']}L" if s["closed"] else None,
     )
-    render_equity_curve(data, s)
+    render_equity_curve(data, s, key=key)
     col_a, col_b = st.columns(2)
     with col_a:
         st.subheader(f"Posiciones actuales ({n_pos})")
@@ -494,7 +494,8 @@ with tab14:
         "El bot apuesta en favoritos con **60–80% de probabilidad** en mercados de fútbol "
         "de alta liquidez (>$5k volumen 24h). Rango 60–80% es clave: debajo = sin ventaja, "
         "arriba = poco upside. **TP:** +12pp. **SL:** −12pp. **Max hold:** 10 días. "
-        "Datos: Polymarket Gamma API (gratis)."
+        "Datos: Polymarket Gamma API (gratis).",
+        key="soccer_fav",
     )
 
 with tab15:
@@ -506,7 +507,8 @@ with tab15:
         "consenso, hay una ineficiencia: si Polymarket sobrevalúa → compra NO; "
         "si subvalúa → compra YES. Técnica usada por bettors profesionales para "
         "\"beat the closing line\". **TP:** +12pp. **SL:** −12pp. **Max hold:** 10 días. "
-        "Requiere `ODDS_API_KEY` (gratis en the-odds-api.com, 500 req/mes)."
+        "Requiere `ODDS_API_KEY` (gratis en the-odds-api.com, 500 req/mes).",
+        key="soccer_arb",
     )
 
 with tab16:
@@ -518,5 +520,6 @@ with tab16:
         "de cada partido con la fórmula Elo estándar (+50 puntos de ventaja local). "
         "Si Polymarket difiere del modelo en >8pp → entra en la dirección que favorece al modelo. "
         "Elo supera a modelos más complejos en la mayoría de evaluaciones OOS de fútbol. "
-        "**TP:** +12pp. **SL:** −12pp. **Max hold:** 10 días. Datos: Club Elo + Polymarket (ambos gratis)."
+        "**TP:** +12pp. **SL:** −12pp. **Max hold:** 10 días. Datos: Club Elo + Polymarket (ambos gratis).",
+        key="soccer_elo",
     )
