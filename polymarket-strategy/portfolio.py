@@ -78,22 +78,36 @@ class PolyPortfolio:
         El precio de una posición es:
           - Para YES: precio YES actual.
           - Para NO: 1 - precio YES actual.
+        Cuando un mercado desaparece de la API activa (resolvió), se consulta
+        su precio final y se cierra la posición.
         """
+        from strategy import get_market_resolved_price
+
         today    = date.today().isoformat()
         to_close = []
 
         for cond_id, pos in self.open_positions.items():
             if cond_id not in current_yes_prices:
-                # No hay precio fresco — mantener precio anterior
+                # Mercado no está en la lista activa — puede haber resuelto
                 if pos.get("last_update_date") != today:
-                    pos["trading_days_held"] = pos.get("trading_days_held", 0) + 1
-                    pos["last_update_date"]  = today
+                    pos["trading_days_held"]    = pos.get("trading_days_held", 0) + 1
+                    pos["last_update_date"]      = today
+                    pos["days_missing_from_api"] = pos.get("days_missing_from_api", 0) + 1
+
+                if pos.get("days_missing_from_api", 0) >= 1:
+                    resolved = get_market_resolved_price(cond_id)
+                    if resolved is not None:
+                        current = resolved if pos["direction"] == "YES" else (1.0 - resolved)
+                        pos["current_price"] = current
+                        print(f"[portfolio] Mercado resuelto: {pos['ticker'][:45]} → YES={resolved:.3f}")
+                        to_close.append((cond_id, current, "Mercado resuelto"))
                 continue
 
             yes_p = current_yes_prices[cond_id]
             current = yes_p if pos["direction"] == "YES" else (1.0 - yes_p)
-            pos["current_price"] = current
-            pos["peak_price"]    = max(pos.get("peak_price", 0), current)
+            pos["current_price"]         = current
+            pos["peak_price"]            = max(pos.get("peak_price", 0), current)
+            pos["days_missing_from_api"] = 0  # volvió a la API activa
 
             if pos.get("last_update_date") != today:
                 pos["trading_days_held"] = pos.get("trading_days_held", 0) + 1

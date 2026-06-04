@@ -39,6 +39,45 @@ NEWS_WINDOW_H  = 36     # buscar noticias en las últimas 36h
 
 # ── CoinGecko / Gamma API ─────────────────────────────────────────────────────
 
+def get_market_resolved_price(condition_id: str) -> float | None:
+    """
+    Obtiene el precio YES de un mercado específico, incluyendo resueltos.
+    Útil cuando el mercado desapareció de get_active_markets() por haber cerrado.
+    Retorna 0.0 o 1.0 si ya resolvió, o el precio actual si sigue activo.
+    """
+    try:
+        r = requests.get(
+            f"{GAMMA_BASE}/markets",
+            params={"conditionId": condition_id},
+            headers=HEADERS,
+            timeout=15,
+        )
+        r.raise_for_status()
+        data = r.json()
+        markets = data if isinstance(data, list) else data.get("markets", data.get("data", []))
+        if not markets:
+            return None
+        m = markets[0]
+        outcomes = m.get("outcomes", "[]")
+        outcome_prices = m.get("outcomePrices", "[]")
+        if isinstance(outcomes, str):
+            import json as _json
+            try:
+                outcomes = _json.loads(outcomes)
+                outcome_prices = _json.loads(outcome_prices)
+            except Exception:
+                return None
+        for out, pr in zip(outcomes, outcome_prices):
+            if out.lower() == "yes":
+                return float(pr)
+        if outcome_prices:
+            return float(outcome_prices[0])
+        return None
+    except Exception as e:
+        print(f"[strategy] Error obteniendo precio de mercado {condition_id[:20]}: {e}")
+        return None
+
+
 def get_active_markets(limit: int = 100) -> list[dict]:
     """Obtiene mercados activos de Polymarket ordenados por volumen 24h."""
     try:
