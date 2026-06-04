@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3430.0,
+  "cash": 4772.320566206042,
   "open_positions": {
     "JPM": {
       "ticker": "JPM",
       "entry_price": 299.30999755859375,
       "shares": 10.02305310370634,
       "entry_value": 3000.0,
-      "current_price": 298.9800109863281,
-      "peak_price": 301.2550048828125,
+      "current_price": 308.19000244140625,
+      "peak_price": 308.19000244140625,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-06-03",
+      "trading_days_held": 5,
+      "last_update_date": "2026-06-04",
       "entry_date": "2026-05-31T19:54:38.905404",
       "sps_score": 14.079868632672289,
       "short_float_pct": 0,
@@ -23,35 +23,42 @@
       "entry_price": 270.6400146484375,
       "shares": 7.759384741121555,
       "entry_value": 2100.0,
-      "current_price": 255.55999755859375,
+      "current_price": 253.3699951171875,
       "peak_price": 270.6400146484375,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-06-03",
+      "trading_days_held": 5,
+      "last_update_date": "2026-06-04",
       "entry_date": "2026-05-31T19:54:39.106381",
       "sps_score": 12.805766186117467,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
-    },
-    "AVGO": {
+    }
+  },
+  "closed_trades": [
+    {
       "ticker": "AVGO",
       "entry_price": 446.7699890136719,
       "shares": 3.290283672019464,
       "entry_value": 1470.0,
-      "current_price": 475.81500244140625,
+      "current_price": 407.9649963378906,
       "peak_price": 475.81500244140625,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-06-03",
+      "trading_days_held": 5,
+      "last_update_date": "2026-06-04",
       "entry_date": "2026-05-31T19:54:39.366374",
       "sps_score": 10.460469087748635,
       "short_float_pct": 0,
       "float_shares_m": 0,
-      "dtc": 0
+      "dtc": 0,
+      "exit_price": 407.9649963378906,
+      "exit_date": "2026-06-04T14:13:44.868318",
+      "proceeds": 1342.320566206042,
+      "pnl": -127.67943379395797,
+      "pnl_pct": -0.08685675768296461,
+      "exit_reason": "Stop loss: -8.7%"
     }
-  },
-  "closed_trades": [],
+  ],
   "equity_history": [
     {
       "date": "2026-05-30",
@@ -72,6 +79,10 @@
     {
       "date": "2026-06-03",
       "equity": 9975.247205994747
+    },
+    {
+      "date": "2026-06-04",
+      "equity": 9827.320600677991
     }
   ]
 }
