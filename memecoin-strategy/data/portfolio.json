@@ -21,7 +21,7 @@
       "entry_price": 0.124124,
       "shares": 16112.919338725791,
       "entry_value": 2000.0,
-      "current_price": 0.10677,
+      "current_price": 0.106901,
       "peak_price": 0.139755,
       "entry_date": "2026-06-01T18:39:46.861284",
       "trading_days_held": 2,
@@ -34,7 +34,7 @@
       "entry_price": 0.119253,
       "shares": 16771.066555977628,
       "entry_value": 2000.0,
-      "current_price": 0.118377,
+      "current_price": 0.118983,
       "peak_price": 0.126898,
       "entry_date": "2026-06-01T18:39:46.861284",
       "trading_days_held": 2,
@@ -47,8 +47,8 @@
       "entry_price": 0.6237,
       "shares": 3206.6698733365397,
       "entry_value": 2000.0,
-      "current_price": 0.687434,
-      "peak_price": 0.687434,
+      "current_price": 0.687522,
+      "peak_price": 0.687522,
       "entry_date": "2026-06-01T18:39:46.861284",
       "trading_days_held": 2,
       "last_update_date": "2026-06-04",
@@ -60,7 +60,7 @@
       "entry_price": 0.653128,
       "shares": 3062.186891390355,
       "entry_value": 2000.0,
-      "current_price": 0.705788,
+      "current_price": 0.705005,
       "peak_price": 0.705788,
       "entry_date": "2026-06-01T18:39:46.861284",
       "trading_days_held": 2,
@@ -84,7 +84,7 @@
     },
     {
       "date": "2026-06-04",
-      "equity": 10113.996529729831
+      "equity": 10124.15508310902
     }
   ],
   "last_rebalance": "2026-22"
