@@ -1,13 +1,13 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6169.45718641953,
+  "cash": 4318.620030493672,
   "open_positions": {
     "TQQQ": {
       "ticker": "TQQQ",
       "entry_price": 84.55999755859375,
       "shares": 24.834437803109648,
       "entry_value": 2100.0,
-      "current_price": 83.41000366210938,
+      "current_price": 85.50499725341797,
       "peak_price": 86.82499694824219,
       "volume_spiked": false,
       "trading_days_held": 5,
@@ -23,13 +23,29 @@
       "entry_price": 353.2900085449219,
       "shares": 4.160887555395117,
       "entry_value": 1470.0,
-      "current_price": 374.3999938964844,
+      "current_price": 391.2189025878906,
       "peak_price": 414.6300048828125,
       "volume_spiked": false,
       "trading_days_held": 5,
       "last_update_date": "2026-06-04",
       "entry_date": "2026-05-31T19:54:29.388236",
       "sps_score": 29.973234182614508,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "MSTR": {
+      "ticker": "MSTR",
+      "entry_price": 127.2968978881836,
+      "shares": 14.539530708372933,
+      "entry_value": 1850.837155925859,
+      "current_price": 127.2968978881836,
+      "peak_price": 127.2968978881836,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-04",
+      "entry_date": "2026-06-04T17:29:35.557508",
+      "sps_score": 42.456829971181556,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -82,7 +98,7 @@
     },
     {
       "date": "2026-06-04",
-      "equity": 9798.734009867223
+      "equity": 9920.74358577789
     }
   ]
 }
