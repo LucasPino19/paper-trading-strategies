@@ -3,7 +3,7 @@ name: Paper Trading Bots
 on:
   schedule:
     # Trump bot: cada hora en días hábiles, 13:00–21:00 UTC (9AM-5PM ET)
-    - cron: '0 13-21 * * 1-5'
+    - cron: '0 13,14,15,16,17,18,19,20,21 * * 1-5'
     # GameStop + Breakout50d + BB Bounce + Pullback: días hábiles a las 21:30 UTC
     - cron: '30 21 * * 1-5'
     # FVG: días hábiles a las 13:30 UTC (9:30 AM ET = apertura)
@@ -33,7 +33,7 @@ jobs:
   trump-bot:
     name: Trump Sentiment Bot
     runs-on: ubuntu-latest
-    if: (github.event.schedule == '0 13-21 * * 1-5' || github.event_name == 'workflow_dispatch')
+    if: (github.event.schedule == '0 13,14,15,16,17,18,19,20,21 * * 1-5' || github.event_name == 'workflow_dispatch')
 
     steps:
       - uses: actions/checkout@v4
