@@ -1,13 +1,13 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5347.577283888348,
+  "cash": 3743.3040987218437,
   "open_positions": {
     "SMCI": {
       "ticker": "SMCI",
       "entry_price": 46.09000015258789,
       "shares": 65.09004100820239,
       "entry_value": 3000.0,
-      "current_price": 46.09400177001953,
+      "current_price": 47.165000915527344,
       "peak_price": 50.154998779296875,
       "volume_spiked": false,
       "trading_days_held": 5,
@@ -23,13 +23,29 @@
       "entry_price": 84.55999755859375,
       "shares": 17.384106462176753,
       "entry_value": 1470.0,
-      "current_price": 83.43499755859375,
+      "current_price": 85.48989868164062,
       "peak_price": 86.82009887695312,
       "volume_spiked": false,
       "trading_days_held": 5,
       "last_update_date": "2026-06-04",
       "entry_date": "2026-05-31T19:54:20.510120",
       "sps_score": 97.8997667575019,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "UPRO": {
+      "ticker": "UPRO",
+      "entry_price": 149.39999389648438,
+      "shares": 10.738107434449201,
+      "entry_value": 1604.2731851665042,
+      "current_price": 149.39999389648438,
+      "peak_price": 149.39999389648438,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-04",
+      "entry_date": "2026-06-04T17:29:29.558642",
+      "sps_score": 89.77727574098182,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -82,7 +98,7 @@
     },
     {
       "date": "2026-06-04",
-      "equity": 9798.280629561124
+      "equity": 9903.71462775427
     }
   ]
 }
