@@ -92,7 +92,7 @@ class PaperTrader:
         self._state["closed_trades"].append(trade)
         self._save()
         emoji = "🟢" if pnl >= 0 else "🔴"
-        print(f"[trader] {emoji} CIERRA {ticker} @ \${price:.2f} | P&L: \${pnl:+,.0f} ({pnl_pct:+.1%%}) | {reason}")
+        print(f"[trader] {emoji} CIERRA {ticker} @ \${price:.2f} | P&L: \${pnl:+,.0f} ({pnl_pct:+.1f}%) | {reason}")
         return trade
 
     def update_position(self, ticker, current_price):
