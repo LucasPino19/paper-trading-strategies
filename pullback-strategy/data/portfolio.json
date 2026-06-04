@@ -1,7 +1,24 @@
 {
   "initial_capital": 10000.0,
-  "cash": 10000.0,
-  "open_positions": {},
+  "cash": 7000.0,
+  "open_positions": {
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "entry_price": 364.7049865722656,
+      "shares": 8.225826655664758,
+      "entry_value": 3000.0,
+      "current_price": 364.7049865722656,
+      "peak_price": 364.7049865722656,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-04",
+      "entry_date": "2026-06-04T14:06:25.042863",
+      "sps_score": 35.17739657651106,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    }
+  },
   "closed_trades": [],
   "equity_history": [
     {
@@ -22,6 +39,10 @@
     },
     {
       "date": "2026-06-03",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-06-04",
       "equity": 10000.0
     }
   ]
