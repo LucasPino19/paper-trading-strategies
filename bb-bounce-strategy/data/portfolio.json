@@ -7,7 +7,7 @@
       "entry_price": 254.4174041748047,
       "shares": 11.791646132584408,
       "entry_value": 3000.0,
-      "current_price": 254.4174041748047,
+      "current_price": 253.2449951171875,
       "peak_price": 254.4174041748047,
       "volume_spiked": false,
       "trading_days_held": 1,
@@ -23,8 +23,8 @@
       "entry_price": 364.6700134277344,
       "shares": 5.758630879081455,
       "entry_value": 2100.0,
-      "current_price": 364.6700134277344,
-      "peak_price": 364.6700134277344,
+      "current_price": 366.489990234375,
+      "peak_price": 366.489990234375,
       "volume_spiked": false,
       "trading_days_held": 1,
       "last_update_date": "2026-06-04",
@@ -59,7 +59,7 @@
     },
     {
       "date": "2026-06-04",
-      "equity": 10000.0
+      "equity": 9996.655941907873
     }
   ]
 }
