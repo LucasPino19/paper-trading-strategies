@@ -1,49 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3743.3040987218437,
+  "cash": 7895.992776101217,
   "open_positions": {
-    "SMCI": {
-      "ticker": "SMCI",
-      "entry_price": 46.09000015258789,
-      "shares": 65.09004100820239,
-      "entry_value": 3000.0,
-      "current_price": 46.900001525878906,
-      "peak_price": 50.154998779296875,
-      "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-04",
-      "entry_date": "2026-05-31T19:54:20.225879",
-      "sps_score": 112.35232187914801,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "TQQQ": {
-      "ticker": "TQQQ",
-      "entry_price": 84.55999755859375,
-      "shares": 17.384106462176753,
-      "entry_value": 1470.0,
-      "current_price": 85.22000122070312,
-      "peak_price": 86.82009887695312,
-      "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-04",
-      "entry_date": "2026-05-31T19:54:20.510120",
-      "sps_score": 97.8997667575019,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "UPRO": {
       "ticker": "UPRO",
       "entry_price": 149.39999389648438,
       "shares": 10.738107434449201,
       "entry_value": 1604.2731851665042,
-      "current_price": 149.3300018310547,
+      "current_price": 144.00999450683594,
       "peak_price": 149.39999389648438,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-04",
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-05",
       "entry_date": "2026-06-04T17:29:29.558642",
       "sps_score": 89.77727574098182,
       "short_float_pct": 0,
@@ -73,6 +41,50 @@
       "pnl": -182.42271611165188,
       "pnl_pct": -0.08686796005316756,
       "exit_reason": "Stop loss: -8.7%"
+    },
+    {
+      "ticker": "SMCI",
+      "entry_price": 46.09000015258789,
+      "shares": 65.09004100820239,
+      "entry_value": 3000.0,
+      "current_price": 42.70399856567383,
+      "peak_price": 50.154998779296875,
+      "volume_spiked": false,
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-05",
+      "entry_date": "2026-05-31T19:54:20.225879",
+      "sps_score": 112.35232187914801,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 42.70399856567383,
+      "exit_date": "2026-06-05T15:21:58.502243",
+      "proceeds": 2779.6050178539253,
+      "pnl": -220.39498214607465,
+      "pnl_pct": -0.07346499404869156,
+      "exit_reason": "Stop loss: -7.3%"
+    },
+    {
+      "ticker": "TQQQ",
+      "entry_price": 84.55999755859375,
+      "shares": 17.384106462176753,
+      "entry_value": 1470.0,
+      "current_price": 78.98500061035156,
+      "peak_price": 86.82009887695312,
+      "volume_spiked": false,
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-05",
+      "entry_date": "2026-05-31T19:54:20.510120",
+      "sps_score": 97.8997667575019,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 78.98500061035156,
+      "exit_date": "2026-06-05T15:21:58.502715",
+      "proceeds": 1373.0836595254473,
+      "pnl": -96.91634047455273,
+      "pnl_pct": -0.06592948331602226,
+      "exit_reason": "Stop loss: -6.6%"
     }
   ],
   "equity_history": [
@@ -99,6 +111,10 @@
     {
       "date": "2026-06-04",
       "equity": 9881.022298101954
+    },
+    {
+      "date": "2026-06-05",
+      "equity": 9442.38756875006
     }
   ]
 }
