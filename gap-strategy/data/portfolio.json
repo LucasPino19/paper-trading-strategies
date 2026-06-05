@@ -1,29 +1,13 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4318.620030493672,
+  "cash": 6228.884940835653,
   "open_positions": {
-    "TQQQ": {
-      "ticker": "TQQQ",
-      "entry_price": 84.55999755859375,
-      "shares": 24.834437803109648,
-      "entry_value": 2100.0,
-      "current_price": 79.0199966430664,
-      "peak_price": 86.82499694824219,
-      "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-05",
-      "entry_date": "2026-05-31T19:54:29.208585",
-      "sps_score": 31.35552455805371,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "ARM": {
       "ticker": "ARM",
       "entry_price": 353.2900085449219,
       "shares": 4.160887555395117,
       "entry_value": 1470.0,
-      "current_price": 358.3399963378906,
+      "current_price": 349.75,
       "peak_price": 414.6300048828125,
       "volume_spiked": false,
       "trading_days_held": 6,
@@ -39,7 +23,7 @@
       "entry_price": 127.2968978881836,
       "shares": 14.539530708372933,
       "entry_value": 1850.837155925859,
-      "current_price": 118.62999725341797,
+      "current_price": 119.26000213623047,
       "peak_price": 129.3699951171875,
       "volume_spiked": false,
       "trading_days_held": 2,
@@ -73,6 +57,28 @@
       "pnl": -260.54281358046956,
       "pnl_pct": -0.08684760452682319,
       "exit_reason": "Stop loss: -8.7%"
+    },
+    {
+      "ticker": "TQQQ",
+      "entry_price": 84.55999755859375,
+      "shares": 24.834437803109648,
+      "entry_value": 2100.0,
+      "current_price": 76.91999816894531,
+      "peak_price": 86.82499694824219,
+      "volume_spiked": false,
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-05",
+      "entry_date": "2026-05-31T19:54:29.208585",
+      "sps_score": 31.35552455805371,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 76.91999816894531,
+      "exit_date": "2026-06-05T17:00:25.506174",
+      "proceeds": 1910.2649103419803,
+      "pnl": -189.73508965801966,
+      "pnl_pct": -0.09035004269429507,
+      "exit_reason": "Stop loss: -9.0%"
     }
   ],
   "equity_history": [
@@ -102,7 +108,7 @@
     },
     {
       "date": "2026-06-05",
-      "equity": 9496.874141690765
+      "equity": 9418.13982667544
     }
   ]
 }
