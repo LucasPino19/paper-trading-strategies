@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7895.992776101217,
+  "cash": 3869.036460289596,
   "open_positions": {
     "UPRO": {
       "ticker": "UPRO",
       "entry_price": 149.39999389648438,
       "shares": 10.738107434449201,
       "entry_value": 1604.2731851665042,
-      "current_price": 144.00999450683594,
+      "current_price": 141.6999969482422,
       "peak_price": 149.39999389648438,
       "volume_spiked": false,
       "trading_days_held": 2,
       "last_update_date": "2026-06-05",
       "entry_date": "2026-06-04T17:29:29.558642",
       "sps_score": 89.77727574098182,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "entry_price": 310.9100036621094,
+      "shares": 7.618918030713241,
+      "entry_value": 2368.7978328303648,
+      "current_price": 310.9100036621094,
+      "peak_price": 310.9100036621094,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-05",
+      "entry_date": "2026-06-05T17:00:27.858939",
+      "sps_score": 56.506359255682035,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "META": {
+      "ticker": "META",
+      "entry_price": 609.9299926757812,
+      "shares": 2.71860459871282,
+      "entry_value": 1658.1584829812555,
+      "current_price": 609.9299926757812,
+      "peak_price": 609.9299926757812,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-05",
+      "entry_date": "2026-06-05T17:00:27.989330",
+      "sps_score": 41.4334617354315,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -114,7 +146,7 @@
     },
     {
       "date": "2026-06-05",
-      "equity": 9442.38756875006
+      "equity": 9417.582566792564
     }
   ]
 }
