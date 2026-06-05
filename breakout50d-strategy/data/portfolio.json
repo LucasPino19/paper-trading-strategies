@@ -1,29 +1,13 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4318.577283888349,
+  "cash": 6216.267763609798,
   "open_positions": {
-    "AMD": {
-      "ticker": "AMD",
-      "entry_price": 516.0999755859375,
-      "shares": 4.06897907254468,
-      "entry_value": 2100.0,
-      "current_price": 485.8800048828125,
-      "peak_price": 542.52001953125,
-      "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-05",
-      "entry_date": "2026-05-31T16:56:02.368150",
-      "sps_score": 27.352257881788287,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "AAPL": {
       "ticker": "AAPL",
       "entry_price": 312.05999755859375,
       "shares": 4.710632607513196,
       "entry_value": 1470.0,
-      "current_price": 312.9200134277344,
+      "current_price": 307.3399963378906,
       "peak_price": 315.8500061035156,
       "volume_spiked": false,
       "trading_days_held": 6,
@@ -39,7 +23,7 @@
       "entry_price": 292.010009765625,
       "shares": 6.338203397334446,
       "entry_value": 1850.8188359521491,
-      "current_price": 286.3900146484375,
+      "current_price": 281.6499938964844,
       "peak_price": 292.010009765625,
       "volume_spiked": false,
       "trading_days_held": 2,
@@ -73,6 +57,28 @@
       "pnl": -260.60388015950275,
       "pnl_pct": -0.08686796005316759,
       "exit_reason": "Stop loss: -8.7%"
+    },
+    {
+      "ticker": "AMD",
+      "entry_price": 516.0999755859375,
+      "shares": 4.06897907254468,
+      "entry_value": 2100.0,
+      "current_price": 466.3800048828125,
+      "peak_price": 542.52001953125,
+      "volume_spiked": false,
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-05",
+      "entry_date": "2026-05-31T16:56:02.368150",
+      "sps_score": 27.352257881788287,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 466.3800048828125,
+      "exit_date": "2026-06-05T22:43:24.070581",
+      "proceeds": 1897.6904797214497,
+      "pnl": -202.30952027855028,
+      "pnl_pct": -0.09633786679930965,
+      "exit_reason": "Stop loss: -9.6%"
     }
   ],
   "equity_history": [
@@ -102,7 +108,7 @@
     },
     {
       "date": "2026-06-05",
-      "equity": 9584.86223812796
+      "equity": 9449.188520125976
     }
   ]
 }
