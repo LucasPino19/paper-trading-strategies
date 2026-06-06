@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6766.6482808477995,
+  "cash": 4736.653796593459,
   "open_positions": {
     "JNJ": {
       "ticker": "JNJ",
@@ -14,6 +14,22 @@
       "last_update_date": "2026-06-06",
       "entry_date": "2026-05-31T19:54:21.551069",
       "sps_score": 0.4883706609343914,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "entry_price": 466.3800048828125,
+      "shares": 4.352661913034667,
+      "entry_value": 2029.9944842543398,
+      "current_price": 466.3800048828125,
+      "peak_price": 466.3800048828125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-06",
+      "entry_date": "2026-06-06T22:50:01.757831",
+      "sps_score": 2.959192033195195,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -96,7 +112,7 @@
     },
     {
       "date": "2026-06-06",
-      "equity": 9865.703032291656
+      "equity": 9865.703032291654
     }
   ]
 }
