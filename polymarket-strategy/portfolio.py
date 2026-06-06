@@ -97,9 +97,17 @@ class PolyPortfolio:
                 if pos.get("days_missing_from_api", 0) >= 1:
                     resolved = get_market_resolved_price(cond_id)
                     if resolved is not None:
-                        current = resolved if pos["direction"] == "YES" else (1.0 - resolved)
+                        # Solo cerrar si el precio está claramente resuelto (< 2% o > 98%)
+                        if resolved < 0.02:
+                            final_yes = 0.0
+                        elif resolved > 0.98:
+                            final_yes = 1.0
+                        else:
+                            print(f"[portfolio] Mercado aún no resuelto: {pos['ticker'][:45]} → YES={resolved:.3f} (esperando)")
+                            continue
+                        current = final_yes if pos["direction"] == "YES" else (1.0 - final_yes)
                         pos["current_price"] = current
-                        print(f"[portfolio] Mercado resuelto: {pos['ticker'][:45]} → YES={resolved:.3f}")
+                        print(f"[portfolio] Mercado resuelto: {pos['ticker'][:45]} → YES={final_yes:.0f} → posición={current:.0f}")
                         to_close.append((cond_id, current, "Mercado resuelto"))
                 continue
 
@@ -188,7 +196,7 @@ class PolyPortfolio:
 
             price  = sig["price"]
             invest = min(
-                self.total_equity() * pos_size,
+                self._state["initial_capital"] * pos_size,
                 self._state["cash"],
             )
             if invest < 10 or price <= 0:
