@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5175.76931185885,
+  "cash": 3623.0385183011954,
   "open_positions": {
     "JPM": {
       "ticker": "JPM",
@@ -30,6 +30,22 @@
       "last_update_date": "2026-06-06",
       "entry_date": "2026-06-05T17:00:37.025700",
       "sps_score": 22.754084369386213,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "entry_price": 466.3800048828125,
+      "shares": 3.3293253941017698,
+      "entry_value": 1552.730793557655,
+      "current_price": 466.3800048828125,
+      "peak_price": 466.3800048828125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-06",
+      "entry_date": "2026-06-06T22:49:59.148822",
+      "sps_score": 18.56713816191987,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
