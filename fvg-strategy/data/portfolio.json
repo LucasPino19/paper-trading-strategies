@@ -1,57 +1,70 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3430.0,
+  "cash": 6766.6482808477995,
   "open_positions": {
     "JNJ": {
       "ticker": "JNJ",
       "entry_price": 225.3300018310547,
       "shares": 13.313806309065338,
       "entry_value": 3000.0,
-      "current_price": 233.64999389648438,
+      "current_price": 232.77000427246094,
       "peak_price": 233.64999389648438,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-05",
+      "trading_days_held": 7,
+      "last_update_date": "2026-06-06",
       "entry_date": "2026-05-31T19:54:21.551069",
       "sps_score": 0.4883706609343914,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
-    },
-    "AMZN": {
+    }
+  },
+  "closed_trades": [
+    {
       "ticker": "AMZN",
       "entry_price": 263.010009765625,
       "shares": 7.984486985386465,
       "entry_value": 2100.0,
-      "current_price": 252.95550537109375,
+      "current_price": 246.02999877929688,
       "peak_price": 263.57000732421875,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-05",
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-06",
       "entry_date": "2026-06-01T18:39:56.888795",
       "sps_score": 23.495418297132705,
       "short_float_pct": 0,
       "float_shares_m": 0,
-      "dtc": 0
+      "dtc": 0,
+      "exit_price": 246.02999877929688,
+      "exit_date": "2026-06-06T13:14:04.002445",
+      "proceeds": 1964.423323267944,
+      "pnl": -135.57667673205606,
+      "pnl_pct": -0.06456032225336003,
+      "exit_reason": "Stop loss: -6.5%"
     },
-    "TSLA": {
+    {
       "ticker": "TSLA",
       "entry_price": 418.8598937988281,
       "shares": 3.5095267457285324,
       "entry_value": 1470.0,
-      "current_price": 399.54998779296875,
+      "current_price": 391.0,
       "peak_price": 424.4800109863281,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-05",
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-06",
       "entry_date": "2026-06-01T19:06:44.228123",
       "sps_score": 17.78746973762125,
       "short_float_pct": 0,
       "float_shares_m": 0,
-      "dtc": 0
+      "dtc": 0,
+      "exit_price": 391.0,
+      "exit_date": "2026-06-06T13:14:04.002856",
+      "proceeds": 1372.2249575798562,
+      "pnl": -97.77504242014379,
+      "pnl_pct": -0.06651363429941755,
+      "exit_reason": "Stop loss: -6.7%"
     }
-  },
-  "closed_trades": [],
+  ],
   "equity_history": [
     {
       "date": "2026-05-30",
@@ -80,6 +93,10 @@
     {
       "date": "2026-06-05",
       "equity": 9962.722071784377
+    },
+    {
+      "date": "2026-06-06",
+      "equity": 9865.703032291656
     }
   ]
 }
