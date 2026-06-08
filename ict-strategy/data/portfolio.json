@@ -1,19 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8412.417129026362,
+  "cash": 5562.377101808726,
   "open_positions": {
-    "IWM": {
-      "ticker": "IWM",
-      "entry_price": 289.9700012207031,
-      "shares": 5.069489925894602,
-      "entry_value": 1470.0,
-      "current_price": 281.6499938964844,
-      "peak_price": 292.010009765625,
+    "MSFT": {
+      "ticker": "MSFT",
+      "entry_price": 411.739990234375,
+      "shares": 6.129414675682406,
+      "entry_value": 2523.7251387079086,
+      "current_price": 411.739990234375,
+      "peak_price": 411.739990234375,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-06",
-      "entry_date": "2026-06-01T18:40:02.167664",
-      "sps_score": 10.518392584429563,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-08",
+      "entry_date": "2026-06-08T20:40:06.531545",
+      "sps_score": 20.291958965589416,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "XOM": {
+      "ticker": "XOM",
+      "entry_price": 151.75,
+      "shares": 11.641565713973877,
+      "entry_value": 1766.607597095536,
+      "current_price": 151.75,
+      "peak_price": 151.75,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-08",
+      "entry_date": "2026-06-08T20:40:06.729935",
+      "sps_score": 17.495873339682866,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -63,6 +79,28 @@
       "pnl": -31.76313093963745,
       "pnl_pct": -0.015125300447446404,
       "exit_reason": "Stop de tiempo: 7d \u2014 -1.5%"
+    },
+    {
+      "ticker": "IWM",
+      "entry_price": 289.9700012207031,
+      "shares": 5.069489925894602,
+      "entry_value": 1470.0,
+      "current_price": 284.1099853515625,
+      "peak_price": 292.010009765625,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-06-08",
+      "entry_date": "2026-06-01T18:40:02.167664",
+      "sps_score": 10.518392584429563,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 284.1099853515625,
+      "exit_date": "2026-06-08T20:40:06.917063",
+      "proceeds": 1440.292708585809,
+      "pnl": -29.707291414191104,
+      "pnl_pct": -0.020209041778361296,
+      "exit_reason": "Stop de tiempo: 7d \u2014 -2.0%"
     }
   ],
   "equity_history": [
@@ -97,6 +135,10 @@
     {
       "date": "2026-06-06",
       "equity": 9840.238935712865
+    },
+    {
+      "date": "2026-06-08",
+      "equity": 9852.70983761217
     }
   ]
 }
