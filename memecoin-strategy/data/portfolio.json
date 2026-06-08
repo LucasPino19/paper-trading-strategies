@@ -2,73 +2,113 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "memecore": {
-      "ticker": "M",
-      "name": "MemeCore",
-      "entry_price": 3.28,
-      "shares": 609.7560975609756,
-      "entry_value": 2000.0,
-      "current_price": 3.1,
-      "peak_price": 3.38,
-      "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-07",
-      "momentum_7d": 12.696838963728219
-    },
-    "purr-2": {
-      "ticker": "PURR",
-      "name": "Purr",
-      "entry_price": 0.124124,
-      "shares": 16112.919338725791,
-      "entry_value": 2000.0,
-      "current_price": 0.090067,
-      "peak_price": 0.139755,
-      "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-07",
-      "momentum_7d": 8.02474239056865
-    },
-    "ribbita-by-virtuals": {
-      "ticker": "TIBBIR",
-      "name": "Ribbita by Virtuals",
-      "entry_price": 0.119253,
-      "shares": 16771.066555977628,
-      "entry_value": 2000.0,
-      "current_price": 0.11144,
-      "peak_price": 0.126898,
-      "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-07",
-      "momentum_7d": 12.569050377726526
-    },
     "bianrensheng": {
       "ticker": "\u5e01\u5b89\u4eba\u751f",
       "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
       "entry_price": 0.6237,
-      "shares": 3206.6698733365397,
+      "shares": 3156.092429517045,
       "entry_value": 2000.0,
-      "current_price": 0.81899,
+      "current_price": 0.717716,
       "peak_price": 0.81899,
       "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-07",
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-08",
       "momentum_7d": 43.51295437988973
     },
     "siren-2": {
       "ticker": "SIREN",
       "name": "Siren",
       "entry_price": 0.653128,
-      "shares": 3062.186891390355,
+      "shares": 1887.6483617860463,
       "entry_value": 2000.0,
-      "current_price": 1.29,
+      "current_price": 1.2,
       "peak_price": 1.29,
       "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-07",
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-08",
       "momentum_7d": 30.319103253378117
+    },
+    "build-on": {
+      "ticker": "B",
+      "name": "BUILDon",
+      "entry_price": 0.304289,
+      "shares": 7444.166677544228,
+      "entry_value": 2265.1780341432554,
+      "current_price": 0.304289,
+      "peak_price": 0.304289,
+      "entry_date": "2026-06-08T23:23:01.379975",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-08",
+      "momentum_7d": 21.93119807269534
+    },
+    "degen-base": {
+      "ticker": "DEGEN",
+      "name": "Degen",
+      "entry_price": 0.00152837,
+      "shares": 1482087.474985282,
+      "entry_value": 2265.1780341432554,
+      "current_price": 0.00152837,
+      "peak_price": 0.00152837,
+      "entry_date": "2026-06-08T23:23:01.379975",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-08",
+      "momentum_7d": 49.068251502724216
+    },
+    "louzi": {
+      "ticker": "LOUZI",
+      "name": "LOUZI",
+      "entry_price": 0.074981,
+      "shares": 30210.026995415563,
+      "entry_value": 2265.1780341432545,
+      "current_price": 0.074981,
+      "peak_price": 0.074981,
+      "entry_date": "2026-06-08T23:23:01.379975",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-08",
+      "momentum_7d": 13.245431755984882
     }
   },
-  "closed_trades": [],
+  "closed_trades": [
+    {
+      "ticker": "memecore",
+      "entry_price": 3.28,
+      "exit_price": 3.16,
+      "shares": 609.7560975609756,
+      "entry_value": 2000.0,
+      "pnl": -73.17073170731686,
+      "pnl_pct": -0.03658536585365844,
+      "entry_date": "2026-06-01T18:39:46.861284",
+      "exit_date": "2026-06-08T23:23:01.379975",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 6
+    },
+    {
+      "ticker": "purr-2",
+      "entry_price": 0.124124,
+      "exit_price": 0.095889,
+      "shares": 16112.919338725791,
+      "entry_value": 2000.0,
+      "pnl": -454.94827752892263,
+      "pnl_pct": -0.22747413876446132,
+      "entry_date": "2026-06-01T18:39:46.861284",
+      "exit_date": "2026-06-08T23:23:01.379975",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 6
+    },
+    {
+      "ticker": "ribbita-by-virtuals",
+      "entry_price": 0.119253,
+      "exit_price": 0.111973,
+      "shares": 16771.066555977628,
+      "entry_value": 2000.0,
+      "pnl": -122.09336452751704,
+      "pnl_pct": -0.06104668226375852,
+      "entry_date": "2026-06-01T18:39:46.861284",
+      "exit_date": "2026-06-08T23:23:01.379975",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 6
+    }
+  ],
   "equity_history": [
     {
       "date": "2026-05-31",
@@ -97,7 +137,11 @@
     {
       "date": "2026-06-07",
       "equity": 11786.905514975639
+    },
+    {
+      "date": "2026-06-08",
+      "equity": 11325.890170716277
     }
   ],
-  "last_rebalance": "2026-22"
+  "last_rebalance": "2026-23"
 }
