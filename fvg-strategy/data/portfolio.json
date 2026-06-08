@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4736.653796593459,
+  "cash": 3315.6576576154216,
   "open_positions": {
     "JNJ": {
       "ticker": "JNJ",
       "entry_price": 225.3300018310547,
       "shares": 13.313806309065338,
       "entry_value": 3000.0,
-      "current_price": 232.77000427246094,
+      "current_price": 231.13040161132812,
       "peak_price": 233.64999389648438,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-06",
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-08",
       "entry_date": "2026-05-31T19:54:21.551069",
       "sps_score": 0.4883706609343914,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 466.3800048828125,
       "shares": 4.352661913034667,
       "entry_value": 2029.9944842543398,
-      "current_price": 466.3800048828125,
-      "peak_price": 466.3800048828125,
+      "current_price": 492.8631896972656,
+      "peak_price": 492.8631896972656,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-06",
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-08",
       "entry_date": "2026-06-06T22:50:01.757831",
       "sps_score": 2.959192033195195,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "SPY": {
+      "ticker": "SPY",
+      "entry_price": 742.3699951171875,
+      "shares": 1.9141346610509564,
+      "entry_value": 1420.9961389780378,
+      "current_price": 742.3699951171875,
+      "peak_price": 742.3699951171875,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-08",
+      "entry_date": "2026-06-08T16:56:24.039313",
+      "sps_score": 7.40870460306224,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -113,6 +129,10 @@
     {
       "date": "2026-06-06",
       "equity": 9865.703032291654
+    },
+    {
+      "date": "2026-06-08",
+      "equity": 9959.146029915235
     }
   ]
 }
