@@ -1,35 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5694.324855788128,
+  "cash": 5684.340582721678,
   "open_positions": {
-    "MSTR": {
-      "ticker": "MSTR",
-      "entry_price": 127.2968978881836,
-      "shares": 14.539530708372933,
-      "entry_value": 1850.837155925859,
-      "current_price": 117.5780029296875,
-      "peak_price": 129.3699951171875,
-      "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-09",
-      "entry_date": "2026-06-04T17:29:35.557508",
-      "sps_score": 42.456829971181556,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "AAPL": {
       "ticker": "AAPL",
       "entry_price": 307.3399963378906,
       "shares": 6.080124632383605,
       "entry_value": 1868.6654822506957,
-      "current_price": 291.57501220703125,
+      "current_price": 289.6300048828125,
       "peak_price": 316.5899963378906,
       "volume_spiked": false,
       "trading_days_held": 3,
       "last_update_date": "2026-06-09",
       "entry_date": "2026-06-06T13:14:18.207176",
       "sps_score": 36.998854241219334,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "TQQQ": {
+      "ticker": "TQQQ",
+      "entry_price": 69.68000030517578,
+      "shares": 24.5163238986029,
+      "entry_value": 1708.2974567364383,
+      "current_price": 69.68000030517578,
+      "peak_price": 69.68000030517578,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-09",
+      "entry_date": "2026-06-09T17:12:48.676187",
+      "sps_score": 31.35552455805371,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -101,6 +101,28 @@
       "pnl": -135.89460279682976,
       "pnl_pct": -0.09244530802505425,
       "exit_reason": "Stop loss: -9.2%"
+    },
+    {
+      "ticker": "MSTR",
+      "entry_price": 127.2968978881836,
+      "shares": 14.539530708372933,
+      "entry_value": 1850.837155925859,
+      "current_price": 116.80660247802734,
+      "peak_price": 129.3699951171875,
+      "volume_spiked": false,
+      "trading_days_held": 5,
+      "last_update_date": "2026-06-09",
+      "entry_date": "2026-06-04T17:29:35.557508",
+      "sps_score": 42.456829971181556,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 116.80660247802734,
+      "exit_date": "2026-06-09T17:12:49.031740",
+      "proceeds": 1698.3131836699886,
+      "pnl": -152.52397225587038,
+      "pnl_pct": -0.08240809936602558,
+      "exit_reason": "Stop loss: -8.2%"
     }
   ],
   "equity_history": [
@@ -142,7 +164,7 @@
     },
     {
       "date": "2026-06-09",
-      "equity": 9176.666253921003
+      "equity": 9153.624566423488
     }
   ]
 }
