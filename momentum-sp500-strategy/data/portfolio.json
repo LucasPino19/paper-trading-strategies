@@ -7,33 +7,33 @@
       "entry_price": 114.68000030517578,
       "shares": 22.884404665308033,
       "entry_value": 2529.146951608387,
-      "current_price": 110.2699966430664,
+      "current_price": 106.20999908447266,
       "peak_price": 114.68000030517578,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-08"
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-09"
     },
     "LRCX": {
       "ticker": "LRCX",
       "entry_price": 318.17999267578125,
       "shares": 7.8830737234161905,
       "entry_value": 2511.4174623489444,
-      "current_price": 324.45001220703125,
+      "current_price": 325.5400085449219,
       "peak_price": 343.7099914550781,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-08"
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-09"
     },
     "AMD": {
       "ticker": "AMD",
       "entry_price": 516.0999755859375,
       "shares": 4.910847081301731,
       "entry_value": 2515.566833718324,
-      "current_price": 490.3299865722656,
+      "current_price": 468.8999938964844,
       "peak_price": 528.510009765625,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-08"
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-09"
     },
     "AMAT": {
       "ticker": "AMAT",
@@ -43,8 +43,8 @@
       "current_price": 492.1700134277344,
       "peak_price": 501.70001220703125,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-08"
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-09"
     }
   },
   "closed_trades": [
@@ -354,6 +354,10 @@
     {
       "date": "2026-06-08",
       "equity": 10168.477194471561
+    },
+    {
+      "date": "2026-06-09",
+      "equity": 9978.91967190621
     }
   ],
   "last_rebalance": "2026-06"
