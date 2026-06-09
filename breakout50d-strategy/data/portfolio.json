@@ -1,13 +1,13 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5724.536839616955,
+  "cash": 4007.1757877318687,
   "open_positions": {
     "IWM": {
       "ticker": "IWM",
       "entry_price": 292.010009765625,
       "shares": 6.338203397334446,
       "entry_value": 1850.8188359521491,
-      "current_price": 282.739990234375,
+      "current_price": 285.0199890136719,
       "peak_price": 292.010009765625,
       "volume_spiked": false,
       "trading_days_held": 5,
@@ -23,13 +23,29 @@
       "entry_price": 368.5299987792969,
       "shares": 5.060321643448538,
       "entry_value": 1864.8803290829392,
-      "current_price": 360.0299987792969,
+      "current_price": 364.260009765625,
       "peak_price": 368.5299987792969,
       "volume_spiked": false,
       "trading_days_held": 3,
       "last_update_date": "2026-06-09",
       "entry_date": "2026-06-06T13:14:14.039479",
       "sps_score": 10.740556176916726,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "USO": {
+      "ticker": "USO",
+      "entry_price": 131.3000030517578,
+      "shares": 13.079672596870475,
+      "entry_value": 1717.3610518850865,
+      "current_price": 131.3000030517578,
+      "peak_price": 131.3000030517578,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-09",
+      "entry_date": "2026-06-09T22:59:46.954260",
+      "sps_score": 10.173295503114742,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -142,7 +158,7 @@
     },
     {
       "date": "2026-06-09",
-      "equity": 9338.468001396406
+      "equity": 9374.324313551406
     }
   ]
 }
