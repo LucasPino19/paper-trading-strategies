@@ -2,73 +2,139 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "0x1a62f72054c8fd5deb1116b78738ab99f337240906a0bf46931870f031629094": {
-      "ticker": "[YES] Roland Garros ATP: Casper Ruud vs Joao",
+    "0xb91bcf97aed2a45f079de5a8683035e8505562523bc2b643518175ee11fb7bed": {
+      "ticker": "[YES] Arizona Diamondbacks vs. Miami Marlins",
       "direction": "YES",
-      "condition_id": "0x1a62f72054c8fd5deb1116b78738ab99f337240906a0bf46931870f031629094",
-      "entry_price": 0.695,
-      "shares": 2877.697841726619,
+      "condition_id": "0xb91bcf97aed2a45f079de5a8683035e8505562523bc2b643518175ee11fb7bed",
+      "entry_price": 0.725,
+      "shares": 2758.6206896551726,
       "entry_value": 2000.0,
-      "current_price": 0.695,
-      "peak_price": 0.695,
-      "entry_date": "2026-05-31T21:07:19.752570",
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-09"
+      "current_price": 0.725,
+      "peak_price": 0.725,
+      "entry_date": "2026-06-10T00:03:47.322927",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-10"
     },
-    "0x231230299aed967bb1d402e322aad1b402a4613a010d4603523032a48323b957": {
-      "ticker": "[YES] San Francisco Giants vs. Colorado Rock",
+    "0x00cb155d600f0f7641bfb677a564ba842fa76017075486b6ddc558e66a5d7d5b": {
+      "ticker": "[YES] Seattle Mariners vs. Baltimore Orioles",
       "direction": "YES",
-      "condition_id": "0x231230299aed967bb1d402e322aad1b402a4613a010d4603523032a48323b957",
-      "entry_price": 0.605,
-      "shares": 3305.785123966942,
+      "condition_id": "0x00cb155d600f0f7641bfb677a564ba842fa76017075486b6ddc558e66a5d7d5b",
+      "entry_price": 0.73,
+      "shares": 2739.72602739726,
       "entry_value": 2000.0,
-      "current_price": 0.605,
-      "peak_price": 0.605,
-      "entry_date": "2026-05-31T21:07:19.752570",
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-09"
+      "current_price": 0.73,
+      "peak_price": 0.73,
+      "entry_date": "2026-06-10T00:03:47.322927",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-10"
     },
-    "0x11c8c050fc30fe455d8659cea74d8a584e6e3b9b3371f02b6db8da2b1f99b25f": {
-      "ticker": "[YES] San Francisco Giants vs. Colorado Rock",
+    "0x43c366201a9a4c559552659f3a4df591ec56d9975d8f300be47e2be29224c8e1": {
+      "ticker": "[YES] Philadelphia Phillies vs. Toronto Blue",
       "direction": "YES",
-      "condition_id": "0x11c8c050fc30fe455d8659cea74d8a584e6e3b9b3371f02b6db8da2b1f99b25f",
-      "entry_price": 0.68,
-      "shares": 2941.176470588235,
+      "condition_id": "0x43c366201a9a4c559552659f3a4df591ec56d9975d8f300be47e2be29224c8e1",
+      "entry_price": 0.615,
+      "shares": 3252.032520325203,
       "entry_value": 2000.0,
-      "current_price": 0.68,
-      "peak_price": 0.68,
-      "entry_date": "2026-05-31T21:07:19.752570",
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-09"
+      "current_price": 0.615,
+      "peak_price": 0.615,
+      "entry_date": "2026-06-10T00:03:47.322927",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-10"
     },
-    "0x3018c90688ef2487dd1351f15dec041bf7e63327eefddece6ce57b74f5f3a3f2": {
-      "ticker": "[YES] Philadelphia Phillies vs. Los Angeles ",
+    "0x9581ddc0227054c2d891ffc1bd5b3d0dcc5ab6833f512d9abd416af8e34b6e61": {
+      "ticker": "[YES] Atlanta Braves vs. Chicago White Sox",
       "direction": "YES",
-      "condition_id": "0x3018c90688ef2487dd1351f15dec041bf7e63327eefddece6ce57b74f5f3a3f2",
-      "entry_price": 0.755,
-      "shares": 2649.0066225165565,
+      "condition_id": "0x9581ddc0227054c2d891ffc1bd5b3d0dcc5ab6833f512d9abd416af8e34b6e61",
+      "entry_price": 0.725,
+      "shares": 2758.6206896551726,
       "entry_value": 2000.0,
-      "current_price": 0.755,
-      "peak_price": 0.755,
-      "entry_date": "2026-05-31T21:07:19.752570",
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-09"
+      "current_price": 0.725,
+      "peak_price": 0.725,
+      "entry_date": "2026-06-10T00:03:47.322927",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-10"
     },
-    "0x7a6bd71bcc1f8cbd5c207ac58a0d4ee2789a0f4e4fb31ae7812d903ef271e8a7": {
-      "ticker": "[YES] Chicago Cubs vs. St. Louis Cardinals",
+    "0x39176a48d8d4004debff0f41647c8e84c83638261e3ad8edd2e6683b6c04aafd": {
+      "ticker": "[YES] Los Angeles Dodgers vs. Pittsburgh Pir",
       "direction": "YES",
-      "condition_id": "0x7a6bd71bcc1f8cbd5c207ac58a0d4ee2789a0f4e4fb31ae7812d903ef271e8a7",
-      "entry_price": 0.715,
-      "shares": 2797.2027972027972,
+      "condition_id": "0x39176a48d8d4004debff0f41647c8e84c83638261e3ad8edd2e6683b6c04aafd",
+      "entry_price": 0.675,
+      "shares": 2962.9629629629626,
       "entry_value": 2000.0,
-      "current_price": 0.715,
-      "peak_price": 0.715,
-      "entry_date": "2026-05-31T23:54:22.618789",
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-09"
+      "current_price": 0.675,
+      "peak_price": 0.675,
+      "entry_date": "2026-06-10T00:03:47.322927",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-10"
     }
   },
-  "closed_trades": [],
+  "closed_trades": [
+    {
+      "ticker": "[YES] Roland Garros ATP: Casper Ruud vs Joao",
+      "entry_price": 0.695,
+      "exit_price": 0.695,
+      "shares": 2877.697841726619,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-05-31T21:07:19.752570",
+      "exit_date": "2026-06-10T00:03:47.322889",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] San Francisco Giants vs. Colorado Rock",
+      "entry_price": 0.605,
+      "exit_price": 0.605,
+      "shares": 3305.785123966942,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-05-31T21:07:19.752570",
+      "exit_date": "2026-06-10T00:03:47.322899",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] San Francisco Giants vs. Colorado Rock",
+      "entry_price": 0.68,
+      "exit_price": 0.68,
+      "shares": 2941.176470588235,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-05-31T21:07:19.752570",
+      "exit_date": "2026-06-10T00:03:47.322907",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Philadelphia Phillies vs. Los Angeles ",
+      "entry_price": 0.755,
+      "exit_price": 0.755,
+      "shares": 2649.0066225165565,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-05-31T21:07:19.752570",
+      "exit_date": "2026-06-10T00:03:47.322912",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Chicago Cubs vs. St. Louis Cardinals",
+      "entry_price": 0.715,
+      "exit_price": 0.715,
+      "shares": 2797.2027972027972,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-05-31T23:54:22.618789",
+      "exit_date": "2026-06-10T00:03:47.322915",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    }
+  ],
   "equity_history": [
     {
       "date": "2026-05-31",
@@ -108,6 +174,10 @@
     },
     {
       "date": "2026-06-09",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-06-10",
       "equity": 10000.0
     }
   ]
