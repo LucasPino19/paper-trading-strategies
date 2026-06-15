@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4546.962263057691,
+  "cash": 6933.570305967114,
   "open_positions": {
-    "AMD": {
-      "ticker": "AMD",
-      "entry_price": 466.3800048828125,
-      "shares": 4.352661913034667,
-      "entry_value": 2029.9944842543398,
-      "current_price": 513.3900146484375,
-      "peak_price": 513.3900146484375,
-      "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-12",
-      "entry_date": "2026-06-06T22:50:01.757831",
-      "sps_score": 2.959192033195195,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "SPY": {
       "ticker": "SPY",
       "entry_price": 742.3699951171875,
       "shares": 1.9141346610509564,
       "entry_value": 1420.9961389780378,
-      "current_price": 740.719970703125,
-      "peak_price": 742.3699951171875,
+      "current_price": 754.9299926757812,
+      "peak_price": 754.9299926757812,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-12",
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-15",
       "entry_date": "2026-06-08T16:56:24.039313",
       "sps_score": 7.40870460306224,
       "short_float_pct": 0,
@@ -39,11 +23,11 @@
       "entry_price": 347.3500061035156,
       "shares": 5.610185917654104,
       "entry_value": 1948.6981127390106,
-      "current_price": 361.3399963378906,
-      "peak_price": 361.3399963378906,
+      "current_price": 371.489990234375,
+      "peak_price": 371.489990234375,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-06-12",
+      "trading_days_held": 3,
+      "last_update_date": "2026-06-15",
       "entry_date": "2026-06-11T17:06:02.741357",
       "sps_score": 17.070709626363925,
       "short_float_pct": 0,
@@ -117,6 +101,28 @@
       "pnl": 180.00271818128067,
       "pnl_pct": 0.06000090606042689,
       "exit_reason": "Stop de tiempo: 10d \u2014 +6.0%"
+    },
+    {
+      "ticker": "AMD",
+      "entry_price": 466.3800048828125,
+      "shares": 4.352661913034667,
+      "entry_value": 2029.9944842543398,
+      "current_price": 548.3099975585938,
+      "peak_price": 548.3099975585938,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-06-15",
+      "entry_date": "2026-06-06T22:50:01.757831",
+      "sps_score": 2.959192033195195,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 548.3099975585938,
+      "exit_date": "2026-06-15T18:07:43.865547",
+      "proceeds": 2386.6080429094222,
+      "pnl": 356.61355865508244,
+      "pnl_pct": 0.17567218109268617,
+      "exit_reason": "Target +17.6% alcanzado"
     }
   ],
   "equity_history": [
@@ -171,6 +177,10 @@
     {
       "date": "2026-06-12",
       "equity": 10226.597755345774
+    },
+    {
+      "date": "2026-06-15",
+      "equity": 10462.735883377123
     }
   ]
 }
