@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4007.1757877318687,
+  "cash": 5592.562891223741,
   "open_positions": {
     "IWM": {
       "ticker": "IWM",
       "entry_price": 292.010009765625,
       "shares": 6.338203397334446,
       "entry_value": 1850.8188359521491,
-      "current_price": 292.95001220703125,
-      "peak_price": 292.95001220703125,
+      "current_price": 294.6400146484375,
+      "peak_price": 294.6400146484375,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-06-12",
+      "trading_days_held": 9,
+      "last_update_date": "2026-06-15",
       "entry_date": "2026-06-04T21:05:50.511945",
       "sps_score": 15.612850791076163,
       "short_float_pct": 0,
@@ -23,29 +23,13 @@
       "entry_price": 368.5299987792969,
       "shares": 5.060321643448538,
       "entry_value": 1864.8803290829392,
-      "current_price": 359.67999267578125,
-      "peak_price": 368.5299987792969,
+      "current_price": 369.3500061035156,
+      "peak_price": 369.3500061035156,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-12",
+      "trading_days_held": 7,
+      "last_update_date": "2026-06-15",
       "entry_date": "2026-06-06T13:14:14.039479",
       "sps_score": 10.740556176916726,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "USO": {
-      "ticker": "USO",
-      "entry_price": 131.3000030517578,
-      "shares": 13.079672596870475,
-      "entry_value": 1717.3610518850865,
-      "current_price": 125.43000030517578,
-      "peak_price": 134.3000030517578,
-      "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-06-12",
-      "entry_date": "2026-06-09T22:59:46.954260",
-      "sps_score": 10.173295503114742,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -117,6 +101,28 @@
       "pnl": -96.85059490990352,
       "pnl_pct": -0.06588475844211124,
       "exit_reason": "Stop loss: -6.6%"
+    },
+    {
+      "ticker": "USO",
+      "entry_price": 131.3000030517578,
+      "shares": 13.079672596870475,
+      "entry_value": 1717.3610518850865,
+      "current_price": 121.20999908447266,
+      "peak_price": 134.3000030517578,
+      "volume_spiked": false,
+      "trading_days_held": 5,
+      "last_update_date": "2026-06-15",
+      "entry_date": "2026-06-09T22:59:46.954260",
+      "sps_score": 10.173295503114742,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 121.20999908447266,
+      "exit_date": "2026-06-15T23:18:15.095124",
+      "proceeds": 1585.3871034918725,
+      "pnl": -131.97394839321396,
+      "pnl_pct": -0.07684694389007532,
+      "exit_reason": "Stop loss: -7.7%"
     }
   ],
   "equity_history": [
@@ -171,6 +177,10 @@
     {
       "date": "2026-06-12",
       "equity": 9324.632339821372
+    },
+    {
+      "date": "2026-06-15",
+      "equity": 9329.081062952608
     }
   ]
 }
