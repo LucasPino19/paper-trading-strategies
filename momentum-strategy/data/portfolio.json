@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6061.89421979431,
+  "cash": 4243.325953856017,
   "open_positions": {
     "GOOGL": {
       "ticker": "GOOGL",
       "entry_price": 365.42498779296875,
       "shares": 4.388737941755127,
       "entry_value": 1603.754508792406,
-      "current_price": 371.4205017089844,
-      "peak_price": 371.4205017089844,
+      "current_price": 373.3500061035156,
+      "peak_price": 373.3500061035156,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-15",
+      "trading_days_held": 7,
+      "last_update_date": "2026-06-16",
       "entry_date": "2026-06-08T17:35:11.967441",
       "sps_score": 73.12864021596322,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 601.2999877929688,
       "shares": 2.8517059344715148,
       "entry_value": 1714.7307435868584,
-      "current_price": 629.5800170898438,
+      "current_price": 603.2600708007812,
       "peak_price": 629.5800170898438,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-06-15",
+      "trading_days_held": 3,
+      "last_update_date": "2026-06-16",
       "entry_date": "2026-06-12T17:23:30.792371",
       "sps_score": 91.8294400665114,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "COIN": {
+      "ticker": "COIN",
+      "entry_price": 170.8582000732422,
+      "shares": 10.64372833822856,
+      "entry_value": 1818.5682659382928,
+      "current_price": 170.8582000732422,
+      "peak_price": 170.8582000732422,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-16",
+      "entry_date": "2026-06-16T18:43:43.123492",
+      "sps_score": 77.34622620449127,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -247,6 +263,10 @@
     {
       "date": "2026-06-15",
       "equity": 9487.33853895004
+    },
+    {
+      "date": "2026-06-16",
+      "equity": 9420.749881067612
     }
   ]
 }
