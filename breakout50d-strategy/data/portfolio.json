@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5592.562891223741,
+  "cash": 3914.794023856619,
   "open_positions": {
     "IWM": {
       "ticker": "IWM",
       "entry_price": 292.010009765625,
       "shares": 6.338203397334446,
       "entry_value": 1850.8188359521491,
-      "current_price": 294.6400146484375,
+      "current_price": 292.0799865722656,
       "peak_price": 294.6400146484375,
       "volume_spiked": false,
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-15",
+      "trading_days_held": 10,
+      "last_update_date": "2026-06-16",
       "entry_date": "2026-06-04T21:05:50.511945",
       "sps_score": 15.612850791076163,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 368.5299987792969,
       "shares": 5.060321643448538,
       "entry_value": 1864.8803290829392,
-      "current_price": 369.3500061035156,
-      "peak_price": 369.3500061035156,
+      "current_price": 373.25,
+      "peak_price": 373.25,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-15",
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-16",
       "entry_date": "2026-06-06T13:14:14.039479",
       "sps_score": 10.740556176916726,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "entry_price": 507.2900085449219,
+      "shares": 3.3073169964051266,
+      "entry_value": 1677.768867367122,
+      "current_price": 507.2900085449219,
+      "peak_price": 507.2900085449219,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-16",
+      "entry_date": "2026-06-16T23:05:27.664136",
+      "sps_score": 104.5982471339713,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -181,6 +197,10 @@
     {
       "date": "2026-06-15",
       "equity": 9329.081062952608
+    },
+    {
+      "date": "2026-06-16",
+      "equity": 9332.590307826642
     }
   ]
 }
