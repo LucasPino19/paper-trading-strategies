@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6933.570305967114,
+  "cash": 4853.49921417698,
   "open_positions": {
     "SPY": {
       "ticker": "SPY",
       "entry_price": 742.3699951171875,
       "shares": 1.9141346610509564,
       "entry_value": 1420.9961389780378,
-      "current_price": 754.9299926757812,
+      "current_price": 751.97998046875,
       "peak_price": 754.9299926757812,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-15",
+      "trading_days_held": 7,
+      "last_update_date": "2026-06-16",
       "entry_date": "2026-06-08T16:56:24.039313",
       "sps_score": 7.40870460306224,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 347.3500061035156,
       "shares": 5.610185917654104,
       "entry_value": 1948.6981127390106,
-      "current_price": 371.489990234375,
-      "peak_price": 371.489990234375,
+      "current_price": 372.6199951171875,
+      "peak_price": 372.6199951171875,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-06-15",
+      "trading_days_held": 4,
+      "last_update_date": "2026-06-16",
       "entry_date": "2026-06-11T17:06:02.741357",
       "sps_score": 17.070709626363925,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "MA": {
+      "ticker": "MA",
+      "entry_price": 498.5050048828125,
+      "shares": 4.17261827146372,
+      "entry_value": 2080.0710917901342,
+      "current_price": 498.5050048828125,
+      "peak_price": 498.5050048828125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-16",
+      "entry_date": "2026-06-16T18:15:25.761474",
+      "sps_score": 3.0190669665245737,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -181,6 +197,10 @@
     {
       "date": "2026-06-15",
       "equity": 10462.735883377123
+    },
+    {
+      "date": "2026-06-16",
+      "equity": 10463.428700241555
     }
   ]
 }
