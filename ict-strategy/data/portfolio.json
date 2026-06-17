@@ -1,19 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7948.140689782813,
+  "cash": 7257.7698671980825,
   "open_positions": {
-    "AAPL": {
-      "ticker": "AAPL",
-      "entry_price": 291.5199890136719,
-      "shares": 5.724180822689169,
-      "entry_value": 1668.7131305426178,
-      "current_price": 299.239990234375,
-      "peak_price": 299.239990234375,
+    "TLT": {
+      "ticker": "TLT",
+      "entry_price": 86.33000183105469,
+      "shares": 27.620087528795935,
+      "entry_value": 2384.442206934844,
+      "current_price": 86.33000183105469,
+      "peak_price": 86.33000183105469,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-16",
-      "entry_date": "2026-06-09T15:41:46.178970",
-      "sps_score": 15.244815701362628,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-17",
+      "entry_date": "2026-06-17T20:35:09.649279",
+      "sps_score": 1.9693949206015309,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -129,6 +129,28 @@
       "pnl": -109.77783928805911,
       "pnl_pct": -0.04349833411108427,
       "exit_reason": "Stop de tiempo: 7d \u2014 -4.3%"
+    },
+    {
+      "ticker": "AAPL",
+      "entry_price": 291.5199890136719,
+      "shares": 5.724180822689169,
+      "entry_value": 1668.7131305426178,
+      "current_price": 295.95001220703125,
+      "peak_price": 299.239990234375,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-06-17",
+      "entry_date": "2026-06-09T15:41:46.178970",
+      "sps_score": 15.244815701362628,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 295.95001220703125,
+      "exit_date": "2026-06-17T20:35:09.859962",
+      "proceeds": 1694.0713843501137,
+      "pnl": 25.358253807495885,
+      "pnl_pct": 0.015196293085588716,
+      "exit_reason": "Stop de tiempo: 7d \u2014 +1.5%"
     }
   ],
   "equity_history": [
@@ -191,6 +213,10 @@
     {
       "date": "2026-06-16",
       "equity": 9661.044503264116
+    },
+    {
+      "date": "2026-06-17",
+      "equity": 9642.212074132927
     }
   ]
 }
