@@ -8,11 +8,11 @@
       "entry_price": 0.6237,
       "shares": 3156.092429517045,
       "entry_value": 2000.0,
-      "current_price": 0.669343,
+      "current_price": 0.678806,
       "peak_price": 0.81899,
       "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 13,
-      "last_update_date": "2026-06-16",
+      "trading_days_held": 14,
+      "last_update_date": "2026-06-17",
       "momentum_7d": 43.51295437988973
     },
     "siren-2": {
@@ -24,8 +24,8 @@
       "current_price": 0.118301,
       "peak_price": 1.29,
       "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 13,
-      "last_update_date": "2026-06-16",
+      "trading_days_held": 14,
+      "last_update_date": "2026-06-17",
       "momentum_7d": 30.319103253378117
     },
     "build-on": {
@@ -34,11 +34,11 @@
       "entry_price": 0.304289,
       "shares": 7444.166677544228,
       "entry_value": 2265.1780341432554,
-      "current_price": 0.238695,
+      "current_price": 0.227679,
       "peak_price": 0.304289,
       "entry_date": "2026-06-08T23:23:01.379975",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-16",
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-17",
       "momentum_7d": 21.93119807269534
     },
     "degen-base": {
@@ -47,11 +47,11 @@
       "entry_price": 0.00152837,
       "shares": 1482087.474985282,
       "entry_value": 2265.1780341432554,
-      "current_price": 0.00162133,
+      "current_price": 0.00154372,
       "peak_price": 0.00176429,
       "entry_date": "2026-06-08T23:23:01.379975",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-16",
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-17",
       "momentum_7d": 49.068251502724216
     },
     "louzi": {
@@ -63,8 +63,8 @@
       "current_price": 0.080991,
       "peak_price": 0.080991,
       "entry_date": "2026-06-08T23:23:01.379975",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-16",
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-17",
       "momentum_7d": 13.245431755984882
     }
   },
@@ -169,6 +169,10 @@
     {
       "date": "2026-06-16",
       "equity": 8962.397611197886
+    },
+    {
+      "date": "2026-06-17",
+      "equity": 8795.233964804971
     }
   ],
   "last_rebalance": "2026-23"
