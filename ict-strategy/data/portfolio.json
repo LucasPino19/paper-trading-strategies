@@ -1,19 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7257.7698671980825,
+  "cash": 5080.438907038658,
   "open_positions": {
     "TLT": {
       "ticker": "TLT",
       "entry_price": 86.33000183105469,
       "shares": 27.620087528795935,
       "entry_value": 2384.442206934844,
-      "current_price": 86.33000183105469,
-      "peak_price": 86.33000183105469,
+      "current_price": 86.75,
+      "peak_price": 86.75,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-17",
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-18",
       "entry_date": "2026-06-17T20:35:09.649279",
       "sps_score": 1.9693949206015309,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "entry_price": 298.010009765625,
+      "shares": 7.30623431700104,
+      "entry_value": 2177.3309601594246,
+      "current_price": 298.010009765625,
+      "peak_price": 298.010009765625,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-18",
+      "entry_date": "2026-06-18T21:02:37.984081",
+      "sps_score": 6.64668290773937,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -217,6 +233,10 @@
     {
       "date": "2026-06-17",
       "equity": 9642.212074132927
+    },
+    {
+      "date": "2026-06-18",
+      "equity": 9653.812460321129
     }
   ]
 }
