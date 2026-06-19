@@ -12,8 +12,8 @@
       "current_price": 0.725,
       "peak_price": 0.725,
       "entry_date": "2026-06-10T00:03:47.322927",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-18"
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-19"
     },
     "0x00cb155d600f0f7641bfb677a564ba842fa76017075486b6ddc558e66a5d7d5b": {
       "ticker": "[YES] Seattle Mariners vs. Baltimore Orioles",
@@ -25,8 +25,8 @@
       "current_price": 0.73,
       "peak_price": 0.73,
       "entry_date": "2026-06-10T00:03:47.322927",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-18"
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-19"
     },
     "0x43c366201a9a4c559552659f3a4df591ec56d9975d8f300be47e2be29224c8e1": {
       "ticker": "[YES] Philadelphia Phillies vs. Toronto Blue",
@@ -38,8 +38,8 @@
       "current_price": 0.615,
       "peak_price": 0.615,
       "entry_date": "2026-06-10T00:03:47.322927",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-18"
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-19"
     },
     "0x9581ddc0227054c2d891ffc1bd5b3d0dcc5ab6833f512d9abd416af8e34b6e61": {
       "ticker": "[YES] Atlanta Braves vs. Chicago White Sox",
@@ -51,8 +51,8 @@
       "current_price": 0.725,
       "peak_price": 0.725,
       "entry_date": "2026-06-10T00:03:47.322927",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-18"
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-19"
     },
     "0x39176a48d8d4004debff0f41647c8e84c83638261e3ad8edd2e6683b6c04aafd": {
       "ticker": "[YES] Los Angeles Dodgers vs. Pittsburgh Pir",
@@ -64,8 +64,8 @@
       "current_price": 0.675,
       "peak_price": 0.675,
       "entry_date": "2026-06-10T00:03:47.322927",
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-18"
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-19"
     }
   },
   "closed_trades": [
@@ -206,6 +206,10 @@
     },
     {
       "date": "2026-06-18",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-06-19",
       "equity": 10000.0
     }
   ]
