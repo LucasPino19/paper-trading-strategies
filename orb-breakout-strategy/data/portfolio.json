@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5960.190873063603,
+  "cash": 4172.133611144523,
   "open_positions": {
     "NVDA": {
       "ticker": "NVDA",
       "entry_price": 212.3249969482422,
       "shares": 9.641682354257776,
       "entry_value": 2047.1701764437028,
-      "current_price": 210.69,
+      "current_price": 208.94000244140625,
       "peak_price": 212.3249969482422,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-19",
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-22",
       "entry_date": "2026-06-15T18:50:50.924538",
       "sps_score": 28.028207360349647,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 396.510009765625,
       "shares": 4.917761901953035,
       "entry_value": 1949.9418197684167,
-      "current_price": 411.35,
+      "current_price": 396.67010498046875,
       "peak_price": 411.35,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-06-19",
+      "trading_days_held": 4,
+      "last_update_date": "2026-06-22",
       "entry_date": "2026-06-17T17:30:08.817057",
       "sps_score": 10.460469087748635,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "entry_price": 408.1600036621094,
+      "shares": 4.380775298599085,
+      "entry_value": 1788.057261919081,
+      "current_price": 408.1600036621094,
+      "peak_price": 408.1600036621094,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-22",
+      "entry_date": "2026-06-22T18:32:21.629227",
+      "sps_score": 23.279240921683883,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -241,6 +257,10 @@
     {
       "date": "2026-06-19",
       "equity": 10014.518286650557
+    },
+    {
+      "date": "2026-06-22",
+      "equity": 9925.453137618148
     }
   ]
 }
