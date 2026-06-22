@@ -2,70 +2,70 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "0xb91bcf97aed2a45f079de5a8683035e8505562523bc2b643518175ee11fb7bed": {
-      "ticker": "[YES] Arizona Diamondbacks vs. Miami Marlins",
+    "0x2d8a8c670430061537dd6cb60c0fee0d0e0a4a3430fd00fcb390301f53e7b4d9": {
+      "ticker": "[YES] Will Uruguay vs. Cabo Verde end in a d",
       "direction": "YES",
-      "condition_id": "0xb91bcf97aed2a45f079de5a8683035e8505562523bc2b643518175ee11fb7bed",
+      "condition_id": "0x2d8a8c670430061537dd6cb60c0fee0d0e0a4a3430fd00fcb390301f53e7b4d9",
       "entry_price": 0.725,
       "shares": 2758.6206896551726,
       "entry_value": 2000.0,
       "current_price": 0.725,
       "peak_price": 0.725,
-      "entry_date": "2026-06-10T00:03:47.322927",
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-20"
+      "entry_date": "2026-06-22T00:01:51.785285",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-22"
     },
-    "0x00cb155d600f0f7641bfb677a564ba842fa76017075486b6ddc558e66a5d7d5b": {
-      "ticker": "[YES] Seattle Mariners vs. Baltimore Orioles",
+    "0xabc55c0f3ed701133905d0751d21cd49c364da8fb51609ffcf6008330c50f77d": {
+      "ticker": "[YES] Uruguay vs. Cabo Verde: O/U 4.5",
       "direction": "YES",
-      "condition_id": "0x00cb155d600f0f7641bfb677a564ba842fa76017075486b6ddc558e66a5d7d5b",
-      "entry_price": 0.73,
-      "shares": 2739.72602739726,
+      "condition_id": "0xabc55c0f3ed701133905d0751d21cd49c364da8fb51609ffcf6008330c50f77d",
+      "entry_price": 0.7055,
+      "shares": 2834.8688873139617,
       "entry_value": 2000.0,
-      "current_price": 0.73,
-      "peak_price": 0.73,
-      "entry_date": "2026-06-10T00:03:47.322927",
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-20"
+      "current_price": 0.7055,
+      "peak_price": 0.7055,
+      "entry_date": "2026-06-22T00:01:51.785285",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-22"
     },
-    "0x43c366201a9a4c559552659f3a4df591ec56d9975d8f300be47e2be29224c8e1": {
-      "ticker": "[YES] Philadelphia Phillies vs. Toronto Blue",
+    "0x96774b432f1fac5ff2980a00b8b4aa21a1d2b131e48af38c08114b29d08984ab": {
+      "ticker": "[YES] New York Mets vs. Philadelphia Phillie",
       "direction": "YES",
-      "condition_id": "0x43c366201a9a4c559552659f3a4df591ec56d9975d8f300be47e2be29224c8e1",
-      "entry_price": 0.615,
-      "shares": 3252.032520325203,
+      "condition_id": "0x96774b432f1fac5ff2980a00b8b4aa21a1d2b131e48af38c08114b29d08984ab",
+      "entry_price": 0.785,
+      "shares": 2547.7707006369424,
       "entry_value": 2000.0,
-      "current_price": 0.615,
-      "peak_price": 0.615,
-      "entry_date": "2026-06-10T00:03:47.322927",
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-20"
+      "current_price": 0.785,
+      "peak_price": 0.785,
+      "entry_date": "2026-06-22T00:01:51.785285",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-22"
     },
-    "0x9581ddc0227054c2d891ffc1bd5b3d0dcc5ab6833f512d9abd416af8e34b6e61": {
-      "ticker": "[YES] Atlanta Braves vs. Chicago White Sox",
+    "0xd92a2b6359ddd1b3bde306d13ffeb68870497c5b715d4c776c3725a433a12f95": {
+      "ticker": "[YES] Uruguay vs. Cabo Verde: Uruguay O/U 2.",
       "direction": "YES",
-      "condition_id": "0x9581ddc0227054c2d891ffc1bd5b3d0dcc5ab6833f512d9abd416af8e34b6e61",
-      "entry_price": 0.725,
-      "shares": 2758.6206896551726,
+      "condition_id": "0xd92a2b6359ddd1b3bde306d13ffeb68870497c5b715d4c776c3725a433a12f95",
+      "entry_price": 0.77,
+      "shares": 2597.402597402597,
       "entry_value": 2000.0,
-      "current_price": 0.725,
-      "peak_price": 0.725,
-      "entry_date": "2026-06-10T00:03:47.322927",
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-20"
+      "current_price": 0.77,
+      "peak_price": 0.77,
+      "entry_date": "2026-06-22T00:01:51.785285",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-22"
     },
-    "0x39176a48d8d4004debff0f41647c8e84c83638261e3ad8edd2e6683b6c04aafd": {
-      "ticker": "[YES] Los Angeles Dodgers vs. Pittsburgh Pir",
+    "0x0f8de21a80996a54ced1327cbf4e0702d417e1f49ec6ebe267bc5664c7f36d90": {
+      "ticker": "[YES] Will New Zealand vs. Egypt end in a dr",
       "direction": "YES",
-      "condition_id": "0x39176a48d8d4004debff0f41647c8e84c83638261e3ad8edd2e6683b6c04aafd",
-      "entry_price": 0.675,
-      "shares": 2962.9629629629626,
+      "condition_id": "0x0f8de21a80996a54ced1327cbf4e0702d417e1f49ec6ebe267bc5664c7f36d90",
+      "entry_price": 0.765,
+      "shares": 2614.37908496732,
       "entry_value": 2000.0,
-      "current_price": 0.675,
-      "peak_price": 0.675,
-      "entry_date": "2026-06-10T00:03:47.322927",
-      "trading_days_held": 9,
-      "last_update_date": "2026-06-20"
+      "current_price": 0.765,
+      "peak_price": 0.765,
+      "entry_date": "2026-06-22T00:01:51.785285",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-22"
     }
   },
   "closed_trades": [
@@ -131,6 +131,71 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-05-31T23:54:22.618789",
       "exit_date": "2026-06-10T00:03:47.322915",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Arizona Diamondbacks vs. Miami Marlins",
+      "entry_price": 0.725,
+      "exit_price": 0.725,
+      "shares": 2758.6206896551726,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-06-10T00:03:47.322927",
+      "exit_date": "2026-06-22T00:01:51.785246",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Seattle Mariners vs. Baltimore Orioles",
+      "entry_price": 0.73,
+      "exit_price": 0.73,
+      "shares": 2739.72602739726,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-06-10T00:03:47.322927",
+      "exit_date": "2026-06-22T00:01:51.785256",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Philadelphia Phillies vs. Toronto Blue",
+      "entry_price": 0.615,
+      "exit_price": 0.615,
+      "shares": 3252.032520325203,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-06-10T00:03:47.322927",
+      "exit_date": "2026-06-22T00:01:51.785264",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Atlanta Braves vs. Chicago White Sox",
+      "entry_price": 0.725,
+      "exit_price": 0.725,
+      "shares": 2758.6206896551726,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-06-10T00:03:47.322927",
+      "exit_date": "2026-06-22T00:01:51.785268",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Los Angeles Dodgers vs. Pittsburgh Pir",
+      "entry_price": 0.675,
+      "exit_price": 0.675,
+      "shares": 2962.9629629629626,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-06-10T00:03:47.322927",
+      "exit_date": "2026-06-22T00:01:51.785272",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -214,6 +279,10 @@
     },
     {
       "date": "2026-06-20",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-06-22",
       "equity": 10000.0
     }
   ]
