@@ -1,51 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4100.95922499211,
+  "cash": 7427.900194279762,
   "open_positions": {
     "SOXX": {
       "ticker": "SOXX",
       "entry_price": 601.2999877929688,
       "shares": 2.8517059344715148,
       "entry_value": 1714.7307435868584,
-      "current_price": 650.72998046875,
+      "current_price": 607.5800170898438,
       "peak_price": 650.72998046875,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-22",
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-23",
       "entry_date": "2026-06-12T17:23:30.792371",
       "sps_score": 91.8294400665114,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "COIN": {
-      "ticker": "COIN",
-      "entry_price": 170.8582000732422,
-      "shares": 10.64372833822856,
-      "entry_value": 1818.5682659382928,
-      "current_price": 165.71499633789062,
-      "peak_price": 172.83999633789062,
-      "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-22",
-      "entry_date": "2026-06-16T18:43:43.123492",
-      "sps_score": 77.34622620449127,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "SMCI": {
-      "ticker": "SMCI",
-      "entry_price": 36.314998626708984,
-      "shares": 48.39746716320676,
-      "entry_value": 1757.5539535680468,
-      "current_price": 36.314998626708984,
-      "peak_price": 36.314998626708984,
-      "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-22",
-      "entry_date": "2026-06-22T18:32:11.839884",
-      "sps_score": 107.70291455235714,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -227,6 +195,50 @@
       "pnl": 11.432715911733112,
       "pnl_pct": 0.00712871941999509,
       "exit_reason": "Stop de tiempo: 10d \u2014 +0.7%"
+    },
+    {
+      "ticker": "COIN",
+      "entry_price": 170.8582000732422,
+      "shares": 10.64372833822856,
+      "entry_value": 1818.5682659382928,
+      "current_price": 158.36000061035156,
+      "peak_price": 172.83999633789062,
+      "volume_spiked": false,
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-23",
+      "entry_date": "2026-06-16T18:43:43.123492",
+      "sps_score": 77.34622620449127,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 158.36000061035156,
+      "exit_date": "2026-06-23T17:00:15.297334",
+      "proceeds": 1685.5408261382909,
+      "pnl": -133.02743980000196,
+      "pnl_pct": -0.07314954422751145,
+      "exit_reason": "Stop loss: -7.3%"
+    },
+    {
+      "ticker": "SMCI",
+      "entry_price": 36.314998626708984,
+      "shares": 48.39746716320676,
+      "entry_value": 1757.5539535680468,
+      "current_price": 33.915000915527344,
+      "peak_price": 36.314998626708984,
+      "volume_spiked": false,
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-23",
+      "entry_date": "2026-06-22T18:32:11.839884",
+      "sps_score": 107.70291455235714,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 33.915000915527344,
+      "exit_date": "2026-06-23T17:00:15.298048",
+      "proceeds": 1641.4001431493618,
+      "pnl": -116.153810418685,
+      "pnl_pct": -0.06608833269833836,
+      "exit_reason": "Stop loss: -6.6%"
     }
   ],
   "equity_history": [
@@ -305,6 +317,10 @@
     {
       "date": "2026-06-22",
       "equity": 9478.029128192473
+    },
+    {
+      "date": "2026-06-23",
+      "equity": 9160.539734681173
     }
   ]
 }
