@@ -12,8 +12,8 @@
       "current_price": 0.725,
       "peak_price": 0.725,
       "entry_date": "2026-06-22T00:01:51.785285",
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-23"
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-24"
     },
     "0xabc55c0f3ed701133905d0751d21cd49c364da8fb51609ffcf6008330c50f77d": {
       "ticker": "[YES] Uruguay vs. Cabo Verde: O/U 4.5",
@@ -25,8 +25,8 @@
       "current_price": 0.7055,
       "peak_price": 0.7055,
       "entry_date": "2026-06-22T00:01:51.785285",
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-23"
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-24"
     },
     "0x96774b432f1fac5ff2980a00b8b4aa21a1d2b131e48af38c08114b29d08984ab": {
       "ticker": "[YES] New York Mets vs. Philadelphia Phillie",
@@ -38,8 +38,8 @@
       "current_price": 0.785,
       "peak_price": 0.785,
       "entry_date": "2026-06-22T00:01:51.785285",
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-23"
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-24"
     },
     "0xd92a2b6359ddd1b3bde306d13ffeb68870497c5b715d4c776c3725a433a12f95": {
       "ticker": "[YES] Uruguay vs. Cabo Verde: Uruguay O/U 2.",
@@ -51,8 +51,8 @@
       "current_price": 0.77,
       "peak_price": 0.77,
       "entry_date": "2026-06-22T00:01:51.785285",
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-23"
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-24"
     },
     "0x0f8de21a80996a54ced1327cbf4e0702d417e1f49ec6ebe267bc5664c7f36d90": {
       "ticker": "[YES] Will New Zealand vs. Egypt end in a dr",
@@ -64,8 +64,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-06-22T00:01:51.785285",
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-23"
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-24"
     }
   },
   "closed_trades": [
@@ -287,6 +287,10 @@
     },
     {
       "date": "2026-06-23",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-06-24",
       "equity": 10000.0
     }
   ]
