@@ -8,11 +8,11 @@
       "entry_price": 0.6237,
       "shares": 2668.938303723581,
       "entry_value": 2000.0,
-      "current_price": 0.71158,
+      "current_price": 0.697028,
       "peak_price": 0.81899,
       "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 20,
-      "last_update_date": "2026-06-23",
+      "trading_days_held": 21,
+      "last_update_date": "2026-06-24",
       "momentum_7d": 43.51295437988973
     },
     "siren-2": {
@@ -21,11 +21,11 @@
       "entry_price": 0.653128,
       "shares": 17231.934941174768,
       "entry_value": 3683.222204899205,
-      "current_price": 0.103654,
+      "current_price": 0.090587,
       "peak_price": 1.29,
       "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 20,
-      "last_update_date": "2026-06-23",
+      "trading_days_held": 21,
+      "last_update_date": "2026-06-24",
       "momentum_7d": 30.319103253378117
     },
     "degen-base": {
@@ -34,11 +34,11 @@
       "entry_price": 0.00152837,
       "shares": 1002589.127692146,
       "entry_value": 2265.1780341432554,
-      "current_price": 0.00190522,
+      "current_price": 0.00181544,
       "peak_price": 0.00190522,
       "entry_date": "2026-06-08T23:23:01.379975",
-      "trading_days_held": 14,
-      "last_update_date": "2026-06-23",
+      "trading_days_held": 15,
+      "last_update_date": "2026-06-24",
       "momentum_7d": 49.068251502724216
     },
     "ai-xovia": {
@@ -50,8 +50,8 @@
       "current_price": 0.508112,
       "peak_price": 0.563541,
       "entry_date": "2026-06-22T23:42:00.446679",
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-23",
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-24",
       "momentum_7d": 39.979143812637375
     },
     "spx6900": {
@@ -60,11 +60,11 @@
       "entry_price": 0.373479,
       "shares": 5061.306170472902,
       "entry_value": 1890.2915672420488,
-      "current_price": 0.344273,
+      "current_price": 0.341981,
       "peak_price": 0.373479,
       "entry_date": "2026-06-22T23:42:00.446679",
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-23",
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-24",
       "momentum_7d": 10.554173166587718
     }
   },
@@ -223,6 +223,10 @@
     {
       "date": "2026-06-23",
       "equity": 9042.311502927481
+    },
+    {
+      "date": "2026-06-24",
+      "equity": 8676.69045322844
     }
   ],
   "last_rebalance": "2026-25"
