@@ -1,40 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4969.36039433143,
-  "open_positions": {
-    "TLT": {
-      "ticker": "TLT",
-      "entry_price": 86.33000183105469,
-      "shares": 27.620087528795935,
-      "entry_value": 2384.442206934844,
-      "current_price": 87.37999725341797,
-      "peak_price": 87.37999725341797,
-      "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-24",
-      "entry_date": "2026-06-17T20:35:09.649279",
-      "sps_score": 1.9693949206015309,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "AAPL": {
-      "ticker": "AAPL",
-      "entry_price": 298.010009765625,
-      "shares": 7.30623431700104,
-      "entry_value": 2177.3309601594246,
-      "current_price": 293.0799865722656,
-      "peak_price": 298.010009765625,
-      "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-06-24",
-      "entry_date": "2026-06-18T21:02:37.984081",
-      "sps_score": 6.64668290773937,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    }
-  },
+  "cash": 9392.285325555968,
+  "open_positions": {},
   "closed_trades": [
     {
       "ticker": "NVDA",
@@ -189,6 +156,50 @@
       "pnl": -111.07851270722767,
       "pnl_pct": -0.0728798664444357,
       "exit_reason": "Stop loss: -7.3%"
+    },
+    {
+      "ticker": "TLT",
+      "entry_price": 86.33000183105469,
+      "shares": 27.620087528795935,
+      "entry_value": 2384.442206934844,
+      "current_price": 87.3499984741211,
+      "peak_price": 87.37999725341797,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-06-25",
+      "entry_date": "2026-06-17T20:35:09.649279",
+      "sps_score": 1.9693949206015309,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 87.3499984741211,
+      "exit_date": "2026-06-25T20:31:36.348976",
+      "proceeds": 2412.614603495416,
+      "pnl": 28.172396560571997,
+      "pnl_pct": 0.011815088861720448,
+      "exit_reason": "Stop de tiempo: 7d \u2014 +1.2%"
+    },
+    {
+      "ticker": "AAPL",
+      "entry_price": 298.010009765625,
+      "shares": 7.30623431700104,
+      "entry_value": 2177.3309601594246,
+      "current_price": 275.1499938964844,
+      "peak_price": 298.010009765625,
+      "volume_spiked": false,
+      "trading_days_held": 6,
+      "last_update_date": "2026-06-25",
+      "entry_date": "2026-06-18T21:02:37.984081",
+      "sps_score": 6.64668290773937,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 275.1499938964844,
+      "exit_date": "2026-06-25T20:31:36.349762",
+      "proceeds": 2010.310327729121,
+      "pnl": -167.02063243030375,
+      "pnl_pct": -0.07670888601063867,
+      "exit_reason": "Stop loss: -7.7%"
     }
   ],
   "equity_history": [
@@ -275,6 +286,10 @@
     {
       "date": "2026-06-24",
       "equity": 9524.114622257273
+    },
+    {
+      "date": "2026-06-25",
+      "equity": 9392.285325555968
     }
   ]
 }
