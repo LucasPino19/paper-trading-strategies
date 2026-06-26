@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5645.7221424460595,
+  "cash": 3952.0054997122415,
   "open_positions": {
     "TQQQ": {
       "ticker": "TQQQ",
       "entry_price": 69.68000030517578,
       "shares": 24.5163238986029,
       "entry_value": 1708.2974567364383,
-      "current_price": 74.47000122070312,
+      "current_price": 73.77310180664062,
       "peak_price": 84.79000091552734,
       "volume_spiked": false,
-      "trading_days_held": 13,
-      "last_update_date": "2026-06-25",
+      "trading_days_held": 14,
+      "last_update_date": "2026-06-26",
       "entry_date": "2026-06-09T17:12:48.676187",
       "sps_score": 31.35552455805371,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 54.744998931884766,
       "shares": 31.14991703513023,
       "entry_value": 1705.3021748165036,
-      "current_price": 58.29499816894531,
+      "current_price": 57.976600646972656,
       "peak_price": 58.29499816894531,
       "volume_spiked": false,
-      "trading_days_held": 12,
-      "last_update_date": "2026-06-25",
+      "trading_days_held": 13,
+      "last_update_date": "2026-06-26",
       "entry_date": "2026-06-10T17:42:52.614472",
       "sps_score": 16.86975729372283,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "META": {
+      "ticker": "META",
+      "entry_price": 555.969970703125,
+      "shares": 3.0464174901241616,
+      "entry_value": 1693.7166427338177,
+      "current_price": 555.969970703125,
+      "peak_price": 555.969970703125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-26",
+      "entry_date": "2026-06-26T16:32:25.364877",
+      "sps_score": 53.556279245062676,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -235,6 +251,10 @@
     {
       "date": "2026-06-25",
       "equity": 9287.337169627885
+    },
+    {
+      "date": "2026-06-26",
+      "equity": 9260.333701474343
     }
   ]
 }
