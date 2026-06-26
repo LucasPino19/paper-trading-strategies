@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5967.572548194913,
+  "cash": 4177.300783736439,
   "open_positions": {
     "AVGO": {
       "ticker": "AVGO",
       "entry_price": 396.510009765625,
       "shares": 4.917761901953035,
       "entry_value": 1949.9418197684167,
-      "current_price": 380.71990966796875,
+      "current_price": 371.2749938964844,
       "peak_price": 411.35,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-06-25",
+      "trading_days_held": 8,
+      "last_update_date": "2026-06-26",
       "entry_date": "2026-06-17T17:30:08.817057",
       "sps_score": 10.460469087748635,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 525.0,
       "shares": 3.334091292702784,
       "entry_value": 1750.3979286689616,
-      "current_price": 525.0,
+      "current_price": 520.2999877929688,
       "peak_price": 525.0,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-25",
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-26",
       "entry_date": "2026-06-25T16:41:11.030933",
       "sps_score": 30.76887678097051,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "entry_price": 383.6799011230469,
+      "shares": 4.666055634444949,
+      "entry_value": 1790.2717644584739,
+      "current_price": 383.6799011230469,
+      "peak_price": 383.6799011230469,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-26",
+      "entry_date": "2026-06-26T16:32:30.833285",
+      "sps_score": 23.279240921683883,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -301,6 +317,10 @@
     {
       "date": "2026-06-25",
       "equity": 9590.260343944014
+    },
+    {
+      "date": "2026-06-26",
+      "equity": 9528.142227220793
     }
   ]
 }
