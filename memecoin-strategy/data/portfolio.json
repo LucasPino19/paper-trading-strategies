@@ -2,70 +2,70 @@
   "initial_capital": 10000.0,
   "cash": 4.547473508864641e-13,
   "open_positions": {
-    "bianrensheng": {
-      "ticker": "\u5e01\u5b89\u4eba\u751f",
-      "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
-      "entry_price": 0.6237,
-      "shares": 2668.938303723581,
-      "entry_value": 2000.0,
-      "current_price": 0.705463,
-      "peak_price": 0.81899,
-      "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 25,
-      "last_update_date": "2026-06-28",
-      "momentum_7d": 43.51295437988973
+    "pump-fun": {
+      "ticker": "PUMP",
+      "name": "Pump.fun",
+      "entry_price": 0.00148405,
+      "shares": 1150824.9580091727,
+      "entry_value": 1707.8817789335128,
+      "current_price": 0.00148405,
+      "peak_price": 0.00148405,
+      "entry_date": "2026-06-29T23:14:45.935424",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-29",
+      "momentum_7d": 1.216015907158112
     },
-    "siren-2": {
-      "ticker": "SIREN",
-      "name": "Siren",
-      "entry_price": 0.653128,
-      "shares": 17231.934941174768,
-      "entry_value": 3683.222204899205,
-      "current_price": 0.086922,
-      "peak_price": 1.29,
-      "entry_date": "2026-06-01T18:39:46.861284",
-      "trading_days_held": 25,
-      "last_update_date": "2026-06-28",
-      "momentum_7d": 30.319103253378117
+    "ordinals": {
+      "ticker": "ORDI",
+      "name": "ORDI",
+      "entry_price": 3.82,
+      "shares": 447.08947092500335,
+      "entry_value": 1707.8817789335128,
+      "current_price": 3.82,
+      "peak_price": 3.82,
+      "entry_date": "2026-06-29T23:14:45.935424",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-29",
+      "momentum_7d": 19.19124164896376
     },
-    "degen-base": {
-      "ticker": "DEGEN",
-      "name": "Degen",
-      "entry_price": 0.00152837,
-      "shares": 1002589.127692146,
-      "entry_value": 2265.1780341432554,
-      "current_price": 0.00160956,
-      "peak_price": 0.00190522,
-      "entry_date": "2026-06-08T23:23:01.379975",
-      "trading_days_held": 19,
-      "last_update_date": "2026-06-28",
-      "momentum_7d": 49.068251502724216
+    "fartcoin": {
+      "ticker": "FARTCOIN",
+      "name": "Fartcoin",
+      "entry_price": 0.140169,
+      "shares": 12184.447195410632,
+      "entry_value": 1707.8817789335128,
+      "current_price": 0.140169,
+      "peak_price": 0.140169,
+      "entry_date": "2026-06-29T23:14:45.935424",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-29",
+      "momentum_7d": 9.398046748363216
     },
-    "ai-xovia": {
-      "ticker": "AIX",
-      "name": "AI XOVIA",
-      "entry_price": 0.563541,
-      "shares": 3354.31063088941,
-      "entry_value": 1890.2915672420488,
-      "current_price": 0.508112,
-      "peak_price": 0.563541,
-      "entry_date": "2026-06-22T23:42:00.446679",
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-28",
-      "momentum_7d": 39.979143812637375
+    "useless-3": {
+      "ticker": "USELESS",
+      "name": "Useless Coin",
+      "entry_price": 0.080371,
+      "shares": 21249.975475401734,
+      "entry_value": 1707.8817789335128,
+      "current_price": 0.080371,
+      "peak_price": 0.080371,
+      "entry_date": "2026-06-29T23:14:45.935424",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-29",
+      "momentum_7d": 15.825546334991097
     },
-    "spx6900": {
-      "ticker": "SPX",
-      "name": "SPX6900",
-      "entry_price": 0.373479,
-      "shares": 5061.306170472902,
-      "entry_value": 1890.2915672420488,
-      "current_price": 0.330312,
-      "peak_price": 0.373479,
-      "entry_date": "2026-06-22T23:42:00.446679",
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-28",
-      "momentum_7d": 10.554173166587718
+    "dogwifcoin": {
+      "ticker": "WIF",
+      "name": "dogwifhat",
+      "entry_price": 0.17753,
+      "shares": 9620.243220489567,
+      "entry_value": 1707.8817789335128,
+      "current_price": 0.17753,
+      "peak_price": 0.17753,
+      "entry_date": "2026-06-29T23:14:45.935424",
+      "trading_days_held": 0,
+      "last_update_date": "2026-06-29",
+      "momentum_7d": 9.04054265185061
     }
   },
   "closed_trades": [
@@ -133,6 +133,71 @@
       "exit_date": "2026-06-22T23:42:00.446679",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 13
+    },
+    {
+      "ticker": "siren-2",
+      "entry_price": 0.653128,
+      "exit_price": 0.090399,
+      "shares": 17231.934941174768,
+      "entry_value": 3683.222204899205,
+      "pnl": -9696.909517512337,
+      "pnl_pct": -0.8615906836026016,
+      "entry_date": "2026-06-01T18:39:46.861284",
+      "exit_date": "2026-06-29T23:14:45.935424",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 26
+    },
+    {
+      "ticker": "bianrensheng",
+      "entry_price": 0.6237,
+      "exit_price": 0.692389,
+      "shares": 2668.938303723581,
+      "entry_value": 2000.0,
+      "pnl": 183.32670314446906,
+      "pnl_pct": 0.1101314734648068,
+      "entry_date": "2026-06-01T18:39:46.861284",
+      "exit_date": "2026-06-29T23:14:45.935424",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 26
+    },
+    {
+      "ticker": "ai-xovia",
+      "entry_price": 0.563541,
+      "exit_price": 0.508112,
+      "shares": 3354.31063088941,
+      "entry_value": 1890.2915672420488,
+      "pnl": -185.92608395956893,
+      "pnl_pct": -0.09835841580293174,
+      "entry_date": "2026-06-22T23:42:00.446679",
+      "exit_date": "2026-06-29T23:14:45.935424",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "degen-base",
+      "entry_price": 0.00152837,
+      "exit_price": 0.00162623,
+      "shares": 1002589.127692146,
+      "entry_value": 2265.1780341432554,
+      "pnl": 98.11337203595336,
+      "pnl_pct": 0.06402899821378329,
+      "entry_date": "2026-06-08T23:23:01.379975",
+      "exit_date": "2026-06-29T23:14:45.935424",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 20
+    },
+    {
+      "ticker": "spx6900",
+      "entry_price": 0.373479,
+      "exit_price": 0.355424,
+      "shares": 5061.306170472902,
+      "entry_value": 1890.2915672420488,
+      "pnl": -91.38188290788818,
+      "pnl_pct": -0.04834274483973661,
+      "entry_date": "2026-06-22T23:42:00.446679",
+      "exit_date": "2026-06-29T23:14:45.935424",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
     }
   ],
   "equity_history": [
@@ -243,7 +308,11 @@
     {
       "date": "2026-06-28",
       "equity": 8370.574474948437
+    },
+    {
+      "date": "2026-06-29",
+      "equity": 8539.408894667564
     }
   ],
-  "last_rebalance": "2026-25"
+  "last_rebalance": "2026-26"
 }
