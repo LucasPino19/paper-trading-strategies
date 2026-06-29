@@ -1,7 +1,24 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9392.285325555968,
-  "open_positions": {},
+  "cash": 6574.599727889177,
+  "open_positions": {
+    "META": {
+      "ticker": "META",
+      "entry_price": 562.5999755859375,
+      "shares": 5.008328688127337,
+      "entry_value": 2817.6855976667903,
+      "current_price": 562.5999755859375,
+      "peak_price": 562.5999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-29",
+      "entry_date": "2026-06-29T20:24:47.547687",
+      "sps_score": 15.773646875710597,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    }
+  },
   "closed_trades": [
     {
       "ticker": "NVDA",
@@ -293,6 +310,10 @@
     },
     {
       "date": "2026-06-26",
+      "equity": 9392.285325555968
+    },
+    {
+      "date": "2026-06-29",
       "equity": 9392.285325555968
     }
   ]
