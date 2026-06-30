@@ -1,24 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8168.2121583315575,
-  "open_positions": {
-    "AAPL": {
-      "ticker": "AAPL",
-      "entry_price": 291.5799865722656,
-      "shares": 5.041498277302626,
-      "entry_value": 1470.0,
-      "current_price": 281.739990234375,
-      "peak_price": 299.239990234375,
-      "volume_spiked": false,
-      "trading_days_held": 14,
-      "last_update_date": "2026-06-29",
-      "entry_date": "2026-06-10T23:09:10.420981",
-      "sps_score": 42.686763597794226,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    }
-  },
+  "cash": 9627.020026001774,
+  "open_positions": {},
   "closed_trades": [
     {
       "ticker": "AMZN",
@@ -63,6 +46,28 @@
       "pnl": -106.7650657052211,
       "pnl_pct": -0.050840507478676716,
       "exit_reason": "Stop de tiempo: 15d \u2014 -5.1%"
+    },
+    {
+      "ticker": "AAPL",
+      "entry_price": 291.5799865722656,
+      "shares": 5.041498277302626,
+      "entry_value": 1470.0,
+      "current_price": 289.3599853515625,
+      "peak_price": 299.239990234375,
+      "volume_spiked": false,
+      "trading_days_held": 15,
+      "last_update_date": "2026-06-30",
+      "entry_date": "2026-06-10T23:09:10.420981",
+      "sps_score": 42.686763597794226,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 289.3599853515625,
+      "exit_date": "2026-06-30T22:50:50.531448",
+      "proceeds": 1458.8078676702155,
+      "pnl": -11.1921323297845,
+      "pnl_pct": -0.007613695462438435,
+      "exit_reason": "Stop de tiempo: 15d \u2014 -0.8%"
     }
   ],
   "equity_history": [
@@ -161,6 +166,10 @@
     {
       "date": "2026-06-29",
       "equity": 9588.603833745417
+    },
+    {
+      "date": "2026-06-30",
+      "equity": 9627.020026001774
     }
   ]
 }
