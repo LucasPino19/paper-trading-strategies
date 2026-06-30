@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6584.404029330532,
+  "cash": 4609.082820531372,
   "open_positions": {
     "AMD": {
       "ticker": "AMD",
       "entry_price": 545.6400146484375,
       "shares": 3.4543984735021165,
       "entry_value": 1884.858033683235,
-      "current_price": 532.52001953125,
-      "peak_price": 545.6400146484375,
+      "current_price": 577.4149780273438,
+      "peak_price": 577.4149780273438,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-06-29",
+      "trading_days_held": 7,
+      "last_update_date": "2026-06-30",
       "entry_date": "2026-06-22T18:02:36.350971",
       "sps_score": 54.48643734075366,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 402.0899963378906,
       "shares": 4.748928850983202,
       "entry_value": 1909.496784300739,
-      "current_price": 402.0899963378906,
-      "peak_price": 402.0899963378906,
+      "current_price": 416.57000732421875,
+      "peak_price": 416.57000732421875,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-29",
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-30",
       "entry_date": "2026-06-29T16:45:15.078588",
       "sps_score": 10.323473908544782,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "QQQ": {
+      "ticker": "QQQ",
+      "entry_price": 734.7550048828125,
+      "shares": 2.6884079668354315,
+      "entry_value": 1975.3212087991594,
+      "current_price": 734.7550048828125,
+      "peak_price": 734.7550048828125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-30",
+      "entry_date": "2026-06-30T16:03:08.927070",
+      "sps_score": 23.927395480933743,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -287,6 +303,10 @@
     {
       "date": "2026-06-29",
       "equity": 10333.437156209337
+    },
+    {
+      "date": "2026-06-30",
+      "equity": 10557.286774241711
     }
   ]
 }
