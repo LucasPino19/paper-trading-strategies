@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6574.599727889177,
+  "cash": 3221.5538666656967,
   "open_positions": {
     "META": {
       "ticker": "META",
       "entry_price": 562.5999755859375,
       "shares": 5.008328688127337,
       "entry_value": 2817.6855976667903,
-      "current_price": 562.5999755859375,
-      "peak_price": 562.5999755859375,
+      "current_price": 563.2899780273438,
+      "peak_price": 563.2899780273438,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-06-29",
+      "trading_days_held": 2,
+      "last_update_date": "2026-06-30",
       "entry_date": "2026-06-29T20:24:47.547687",
       "sps_score": 15.773646875710597,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "QQQ": {
+      "ticker": "QQQ",
+      "entry_price": 736.4000244140625,
+      "shares": 2.678408274003159,
+      "entry_value": 1972.3799183667531,
+      "current_price": 736.4000244140625,
+      "peak_price": 736.4000244140625,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-30",
+      "entry_date": "2026-06-30T20:29:52.480983",
+      "sps_score": 6.211191459723732,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "SPY": {
+      "ticker": "SPY",
+      "entry_price": 746.52001953125,
+      "shares": 1.8494694137253893,
+      "entry_value": 1380.665942856727,
+      "current_price": 746.52001953125,
+      "peak_price": 746.52001953125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-06-30",
+      "entry_date": "2026-06-30T20:29:52.689773",
+      "sps_score": 5.224553258097411,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -315,6 +347,10 @@
     {
       "date": "2026-06-29",
       "equity": 9392.285325555968
+    },
+    {
+      "date": "2026-06-30",
+      "equity": 9395.74108457814
     }
   ]
 }
