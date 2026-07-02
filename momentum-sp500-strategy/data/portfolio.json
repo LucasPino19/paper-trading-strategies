@@ -10,41 +10,41 @@
       "current_price": 391.260009765625,
       "peak_price": 433.3299865722656,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 24,
-      "last_update_date": "2026-07-01"
+      "trading_days_held": 25,
+      "last_update_date": "2026-07-02"
     },
     "AMD": {
       "ticker": "AMD",
       "entry_price": 516.0999755859375,
       "shares": 5.634726709725196,
       "entry_value": 2907.0988506745757,
-      "current_price": 540.8800048828125,
+      "current_price": 517.8200073242188,
       "peak_price": 580.9099731445312,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 24,
-      "last_update_date": "2026-07-01"
+      "trading_days_held": 25,
+      "last_update_date": "2026-07-02"
     },
     "AMAT": {
       "ticker": "AMAT",
       "entry_price": 450.05999755859375,
       "shares": 4.682231239361806,
       "entry_value": 2501.89791551694,
-      "current_price": 650.9099731445312,
+      "current_price": 603.0399780273438,
       "peak_price": 723.0,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 24,
-      "last_update_date": "2026-07-01"
+      "trading_days_held": 25,
+      "last_update_date": "2026-07-02"
     },
     "CAT": {
       "ticker": "CAT",
       "entry_price": 991.4099731445312,
       "shares": 3.0741177644227426,
       "entry_value": 3047.711010269478,
-      "current_price": 991.4099731445312,
+      "current_price": 963.530029296875,
       "peak_price": 991.4099731445312,
       "entry_date": "2026-07-01T22:50:39.393852",
-      "trading_days_held": 0,
-      "last_update_date": "2026-07-01"
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-02"
     }
   },
   "closed_trades": [
@@ -435,6 +435,10 @@
     {
       "date": "2026-07-01",
       "equity": 12190.844041077911
+    },
+    {
+      "date": "2026-07-02",
+      "equity": 11751.062639689324
     }
   ],
   "last_rebalance": "2026-07"
