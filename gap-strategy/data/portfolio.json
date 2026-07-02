@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5874.330546383155,
+  "cash": 4112.031382468209,
   "open_positions": {
     "BAC": {
       "ticker": "BAC",
       "entry_price": 54.744998931884766,
       "shares": 31.14991703513023,
       "entry_value": 1705.3021748165036,
-      "current_price": 58.209999084472656,
-      "peak_price": 58.29499816894531,
+      "current_price": 58.79499816894531,
+      "peak_price": 58.79499816894531,
       "volume_spiked": false,
-      "trading_days_held": 16,
-      "last_update_date": "2026-07-01",
+      "trading_days_held": 17,
+      "last_update_date": "2026-07-02",
       "entry_date": "2026-06-10T17:42:52.614472",
       "sps_score": 16.86975729372283,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 555.969970703125,
       "shares": 3.0464174901241616,
       "entry_value": 1693.7166427338177,
-      "current_price": 618.1099853515625,
+      "current_price": 586.2305297851562,
       "peak_price": 618.1099853515625,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-01",
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-02",
       "entry_date": "2026-06-26T16:32:25.364877",
       "sps_score": 53.556279245062676,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "RXRX": {
+      "ticker": "RXRX",
+      "entry_price": 3.800100088119507,
+      "shares": 463.75072315188055,
+      "entry_value": 1762.2991639149463,
+      "current_price": 3.800100088119507,
+      "peak_price": 3.800100088119507,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-02",
+      "entry_date": "2026-07-02T16:19:55.420477",
+      "sps_score": 56.250020023435056,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -273,6 +289,10 @@
     {
       "date": "2026-07-01",
       "equity": 9570.588258674874
+    },
+    {
+      "date": "2026-07-02",
+      "equity": 9491.69280060869
     }
   ]
 }
