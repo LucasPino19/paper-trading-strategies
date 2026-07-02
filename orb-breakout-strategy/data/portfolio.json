@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4177.300783736439,
+  "cash": 5959.989473194415,
   "open_positions": {
-    "AVGO": {
-      "ticker": "AVGO",
-      "entry_price": 396.510009765625,
-      "shares": 4.917761901953035,
-      "entry_value": 1949.9418197684167,
-      "current_price": 368.864990234375,
-      "peak_price": 411.35,
-      "volume_spiked": false,
-      "trading_days_held": 11,
-      "last_update_date": "2026-07-01",
-      "entry_date": "2026-06-17T17:30:08.817057",
-      "sps_score": 10.460469087748635,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "AMD": {
       "ticker": "AMD",
       "entry_price": 525.0,
       "shares": 3.334091292702784,
       "entry_value": 1750.3979286689616,
-      "current_price": 550.4000244140625,
+      "current_price": 519.4099731445312,
       "peak_price": 577.8499755859375,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-07-01",
+      "trading_days_held": 6,
+      "last_update_date": "2026-07-02",
       "entry_date": "2026-06-25T16:41:11.030933",
       "sps_score": 30.76887678097051,
       "short_float_pct": 0,
@@ -39,11 +23,11 @@
       "entry_price": 383.6799011230469,
       "shares": 4.666055634444949,
       "entry_value": 1790.2717644584739,
-      "current_price": 426.20001220703125,
+      "current_price": 394.58990478515625,
       "peak_price": 426.20001220703125,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-01",
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-02",
       "entry_date": "2026-06-26T16:32:30.833285",
       "sps_score": 23.279240921683883,
       "short_float_pct": 0,
@@ -227,6 +211,28 @@
       "pnl": -163.85946180970018,
       "pnl_pct": -0.08004193481088763,
       "exit_reason": "Stop loss: -8.0%"
+    },
+    {
+      "ticker": "AVGO",
+      "entry_price": 396.510009765625,
+      "shares": 4.917761901953035,
+      "entry_value": 1949.9418197684167,
+      "current_price": 362.5,
+      "peak_price": 411.35,
+      "volume_spiked": false,
+      "trading_days_held": 12,
+      "last_update_date": "2026-07-02",
+      "entry_date": "2026-06-17T17:30:08.817057",
+      "sps_score": 10.460469087748635,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 362.5,
+      "exit_date": "2026-07-02T16:19:50.547447",
+      "proceeds": 1782.6886894579754,
+      "pnl": -167.2531303104413,
+      "pnl_pct": -0.08577339519304478,
+      "exit_reason": "Stop loss: -8.6%"
     }
   ],
   "equity_history": [
@@ -333,6 +339,10 @@
     {
       "date": "2026-07-01",
       "equity": 9815.047876936776
+    },
+    {
+      "date": "2026-07-02",
+      "equity": 9532.928190516457
     }
   ]
 }
