@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5959.989473194415,
+  "cash": 4171.99263123609,
   "open_positions": {
     "AMD": {
       "ticker": "AMD",
       "entry_price": 525.0,
       "shares": 3.334091292702784,
       "entry_value": 1750.3979286689616,
-      "current_price": 519.4099731445312,
+      "current_price": 517.8200073242188,
       "peak_price": 577.8499755859375,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-02",
+      "trading_days_held": 7,
+      "last_update_date": "2026-07-03",
       "entry_date": "2026-06-25T16:41:11.030933",
       "sps_score": 30.76887678097051,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 383.6799011230469,
       "shares": 4.666055634444949,
       "entry_value": 1790.2717644584739,
-      "current_price": 394.58990478515625,
+      "current_price": 393.45001220703125,
       "peak_price": 426.20001220703125,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-07-02",
+      "trading_days_held": 6,
+      "last_update_date": "2026-07-03",
       "entry_date": "2026-06-26T16:32:30.833285",
       "sps_score": 23.279240921683883,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "XLK": {
+      "ticker": "XLK",
+      "entry_price": 180.58999633789062,
+      "shares": 9.90086316084151,
+      "entry_value": 1787.9968419583245,
+      "current_price": 180.58999633789062,
+      "peak_price": 180.58999633789062,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-03",
+      "entry_date": "2026-07-03T16:07:22.543884",
+      "sps_score": 9.024010035797097,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -343,6 +359,10 @@
     {
       "date": "2026-07-02",
       "equity": 9532.928190516457
+    },
+    {
+      "date": "2026-07-03",
+      "equity": 9522.308297132437
     }
   ]
 }
