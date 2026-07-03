@@ -2,70 +2,70 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "0x2d8a8c670430061537dd6cb60c0fee0d0e0a4a3430fd00fcb390301f53e7b4d9": {
-      "ticker": "[YES] Will Uruguay vs. Cabo Verde end in a d",
+    "0x08a73b776cb2196ad40d036466a72d22c7bd784014e7d8abdaec337185512d55": {
+      "ticker": "[YES] Argentina vs. Cabo Verde: O/U 2.5",
       "direction": "YES",
-      "condition_id": "0x2d8a8c670430061537dd6cb60c0fee0d0e0a4a3430fd00fcb390301f53e7b4d9",
-      "entry_price": 0.725,
-      "shares": 2758.6206896551726,
+      "condition_id": "0x08a73b776cb2196ad40d036466a72d22c7bd784014e7d8abdaec337185512d55",
+      "entry_price": 0.625,
+      "shares": 3200.0,
       "entry_value": 2000.0,
-      "current_price": 0.725,
-      "peak_price": 0.725,
-      "entry_date": "2026-06-22T00:01:51.785285",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-02"
+      "current_price": 0.625,
+      "peak_price": 0.625,
+      "entry_date": "2026-07-03T23:53:36.857386",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-03"
     },
-    "0xabc55c0f3ed701133905d0751d21cd49c364da8fb51609ffcf6008330c50f77d": {
-      "ticker": "[YES] Uruguay vs. Cabo Verde: O/U 4.5",
+    "0x826887e3ac134321e8137d47870b4efa84d0263b0864f21feb227c8e024d759e": {
+      "ticker": "[YES] Will Argentina vs. Cabo Verde end in a",
       "direction": "YES",
-      "condition_id": "0xabc55c0f3ed701133905d0751d21cd49c364da8fb51609ffcf6008330c50f77d",
-      "entry_price": 0.7055,
-      "shares": 2834.8688873139617,
+      "condition_id": "0x826887e3ac134321e8137d47870b4efa84d0263b0864f21feb227c8e024d759e",
+      "entry_price": 0.655,
+      "shares": 3053.4351145038167,
       "entry_value": 2000.0,
-      "current_price": 0.7055,
-      "peak_price": 0.7055,
-      "entry_date": "2026-06-22T00:01:51.785285",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-02"
+      "current_price": 0.655,
+      "peak_price": 0.655,
+      "entry_date": "2026-07-03T23:53:36.857386",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-03"
     },
-    "0x96774b432f1fac5ff2980a00b8b4aa21a1d2b131e48af38c08114b29d08984ab": {
-      "ticker": "[YES] New York Mets vs. Philadelphia Phillie",
+    "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894": {
+      "ticker": "[YES] Will France win the 2026 FIFA World Cu",
       "direction": "YES",
-      "condition_id": "0x96774b432f1fac5ff2980a00b8b4aa21a1d2b131e48af38c08114b29d08984ab",
-      "entry_price": 0.785,
-      "shares": 2547.7707006369424,
+      "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "entry_price": 0.6515,
+      "shares": 3069.838833461243,
       "entry_value": 2000.0,
-      "current_price": 0.785,
-      "peak_price": 0.785,
-      "entry_date": "2026-06-22T00:01:51.785285",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-02"
+      "current_price": 0.6515,
+      "peak_price": 0.6515,
+      "entry_date": "2026-07-03T23:53:36.857386",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-03"
     },
-    "0xd92a2b6359ddd1b3bde306d13ffeb68870497c5b715d4c776c3725a433a12f95": {
-      "ticker": "[YES] Uruguay vs. Cabo Verde: Uruguay O/U 2.",
+    "0xd0c7f55c65db2228dd2ae663f130686f452f507fb0d74bc7452a0fce1cd46100": {
+      "ticker": "[YES] Exact Score: Argentina 2 - 1 Cabo Verd",
       "direction": "YES",
-      "condition_id": "0xd92a2b6359ddd1b3bde306d13ffeb68870497c5b715d4c776c3725a433a12f95",
-      "entry_price": 0.77,
-      "shares": 2597.402597402597,
+      "condition_id": "0xd0c7f55c65db2228dd2ae663f130686f452f507fb0d74bc7452a0fce1cd46100",
+      "entry_price": 0.71,
+      "shares": 2816.9014084507044,
       "entry_value": 2000.0,
-      "current_price": 0.77,
-      "peak_price": 0.77,
-      "entry_date": "2026-06-22T00:01:51.785285",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-02"
+      "current_price": 0.71,
+      "peak_price": 0.71,
+      "entry_date": "2026-07-03T23:53:36.857386",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-03"
     },
-    "0x0f8de21a80996a54ced1327cbf4e0702d417e1f49ec6ebe267bc5664c7f36d90": {
-      "ticker": "[YES] Will New Zealand vs. Egypt end in a dr",
+    "0x17a69a74b7603ef1a246854cfbfd5066dcae4db85ab44a0c6492e80fd8787d78": {
+      "ticker": "[YES] Exact Score: Argentina 1 - 1 Cabo Verd",
       "direction": "YES",
-      "condition_id": "0x0f8de21a80996a54ced1327cbf4e0702d417e1f49ec6ebe267bc5664c7f36d90",
-      "entry_price": 0.765,
-      "shares": 2614.37908496732,
+      "condition_id": "0x17a69a74b7603ef1a246854cfbfd5066dcae4db85ab44a0c6492e80fd8787d78",
+      "entry_price": 0.633,
+      "shares": 3159.55766192733,
       "entry_value": 2000.0,
-      "current_price": 0.765,
-      "peak_price": 0.765,
-      "entry_date": "2026-06-22T00:01:51.785285",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-02"
+      "current_price": 0.633,
+      "peak_price": 0.633,
+      "entry_date": "2026-07-03T23:53:36.857386",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-03"
     }
   },
   "closed_trades": [
@@ -198,6 +198,71 @@
       "exit_date": "2026-06-22T00:01:51.785272",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Uruguay vs. Cabo Verde end in a d",
+      "entry_price": 0.725,
+      "exit_price": 0.725,
+      "shares": 2758.6206896551726,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-06-22T00:01:51.785285",
+      "exit_date": "2026-07-03T23:53:36.857348",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Uruguay vs. Cabo Verde: O/U 4.5",
+      "entry_price": 0.7055,
+      "exit_price": 0.7055,
+      "shares": 2834.8688873139617,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-06-22T00:01:51.785285",
+      "exit_date": "2026-07-03T23:53:36.857358",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] New York Mets vs. Philadelphia Phillie",
+      "entry_price": 0.785,
+      "exit_price": 0.785,
+      "shares": 2547.7707006369424,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-06-22T00:01:51.785285",
+      "exit_date": "2026-07-03T23:53:36.857366",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Uruguay vs. Cabo Verde: Uruguay O/U 2.",
+      "entry_price": 0.77,
+      "exit_price": 0.77,
+      "shares": 2597.402597402597,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-06-22T00:01:51.785285",
+      "exit_date": "2026-07-03T23:53:36.857371",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will New Zealand vs. Egypt end in a dr",
+      "entry_price": 0.765,
+      "exit_price": 0.765,
+      "shares": 2614.37908496732,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-06-22T00:01:51.785285",
+      "exit_date": "2026-07-03T23:53:36.857374",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -319,6 +384,10 @@
     },
     {
       "date": "2026-07-02",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-07-03",
       "equity": 10000.0
     }
   ]
