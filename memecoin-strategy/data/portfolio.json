@@ -1,71 +1,71 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4.547473508864641e-13,
+  "cash": 9.094947017729282e-13,
   "open_positions": {
     "pump-fun": {
       "ticker": "PUMP",
       "name": "Pump.fun",
       "entry_price": 0.00148405,
-      "shares": 1150824.9580091727,
+      "shares": 1124490.9962208034,
       "entry_value": 1707.8817789335128,
-      "current_price": 0.00164003,
+      "current_price": 0.00163852,
       "peak_price": 0.00164003,
       "entry_date": "2026-06-29T23:14:45.935424",
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-05",
+      "trading_days_held": 7,
+      "last_update_date": "2026-07-06",
       "momentum_7d": 1.216015907158112
     },
-    "ordinals": {
-      "ticker": "ORDI",
-      "name": "ORDI",
-      "entry_price": 3.82,
-      "shares": 447.08947092500335,
-      "entry_value": 1707.8817789335128,
-      "current_price": 3.29,
-      "peak_price": 3.82,
-      "entry_date": "2026-06-29T23:14:45.935424",
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-05",
-      "momentum_7d": 19.19124164896376
+    "bonk": {
+      "ticker": "BONK",
+      "name": "Bonk",
+      "entry_price": 4.46e-06,
+      "shares": 413116813.2573343,
+      "entry_value": 1842.5009871277107,
+      "current_price": 4.46e-06,
+      "peak_price": 4.46e-06,
+      "entry_date": "2026-07-06T23:21:22.909135",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-06",
+      "momentum_7d": 3.688767524951717
     },
-    "fartcoin": {
-      "ticker": "FARTCOIN",
-      "name": "Fartcoin",
-      "entry_price": 0.140169,
-      "shares": 12184.447195410632,
-      "entry_value": 1707.8817789335128,
-      "current_price": 0.162566,
-      "peak_price": 0.170067,
-      "entry_date": "2026-06-29T23:14:45.935424",
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-05",
-      "momentum_7d": 9.398046748363216
+    "memecore": {
+      "ticker": "M",
+      "name": "MemeCore",
+      "entry_price": 1.19,
+      "shares": 1548.320157250177,
+      "entry_value": 1842.5009871277107,
+      "current_price": 1.19,
+      "peak_price": 1.19,
+      "entry_date": "2026-07-06T23:21:22.909135",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-06",
+      "momentum_7d": 101.2277138032623
     },
-    "useless-3": {
-      "ticker": "USELESS",
-      "name": "Useless Coin",
-      "entry_price": 0.080371,
-      "shares": 21249.975475401734,
-      "entry_value": 1707.8817789335128,
-      "current_price": 0.092253,
-      "peak_price": 0.092253,
-      "entry_date": "2026-06-29T23:14:45.935424",
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-05",
-      "momentum_7d": 15.825546334991097
+    "the-black-bull": {
+      "ticker": "ANSEM",
+      "name": "The Black Bull",
+      "entry_price": 0.429069,
+      "shares": 4294.183423010543,
+      "entry_value": 1842.5009871277107,
+      "current_price": 0.429069,
+      "peak_price": 0.429069,
+      "entry_date": "2026-07-06T23:21:22.909135",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-06",
+      "momentum_7d": 264.88228891537517
     },
-    "dogwifcoin": {
-      "ticker": "WIF",
-      "name": "dogwifhat",
-      "entry_price": 0.17753,
-      "shares": 9620.243220489567,
-      "entry_value": 1707.8817789335128,
-      "current_price": 0.178703,
-      "peak_price": 0.181109,
-      "entry_date": "2026-06-29T23:14:45.935424",
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-05",
-      "momentum_7d": 9.04054265185061
+    "pudgy-penguins": {
+      "ticker": "PENGU",
+      "name": "Pudgy Penguins",
+      "entry_price": 0.00681429,
+      "shares": 270387.8154771386,
+      "entry_value": 1842.5009871277107,
+      "current_price": 0.00681429,
+      "peak_price": 0.00681429,
+      "entry_date": "2026-07-06T23:21:22.909135",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-06",
+      "momentum_7d": 8.666677887460597
     }
   },
   "closed_trades": [
@@ -196,6 +196,58 @@
       "pnl_pct": -0.04834274483973661,
       "entry_date": "2026-06-22T23:42:00.446679",
       "exit_date": "2026-06-29T23:14:45.935424",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "dogwifcoin",
+      "entry_price": 0.17753,
+      "exit_price": 0.172703,
+      "shares": 9620.243220489567,
+      "entry_value": 1707.8817789335128,
+      "pnl": -46.43691402530312,
+      "pnl_pct": -0.027189770742973008,
+      "entry_date": "2026-06-29T23:14:45.935424",
+      "exit_date": "2026-07-06T23:21:22.909135",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "ordinals",
+      "entry_price": 3.82,
+      "exit_price": 3.49,
+      "shares": 447.08947092500335,
+      "entry_value": 1707.8817789335128,
+      "pnl": -147.53952540525094,
+      "pnl_pct": -0.08638743455497373,
+      "entry_date": "2026-06-29T23:14:45.935424",
+      "exit_date": "2026-07-06T23:21:22.909135",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "useless-3",
+      "entry_price": 0.080371,
+      "exit_price": 0.098781,
+      "shares": 21249.975475401734,
+      "entry_value": 1707.8817789335128,
+      "pnl": 391.2120485021458,
+      "pnl_pct": 0.229062721628448,
+      "entry_date": "2026-06-29T23:14:45.935424",
+      "exit_date": "2026-07-06T23:21:22.909135",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "fartcoin",
+      "entry_price": 0.140169,
+      "exit_price": 0.164634,
+      "shares": 12184.447195410632,
+      "entry_value": 1707.8817789335128,
+      "pnl": 298.0925006357213,
+      "pnl_pct": 0.1745393061233227,
+      "entry_date": "2026-06-29T23:14:45.935424",
+      "exit_date": "2026-07-06T23:21:22.909135",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 7
     }
@@ -336,7 +388,11 @@
     {
       "date": "2026-07-05",
       "equity": 9018.628969759553
+    },
+    {
+      "date": "2026-07-06",
+      "equity": 9212.504935638553
     }
   ],
-  "last_rebalance": "2026-26"
+  "last_rebalance": "2026-27"
 }
