@@ -7,44 +7,44 @@
       "entry_price": 318.17999267578125,
       "shares": 7.7894774170637495,
       "entry_value": 2511.4174623489444,
-      "current_price": 351.4100036621094,
+      "current_price": 350.20001220703125,
       "peak_price": 433.3299865722656,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 26,
-      "last_update_date": "2026-07-03"
+      "trading_days_held": 27,
+      "last_update_date": "2026-07-06"
     },
     "AMD": {
       "ticker": "AMD",
       "entry_price": 516.0999755859375,
       "shares": 5.634726709725196,
       "entry_value": 2907.0988506745757,
-      "current_price": 517.8200073242188,
+      "current_price": 552.0499877929688,
       "peak_price": 580.9099731445312,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 26,
-      "last_update_date": "2026-07-03"
+      "trading_days_held": 27,
+      "last_update_date": "2026-07-06"
     },
     "AMAT": {
       "ticker": "AMAT",
       "entry_price": 450.05999755859375,
       "shares": 4.682231239361806,
       "entry_value": 2501.89791551694,
-      "current_price": 603.0399780273438,
+      "current_price": 592.7899780273438,
       "peak_price": 723.0,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 26,
-      "last_update_date": "2026-07-03"
+      "trading_days_held": 27,
+      "last_update_date": "2026-07-06"
     },
     "CAT": {
       "ticker": "CAT",
       "entry_price": 991.4099731445312,
       "shares": 3.0741177644227426,
       "entry_value": 3047.711010269478,
-      "current_price": 963.530029296875,
+      "current_price": 969.9199829101562,
       "peak_price": 991.4099731445312,
       "entry_date": "2026-07-01T22:50:39.393852",
-      "trading_days_held": 2,
-      "last_update_date": "2026-07-03"
+      "trading_days_held": 3,
+      "last_update_date": "2026-07-06"
     }
   },
   "closed_trades": [
@@ -443,6 +443,10 @@
     {
       "date": "2026-07-03",
       "equity": 11440.651917076137
+    },
+    {
+      "date": "2026-07-06",
+      "equity": 11595.75390089557
     }
   ],
   "last_rebalance": "2026-07"
