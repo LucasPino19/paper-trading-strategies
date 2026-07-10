@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5643.282012783076,
+  "cash": 3950.2974089481536,
   "open_positions": {
     "TSLA": {
       "ticker": "TSLA",
       "entry_price": 417.2650146484375,
       "shares": 4.216896253642355,
       "entry_value": 1759.5632770470186,
-      "current_price": 402.860107421875,
+      "current_price": 410.989990234375,
       "peak_price": 426.1650085449219,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-07-09",
+      "trading_days_held": 9,
+      "last_update_date": "2026-07-10",
       "entry_date": "2026-06-30T16:37:10.380056",
       "sps_score": 113.87466253845501,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 93.83000183105469,
       "shares": 18.12270396938872,
       "entry_value": 1700.4533466314056,
-      "current_price": 94.81999969482422,
+      "current_price": 94.58999633789062,
       "peak_price": 94.81999969482422,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-07-09",
+      "trading_days_held": 3,
+      "last_update_date": "2026-07-10",
       "entry_date": "2026-07-08T16:14:45.740397",
       "sps_score": 83.54782361297563,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "SMCI": {
+      "ticker": "SMCI",
+      "entry_price": 28.885000228881836,
+      "shares": 58.61120271489988,
+      "entry_value": 1692.9846038349228,
+      "current_price": 28.885000228881836,
+      "peak_price": 28.885000228881836,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-10",
+      "entry_date": "2026-07-10T16:37:09.382597",
+      "sps_score": 107.70291455235714,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -473,6 +489,10 @@
     {
       "date": "2026-07-09",
       "equity": 9060.496075359166
+    },
+    {
+      "date": "2026-07-10",
+      "equity": 9090.610664984077
     }
   ]
 }
