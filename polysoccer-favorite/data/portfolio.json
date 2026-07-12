@@ -12,8 +12,8 @@
       "current_price": 0.625,
       "peak_price": 0.625,
       "entry_date": "2026-07-03T23:53:36.857386",
-      "trading_days_held": 8,
-      "last_update_date": "2026-07-11"
+      "trading_days_held": 9,
+      "last_update_date": "2026-07-12"
     },
     "0x826887e3ac134321e8137d47870b4efa84d0263b0864f21feb227c8e024d759e": {
       "ticker": "[YES] Will Argentina vs. Cabo Verde end in a",
@@ -25,8 +25,8 @@
       "current_price": 0.655,
       "peak_price": 0.655,
       "entry_date": "2026-07-03T23:53:36.857386",
-      "trading_days_held": 8,
-      "last_update_date": "2026-07-11"
+      "trading_days_held": 9,
+      "last_update_date": "2026-07-12"
     },
     "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894": {
       "ticker": "[YES] Will France win the 2026 FIFA World Cu",
@@ -35,11 +35,11 @@
       "entry_price": 0.6515,
       "shares": 3069.838833461243,
       "entry_value": 2000.0,
-      "current_price": 0.6135,
+      "current_price": 0.6115,
       "peak_price": 0.6745,
       "entry_date": "2026-07-03T23:53:36.857386",
-      "trading_days_held": 8,
-      "last_update_date": "2026-07-11"
+      "trading_days_held": 9,
+      "last_update_date": "2026-07-12"
     },
     "0xd0c7f55c65db2228dd2ae663f130686f452f507fb0d74bc7452a0fce1cd46100": {
       "ticker": "[YES] Exact Score: Argentina 2 - 1 Cabo Verd",
@@ -51,8 +51,8 @@
       "current_price": 0.71,
       "peak_price": 0.71,
       "entry_date": "2026-07-03T23:53:36.857386",
-      "trading_days_held": 8,
-      "last_update_date": "2026-07-11"
+      "trading_days_held": 9,
+      "last_update_date": "2026-07-12"
     },
     "0x17a69a74b7603ef1a246854cfbfd5066dcae4db85ab44a0c6492e80fd8787d78": {
       "ticker": "[YES] Exact Score: Argentina 1 - 1 Cabo Verd",
@@ -64,8 +64,8 @@
       "current_price": 0.633,
       "peak_price": 0.633,
       "entry_date": "2026-07-03T23:53:36.857386",
-      "trading_days_held": 8,
-      "last_update_date": "2026-07-11"
+      "trading_days_held": 9,
+      "last_update_date": "2026-07-12"
     }
   },
   "closed_trades": [
@@ -421,6 +421,10 @@
     {
       "date": "2026-07-11",
       "equity": 9883.346124328473
+    },
+    {
+      "date": "2026-07-12",
+      "equity": 9877.20644666155
     }
   ]
 }
