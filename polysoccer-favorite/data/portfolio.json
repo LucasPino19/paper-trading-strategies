@@ -1,71 +1,71 @@
 {
   "initial_capital": 10000.0,
-  "cash": 0.0,
+  "cash": 4.547473508864641e-13,
   "open_positions": {
-    "0x08a73b776cb2196ad40d036466a72d22c7bd784014e7d8abdaec337185512d55": {
-      "ticker": "[YES] Argentina vs. Cabo Verde: O/U 2.5",
-      "direction": "YES",
-      "condition_id": "0x08a73b776cb2196ad40d036466a72d22c7bd784014e7d8abdaec337185512d55",
-      "entry_price": 0.625,
-      "shares": 3200.0,
-      "entry_value": 2000.0,
-      "current_price": 0.625,
-      "peak_price": 0.625,
-      "entry_date": "2026-07-03T23:53:36.857386",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-12"
-    },
-    "0x826887e3ac134321e8137d47870b4efa84d0263b0864f21feb227c8e024d759e": {
-      "ticker": "[YES] Will Argentina vs. Cabo Verde end in a",
-      "direction": "YES",
-      "condition_id": "0x826887e3ac134321e8137d47870b4efa84d0263b0864f21feb227c8e024d759e",
-      "entry_price": 0.655,
-      "shares": 3053.4351145038167,
-      "entry_value": 2000.0,
-      "current_price": 0.655,
-      "peak_price": 0.655,
-      "entry_date": "2026-07-03T23:53:36.857386",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-12"
-    },
     "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894": {
       "ticker": "[YES] Will France win the 2026 FIFA World Cu",
       "direction": "YES",
       "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
-      "entry_price": 0.6515,
-      "shares": 3069.838833461243,
-      "entry_value": 2000.0,
-      "current_price": 0.6115,
-      "peak_price": 0.6745,
-      "entry_date": "2026-07-03T23:53:36.857386",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-12"
+      "entry_price": 0.6105,
+      "shares": 3234.770387494869,
+      "entry_value": 1974.8273215656177,
+      "current_price": 0.6105,
+      "peak_price": 0.6105,
+      "entry_date": "2026-07-13T23:40:18.711823",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-13"
     },
-    "0xd0c7f55c65db2228dd2ae663f130686f452f507fb0d74bc7452a0fce1cd46100": {
-      "ticker": "[YES] Exact Score: Argentina 2 - 1 Cabo Verd",
+    "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892": {
+      "ticker": "[YES] Will Spain win the 2026 FIFA World Cup",
       "direction": "YES",
-      "condition_id": "0xd0c7f55c65db2228dd2ae663f130686f452f507fb0d74bc7452a0fce1cd46100",
-      "entry_price": 0.71,
-      "shares": 2816.9014084507044,
-      "entry_value": 2000.0,
-      "current_price": 0.71,
-      "peak_price": 0.71,
-      "entry_date": "2026-07-03T23:53:36.857386",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-12"
+      "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+      "entry_price": 0.7875,
+      "shares": 2507.7172337341176,
+      "entry_value": 1974.8273215656177,
+      "current_price": 0.7875,
+      "peak_price": 0.7875,
+      "entry_date": "2026-07-13T23:40:18.711823",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-13"
     },
-    "0x17a69a74b7603ef1a246854cfbfd5066dcae4db85ab44a0c6492e80fd8787d78": {
-      "ticker": "[YES] Exact Score: Argentina 1 - 1 Cabo Verd",
+    "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f": {
+      "ticker": "[YES] Will England win the 2026 FIFA World C",
       "direction": "YES",
-      "condition_id": "0x17a69a74b7603ef1a246854cfbfd5066dcae4db85ab44a0c6492e80fd8787d78",
-      "entry_price": 0.633,
-      "shares": 3159.55766192733,
-      "entry_value": 2000.0,
-      "current_price": 0.633,
-      "peak_price": 0.633,
-      "entry_date": "2026-07-03T23:53:36.857386",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-12"
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "entry_price": 0.7775,
+      "shares": 2539.97083159565,
+      "entry_value": 1974.8273215656177,
+      "current_price": 0.7775,
+      "peak_price": 0.7775,
+      "entry_date": "2026-07-13T23:40:18.711823",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-13"
+    },
+    "0x3b9204e0fcba9234e3eaca1a941a342e4ce82aeb4ba373c668f2e8a72f1d41de": {
+      "ticker": "[YES] Will France vs. Spain end in a draw?",
+      "direction": "YES",
+      "condition_id": "0x3b9204e0fcba9234e3eaca1a941a342e4ce82aeb4ba373c668f2e8a72f1d41de",
+      "entry_price": 0.70125,
+      "shares": 2816.1530432308273,
+      "entry_value": 1974.8273215656177,
+      "current_price": 0.70125,
+      "peak_price": 0.70125,
+      "entry_date": "2026-07-13T23:40:18.711823",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-13"
+    },
+    "0xfa0717cc2be9fb8434051b76caf38f539c102e6283edcdfbee2c35d79f46b1ee": {
+      "ticker": "[YES] France vs. Spain: O/U 3.5",
+      "direction": "YES",
+      "condition_id": "0xfa0717cc2be9fb8434051b76caf38f539c102e6283edcdfbee2c35d79f46b1ee",
+      "entry_price": 0.70375,
+      "shares": 2806.148947162512,
+      "entry_value": 1974.8273215656177,
+      "current_price": 0.70375,
+      "peak_price": 0.70375,
+      "entry_date": "2026-07-13T23:40:18.711823",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-13"
     }
   },
   "closed_trades": [
@@ -263,6 +263,71 @@
       "exit_date": "2026-07-03T23:53:36.857374",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Argentina vs. Cabo Verde: O/U 2.5",
+      "entry_price": 0.625,
+      "exit_price": 0.625,
+      "shares": 3200.0,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-07-03T23:53:36.857386",
+      "exit_date": "2026-07-13T23:40:18.711786",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Argentina vs. Cabo Verde end in a",
+      "entry_price": 0.655,
+      "exit_price": 0.655,
+      "shares": 3053.4351145038167,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-07-03T23:53:36.857386",
+      "exit_date": "2026-07-13T23:40:18.711795",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will France win the 2026 FIFA World Cu",
+      "entry_price": 0.6515,
+      "exit_price": 0.6105,
+      "shares": 3069.838833461243,
+      "entry_value": 2000.0,
+      "pnl": -125.86339217191075,
+      "pnl_pct": -0.06293169608595538,
+      "entry_date": "2026-07-03T23:53:36.857386",
+      "exit_date": "2026-07-13T23:40:18.711802",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Exact Score: Argentina 2 - 1 Cabo Verd",
+      "entry_price": 0.71,
+      "exit_price": 0.71,
+      "shares": 2816.9014084507044,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-07-03T23:53:36.857386",
+      "exit_date": "2026-07-13T23:40:18.711808",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Exact Score: Argentina 1 - 1 Cabo Verd",
+      "entry_price": 0.633,
+      "exit_price": 0.633,
+      "shares": 3159.55766192733,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-07-03T23:53:36.857386",
+      "exit_date": "2026-07-13T23:40:18.711812",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -425,6 +490,10 @@
     {
       "date": "2026-07-12",
       "equity": 9877.20644666155
+    },
+    {
+      "date": "2026-07-13",
+      "equity": 9874.136607828088
     }
   ]
 }
