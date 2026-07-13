@@ -1,71 +1,32 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9.094947017729282e-13,
+  "cash": 0.0,
   "open_positions": {
-    "pump-fun": {
-      "ticker": "PUMP",
-      "name": "Pump.fun",
-      "entry_price": 0.00148405,
-      "shares": 1124490.9962208034,
-      "entry_value": 1707.8817789335128,
-      "current_price": 0.00144551,
-      "peak_price": 0.00164003,
-      "entry_date": "2026-06-29T23:14:45.935424",
-      "trading_days_held": 13,
-      "last_update_date": "2026-07-12",
-      "momentum_7d": 1.216015907158112
-    },
-    "bonk": {
-      "ticker": "BONK",
-      "name": "Bonk",
-      "entry_price": 4.46e-06,
-      "shares": 413116813.2573343,
-      "entry_value": 1842.5009871277107,
-      "current_price": 3.95e-06,
-      "peak_price": 4.46e-06,
-      "entry_date": "2026-07-06T23:21:22.909135",
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-12",
-      "momentum_7d": 3.688767524951717
-    },
     "memecore": {
       "ticker": "M",
       "name": "MemeCore",
       "entry_price": 1.19,
-      "shares": 1548.320157250177,
-      "entry_value": 1842.5009871277107,
-      "current_price": 1.25,
+      "shares": 3200.850565575877,
+      "entry_value": 3858.5880852850646,
+      "current_price": 1.22,
       "peak_price": 1.32,
       "entry_date": "2026-07-06T23:21:22.909135",
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-12",
+      "trading_days_held": 7,
+      "last_update_date": "2026-07-13",
       "momentum_7d": 101.2277138032623
     },
-    "the-black-bull": {
-      "ticker": "ANSEM",
-      "name": "The Black Bull",
-      "entry_price": 0.429069,
-      "shares": 4294.183423010543,
-      "entry_value": 1842.5009871277107,
-      "current_price": 0.262559,
-      "peak_price": 0.429069,
-      "entry_date": "2026-07-06T23:21:22.909135",
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-12",
-      "momentum_7d": 264.88228891537517
-    },
-    "pudgy-penguins": {
-      "ticker": "PENGU",
-      "name": "Pudgy Penguins",
-      "entry_price": 0.00681429,
-      "shares": 270387.8154771386,
-      "entry_value": 1842.5009871277107,
-      "current_price": 0.00596597,
-      "peak_price": 0.00681429,
-      "entry_date": "2026-07-06T23:21:22.909135",
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-12",
-      "momentum_7d": 8.666677887460597
+    "comedian": {
+      "ticker": "BAN",
+      "name": "Comedian",
+      "entry_price": 0.074587,
+      "shares": 52355.473339892604,
+      "entry_value": 3905.03769000257,
+      "current_price": 0.074587,
+      "peak_price": 0.074587,
+      "entry_date": "2026-07-13T23:10:18.595036",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-13",
+      "momentum_7d": 1.7297500772602048
     }
   },
   "closed_trades": [
@@ -250,6 +211,58 @@
       "exit_date": "2026-07-06T23:21:22.909135",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 7
+    },
+    {
+      "ticker": "the-black-bull",
+      "entry_price": 0.429069,
+      "exit_price": 0.282963,
+      "shares": 4294.183423010543,
+      "entry_value": 1842.5009871277107,
+      "pnl": -627.4059632023783,
+      "pnl_pct": -0.3405186578382497,
+      "entry_date": "2026-07-06T23:21:22.909135",
+      "exit_date": "2026-07-13T23:10:18.595036",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "pump-fun",
+      "entry_price": 0.00148405,
+      "exit_price": 0.00146669,
+      "shares": 1124490.9962208034,
+      "entry_value": 1707.8817789335128,
+      "pnl": -19.521163694393035,
+      "pnl_pct": -0.011697719079545772,
+      "entry_date": "2026-06-29T23:14:45.935424",
+      "exit_date": "2026-07-13T23:10:18.595036",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 14
+    },
+    {
+      "ticker": "pudgy-penguins",
+      "entry_price": 0.00681429,
+      "exit_price": 0.00574362,
+      "shares": 270387.8154771386,
+      "entry_value": 1842.5009871277107,
+      "pnl": -289.49612239690805,
+      "pnl_pct": -0.15712128482938065,
+      "entry_date": "2026-07-06T23:21:22.909135",
+      "exit_date": "2026-07-13T23:10:18.595036",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "bonk",
+      "entry_price": 4.46e-06,
+      "exit_price": 3.64e-06,
+      "shares": 413116813.2573343,
+      "entry_value": 1842.5009871277107,
+      "pnl": -338.75578687101404,
+      "pnl_pct": -0.18385650224215244,
+      "entry_date": "2026-07-06T23:21:22.909135",
+      "exit_date": "2026-07-13T23:10:18.595036",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
     }
   ],
   "equity_history": [
@@ -416,7 +429,11 @@
     {
       "date": "2026-07-12",
       "equity": 7933.2766897406955
+    },
+    {
+      "date": "2026-07-13",
+      "equity": 7810.07538000514
     }
   ],
-  "last_rebalance": "2026-27"
+  "last_rebalance": "2026-28"
 }
