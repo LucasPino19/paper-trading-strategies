@@ -1,35 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4187.481652843407,
+  "cash": 5776.94093338478,
   "open_positions": {
     "META": {
       "ticker": "META",
       "entry_price": 555.969970703125,
       "shares": 3.0464174901241616,
       "entry_value": 1693.7166427338177,
-      "current_price": 667.8499755859375,
+      "current_price": 658.8800048828125,
       "peak_price": 667.8499755859375,
       "volume_spiked": false,
-      "trading_days_held": 11,
-      "last_update_date": "2026-07-10",
+      "trading_days_held": 12,
+      "last_update_date": "2026-07-13",
       "entry_date": "2026-06-26T16:32:25.364877",
       "sps_score": 53.556279245062676,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "RXRX": {
-      "ticker": "RXRX",
-      "entry_price": 3.800100088119507,
-      "shares": 463.75072315188055,
-      "entry_value": 1762.2991639149463,
-      "current_price": 3.517699956893921,
-      "peak_price": 3.9549999237060547,
-      "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-07-10",
-      "entry_date": "2026-07-02T16:19:55.420477",
-      "sps_score": 56.250020023435056,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -39,11 +23,11 @@
       "entry_price": 310.5400085449219,
       "shares": 5.7790782015005275,
       "entry_value": 1794.6349940757457,
-      "current_price": 314.17999267578125,
-      "peak_price": 314.80999755859375,
+      "current_price": 316.4100036621094,
+      "peak_price": 316.4100036621094,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-07-10",
+      "trading_days_held": 4,
+      "last_update_date": "2026-07-13",
       "entry_date": "2026-07-08T16:14:49.062242",
       "sps_score": 36.998854241219334,
       "short_float_pct": 0,
@@ -205,6 +189,28 @@
       "pnl": 164.78308963443965,
       "pnl_pct": 0.09662984781695413,
       "exit_reason": "Stop de tiempo: 20d \u2014 +9.7%"
+    },
+    {
+      "ticker": "RXRX",
+      "entry_price": 3.800100088119507,
+      "shares": 463.75072315188055,
+      "entry_value": 1762.2991639149463,
+      "current_price": 3.4274001121520996,
+      "peak_price": 3.9549999237060547,
+      "volume_spiked": false,
+      "trading_days_held": 8,
+      "last_update_date": "2026-07-13",
+      "entry_date": "2026-07-02T16:19:55.420477",
+      "sps_score": 56.250020023435056,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 3.4274001121520996,
+      "exit_date": "2026-07-13T16:56:54.172459",
+      "proceeds": 1589.4592805413727,
+      "pnl": -172.83988337357368,
+      "pnl_pct": -0.09807635781294363,
+      "exit_reason": "Stop loss: -9.8%"
     }
   ],
   "equity_history": [
@@ -339,6 +345,10 @@
     {
       "date": "2026-07-10",
       "equity": 9669.038145108498
+    },
+    {
+      "date": "2026-07-13",
+      "equity": 9612.72265905327
     }
   ]
 }
