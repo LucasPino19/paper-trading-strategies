@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6424.440495473622,
+  "cash": 8347.556313336716,
   "open_positions": {
-    "QQQ": {
-      "ticker": "QQQ",
-      "entry_price": 734.7550048828125,
-      "shares": 2.6884079668354315,
-      "entry_value": 1975.3212087991594,
-      "current_price": 722.8099975585938,
-      "peak_price": 734.7550048828125,
-      "volume_spiked": false,
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-10",
-      "entry_date": "2026-06-30T16:03:08.927070",
-      "sps_score": 23.927395480933743,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "V": {
       "ticker": "V",
       "entry_price": 355.55999755859375,
       "shares": 5.398109607923503,
       "entry_value": 1919.3518390143022,
-      "current_price": 346.32000732421875,
+      "current_price": 354.9599914550781,
       "peak_price": 355.55999755859375,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-07-10",
+      "trading_days_held": 6,
+      "last_update_date": "2026-07-13",
       "entry_date": "2026-07-06T16:36:11.321111",
       "sps_score": 11.759475873074827,
       "short_float_pct": 0,
@@ -233,6 +217,28 @@
       "pnl": 36.45608680617761,
       "pnl_pct": 0.01909198648874808,
       "exit_reason": "Stop de tiempo: 10d \u2014 +1.9%"
+    },
+    {
+      "ticker": "QQQ",
+      "entry_price": 734.7550048828125,
+      "shares": 2.6884079668354315,
+      "entry_value": 1975.3212087991594,
+      "current_price": 715.3363037109375,
+      "peak_price": 734.7550048828125,
+      "volume_spiked": false,
+      "trading_days_held": 10,
+      "last_update_date": "2026-07-13",
+      "entry_date": "2026-06-30T16:03:08.927070",
+      "sps_score": 23.927395480933743,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 715.3363037109375,
+      "exit_date": "2026-07-13T16:03:41.191137",
+      "proceeds": 1923.1158178630942,
+      "pnl": -52.205390936065214,
+      "pnl_pct": -0.02642881102248783,
+      "exit_reason": "Stop de tiempo: 10d \u2014 -2.6%"
     }
   ],
   "equity_history": [
@@ -367,6 +373,10 @@
     {
       "date": "2026-07-10",
       "equity": 10237.122010371448
+    },
+    {
+      "date": "2026-07-13",
+      "equity": 10263.669253638818
     }
   ]
 }
