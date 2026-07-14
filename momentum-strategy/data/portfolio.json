@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5609.561793159553,
+  "cash": 3926.6932552116878,
   "open_positions": {
     "MSTR": {
       "ticker": "MSTR",
       "entry_price": 93.83000183105469,
       "shares": 18.12270396938872,
       "entry_value": 1700.4533466314056,
-      "current_price": 91.32499694824219,
-      "peak_price": 94.81999969482422,
+      "current_price": 96.55999755859375,
+      "peak_price": 96.55999755859375,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-13",
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-14",
       "entry_date": "2026-07-08T16:14:45.740397",
       "sps_score": 83.54782361297563,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 28.885000228881836,
       "shares": 58.61120271489988,
       "entry_value": 1692.9846038349228,
-      "current_price": 27.655000686645508,
+      "current_price": 27.764999389648438,
       "peak_price": 28.885000228881836,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-07-13",
+      "trading_days_held": 3,
+      "last_update_date": "2026-07-14",
       "entry_date": "2026-07-10T16:37:09.382597",
       "sps_score": 107.70291455235714,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "SOXL": {
+      "ticker": "SOXL",
+      "entry_price": 179.26499938964844,
+      "shares": 9.387602396885079,
+      "entry_value": 1682.868537947866,
+      "current_price": 179.26499938964844,
+      "peak_price": 179.26499938964844,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-14",
+      "entry_date": "2026-07-14T15:58:30.849771",
+      "sps_score": 68.69282360958984,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -503,6 +519,10 @@
     {
       "date": "2026-07-13",
       "equity": 8885.51052918355
+    },
+    {
+      "date": "2026-07-14",
+      "equity": 8986.830051804602
     }
   ]
 }
