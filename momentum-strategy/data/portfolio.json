@@ -1,51 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3926.6932552116878,
+  "cash": 6953.916767264804,
   "open_positions": {
     "MSTR": {
       "ticker": "MSTR",
       "entry_price": 93.83000183105469,
       "shares": 18.12270396938872,
       "entry_value": 1700.4533466314056,
-      "current_price": 96.55999755859375,
-      "peak_price": 96.55999755859375,
+      "current_price": 97.61000061035156,
+      "peak_price": 97.61000061035156,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-07-14",
+      "trading_days_held": 6,
+      "last_update_date": "2026-07-15",
       "entry_date": "2026-07-08T16:14:45.740397",
       "sps_score": 83.54782361297563,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "SMCI": {
-      "ticker": "SMCI",
-      "entry_price": 28.885000228881836,
-      "shares": 58.61120271489988,
-      "entry_value": 1692.9846038349228,
-      "current_price": 27.764999389648438,
-      "peak_price": 28.885000228881836,
-      "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-07-14",
-      "entry_date": "2026-07-10T16:37:09.382597",
-      "sps_score": 107.70291455235714,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "SOXL": {
-      "ticker": "SOXL",
-      "entry_price": 179.26499938964844,
-      "shares": 9.387602396885079,
-      "entry_value": 1682.868537947866,
-      "current_price": 179.26499938964844,
-      "peak_price": 179.26499938964844,
-      "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-07-14",
-      "entry_date": "2026-07-14T15:58:30.849771",
-      "sps_score": 68.69282360958984,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -381,6 +349,50 @@
       "pnl": -100.29889283561874,
       "pnl_pct": -0.05700215169524624,
       "exit_reason": "Stop de tiempo: 10d \u2014 -5.7%"
+    },
+    {
+      "ticker": "SMCI",
+      "entry_price": 28.885000228881836,
+      "shares": 58.61120271489988,
+      "entry_value": 1692.9846038349228,
+      "current_price": 26.739999771118164,
+      "peak_price": 28.885000228881836,
+      "volume_spiked": false,
+      "trading_days_held": 4,
+      "last_update_date": "2026-07-15",
+      "entry_date": "2026-07-10T16:37:09.382597",
+      "sps_score": 107.70291455235714,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 26.739999771118164,
+      "exit_date": "2026-07-15T16:03:19.969503",
+      "proceeds": 1567.2635471813833,
+      "pnl": -125.72105665353956,
+      "pnl_pct": -0.07426001179736552,
+      "exit_reason": "Stop loss: -7.4%"
+    },
+    {
+      "ticker": "SOXL",
+      "entry_price": 179.26499938964844,
+      "shares": 9.387602396885079,
+      "entry_value": 1682.868537947866,
+      "current_price": 155.52000427246094,
+      "peak_price": 179.26499938964844,
+      "volume_spiked": false,
+      "trading_days_held": 2,
+      "last_update_date": "2026-07-15",
+      "entry_date": "2026-07-14T15:58:30.849771",
+      "sps_score": 68.69282360958984,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 155.52000427246094,
+      "exit_date": "2026-07-15T16:03:19.987406",
+      "proceeds": 1459.959964871732,
+      "pnl": -222.90857307613396,
+      "pnl_pct": -0.1324575081473414,
+      "exit_reason": "Stop loss: -13.2%"
     }
   ],
   "equity_history": [
@@ -523,6 +535,10 @@
     {
       "date": "2026-07-14",
       "equity": 8986.830051804602
+    },
+    {
+      "date": "2026-07-15",
+      "equity": 8722.873912778057
     }
   ]
 }
