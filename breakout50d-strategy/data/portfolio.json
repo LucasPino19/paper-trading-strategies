@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5880.340726870569,
+  "cash": 4116.238508809398,
   "open_positions": {
     "AVGO": {
       "ticker": "AVGO",
       "entry_price": 382.07000732421875,
       "shares": 4.4491766459467526,
       "entry_value": 1699.8969537036187,
-      "current_price": 389.1099853515625,
+      "current_price": 394.2799987792969,
       "peak_price": 401.1099853515625,
       "volume_spiked": false,
-      "trading_days_held": 15,
-      "last_update_date": "2026-07-14",
+      "trading_days_held": 16,
+      "last_update_date": "2026-07-15",
       "entry_date": "2026-06-24T22:48:41.271051",
       "sps_score": 69.20292774536605,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 548.1300048828125,
       "shares": 3.138209924134842,
       "entry_value": 1720.1470210393215,
-      "current_price": 548.1300048828125,
+      "current_price": 529.1400146484375,
       "peak_price": 548.1300048828125,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-07-14",
+      "trading_days_held": 2,
+      "last_update_date": "2026-07-15",
       "entry_date": "2026-07-14T22:31:13.692519",
       "sps_score": 104.5982471339713,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "entry_price": 254.9600067138672,
+      "shares": 6.919133086001843,
+      "entry_value": 1764.1022180611706,
+      "current_price": 254.9600067138672,
+      "peak_price": 254.9600067138672,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-15",
+      "entry_date": "2026-07-15T22:31:14.202195",
+      "sps_score": 25.10072023865299,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -331,6 +347,10 @@
     {
       "date": "2026-07-14",
       "equity": 9331.706807440745
+    },
+    {
+      "date": "2026-07-15",
+      "equity": 9295.114534629913
     }
   ]
 }
