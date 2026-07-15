@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5843.289419335701,
+  "cash": 4090.3025935349906,
   "open_positions": {
     "V": {
       "ticker": "V",
       "entry_price": 355.55999755859375,
       "shares": 5.398109607923503,
       "entry_value": 1919.3518390143022,
-      "current_price": 358.0899963378906,
+      "current_price": 357.55999755859375,
       "peak_price": 358.0899963378906,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-07-14",
+      "trading_days_held": 8,
+      "last_update_date": "2026-07-15",
       "entry_date": "2026-07-06T16:36:11.321111",
       "sps_score": 11.759475873074827,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 387.19000244140625,
       "shares": 6.4677984405859945,
       "entry_value": 2504.266894001015,
-      "current_price": 387.19000244140625,
-      "peak_price": 387.19000244140625,
+      "current_price": 394.67999267578125,
+      "peak_price": 394.67999267578125,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-07-14",
+      "trading_days_held": 2,
+      "last_update_date": "2026-07-15",
       "entry_date": "2026-07-14T15:07:51.745703",
       "sps_score": 11.028291490105286,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "entry_price": 519.260009765625,
+      "shares": 3.375932659616797,
+      "entry_value": 1752.9868258007102,
+      "current_price": 519.260009765625,
+      "peak_price": 519.260009765625,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-15",
+      "entry_date": "2026-07-15T15:07:21.004678",
+      "sps_score": 73.52934953508667,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -397,6 +413,10 @@
     {
       "date": "2026-07-14",
       "equity": 10280.565363069574
+    },
+    {
+      "date": "2026-07-15",
+      "equity": 10326.14811872476
     }
   ]
 }
