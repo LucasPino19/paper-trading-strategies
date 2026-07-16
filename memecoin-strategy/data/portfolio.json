@@ -8,11 +8,11 @@
       "entry_price": 1.19,
       "shares": 3200.850565575877,
       "entry_value": 3858.5880852850646,
-      "current_price": 1.24,
+      "current_price": 1.22,
       "peak_price": 1.32,
       "entry_date": "2026-07-06T23:21:22.909135",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-15",
+      "trading_days_held": 10,
+      "last_update_date": "2026-07-16",
       "momentum_7d": 101.2277138032623
     },
     "comedian": {
@@ -21,11 +21,11 @@
       "entry_price": 0.074587,
       "shares": 52355.473339892604,
       "entry_value": 3905.03769000257,
-      "current_price": 0.073705,
+      "current_price": 0.07156,
       "peak_price": 0.074587,
       "entry_date": "2026-07-13T23:10:18.595036",
-      "trading_days_held": 2,
-      "last_update_date": "2026-07-15",
+      "trading_days_held": 3,
+      "last_update_date": "2026-07-16",
       "momentum_7d": 1.7297500772602048
     }
   },
@@ -441,6 +441,10 @@
     {
       "date": "2026-07-15",
       "equity": 7827.9148638308725
+    },
+    {
+      "date": "2026-07-16",
+      "equity": 7651.595362205285
     }
   ],
   "last_rebalance": "2026-28"
