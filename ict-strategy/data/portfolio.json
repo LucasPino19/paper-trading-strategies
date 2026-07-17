@@ -1,35 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5780.055840862629,
+  "cash": 7968.534313082005,
   "open_positions": {
-    "AMZN": {
-      "ticker": "AMZN",
-      "entry_price": 247.0399932861328,
-      "shares": 9.34728813564693,
-      "entry_value": 2309.153998273767,
-      "current_price": 252.0,
-      "peak_price": 254.22999572753906,
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "entry_price": 344.2200012207031,
+      "shares": 5.037524682207503,
+      "entry_value": 1734.0167522587888,
+      "current_price": 344.2200012207031,
+      "peak_price": 344.2200012207031,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-16",
-      "entry_date": "2026-07-09T20:18:52.011025",
-      "sps_score": 41.67677917125294,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "entry_price": 202.77999877929688,
-      "shares": 7.971238822971462,
-      "entry_value": 1616.4077987916369,
-      "current_price": 206.1699981689453,
-      "peak_price": 211.75,
-      "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-16",
-      "entry_date": "2026-07-09T20:18:52.137719",
-      "sps_score": 27.080380845774833,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-17",
+      "entry_date": "2026-07-17T19:39:28.775198",
+      "sps_score": 7.713086891759589,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -321,6 +305,50 @@
       "pnl": 117.06336585373992,
       "pnl_pct": 0.061893284278005084,
       "exit_reason": "Stop de tiempo: 7d \u2014 +6.2%"
+    },
+    {
+      "ticker": "AMZN",
+      "entry_price": 247.0399932861328,
+      "shares": 9.34728813564693,
+      "entry_value": 2309.153998273767,
+      "current_price": 246.80999755859375,
+      "peak_price": 254.22999572753906,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-07-17",
+      "entry_date": "2026-07-09T20:18:52.011025",
+      "sps_score": 41.67677917125294,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 246.80999755859375,
+      "exit_date": "2026-07-17T19:39:29.111498",
+      "proceeds": 2307.0041619384915,
+      "pnl": -2.1498363352752676,
+      "pnl_pct": -0.0009310060467523609,
+      "exit_reason": "Stop de tiempo: 7d \u2014 -0.1%"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_price": 202.77999877929688,
+      "shares": 7.971238822971462,
+      "entry_value": 1616.4077987916369,
+      "current_price": 202.6649932861328,
+      "peak_price": 211.75,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-07-17",
+      "entry_date": "2026-07-09T20:18:52.137719",
+      "sps_score": 27.080380845774833,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 202.6649932861328,
+      "exit_date": "2026-07-17T19:39:29.112288",
+      "proceeds": 1615.4910625396726,
+      "pnl": -0.9167362519642666,
+      "pnl_pct": -0.0005671441653830071,
+      "exit_reason": "Stop de tiempo: 7d \u2014 -0.1%"
     }
   ],
   "equity_history": [
@@ -471,6 +499,10 @@
     {
       "date": "2026-07-16",
       "equity": 9779.002744581907
+    },
+    {
+      "date": "2026-07-17",
+      "equity": 9702.551065340795
     }
   ]
 }
