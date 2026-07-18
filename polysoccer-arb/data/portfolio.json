@@ -12,14 +12,18 @@
       "current_price": 0.295,
       "peak_price": 0.295,
       "entry_date": "2026-07-17T00:09:11.516527",
-      "trading_days_held": 0,
-      "last_update_date": "2026-07-17"
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-18"
     }
   },
   "closed_trades": [],
   "equity_history": [
     {
       "date": "2026-05-31",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-07-18",
       "equity": 10000.0
     }
   ]
