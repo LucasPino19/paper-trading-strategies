@@ -12,8 +12,8 @@
       "current_price": 0.6105,
       "peak_price": 0.6105,
       "entry_date": "2026-07-13T23:40:18.711823",
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-17"
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-18"
     },
     "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892": {
       "ticker": "[YES] Will Spain win the 2026 FIFA World Cup",
@@ -25,8 +25,8 @@
       "current_price": 0.7875,
       "peak_price": 0.7875,
       "entry_date": "2026-07-13T23:40:18.711823",
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-17"
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-18"
     },
     "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f": {
       "ticker": "[YES] Will England win the 2026 FIFA World C",
@@ -38,8 +38,8 @@
       "current_price": 0.7725,
       "peak_price": 0.7775,
       "entry_date": "2026-07-13T23:40:18.711823",
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-17"
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-18"
     },
     "0x3b9204e0fcba9234e3eaca1a941a342e4ce82aeb4ba373c668f2e8a72f1d41de": {
       "ticker": "[YES] Will France vs. Spain end in a draw?",
@@ -51,8 +51,8 @@
       "current_price": 0.70125,
       "peak_price": 0.70125,
       "entry_date": "2026-07-13T23:40:18.711823",
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-17"
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-18"
     },
     "0xfa0717cc2be9fb8434051b76caf38f539c102e6283edcdfbee2c35d79f46b1ee": {
       "ticker": "[YES] France vs. Spain: O/U 3.5",
@@ -64,8 +64,8 @@
       "current_price": 0.70375,
       "peak_price": 0.70375,
       "entry_date": "2026-07-13T23:40:18.711823",
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-17"
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-18"
     }
   },
   "closed_trades": [
@@ -509,6 +509,10 @@
     },
     {
       "date": "2026-07-17",
+      "equity": 9861.43675367011
+    },
+    {
+      "date": "2026-07-18",
       "equity": 9861.43675367011
     }
   ]
