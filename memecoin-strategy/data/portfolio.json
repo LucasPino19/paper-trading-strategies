@@ -2,31 +2,70 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "memecore": {
-      "ticker": "M",
-      "name": "MemeCore",
-      "entry_price": 1.19,
-      "shares": 3200.850565575877,
-      "entry_value": 3858.5880852850646,
-      "current_price": 1.19,
-      "peak_price": 1.32,
-      "entry_date": "2026-07-06T23:21:22.909135",
-      "trading_days_held": 13,
-      "last_update_date": "2026-07-19",
-      "momentum_7d": 101.2277138032623
+    "pudgy-penguins": {
+      "ticker": "PENGU",
+      "name": "Pudgy Penguins",
+      "entry_price": 0.00633178,
+      "shares": 243698.93793977392,
+      "entry_value": 1543.0480612683018,
+      "current_price": 0.00633178,
+      "peak_price": 0.00633178,
+      "entry_date": "2026-07-20T23:12:58.989501",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-20",
+      "momentum_7d": 10.00107025399497
     },
-    "comedian": {
-      "ticker": "BAN",
-      "name": "Comedian",
-      "entry_price": 0.074587,
-      "shares": 52355.473339892604,
-      "entry_value": 3905.03769000257,
-      "current_price": 0.073102,
-      "peak_price": 0.074587,
-      "entry_date": "2026-07-13T23:10:18.595036",
-      "trading_days_held": 6,
-      "last_update_date": "2026-07-19",
-      "momentum_7d": 1.7297500772602048
+    "build-on": {
+      "ticker": "B",
+      "name": "BUILDon",
+      "entry_price": 0.241647,
+      "shares": 6385.5461117593095,
+      "entry_value": 1543.0480612683018,
+      "current_price": 0.241647,
+      "peak_price": 0.241647,
+      "entry_date": "2026-07-20T23:12:58.989501",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-20",
+      "momentum_7d": 122.61258514571365
+    },
+    "pump-fun": {
+      "ticker": "PUMP",
+      "name": "Pump.fun",
+      "entry_price": 0.00200672,
+      "shares": 768940.3909206574,
+      "entry_value": 1543.0480612683018,
+      "current_price": 0.00200672,
+      "peak_price": 0.00200672,
+      "entry_date": "2026-07-20T23:12:58.989501",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-20",
+      "momentum_7d": 36.228963534599
+    },
+    "non-playable-coin": {
+      "ticker": "NPC",
+      "name": "Non-Playable Coin",
+      "entry_price": 0.00658001,
+      "shares": 234505.42799605196,
+      "entry_value": 1543.0480612683018,
+      "current_price": 0.00658001,
+      "peak_price": 0.00658001,
+      "entry_date": "2026-07-20T23:12:58.989501",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-20",
+      "momentum_7d": 5.480908764176186
+    },
+    "pepe": {
+      "ticker": "PEPE",
+      "name": "Pepe",
+      "entry_price": 2.9e-06,
+      "shares": 532085538.3683798,
+      "entry_value": 1543.0480612683014,
+      "current_price": 2.9e-06,
+      "peak_price": 2.9e-06,
+      "entry_date": "2026-07-20T23:12:58.989501",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-20",
+      "momentum_7d": 7.687136137943927
     }
   },
   "closed_trades": [
@@ -263,6 +302,32 @@
       "exit_date": "2026-07-13T23:10:18.595036",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 7
+    },
+    {
+      "ticker": "memecore",
+      "entry_price": 1.19,
+      "exit_price": 1.21,
+      "shares": 3200.850565575877,
+      "entry_value": 3858.5880852850646,
+      "pnl": 64.0170113115176,
+      "pnl_pct": 0.016806722689075647,
+      "entry_date": "2026-07-06T23:21:22.909135",
+      "exit_date": "2026-07-20T23:12:58.989501",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 14
+    },
+    {
+      "ticker": "comedian",
+      "entry_price": 0.074587,
+      "exit_price": 0.073387,
+      "shares": 52355.473339892604,
+      "entry_value": 3905.03769000257,
+      "pnl": -62.82656800787147,
+      "pnl_pct": -0.016088594527196517,
+      "entry_date": "2026-07-13T23:10:18.595036",
+      "exit_date": "2026-07-20T23:12:58.989501",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
     }
   ],
   "equity_history": [
@@ -457,7 +522,11 @@
     {
       "date": "2026-07-19",
       "equity": 7636.301985128122
+    },
+    {
+      "date": "2026-07-20",
+      "equity": 7715.2403063415095
     }
   ],
-  "last_rebalance": "2026-28"
+  "last_rebalance": "2026-29"
 }
