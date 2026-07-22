@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5265.721297572704,
+  "cash": 3686.004908300893,
   "open_positions": {
     "PLTR": {
       "ticker": "PLTR",
       "entry_price": 133.33999633789062,
       "shares": 15.645530879519171,
       "entry_value": 2086.175030179441,
-      "current_price": 134.3249969482422,
+      "current_price": 126.94999694824219,
       "peak_price": 135.05999755859375,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-21",
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-22",
       "entry_date": "2026-07-16T15:57:02.541521",
       "sps_score": 63.51899563275221,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 399.67999267578125,
       "shares": 3.6537293531983632,
       "entry_value": 1460.3225211256088,
-      "current_price": 398.47979736328125,
+      "current_price": 389.3599853515625,
       "peak_price": 399.739990234375,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-21",
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-22",
       "entry_date": "2026-07-16T15:57:02.729983",
       "sps_score": 55.12176857175621,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "SOXL": {
+      "ticker": "SOXL",
+      "entry_price": 164.0500030517578,
+      "shares": 9.629481011185415,
+      "entry_value": 1579.7163892718113,
+      "current_price": 164.0500030517578,
+      "peak_price": 164.0500030517578,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-22",
+      "entry_date": "2026-07-22T16:00:20.639970",
+      "sps_score": 68.69282360958984,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -593,6 +609,10 @@
     {
       "date": "2026-07-21",
       "equity": 8823.244517500501
+    },
+    {
+      "date": "2026-07-22",
+      "equity": 8674.53740242118
     }
   ]
 }
