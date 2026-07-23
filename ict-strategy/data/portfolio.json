@@ -1,51 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3904.581813410183,
+  "cash": 6934.710853266983,
   "open_positions": {
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "entry_price": 344.2200012207031,
-      "shares": 5.037524682207503,
-      "entry_value": 1734.0167522587888,
-      "current_price": 343.9599914550781,
-      "peak_price": 351.989990234375,
-      "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-22",
-      "entry_date": "2026-07-17T19:39:28.775198",
-      "sps_score": 7.713086891759589,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "SLV": {
       "ticker": "SLV",
       "entry_price": 50.98500061035156,
       "shares": 46.88752113968284,
       "entry_value": 2390.5602939246014,
-      "current_price": 53.974998474121094,
+      "current_price": 52.029998779296875,
       "peak_price": 53.974998474121094,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-07-22",
+      "trading_days_held": 4,
+      "last_update_date": "2026-07-23",
       "entry_date": "2026-07-20T20:06:49.554883",
       "sps_score": 7.523823433202059,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "TSLA": {
-      "ticker": "TSLA",
-      "entry_price": 378.92999267578125,
-      "shares": 4.416098588371713,
-      "entry_value": 1673.3922057472212,
-      "current_price": 374.41351318359375,
-      "peak_price": 378.92999267578125,
-      "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-07-22",
-      "entry_date": "2026-07-21T20:00:33.365031",
-      "sps_score": 32.64540975369202,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -381,6 +349,50 @@
       "pnl": -0.9167362519642666,
       "pnl_pct": -0.0005671441653830071,
       "exit_reason": "Stop de tiempo: 7d \u2014 -0.1%"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_price": 344.2200012207031,
+      "shares": 5.037524682207503,
+      "entry_value": 1734.0167522587888,
+      "current_price": 318.8299865722656,
+      "peak_price": 351.989990234375,
+      "volume_spiked": false,
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-23",
+      "entry_date": "2026-07-17T19:39:28.775198",
+      "sps_score": 7.713086891759589,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 318.8299865722656,
+      "exit_date": "2026-07-23T19:55:21.606999",
+      "proceeds": 1606.113926785675,
+      "pnl": -127.90282547311381,
+      "pnl_pct": -0.0737610091174167,
+      "exit_reason": "Stop loss: -7.4%"
+    },
+    {
+      "ticker": "TSLA",
+      "entry_price": 378.92999267578125,
+      "shares": 4.416098588371713,
+      "entry_value": 1673.3922057472212,
+      "current_price": 322.4599914550781,
+      "peak_price": 378.92999267578125,
+      "volume_spiked": false,
+      "trading_days_held": 3,
+      "last_update_date": "2026-07-23",
+      "entry_date": "2026-07-21T20:00:33.365031",
+      "sps_score": 32.64540975369202,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 322.4599914550781,
+      "exit_date": "2026-07-23T19:55:21.608910",
+      "proceeds": 1424.0151130711251,
+      "pnl": -249.37709267609603,
+      "pnl_pct": -0.1490248919647271,
+      "exit_reason": "Stop loss: -14.9%"
     }
   ],
   "equity_history": [
@@ -547,6 +559,10 @@
     {
       "date": "2026-07-22",
       "equity": 9821.489629064086
+    },
+    {
+      "date": "2026-07-23",
+      "equity": 9374.268520928938
     }
   ]
 }
