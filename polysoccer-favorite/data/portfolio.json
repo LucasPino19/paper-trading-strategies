@@ -1,71 +1,58 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4.547473508864641e-13,
+  "cash": 1972.2873507340225,
   "open_positions": {
-    "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894": {
-      "ticker": "[YES] Will France win the 2026 FIFA World Cu",
+    "0xb1c3b1aa624b68d2f3e32b044fc25ee9852a0a6f14b7ae9ae17ca0d23d4763a9": {
+      "ticker": "[YES] Kansas City Royals vs. Detroit Tigers",
       "direction": "YES",
-      "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
-      "entry_price": 0.6105,
-      "shares": 3234.770387494869,
-      "entry_value": 1974.8273215656177,
-      "current_price": 0.6105,
-      "peak_price": 0.6105,
-      "entry_date": "2026-07-13T23:40:18.711823",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-22"
+      "condition_id": "0xb1c3b1aa624b68d2f3e32b044fc25ee9852a0a6f14b7ae9ae17ca0d23d4763a9",
+      "entry_price": 0.665,
+      "shares": 2965.8456402015368,
+      "entry_value": 1972.287350734022,
+      "current_price": 0.665,
+      "peak_price": 0.665,
+      "entry_date": "2026-07-23T23:46:20.468015",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-23"
     },
-    "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892": {
-      "ticker": "[YES] Will Spain win the 2026 FIFA World Cup",
+    "0xfa0f94efd58883b67b7136b8379c8c80a719d7b3e712c84646c32c52c2a18825": {
+      "ticker": "[YES] Winnipeg: August Holmgren vs Liam Drax",
       "direction": "YES",
-      "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
-      "entry_price": 0.7875,
-      "shares": 2507.7172337341176,
-      "entry_value": 1974.8273215656177,
-      "current_price": 0.7875,
-      "peak_price": 0.7875,
-      "entry_date": "2026-07-13T23:40:18.711823",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-22"
+      "condition_id": "0xfa0f94efd58883b67b7136b8379c8c80a719d7b3e712c84646c32c52c2a18825",
+      "entry_price": 0.705,
+      "shares": 2797.5707102610245,
+      "entry_value": 1972.287350734022,
+      "current_price": 0.705,
+      "peak_price": 0.705,
+      "entry_date": "2026-07-23T23:46:20.468015",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-23"
     },
-    "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f": {
-      "ticker": "[YES] Will England win the 2026 FIFA World C",
+    "0x6ea48eaf13c9b794c25741960135d97b1a7aa6677d6f08750b287fc2e54f842d": {
+      "ticker": "[YES] Kansas City Royals vs. Detroit Tigers:",
       "direction": "YES",
-      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
-      "entry_price": 0.7775,
-      "shares": 2539.97083159565,
-      "entry_value": 1974.8273215656177,
-      "current_price": 0.7725,
-      "peak_price": 0.7775,
-      "entry_date": "2026-07-13T23:40:18.711823",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-22"
+      "condition_id": "0x6ea48eaf13c9b794c25741960135d97b1a7aa6677d6f08750b287fc2e54f842d",
+      "entry_price": 0.635,
+      "shares": 3105.9643318646017,
+      "entry_value": 1972.287350734022,
+      "current_price": 0.635,
+      "peak_price": 0.635,
+      "entry_date": "2026-07-23T23:46:20.468015",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-23"
     },
-    "0x3b9204e0fcba9234e3eaca1a941a342e4ce82aeb4ba373c668f2e8a72f1d41de": {
-      "ticker": "[YES] Will France vs. Spain end in a draw?",
+    "0x278a13ed93358be144eaff8c69d043f548f6dc812972950b93ad71d37444850f": {
+      "ticker": "[YES] Kansas City Royals vs. Detroit Tigers:",
       "direction": "YES",
-      "condition_id": "0x3b9204e0fcba9234e3eaca1a941a342e4ce82aeb4ba373c668f2e8a72f1d41de",
-      "entry_price": 0.70125,
-      "shares": 2816.1530432308273,
-      "entry_value": 1974.8273215656177,
-      "current_price": 0.70125,
-      "peak_price": 0.70125,
-      "entry_date": "2026-07-13T23:40:18.711823",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-22"
-    },
-    "0xfa0717cc2be9fb8434051b76caf38f539c102e6283edcdfbee2c35d79f46b1ee": {
-      "ticker": "[YES] France vs. Spain: O/U 3.5",
-      "direction": "YES",
-      "condition_id": "0xfa0717cc2be9fb8434051b76caf38f539c102e6283edcdfbee2c35d79f46b1ee",
-      "entry_price": 0.70375,
-      "shares": 2806.148947162512,
-      "entry_value": 1974.8273215656177,
-      "current_price": 0.70375,
-      "peak_price": 0.70375,
-      "entry_date": "2026-07-13T23:40:18.711823",
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-22"
+      "condition_id": "0x278a13ed93358be144eaff8c69d043f548f6dc812972950b93ad71d37444850f",
+      "entry_price": 0.795,
+      "shares": 2480.8645921182665,
+      "entry_value": 1972.287350734022,
+      "current_price": 0.795,
+      "peak_price": 0.795,
+      "entry_date": "2026-07-23T23:46:20.468015",
+      "trading_days_held": 0,
+      "last_update_date": "2026-07-23"
     }
   },
   "closed_trades": [
@@ -328,6 +315,71 @@
       "exit_date": "2026-07-13T23:40:18.711812",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will France win the 2026 FIFA World Cu",
+      "entry_price": 0.6105,
+      "exit_price": 0.6105,
+      "shares": 3234.770387494869,
+      "entry_value": 1974.8273215656177,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-07-13T23:40:18.711823",
+      "exit_date": "2026-07-23T23:46:20.467976",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Spain win the 2026 FIFA World Cup",
+      "entry_price": 0.7875,
+      "exit_price": 0.7875,
+      "shares": 2507.7172337341176,
+      "entry_value": 1974.8273215656177,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-07-13T23:40:18.711823",
+      "exit_date": "2026-07-23T23:46:20.467986",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will England win the 2026 FIFA World C",
+      "entry_price": 0.7775,
+      "exit_price": 0.7725,
+      "shares": 2539.97083159565,
+      "entry_value": 1974.8273215656177,
+      "pnl": -12.699854157978262,
+      "pnl_pct": -0.006430868167202578,
+      "entry_date": "2026-07-13T23:40:18.711823",
+      "exit_date": "2026-07-23T23:46:20.467994",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will France vs. Spain end in a draw?",
+      "entry_price": 0.70125,
+      "exit_price": 0.70125,
+      "shares": 2816.1530432308273,
+      "entry_value": 1974.8273215656177,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-07-13T23:40:18.711823",
+      "exit_date": "2026-07-23T23:46:20.467999",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] France vs. Spain: O/U 3.5",
+      "entry_price": 0.70375,
+      "exit_price": 0.70375,
+      "shares": 2806.148947162512,
+      "entry_value": 1974.8273215656177,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-07-13T23:40:18.711823",
+      "exit_date": "2026-07-23T23:46:20.468003",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -529,6 +581,10 @@
     },
     {
       "date": "2026-07-22",
+      "equity": 9861.43675367011
+    },
+    {
+      "date": "2026-07-23",
       "equity": 9861.43675367011
     }
   ]
