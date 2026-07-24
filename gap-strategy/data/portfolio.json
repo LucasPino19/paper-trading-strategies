@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5563.776135383552,
+  "cash": 3894.6432947684866,
   "open_positions": {
     "AAPL": {
       "ticker": "AAPL",
       "entry_price": 310.5400085449219,
       "shares": 5.7790782015005275,
       "entry_value": 1794.6349940757457,
-      "current_price": 320.8800048828125,
-      "peak_price": 332.8450012207031,
+      "current_price": 333.1625061035156,
+      "peak_price": 333.1625061035156,
       "volume_spiked": false,
-      "trading_days_held": 12,
-      "last_update_date": "2026-07-23",
+      "trading_days_held": 13,
+      "last_update_date": "2026-07-24",
       "entry_date": "2026-07-08T16:14:49.062242",
       "sps_score": 36.998854241219334,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 517.2999877929688,
       "shares": 3.404673681416849,
       "entry_value": 1761.2376538359779,
-      "current_price": 540.4000244140625,
+      "current_price": 535.5399780273438,
       "peak_price": 555.760009765625,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-23",
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-24",
       "entry_date": "2026-07-20T16:09:10.409594",
       "sps_score": 103.50872176494065,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "entry_price": 320.4800109863281,
+      "shares": 5.208227606701723,
+      "entry_value": 1669.1328406150656,
+      "current_price": 320.4800109863281,
+      "peak_price": 320.4800109863281,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-24",
+      "entry_date": "2026-07-24T15:55:31.709729",
+      "sps_score": 68.41802004539468,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -447,6 +463,10 @@
     {
       "date": "2026-07-23",
       "equity": 9258.052517458778
+    },
+    {
+      "date": "2026-07-24",
+      "equity": 9312.48718049992
     }
   ]
 }
