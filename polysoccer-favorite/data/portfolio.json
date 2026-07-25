@@ -12,8 +12,8 @@
       "current_price": 0.665,
       "peak_price": 0.665,
       "entry_date": "2026-07-23T23:46:20.468015",
-      "trading_days_held": 1,
-      "last_update_date": "2026-07-24"
+      "trading_days_held": 2,
+      "last_update_date": "2026-07-25"
     },
     "0xfa0f94efd58883b67b7136b8379c8c80a719d7b3e712c84646c32c52c2a18825": {
       "ticker": "[YES] Winnipeg: August Holmgren vs Liam Drax",
@@ -25,8 +25,8 @@
       "current_price": 0.705,
       "peak_price": 0.705,
       "entry_date": "2026-07-23T23:46:20.468015",
-      "trading_days_held": 1,
-      "last_update_date": "2026-07-24"
+      "trading_days_held": 2,
+      "last_update_date": "2026-07-25"
     },
     "0x6ea48eaf13c9b794c25741960135d97b1a7aa6677d6f08750b287fc2e54f842d": {
       "ticker": "[YES] Kansas City Royals vs. Detroit Tigers:",
@@ -38,8 +38,8 @@
       "current_price": 0.635,
       "peak_price": 0.635,
       "entry_date": "2026-07-23T23:46:20.468015",
-      "trading_days_held": 1,
-      "last_update_date": "2026-07-24"
+      "trading_days_held": 2,
+      "last_update_date": "2026-07-25"
     },
     "0x278a13ed93358be144eaff8c69d043f548f6dc812972950b93ad71d37444850f": {
       "ticker": "[YES] Kansas City Royals vs. Detroit Tigers:",
@@ -51,8 +51,8 @@
       "current_price": 0.795,
       "peak_price": 0.795,
       "entry_date": "2026-07-23T23:46:20.468015",
-      "trading_days_held": 1,
-      "last_update_date": "2026-07-24"
+      "trading_days_held": 2,
+      "last_update_date": "2026-07-25"
     },
     "0x24afbaf5bbbcbece7e5125f0da84b36d945147e5042fcedce7689c1d7d8e8e45": {
       "ticker": "[YES] Cleveland Guardians vs. Tampa Bay Rays",
@@ -64,8 +64,8 @@
       "current_price": 0.795,
       "peak_price": 0.795,
       "entry_date": "2026-07-24T23:51:59.695143",
-      "trading_days_held": 0,
-      "last_update_date": "2026-07-24"
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-25"
     }
   },
   "closed_trades": [
@@ -602,6 +602,10 @@
     },
     {
       "date": "2026-07-24",
+      "equity": 9861.43675367011
+    },
+    {
+      "date": "2026-07-25",
       "equity": 9861.43675367011
     }
   ]
