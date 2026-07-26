@@ -8,11 +8,11 @@
       "entry_price": 0.00633178,
       "shares": 243698.93793977392,
       "entry_value": 1543.0480612683018,
-      "current_price": 0.00619798,
-      "peak_price": 0.00633178,
+      "current_price": 0.00633447,
+      "peak_price": 0.00633447,
       "entry_date": "2026-07-20T23:12:58.989501",
-      "trading_days_held": 5,
-      "last_update_date": "2026-07-25",
+      "trading_days_held": 6,
+      "last_update_date": "2026-07-26",
       "momentum_7d": 10.00107025399497
     },
     "build-on": {
@@ -21,11 +21,11 @@
       "entry_price": 0.241647,
       "shares": 6385.5461117593095,
       "entry_value": 1543.0480612683018,
-      "current_price": 0.159202,
+      "current_price": 0.178534,
       "peak_price": 0.241774,
       "entry_date": "2026-07-20T23:12:58.989501",
-      "trading_days_held": 5,
-      "last_update_date": "2026-07-25",
+      "trading_days_held": 6,
+      "last_update_date": "2026-07-26",
       "momentum_7d": 122.61258514571365
     },
     "pump-fun": {
@@ -34,11 +34,11 @@
       "entry_price": 0.00200672,
       "shares": 768940.3909206574,
       "entry_value": 1543.0480612683018,
-      "current_price": 0.00178797,
-      "peak_price": 0.00200672,
+      "current_price": 0.00205679,
+      "peak_price": 0.00205679,
       "entry_date": "2026-07-20T23:12:58.989501",
-      "trading_days_held": 5,
-      "last_update_date": "2026-07-25",
+      "trading_days_held": 6,
+      "last_update_date": "2026-07-26",
       "momentum_7d": 36.228963534599
     },
     "non-playable-coin": {
@@ -50,8 +50,8 @@
       "current_price": 0.00625788,
       "peak_price": 0.00658001,
       "entry_date": "2026-07-20T23:12:58.989501",
-      "trading_days_held": 5,
-      "last_update_date": "2026-07-25",
+      "trading_days_held": 6,
+      "last_update_date": "2026-07-26",
       "momentum_7d": 5.480908764176186
     },
     "pepe": {
@@ -60,11 +60,11 @@
       "entry_price": 2.9e-06,
       "shares": 532085538.3683798,
       "entry_value": 1543.0480612683014,
-      "current_price": 2.75e-06,
-      "peak_price": 2.9e-06,
+      "current_price": 2.98e-06,
+      "peak_price": 2.98e-06,
       "entry_date": "2026-07-20T23:12:58.989501",
-      "trading_days_held": 5,
-      "last_update_date": "2026-07-25",
+      "trading_days_held": 6,
+      "last_update_date": "2026-07-26",
       "momentum_7d": 7.687136137943927
     }
   },
@@ -546,6 +546,10 @@
     {
       "date": "2026-07-25",
       "equity": 6832.617264471652
+    },
+    {
+      "date": "2026-07-26",
+      "equity": 7318.411339655601
     }
   ],
   "last_rebalance": "2026-29"
