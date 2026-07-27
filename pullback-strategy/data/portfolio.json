@@ -1,35 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4319.697838568813,
+  "cash": 6128.52880350048,
   "open_positions": {
     "AMZN": {
       "ticker": "AMZN",
       "entry_price": 240.13999938964844,
       "shares": 7.752117670886104,
       "entry_value": 1861.593532755072,
-      "current_price": 232.11000061035156,
+      "current_price": 231.38999938964844,
       "peak_price": 254.9600067138672,
       "volume_spiked": false,
-      "trading_days_held": 20,
-      "last_update_date": "2026-07-24",
+      "trading_days_held": 21,
+      "last_update_date": "2026-07-27",
       "entry_date": "2026-06-29T22:37:38.577292",
       "sps_score": 43.85257305837291,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "SOXX": {
-      "ticker": "SOXX",
-      "entry_price": 552.6900024414062,
-      "shares": 3.5039246718859736,
-      "entry_value": 1936.5841354591623,
-      "current_price": 527.010009765625,
-      "peak_price": 555.52001953125,
-      "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-24",
-      "entry_date": "2026-07-21T22:27:43.863350",
-      "sps_score": 29.86725328625017,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -39,11 +23,11 @@
       "entry_price": 738.9299926757812,
       "shares": 2.5053781711695096,
       "entry_value": 1851.299073672348,
-      "current_price": 738.9299926757812,
-      "peak_price": 738.9299926757812,
+      "current_price": 739.0900268554688,
+      "peak_price": 739.0900268554688,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-07-24",
+      "trading_days_held": 2,
+      "last_update_date": "2026-07-27",
       "entry_date": "2026-07-24T22:35:28.761950",
       "sps_score": 23.60105183735245,
       "short_float_pct": 0,
@@ -117,6 +101,28 @@
       "pnl": 182.3005961697811,
       "pnl_pct": 0.12401401099985108,
       "exit_reason": "Stop de tiempo: 30d \u2014 +12.4%"
+    },
+    {
+      "ticker": "SOXX",
+      "entry_price": 552.6900024414062,
+      "shares": 3.5039246718859736,
+      "entry_value": 1936.5841354591623,
+      "current_price": 516.22998046875,
+      "peak_price": 555.52001953125,
+      "volume_spiked": false,
+      "trading_days_held": 5,
+      "last_update_date": "2026-07-27",
+      "entry_date": "2026-07-21T22:27:43.863350",
+      "sps_score": 29.86725328625017,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 516.22998046875,
+      "exit_date": "2026-07-27T22:34:09.071245",
+      "proceeds": 1808.8309649316675,
+      "pnl": -127.75317052749483,
+      "pnl_pct": -0.06596830377173604,
+      "exit_reason": "Stop loss: -6.6%"
     }
   ],
   "equity_history": [
@@ -291,6 +297,10 @@
     {
       "date": "2026-07-24",
       "equity": 9816.944325110693
+    },
+    {
+      "date": "2026-07-27",
+      "equity": 9773.991326448077
     }
   ]
 }
