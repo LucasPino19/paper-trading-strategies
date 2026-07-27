@@ -1,49 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4216.960576069905,
+  "cash": 8368.704647631992,
   "open_positions": {
-    "MSFT": {
-      "ticker": "MSFT",
-      "entry_price": 387.19000244140625,
-      "shares": 6.4677984405859945,
-      "entry_value": 2504.266894001015,
-      "current_price": 383.0400085449219,
-      "peak_price": 399.1050109863281,
-      "volume_spiked": false,
-      "trading_days_held": 9,
-      "last_update_date": "2026-07-24",
-      "entry_date": "2026-07-14T15:07:51.745703",
-      "sps_score": 11.028291490105286,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "AMD": {
-      "ticker": "AMD",
-      "entry_price": 519.260009765625,
-      "shares": 3.375932659616797,
-      "entry_value": 1752.9868258007102,
-      "current_price": 526.3800048828125,
-      "peak_price": 555.9500122070312,
-      "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-07-24",
-      "entry_date": "2026-07-15T15:07:21.004678",
-      "sps_score": 73.52934953508667,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "HD": {
       "ticker": "HD",
       "entry_price": 333.6499938964844,
       "shares": 5.416660726438924,
       "entry_value": 1807.2688183156738,
-      "current_price": 325.25,
-      "peak_price": 333.6499938964844,
+      "current_price": 337.2200012207031,
+      "peak_price": 337.2200012207031,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-07-24",
+      "trading_days_held": 6,
+      "last_update_date": "2026-07-27",
       "entry_date": "2026-07-20T15:28:00.276832",
       "sps_score": 29.885868807417044,
       "short_float_pct": 0,
@@ -293,6 +261,50 @@
       "pnl": 14.57496183628632,
       "pnl_pct": 0.007593689463298924,
       "exit_reason": "Stop de tiempo: 10d \u2014 +0.8%"
+    },
+    {
+      "ticker": "MSFT",
+      "entry_price": 387.19000244140625,
+      "shares": 6.4677984405859945,
+      "entry_value": 2504.266894001015,
+      "current_price": 390.44000244140625,
+      "peak_price": 399.1050109863281,
+      "volume_spiked": false,
+      "trading_days_held": 10,
+      "last_update_date": "2026-07-27",
+      "entry_date": "2026-07-14T15:07:51.745703",
+      "sps_score": 11.028291490105286,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 390.44000244140625,
+      "exit_date": "2026-07-27T15:58:41.374984",
+      "proceeds": 2525.287238932919,
+      "pnl": 21.02034493190422,
+      "pnl_pct": 0.008393811770725625,
+      "exit_reason": "Stop de tiempo: 10d \u2014 +0.8%"
+    },
+    {
+      "ticker": "AMD",
+      "entry_price": 519.260009765625,
+      "shares": 3.375932659616797,
+      "entry_value": 1752.9868258007102,
+      "current_price": 481.7799987792969,
+      "peak_price": 555.9500122070312,
+      "volume_spiked": false,
+      "trading_days_held": 9,
+      "last_update_date": "2026-07-27",
+      "entry_date": "2026-07-15T15:07:21.004678",
+      "sps_score": 73.52934953508667,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 481.7799987792969,
+      "exit_date": "2026-07-27T15:58:41.375863",
+      "proceeds": 1626.456832629169,
+      "pnl": -126.52999317154126,
+      "pnl_pct": -0.0721796600574829,
+      "exit_reason": "Stop loss: -7.2%"
     }
   ],
   "equity_history": [
@@ -467,6 +479,10 @@
     {
       "date": "2026-07-24",
       "equity": 10233.178497146193
+    },
+    {
+      "date": "2026-07-27",
+      "equity": 10195.31098441386
     }
   ]
 }
