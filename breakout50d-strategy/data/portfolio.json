@@ -1,35 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3918.9710275245734,
+  "cash": 5517.756999487901,
   "open_positions": {
     "AVGO": {
       "ticker": "AVGO",
       "entry_price": 382.07000732421875,
       "shares": 4.4491766459467526,
       "entry_value": 1699.8969537036187,
-      "current_price": 380.9100036621094,
+      "current_price": 370.32000732421875,
       "peak_price": 401.1099853515625,
       "volume_spiked": false,
-      "trading_days_held": 25,
-      "last_update_date": "2026-07-28",
+      "trading_days_held": 26,
+      "last_update_date": "2026-07-29",
       "entry_date": "2026-06-24T22:48:41.271051",
       "sps_score": 69.20292774536605,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "entry_price": 202.80999755859375,
-      "shares": 8.414220399894855,
-      "entry_value": 1706.4880187601452,
-      "current_price": 197.00999450683594,
-      "peak_price": 212.05999755859375,
-      "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-07-28",
-      "entry_date": "2026-07-17T22:23:36.733686",
-      "sps_score": 16.17559112834638,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -39,11 +23,11 @@
       "entry_price": 371.8999938964844,
       "shares": 4.516157675075785,
       "entry_value": 1679.5590117962456,
-      "current_price": 369.3699951171875,
+      "current_price": 371.0799865722656,
       "peak_price": 374.6300048828125,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-07-28",
+      "trading_days_held": 4,
+      "last_update_date": "2026-07-29",
       "entry_date": "2026-07-24T22:35:31.524377",
       "sps_score": 15.55199767597528,
       "short_float_pct": 0,
@@ -249,6 +233,28 @@
       "pnl": -147.3775558473576,
       "pnl_pct": -0.08354252624280033,
       "exit_reason": "Stop loss: -8.4%"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_price": 202.80999755859375,
+      "shares": 8.414220399894855,
+      "entry_value": 1706.4880187601452,
+      "current_price": 190.00999450683594,
+      "peak_price": 212.05999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 9,
+      "last_update_date": "2026-07-29",
+      "entry_date": "2026-07-17T22:23:36.733686",
+      "sps_score": 16.17559112834638,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 190.00999450683594,
+      "exit_date": "2026-07-29T22:29:37.800660",
+      "proceeds": 1598.7859719633284,
+      "pnl": -107.70204679681683,
+      "pnl_pct": -0.06311327452217809,
+      "exit_reason": "Stop loss: -6.3%"
     }
   ],
   "equity_history": [
@@ -431,6 +437,10 @@
     {
       "date": "2026-07-28",
       "equity": 8939.525573179308
+    },
+    {
+      "date": "2026-07-29",
+      "equity": 8841.231857027004
     }
   ]
 }
