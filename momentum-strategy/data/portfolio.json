@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6552.494425423525,
+  "cash": 3210.722268457527,
   "open_positions": {
     "PLTR": {
       "ticker": "PLTR",
       "entry_price": 124.85990142822266,
       "shares": 12.567310894273433,
       "entry_value": 1569.1531994768095,
-      "current_price": 124.85990142822266,
+      "current_price": 121.69000244140625,
       "peak_price": 124.85990142822266,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-07-29",
+      "trading_days_held": 2,
+      "last_update_date": "2026-07-30",
       "entry_date": "2026-07-29T16:01:50.498632",
       "sps_score": 63.51899563275221,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "entry_price": 333.9620056152344,
+      "shares": 5.88614361686354,
+      "entry_value": 1965.7483276270575,
+      "current_price": 333.9620056152344,
+      "peak_price": 333.9620056152344,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-30",
+      "entry_date": "2026-07-30T16:07:04.767331",
+      "sps_score": 63.49805139092823,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AVGO": {
+      "ticker": "AVGO",
+      "entry_price": 386.42999267578125,
+      "shares": 3.560861877751395,
+      "entry_value": 1376.0238293389402,
+      "current_price": 386.42999267578125,
+      "peak_price": 386.42999267578125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-07-30",
+      "entry_date": "2026-07-30T16:07:04.889999",
+      "sps_score": 56.92047352158936,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -711,6 +743,10 @@
     {
       "date": "2026-07-29",
       "equity": 8121.647624900334
+    },
+    {
+      "date": "2026-07-30",
+      "equity": 8081.81051882957
     }
   ]
 }
