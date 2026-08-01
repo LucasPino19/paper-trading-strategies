@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8000.0,
+  "cash": 6000.0,
   "open_positions": {
     "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815": {
       "ticker": "[YES] Will Arsenal win the 2026-27 English P",
@@ -12,8 +12,21 @@
       "current_price": 0.365,
       "peak_price": 0.365,
       "entry_date": "2026-07-27T00:09:21.696725",
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-31"
+      "trading_days_held": 5,
+      "last_update_date": "2026-08-01"
+    },
+    "0x73463cf40eb2c83e845becbf16ad35e0a8a07863194bc76fd3af9a9d630b387f": {
+      "ticker": "[YES] Will Arsenal win the 2026-27 UEFA Cham",
+      "direction": "YES",
+      "condition_id": "0x73463cf40eb2c83e845becbf16ad35e0a8a07863194bc76fd3af9a9d630b387f",
+      "entry_price": 0.105,
+      "shares": 19047.61904761905,
+      "entry_value": 2000.0,
+      "current_price": 0.105,
+      "peak_price": 0.105,
+      "entry_date": "2026-08-01T00:09:13.145715",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-01"
     }
   },
   "closed_trades": [
@@ -90,6 +103,10 @@
     },
     {
       "date": "2026-07-31",
+      "equity": 10000.0
+    },
+    {
+      "date": "2026-08-01",
       "equity": 10000.0
     }
   ]
