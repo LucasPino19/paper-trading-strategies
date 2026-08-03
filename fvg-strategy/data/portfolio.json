@@ -1,19 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7497.078077642886,
+  "cash": 8304.861214069097,
   "open_positions": {
-    "MSFT": {
-      "ticker": "MSFT",
-      "entry_price": 399.1600036621094,
-      "shares": 6.289736875578448,
-      "entry_value": 2510.6113942895977,
-      "current_price": 456.93499755859375,
-      "peak_price": 456.93499755859375,
+    "CVX": {
+      "ticker": "CVX",
+      "entry_price": 194.91000366210938,
+      "shares": 11.539291883611495,
+      "entry_value": 2249.1234232928655,
+      "current_price": 194.91000366210938,
+      "peak_price": 194.91000366210938,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-07-31",
-      "entry_date": "2026-07-28T15:42:02.039538",
-      "sps_score": 5.235822234630704,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-03",
+      "entry_date": "2026-08-03T16:00:45.399987",
+      "sps_score": 18.546971250597522,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -349,6 +349,28 @@
       "pnl": -153.68605368462113,
       "pnl_pct": -0.08744941800356512,
       "exit_reason": "Stop loss: -8.7%"
+    },
+    {
+      "ticker": "MSFT",
+      "entry_price": 399.1600036621094,
+      "shares": 6.289736875578448,
+      "entry_value": 2510.6113942895977,
+      "current_price": 486.0150146484375,
+      "peak_price": 486.0150146484375,
+      "volume_spiked": false,
+      "trading_days_held": 5,
+      "last_update_date": "2026-08-03",
+      "entry_date": "2026-07-28T15:42:02.039538",
+      "sps_score": 5.235822234630704,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 486.0150146484375,
+      "exit_date": "2026-08-03T16:00:45.638494",
+      "proceeds": 3056.906559719077,
+      "pnl": 546.2951654294793,
+      "pnl_pct": 0.21759447386880792,
+      "exit_reason": "Target +21.8% alcanzado"
     }
   ],
   "equity_history": [
@@ -543,6 +565,10 @@
     {
       "date": "2026-07-31",
       "equity": 10371.078981529521
+    },
+    {
+      "date": "2026-08-03",
+      "equity": 10553.984637361962
     }
   ]
 }
