@@ -1,20 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4.547473508864641e-13,
+  "cash": 2.2737367544323206e-13,
   "open_positions": {
-    "0x24afbaf5bbbcbece7e5125f0da84b36d945147e5042fcedce7689c1d7d8e8e45": {
-      "ticker": "[YES] Cleveland Guardians vs. Tampa Bay Rays",
-      "direction": "YES",
-      "condition_id": "0x24afbaf5bbbcbece7e5125f0da84b36d945147e5042fcedce7689c1d7d8e8e45",
-      "entry_price": 0.795,
-      "shares": 2480.8645921182665,
-      "entry_value": 1972.287350734022,
-      "current_price": 0.795,
-      "peak_price": 0.795,
-      "entry_date": "2026-07-24T23:51:59.695143",
-      "trading_days_held": 9,
-      "last_update_date": "2026-08-02"
-    },
     "0x4d18e2c722144b600b2b796809f87ec5f265d3d65213f5097bc2ffc4a1626d8b": {
       "ticker": "[YES] Canadian Open: Aleksandar Kovacevic vs",
       "direction": "YES",
@@ -25,8 +12,8 @@
       "current_price": 0.745,
       "peak_price": 0.745,
       "entry_date": "2026-08-02T23:46:50.332422",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-02"
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-03"
     },
     "0x7cc8729c2bea651d00f502c2f9707f44991b1605afbe9cf793fcc77393c547b7": {
       "ticker": "[YES] Mubadala Citi DC Open: Taylor Fritz vs",
@@ -38,8 +25,8 @@
       "current_price": 0.625,
       "peak_price": 0.625,
       "entry_date": "2026-08-02T23:46:50.332422",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-02"
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-03"
     },
     "0x5e35056cda3e357545dda3ccff224b4e9b752085611f1cd599b6c0c477fd0641": {
       "ticker": "[YES] Canadian Open: Matteo Berrettini vs Ma",
@@ -51,8 +38,8 @@
       "current_price": 0.635,
       "peak_price": 0.635,
       "entry_date": "2026-08-02T23:46:50.332422",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-02"
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-03"
     },
     "0x8a357b259c4fef80ad77af95053282308f40eda3318d25f6b7c646c09b7e7418": {
       "ticker": "[YES] Valorant: G2 Esports vs Sentinels - Ma",
@@ -64,8 +51,21 @@
       "current_price": 0.605,
       "peak_price": 0.605,
       "entry_date": "2026-08-02T23:46:50.332422",
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-03"
+    },
+    "0xec2f2278740a5f62a683ae6fe33960b8368e48bcbb66205987cda5ff09568da4": {
+      "ticker": "[YES] National Bank Open: Tereza Valentova v",
+      "direction": "YES",
+      "condition_id": "0xec2f2278740a5f62a683ae6fe33960b8368e48bcbb66205987cda5ff09568da4",
+      "entry_price": 0.665,
+      "shares": 2965.8456402015368,
+      "entry_value": 1972.287350734022,
+      "current_price": 0.665,
+      "peak_price": 0.665,
+      "entry_date": "2026-08-03T23:57:15.394092",
       "trading_days_held": 0,
-      "last_update_date": "2026-08-02"
+      "last_update_date": "2026-08-03"
     }
   },
   "closed_trades": [
@@ -445,6 +445,19 @@
       "exit_date": "2026-08-02T23:46:50.332410",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Cleveland Guardians vs. Tampa Bay Rays",
+      "entry_price": 0.795,
+      "exit_price": 0.795,
+      "shares": 2480.8645921182665,
+      "entry_value": 1972.287350734022,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-07-24T23:51:59.695143",
+      "exit_date": "2026-08-03T23:57:15.394075",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -690,6 +703,10 @@
     },
     {
       "date": "2026-08-02",
+      "equity": 9861.43675367011
+    },
+    {
+      "date": "2026-08-03",
       "equity": 9861.43675367011
     }
   ]
