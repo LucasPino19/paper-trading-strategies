@@ -1,45 +1,71 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9.094947017729282e-13,
+  "cash": 0.0,
   "open_positions": {
-    "pump-fun": {
-      "ticker": "PUMP",
-      "name": "Pump.fun",
-      "entry_price": 0.00200672,
-      "shares": 1148605.9643499914,
-      "entry_value": 2337.4982736691836,
-      "current_price": 0.00209697,
-      "peak_price": 0.00212417,
-      "entry_date": "2026-07-20T23:12:58.989501",
-      "trading_days_held": 13,
-      "last_update_date": "2026-08-02",
-      "momentum_7d": 36.228963534599
+    "fartcoin": {
+      "ticker": "FARTCOIN",
+      "name": "Fartcoin",
+      "entry_price": 0.130846,
+      "shares": 10995.95491411381,
+      "entry_value": 1438.7767166921356,
+      "current_price": 0.130846,
+      "peak_price": 0.130846,
+      "entry_date": "2026-08-03T23:17:19.928030",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-03",
+      "momentum_7d": 2.3
     },
-    "melania-meme": {
-      "ticker": "MELANIA",
-      "name": "Melania Meme",
-      "entry_price": 0.08005,
-      "shares": 30024.459467862056,
-      "entry_value": 2403.4579804023574,
-      "current_price": 0.076721,
-      "peak_price": 0.08005,
-      "entry_date": "2026-07-27T23:18:26.289218",
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-02",
-      "momentum_7d": 1.3
+    "the-black-bull": {
+      "ticker": "ANSEM",
+      "name": "The Black Bull",
+      "entry_price": 0.18497,
+      "shares": 7778.432809061662,
+      "entry_value": 1438.7767166921356,
+      "current_price": 0.18497,
+      "peak_price": 0.18497,
+      "entry_date": "2026-08-03T23:17:19.928030",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-03",
+      "momentum_7d": 13.2
     },
-    "shiba-inu": {
-      "ticker": "SHIB",
-      "name": "Shiba Inu",
-      "entry_price": 4.9e-06,
-      "shares": 490501628.65354234,
-      "entry_value": 2403.4579804023574,
-      "current_price": 4.89e-06,
-      "peak_price": 4.9e-06,
-      "entry_date": "2026-07-27T23:18:26.289218",
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-02",
-      "momentum_7d": 16.8
+    "banana-for-scale-2": {
+      "ticker": "BANANAS31",
+      "name": "Banana For Scale",
+      "entry_price": 0.00700977,
+      "shares": 205253.05633310872,
+      "entry_value": 1438.7767166921356,
+      "current_price": 0.00700977,
+      "peak_price": 0.00700977,
+      "entry_date": "2026-08-03T23:17:19.928030",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-03",
+      "momentum_7d": 2.3
+    },
+    "cash-cat": {
+      "ticker": "CASHCAT",
+      "name": "Cash Cat",
+      "entry_price": 0.063882,
+      "shares": 22522.41189524648,
+      "entry_value": 1438.7767166921356,
+      "current_price": 0.063882,
+      "peak_price": 0.063882,
+      "entry_date": "2026-08-03T23:17:19.928030",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-03",
+      "momentum_7d": 67.4
+    },
+    "baby-doge-coin": {
+      "ticker": "BABYDOGE",
+      "name": "Baby Doge Coin",
+      "entry_price": 3.06299e-10,
+      "shares": 4697294854675.121,
+      "entry_value": 1438.776716692135,
+      "current_price": 3.06299e-10,
+      "peak_price": 3.06299e-10,
+      "entry_date": "2026-08-03T23:17:19.928030",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-03",
+      "momentum_7d": 2.4
     }
   },
   "closed_trades": [
@@ -354,6 +380,45 @@
       "exit_date": "2026-07-27T23:18:26.289218",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 7
+    },
+    {
+      "ticker": "melania-meme",
+      "entry_price": 0.08005,
+      "exit_price": 0.07683,
+      "shares": 30024.459467862056,
+      "entry_value": 2403.4579804023574,
+      "pnl": -96.67875948651584,
+      "pnl_pct": -0.04022485946283574,
+      "entry_date": "2026-07-27T23:18:26.289218",
+      "exit_date": "2026-08-03T23:17:19.928030",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "shiba-inu",
+      "entry_price": 4.9e-06,
+      "exit_price": 4.99e-06,
+      "shares": 490501628.65354234,
+      "entry_value": 2403.4579804023574,
+      "pnl": 44.1451465788188,
+      "pnl_pct": 0.01836734693877551,
+      "entry_date": "2026-07-27T23:18:26.289218",
+      "exit_date": "2026-08-03T23:17:19.928030",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "pump-fun",
+      "entry_price": 0.00200672,
+      "exit_price": 0.00212388,
+      "shares": 1148605.9643499914,
+      "entry_value": 2337.4982736691836,
+      "pnl": 134.5706747832448,
+      "pnl_pct": 0.05838383033009081,
+      "entry_date": "2026-07-20T23:12:58.989501",
+      "exit_date": "2026-08-03T23:17:19.928030",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 14
     }
   ],
   "equity_history": [
@@ -604,7 +669,11 @@
     {
       "date": "2026-08-02",
       "equity": 7110.651768012669
+    },
+    {
+      "date": "2026-08-03",
+      "equity": 7193.883583460677
     }
   ],
-  "last_rebalance": "2026-30"
+  "last_rebalance": "2026-31"
 }
