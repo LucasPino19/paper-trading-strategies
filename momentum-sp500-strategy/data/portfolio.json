@@ -1,50 +1,50 @@
 {
   "initial_capital": 10000.0,
-  "cash": 0.0,
+  "cash": 9.094947017729282e-13,
   "open_positions": {
     "LRCX": {
       "ticker": "LRCX",
       "entry_price": 318.17999267578125,
-      "shares": 7.7894774170637495,
-      "entry_value": 2511.4174623489444,
-      "current_price": 293.0199890136719,
+      "shares": 8.488901914201678,
+      "entry_value": 2717.4749032052737,
+      "current_price": 294.6099853515625,
       "peak_price": 433.3299865722656,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 46,
-      "last_update_date": "2026-07-31"
+      "trading_days_held": 47,
+      "last_update_date": "2026-08-03"
     },
     "AMD": {
       "ticker": "AMD",
       "entry_price": 516.0999755859375,
-      "shares": 5.634726709725196,
+      "shares": 5.160356538879679,
       "entry_value": 2907.0988506745757,
-      "current_price": 476.1499938964844,
+      "current_price": 484.6400146484375,
       "peak_price": 580.9099731445312,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 46,
-      "last_update_date": "2026-07-31"
+      "trading_days_held": 47,
+      "last_update_date": "2026-08-03"
     },
     "AMAT": {
       "ticker": "AMAT",
       "entry_price": 450.05999755859375,
-      "shares": 4.682231239361806,
-      "entry_value": 2501.89791551694,
-      "current_price": 507.6700134277344,
+      "shares": 4.826065036476215,
+      "entry_value": 2576.4340306800086,
+      "current_price": 518.2100219726562,
       "peak_price": 723.0,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 46,
-      "last_update_date": "2026-07-31"
+      "trading_days_held": 47,
+      "last_update_date": "2026-08-03"
     },
-    "CAT": {
-      "ticker": "CAT",
-      "entry_price": 991.4099731445312,
-      "shares": 3.0741177644227426,
-      "entry_value": 3047.711010269478,
-      "current_price": 814.8099975585938,
-      "peak_price": 991.4099731445312,
-      "entry_date": "2026-07-01T22:50:39.393852",
-      "trading_days_held": 22,
-      "last_update_date": "2026-07-31"
+    "INTC": {
+      "ticker": "INTC",
+      "entry_price": 91.0,
+      "shares": 27.48258536916272,
+      "entry_value": 2500.9152685938075,
+      "current_price": 91.0,
+      "peak_price": 91.0,
+      "entry_date": "2026-08-03T22:37:44.803600",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-03"
     }
   },
   "closed_trades": [
@@ -333,6 +333,19 @@
       "exit_date": "2026-07-01T22:50:39.393852",
       "exit_reason": "Rebalanceo mensual \u2014 sali\u00f3 del top",
       "trading_days_held": 24
+    },
+    {
+      "ticker": "CAT",
+      "entry_price": 991.4099731445312,
+      "exit_price": 830.030029296875,
+      "shares": 3.0741177644227426,
+      "entry_value": 3047.711010269478,
+      "pnl": -496.1009522036248,
+      "pnl_pct": -0.16277821306940768,
+      "entry_date": "2026-07-01T22:50:39.393852",
+      "exit_date": "2026-08-03T22:37:44.803600",
+      "exit_reason": "Rebalanceo mensual \u2014 sali\u00f3 del top",
+      "trading_days_held": 23
     }
   ],
   "equity_history": [
@@ -523,7 +536,11 @@
     {
       "date": "2026-07-31",
       "equity": 9847.297959896963
+    },
+    {
+      "date": "2026-08-03",
+      "equity": 10003.66107437523
     }
   ],
-  "last_rebalance": "2026-07"
+  "last_rebalance": "2026-08"
 }
