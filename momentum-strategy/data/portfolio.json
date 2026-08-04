@@ -1,35 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5422.264155370731,
+  "cash": 5816.471245067417,
   "open_positions": {
-    "PLTR": {
-      "ticker": "PLTR",
-      "entry_price": 124.85990142822266,
-      "shares": 12.567310894273433,
-      "entry_value": 1569.1531994768095,
-      "current_price": 125.06999969482422,
-      "peak_price": 125.06999969482422,
-      "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-08-03",
-      "entry_date": "2026-07-29T16:01:50.498632",
-      "sps_score": 63.51899563275221,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "AVGO": {
       "ticker": "AVGO",
       "entry_price": 386.42999267578125,
       "shares": 3.560861877751395,
       "entry_value": 1376.0238293389402,
-      "current_price": 388.42999267578125,
-      "peak_price": 388.42999267578125,
+      "current_price": 415.94000244140625,
+      "peak_price": 415.94000244140625,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-08-03",
+      "trading_days_held": 4,
+      "last_update_date": "2026-08-04",
       "entry_date": "2026-07-30T16:07:04.889999",
       "sps_score": 56.92047352158936,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "SMCI": {
+      "ticker": "SMCI",
+      "entry_price": 30.969999313354492,
+      "shares": 52.52435526886767,
+      "entry_value": 1626.6792466112192,
+      "current_price": 30.969999313354492,
+      "peak_price": 30.969999313354492,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-04",
+      "entry_date": "2026-08-04T16:27:27.777351",
+      "sps_score": 160.4573358976653,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -563,6 +563,28 @@
       "pnl": 245.79355928614564,
       "pnl_pct": 0.12503816273513202,
       "exit_reason": "Target +12.5% alcanzado"
+    },
+    {
+      "ticker": "PLTR",
+      "entry_price": 124.85990142822266,
+      "shares": 12.567310894273433,
+      "entry_value": 1569.1531994768095,
+      "current_price": 160.80499267578125,
+      "peak_price": 160.80499267578125,
+      "volume_spiked": false,
+      "trading_days_held": 5,
+      "last_update_date": "2026-08-04",
+      "entry_date": "2026-07-29T16:01:50.498632",
+      "sps_score": 63.51899563275221,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 160.80499267578125,
+      "exit_date": "2026-08-04T16:27:28.137467",
+      "proceeds": 2020.8863363079054,
+      "pnl": 451.73313683109586,
+      "pnl_pct": 0.28788338639064287,
+      "exit_reason": "Target +28.8% alcanzado"
     }
   ],
   "equity_history": [
@@ -761,6 +783,10 @@
     {
       "date": "2026-08-03",
       "equity": 8377.203278176712
+    },
+    {
+      "date": "2026-08-04",
+      "equity": 8924.255389804062
     }
   ]
 }
