@@ -1,19 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8304.861214069097,
+  "cash": 5813.402849848368,
   "open_positions": {
     "CVX": {
       "ticker": "CVX",
       "entry_price": 194.91000366210938,
       "shares": 11.539291883611495,
       "entry_value": 2249.1234232928655,
-      "current_price": 194.91000366210938,
+      "current_price": 190.72000122070312,
       "peak_price": 194.91000366210938,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-03",
+      "trading_days_held": 2,
+      "last_update_date": "2026-08-04",
       "entry_date": "2026-08-03T16:00:45.399987",
       "sps_score": 18.546971250597522,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "entry_price": 521.8499755859375,
+      "shares": 4.774280886807168,
+      "entry_value": 2491.458364220729,
+      "current_price": 521.8499755859375,
+      "peak_price": 521.8499755859375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-04",
+      "entry_date": "2026-08-04T15:54:07.572135",
+      "sps_score": 31.216442068915423,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -569,6 +585,10 @@
     {
       "date": "2026-08-03",
       "equity": 10553.984637361962
+    },
+    {
+      "date": "2026-08-04",
+      "equity": 10505.63497619753
     }
   ]
 }
