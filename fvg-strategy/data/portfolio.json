@@ -1,35 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5813.402849848368,
+  "cash": 8131.721993472769,
   "open_positions": {
     "CVX": {
       "ticker": "CVX",
       "entry_price": 194.91000366210938,
       "shares": 11.539291883611495,
       "entry_value": 2249.1234232928655,
-      "current_price": 190.72000122070312,
+      "current_price": 186.52999877929688,
       "peak_price": 194.91000366210938,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-08-04",
+      "trading_days_held": 3,
+      "last_update_date": "2026-08-05",
       "entry_date": "2026-08-03T16:00:45.399987",
       "sps_score": 18.546971250597522,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "AMD": {
-      "ticker": "AMD",
-      "entry_price": 521.8499755859375,
-      "shares": 4.774280886807168,
-      "entry_value": 2491.458364220729,
-      "current_price": 521.8499755859375,
-      "peak_price": 521.8499755859375,
-      "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-04",
-      "entry_date": "2026-08-04T15:54:07.572135",
-      "sps_score": 31.216442068915423,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -387,6 +371,28 @@
       "pnl": 546.2951654294793,
       "pnl_pct": 0.21759447386880792,
       "exit_reason": "Target +21.8% alcanzado"
+    },
+    {
+      "ticker": "AMD",
+      "entry_price": 521.8499755859375,
+      "shares": 4.774280886807168,
+      "entry_value": 2491.458364220729,
+      "current_price": 485.5849914550781,
+      "peak_price": 521.8499755859375,
+      "volume_spiked": false,
+      "trading_days_held": 2,
+      "last_update_date": "2026-08-05",
+      "entry_date": "2026-08-04T15:54:07.572135",
+      "sps_score": 31.216442068915423,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 485.5849914550781,
+      "exit_date": "2026-08-05T15:37:27.722649",
+      "proceeds": 2318.3191436244015,
+      "pnl": -173.1392205963275,
+      "pnl_pct": -0.06949312221417815,
+      "exit_reason": "Stop loss: -6.9%"
     }
   ],
   "equity_history": [
@@ -589,6 +595,10 @@
     {
       "date": "2026-08-04",
       "equity": 10505.63497619753
+    },
+    {
+      "date": "2026-08-05",
+      "equity": 10284.146094436772
     }
   ]
 }
