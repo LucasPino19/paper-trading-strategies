@@ -12,8 +12,8 @@
       "current_price": 0.745,
       "peak_price": 0.745,
       "entry_date": "2026-08-02T23:46:50.332422",
-      "trading_days_held": 2,
-      "last_update_date": "2026-08-04"
+      "trading_days_held": 3,
+      "last_update_date": "2026-08-05"
     },
     "0x7cc8729c2bea651d00f502c2f9707f44991b1605afbe9cf793fcc77393c547b7": {
       "ticker": "[YES] Mubadala Citi DC Open: Taylor Fritz vs",
@@ -25,8 +25,8 @@
       "current_price": 0.625,
       "peak_price": 0.625,
       "entry_date": "2026-08-02T23:46:50.332422",
-      "trading_days_held": 2,
-      "last_update_date": "2026-08-04"
+      "trading_days_held": 3,
+      "last_update_date": "2026-08-05"
     },
     "0x5e35056cda3e357545dda3ccff224b4e9b752085611f1cd599b6c0c477fd0641": {
       "ticker": "[YES] Canadian Open: Matteo Berrettini vs Ma",
@@ -38,8 +38,8 @@
       "current_price": 0.635,
       "peak_price": 0.635,
       "entry_date": "2026-08-02T23:46:50.332422",
-      "trading_days_held": 2,
-      "last_update_date": "2026-08-04"
+      "trading_days_held": 3,
+      "last_update_date": "2026-08-05"
     },
     "0x8a357b259c4fef80ad77af95053282308f40eda3318d25f6b7c646c09b7e7418": {
       "ticker": "[YES] Valorant: G2 Esports vs Sentinels - Ma",
@@ -51,8 +51,8 @@
       "current_price": 0.605,
       "peak_price": 0.605,
       "entry_date": "2026-08-02T23:46:50.332422",
-      "trading_days_held": 2,
-      "last_update_date": "2026-08-04"
+      "trading_days_held": 3,
+      "last_update_date": "2026-08-05"
     },
     "0xec2f2278740a5f62a683ae6fe33960b8368e48bcbb66205987cda5ff09568da4": {
       "ticker": "[YES] National Bank Open: Tereza Valentova v",
@@ -64,8 +64,8 @@
       "current_price": 0.665,
       "peak_price": 0.665,
       "entry_date": "2026-08-03T23:57:15.394092",
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-04"
+      "trading_days_held": 2,
+      "last_update_date": "2026-08-05"
     }
   },
   "closed_trades": [
@@ -711,6 +711,10 @@
     },
     {
       "date": "2026-08-04",
+      "equity": 9861.43675367011
+    },
+    {
+      "date": "2026-08-05",
       "equity": 9861.43675367011
     }
   ]
