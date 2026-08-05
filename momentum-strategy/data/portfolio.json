@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5816.471245067417,
+  "cash": 4071.5298715471918,
   "open_positions": {
     "AVGO": {
       "ticker": "AVGO",
       "entry_price": 386.42999267578125,
       "shares": 3.560861877751395,
       "entry_value": 1376.0238293389402,
-      "current_price": 415.94000244140625,
-      "peak_price": 415.94000244140625,
+      "current_price": 418.9150085449219,
+      "peak_price": 418.9150085449219,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-08-04",
+      "trading_days_held": 5,
+      "last_update_date": "2026-08-05",
       "entry_date": "2026-07-30T16:07:04.889999",
       "sps_score": 56.92047352158936,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 30.969999313354492,
       "shares": 52.52435526886767,
       "entry_value": 1626.6792466112192,
-      "current_price": 30.969999313354492,
-      "peak_price": 30.969999313354492,
+      "current_price": 31.06999969482422,
+      "peak_price": 31.06999969482422,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-04",
+      "trading_days_held": 2,
+      "last_update_date": "2026-08-05",
       "entry_date": "2026-08-04T16:27:27.777351",
       "sps_score": 160.4573358976653,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "ARM": {
+      "ticker": "ARM",
+      "entry_price": 279.17999267578125,
+      "shares": 6.250237908511837,
+      "entry_value": 1744.941373520225,
+      "current_price": 279.17999267578125,
+      "peak_price": 279.17999267578125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-05",
+      "entry_date": "2026-08-05T16:15:59.282492",
+      "sps_score": 77.81819246074018,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -787,6 +803,10 @@
     {
       "date": "2026-08-04",
       "equity": 8924.255389804062
+    },
+    {
+      "date": "2026-08-05",
+      "equity": 8940.101431187486
     }
   ]
 }
