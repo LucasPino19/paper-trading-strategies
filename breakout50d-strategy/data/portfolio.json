@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5722.897622203996,
+  "cash": 4006.0283355427973,
   "open_positions": {
     "GLD": {
       "ticker": "GLD",
       "entry_price": 371.8999938964844,
       "shares": 4.516157675075785,
       "entry_value": 1679.5590117962456,
-      "current_price": 374.1600036621094,
-      "peak_price": 377.1600036621094,
+      "current_price": 389.6400146484375,
+      "peak_price": 389.6400146484375,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-04",
+      "trading_days_held": 9,
+      "last_update_date": "2026-08-05",
       "entry_date": "2026-07-24T22:35:31.524377",
       "sps_score": 15.55199767597528,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 235.5,
       "shares": 7.028989808264843,
       "entry_value": 1655.3270998463704,
-      "current_price": 277.4200134277344,
+      "current_price": 272.6499938964844,
       "peak_price": 284.0199890136719,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-08-04",
+      "trading_days_held": 5,
+      "last_update_date": "2026-08-05",
       "entry_date": "2026-07-30T22:36:33.161473",
       "sps_score": 25.10072023865299,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "entry_price": 219.22000122070312,
+      "shares": 7.8317182606559435,
+      "entry_value": 1716.8692866611989,
+      "current_price": 219.22000122070312,
+      "peak_price": 219.22000122070312,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-05",
+      "entry_date": "2026-08-05T22:35:15.735446",
+      "sps_score": 43.93205054318437,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -479,6 +495,10 @@
     {
       "date": "2026-08-04",
       "equity": 9362.645641441257
+    },
+    {
+      "date": "2026-08-05",
+      "equity": 9399.027393197039
     }
   ]
 }
