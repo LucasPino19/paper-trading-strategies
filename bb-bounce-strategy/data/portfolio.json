@@ -1,19 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7055.20299580281,
+  "cash": 4938.642097061967,
   "open_positions": {
     "QQQ": {
       "ticker": "QQQ",
       "entry_price": 696.0599975585938,
       "shares": 4.149219920596591,
       "entry_value": 2888.106007800532,
-      "current_price": 714.6500244140625,
+      "current_price": 723.030029296875,
       "peak_price": 723.8499755859375,
       "volume_spiked": false,
       "trading_days_held": 14,
       "last_update_date": "2026-08-07",
       "entry_date": "2026-07-20T22:31:23.956824",
       "sps_score": 42.06596858342454,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "UNH": {
+      "ticker": "UNH",
+      "entry_price": 407.0799865722656,
+      "shares": 5.1993735102600205,
+      "entry_value": 2116.5608987408427,
+      "current_price": 407.0799865722656,
+      "peak_price": 407.0799865722656,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-07",
+      "entry_date": "2026-08-07T22:06:49.686220",
+      "sps_score": 41.841215981697836,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -316,7 +332,7 @@
     },
     {
       "date": "2026-08-07",
-      "equity": 10020.443113356478
+      "equity": 10055.21359655094
     }
   ]
 }
