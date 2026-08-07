@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6000.0,
+  "cash": 4013.559322033898,
   "open_positions": {
     "0x73463cf40eb2c83e845becbf16ad35e0a8a07863194bc76fd3af9a9d630b387f": {
       "ticker": "[YES] Will Arsenal win the 2026-27 UEFA Cham",
@@ -12,8 +12,8 @@
       "current_price": 0.105,
       "peak_price": 0.105,
       "entry_date": "2026-08-01T00:09:13.145715",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-06"
+      "trading_days_held": 6,
+      "last_update_date": "2026-08-07"
     },
     "0x86e8f678e6cebb9596ffbb5a736b2ff9f36b12905d5b65b1556329c28533c7a1": {
       "ticker": "[YES] Will Manchester City win the 2026-27 E",
@@ -25,8 +25,21 @@
       "current_price": 0.285,
       "peak_price": 0.295,
       "entry_date": "2026-08-02T00:06:44.870347",
-      "trading_days_held": 4,
-      "last_update_date": "2026-08-06"
+      "trading_days_held": 5,
+      "last_update_date": "2026-08-07"
+    },
+    "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815": {
+      "ticker": "[YES] Will Arsenal win the 2026-27 English P",
+      "direction": "YES",
+      "condition_id": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815",
+      "entry_price": 0.365,
+      "shares": 5442.303227304389,
+      "entry_value": 1986.440677966102,
+      "current_price": 0.365,
+      "peak_price": 0.365,
+      "entry_date": "2026-08-07T01:42:50.718462",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-07"
     }
   },
   "closed_trades": [
@@ -140,6 +153,10 @@
     },
     {
       "date": "2026-08-06",
+      "equity": 9932.203389830509
+    },
+    {
+      "date": "2026-08-07",
       "equity": 9932.203389830509
     }
   ]
