@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5597.951166876571,
+  "cash": 3918.5658168135997,
   "open_positions": {
     "META": {
       "ticker": "META",
       "entry_price": 536.3400268554688,
       "shares": 4.206733049484134,
       "entry_value": 2256.2393167341083,
-      "current_price": 596.4500122070312,
-      "peak_price": 596.4500122070312,
+      "current_price": 599.27001953125,
+      "peak_price": 599.27001953125,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-07",
+      "trading_days_held": 7,
+      "last_update_date": "2026-08-10",
       "entry_date": "2026-07-30T16:07:20.554253",
       "sps_score": 50.89025596979466,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 452.625,
       "shares": 3.489351055982051,
       "entry_value": 1579.367521713876,
-      "current_price": 502.2298889160156,
-      "peak_price": 502.2298889160156,
+      "current_price": 509.55999755859375,
+      "peak_price": 509.55999755859375,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-07",
+      "trading_days_held": 7,
+      "last_update_date": "2026-08-10",
       "entry_date": "2026-07-30T16:07:20.699819",
       "sps_score": 11.63525645864668,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "entry_price": 306.510009765625,
+      "shares": 5.479055484508074,
+      "entry_value": 1679.3853500629712,
+      "current_price": 306.510009765625,
+      "peak_price": 306.510009765625,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-10",
+      "entry_date": "2026-08-10T15:30:55.939759",
+      "sps_score": 7.645605526747766,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -597,6 +613,10 @@
     {
       "date": "2026-08-07",
       "equity": 9859.513538827952
+    },
+    {
+      "date": "2026-08-10",
+      "equity": 9896.953879170975
     }
   ]
 }
