@@ -2,70 +2,70 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "fartcoin": {
-      "ticker": "FARTCOIN",
-      "name": "Fartcoin",
-      "entry_price": 0.130846,
-      "shares": 10995.95491411381,
-      "entry_value": 1438.7767166921356,
-      "current_price": 0.133279,
-      "peak_price": 0.136873,
-      "entry_date": "2026-08-03T23:17:19.928030",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-09",
-      "momentum_7d": 2.3
-    },
     "the-black-bull": {
       "ticker": "ANSEM",
       "name": "The Black Bull",
       "entry_price": 0.18497,
-      "shares": 7778.432809061662,
-      "entry_value": 1438.7767166921356,
-      "current_price": 0.17225,
-      "peak_price": 0.18497,
+      "shares": 10237.768937075642,
+      "entry_value": 1915.5460778050535,
+      "current_price": 0.193861,
+      "peak_price": 0.193861,
       "entry_date": "2026-08-03T23:17:19.928030",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-09",
+      "trading_days_held": 6,
+      "last_update_date": "2026-08-10",
       "momentum_7d": 13.2
-    },
-    "banana-for-scale-2": {
-      "ticker": "BANANAS31",
-      "name": "Banana For Scale",
-      "entry_price": 0.00700977,
-      "shares": 205253.05633310872,
-      "entry_value": 1438.7767166921356,
-      "current_price": 0.01056309,
-      "peak_price": 0.01056309,
-      "entry_date": "2026-08-03T23:17:19.928030",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-09",
-      "momentum_7d": 2.3
     },
     "cash-cat": {
       "ticker": "CASHCAT",
       "name": "Cash Cat",
       "entry_price": 0.063882,
-      "shares": 22522.41189524648,
+      "shares": 12898.912845660647,
       "entry_value": 1438.7767166921356,
-      "current_price": 0.138702,
-      "peak_price": 0.138702,
+      "current_price": 0.153866,
+      "peak_price": 0.153866,
       "entry_date": "2026-08-03T23:17:19.928030",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-09",
+      "trading_days_held": 6,
+      "last_update_date": "2026-08-10",
       "momentum_7d": 67.4
     },
-    "baby-doge-coin": {
-      "ticker": "BABYDOGE",
-      "name": "Baby Doge Coin",
-      "entry_price": 3.06299e-10,
-      "shares": 4697294854675.121,
-      "entry_value": 1438.776716692135,
-      "current_price": 3.48263e-10,
-      "peak_price": 3.48263e-10,
-      "entry_date": "2026-08-03T23:17:19.928030",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-09",
-      "momentum_7d": 2.4
+    "pudgy-penguins": {
+      "ticker": "PENGU",
+      "name": "Pudgy Penguins",
+      "entry_price": 0.00656436,
+      "shares": 302345.41126788,
+      "entry_value": 1984.7041239104208,
+      "current_price": 0.00656436,
+      "peak_price": 0.00656436,
+      "entry_date": "2026-08-10T22:54:26.420730",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-10",
+      "momentum_7d": 5.7
+    },
+    "tutorial": {
+      "ticker": "TUT",
+      "name": "Tutorial",
+      "entry_price": 0.122937,
+      "shares": 16144.07480181248,
+      "entry_value": 1984.7041239104208,
+      "current_price": 0.122937,
+      "peak_price": 0.122937,
+      "entry_date": "2026-08-10T22:54:26.420730",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-10",
+      "momentum_7d": 516.0
+    },
+    "pump-fun": {
+      "ticker": "PUMP",
+      "name": "Pump.fun",
+      "entry_price": 0.00282844,
+      "shares": 701695.6781513556,
+      "entry_value": 1984.7041239104203,
+      "current_price": 0.00282844,
+      "peak_price": 0.00282844,
+      "entry_date": "2026-08-10T22:54:26.420730",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-10",
+      "momentum_7d": 28.9
     }
   },
   "closed_trades": [
@@ -419,6 +419,45 @@
       "exit_date": "2026-08-03T23:17:19.928030",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 14
+    },
+    {
+      "ticker": "baby-doge-coin",
+      "entry_price": 3.06299e-10,
+      "exit_price": 3.42696e-10,
+      "shares": 4697294854675.121,
+      "entry_value": 1438.776716692135,
+      "pnl": 170.96744082561025,
+      "pnl_pct": 0.11882833440527057,
+      "entry_date": "2026-08-03T23:17:19.928030",
+      "exit_date": "2026-08-10T22:54:26.420730",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 6
+    },
+    {
+      "ticker": "fartcoin",
+      "entry_price": 0.130846,
+      "exit_price": 0.133554,
+      "shares": 10995.95491411381,
+      "entry_value": 1438.7767166921356,
+      "pnl": 29.777045907420373,
+      "pnl_pct": 0.02069608547452743,
+      "entry_date": "2026-08-03T23:17:19.928030",
+      "exit_date": "2026-08-10T22:54:26.420730",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 6
+    },
+    {
+      "ticker": "banana-for-scale-2",
+      "entry_price": 0.00700977,
+      "exit_price": 0.00911974,
+      "shares": 205253.05633310872,
+      "entry_value": 1438.7767166921356,
+      "pnl": 433.07779127116925,
+      "pnl_pct": 0.30100416989430456,
+      "entry_date": "2026-08-03T23:17:19.928030",
+      "exit_date": "2026-08-10T22:54:26.420730",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 6
     }
   ],
   "equity_history": [
@@ -693,7 +732,11 @@
     {
       "date": "2026-08-09",
       "equity": 9733.269005848942
+    },
+    {
+      "date": "2026-08-10",
+      "equity": 9923.520619552104
     }
   ],
-  "last_rebalance": "2026-31"
+  "last_rebalance": "2026-32"
 }
