@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5692.205395430939,
+  "cash": 3984.5437768016573,
   "open_positions": {
     "CVX": {
       "ticker": "CVX",
       "entry_price": 194.91000366210938,
       "shares": 11.539291883611495,
       "entry_value": 2249.1234232928655,
-      "current_price": 192.36000061035156,
-      "peak_price": 194.91000366210938,
+      "current_price": 195.76499938964844,
+      "peak_price": 195.76499938964844,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-10",
+      "trading_days_held": 6,
+      "last_update_date": "2026-08-11",
       "entry_date": "2026-08-03T16:00:45.399987",
       "sps_score": 18.546971250597522,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 157.9199981689453,
       "shares": 15.447800318690462,
       "entry_value": 2439.5165980418305,
-      "current_price": 157.9199981689453,
-      "peak_price": 157.9199981689453,
+      "current_price": 160.8699951171875,
+      "peak_price": 160.8699951171875,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-10",
+      "trading_days_held": 2,
+      "last_update_date": "2026-08-11",
       "entry_date": "2026-08-10T14:35:16.933666",
       "sps_score": 24.37937493266547,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "entry_price": 352.0386047363281,
+      "shares": 4.850779419229592,
+      "entry_value": 1707.6616186292815,
+      "current_price": 352.0386047363281,
+      "peak_price": 352.0386047363281,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-11",
+      "entry_date": "2026-08-11T14:35:14.255111",
+      "sps_score": 13.862863005268059,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -623,6 +639,10 @@
     {
       "date": "2026-08-10",
       "equity": 10351.420187247302
+    },
+    {
+      "date": "2026-08-11",
+      "equity": 10436.28242582214
     }
   ]
 }
