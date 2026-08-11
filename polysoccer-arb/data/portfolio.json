@@ -1,20 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4013.559322033898,
+  "cash": 6013.559322033898,
   "open_positions": {
-    "0x73463cf40eb2c83e845becbf16ad35e0a8a07863194bc76fd3af9a9d630b387f": {
-      "ticker": "[YES] Will Arsenal win the 2026-27 UEFA Cham",
-      "direction": "YES",
-      "condition_id": "0x73463cf40eb2c83e845becbf16ad35e0a8a07863194bc76fd3af9a9d630b387f",
-      "entry_price": 0.105,
-      "shares": 19047.61904761905,
-      "entry_value": 2000.0,
-      "current_price": 0.105,
-      "peak_price": 0.105,
-      "entry_date": "2026-08-01T00:09:13.145715",
-      "trading_days_held": 9,
-      "last_update_date": "2026-08-10"
-    },
     "0x86e8f678e6cebb9596ffbb5a736b2ff9f36b12905d5b65b1556329c28533c7a1": {
       "ticker": "[YES] Will Manchester City win the 2026-27 E",
       "direction": "YES",
@@ -25,8 +12,8 @@
       "current_price": 0.285,
       "peak_price": 0.295,
       "entry_date": "2026-08-02T00:06:44.870347",
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-10"
+      "trading_days_held": 9,
+      "last_update_date": "2026-08-11"
     },
     "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815": {
       "ticker": "[YES] Will Arsenal win the 2026-27 English P",
@@ -38,8 +25,8 @@
       "current_price": 0.365,
       "peak_price": 0.365,
       "entry_date": "2026-08-07T01:42:50.718462",
-      "trading_days_held": 3,
-      "last_update_date": "2026-08-10"
+      "trading_days_held": 4,
+      "last_update_date": "2026-08-11"
     }
   },
   "closed_trades": [
@@ -66,6 +53,19 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-07-27T00:09:21.696725",
       "exit_date": "2026-08-06T00:07:30.711287",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Arsenal win the 2026-27 UEFA Cham",
+      "entry_price": 0.105,
+      "exit_price": 0.105,
+      "shares": 19047.61904761905,
+      "entry_value": 2000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-01T00:09:13.145715",
+      "exit_date": "2026-08-11T23:53:14.271196",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -169,6 +169,10 @@
     },
     {
       "date": "2026-08-10",
+      "equity": 9932.203389830509
+    },
+    {
+      "date": "2026-08-11",
       "equity": 9932.203389830509
     }
   ]
