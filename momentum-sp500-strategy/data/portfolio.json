@@ -7,11 +7,11 @@
       "entry_price": 318.17999267578125,
       "shares": 8.488901914201678,
       "entry_value": 2717.4749032052737,
-      "current_price": 311.4100036621094,
+      "current_price": 326.1099853515625,
       "peak_price": 433.3299865722656,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 52,
-      "last_update_date": "2026-08-11"
+      "trading_days_held": 53,
+      "last_update_date": "2026-08-12"
     },
     "AMD": {
       "ticker": "AMD",
@@ -21,30 +21,30 @@
       "current_price": 474.32000732421875,
       "peak_price": 580.9099731445312,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 52,
-      "last_update_date": "2026-08-11"
+      "trading_days_held": 53,
+      "last_update_date": "2026-08-12"
     },
     "AMAT": {
       "ticker": "AMAT",
       "entry_price": 450.05999755859375,
       "shares": 4.826065036476215,
       "entry_value": 2576.4340306800086,
-      "current_price": 525.6099853515625,
+      "current_price": 548.1500244140625,
       "peak_price": 723.0,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 52,
-      "last_update_date": "2026-08-11"
+      "trading_days_held": 53,
+      "last_update_date": "2026-08-12"
     },
     "INTC": {
       "ticker": "INTC",
       "entry_price": 91.0,
       "shares": 27.48258536916272,
       "entry_value": 2500.9152685938075,
-      "current_price": 97.70999908447266,
+      "current_price": 100.94999694824219,
       "peak_price": 101.6500015258789,
       "entry_date": "2026-08-03T22:37:44.803600",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-11"
+      "trading_days_held": 6,
+      "last_update_date": "2026-08-12"
     }
   },
   "closed_trades": [
@@ -560,6 +560,10 @@
     {
       "date": "2026-08-11",
       "equity": 10313.140691893605
+    },
+    {
+      "date": "2026-08-12",
+      "equity": 10635.750606923222
     }
   ],
   "last_rebalance": "2026-08"
