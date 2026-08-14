@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5671.616189591665,
+  "cash": 3970.131332714165,
   "open_positions": {
     "ARM": {
       "ticker": "ARM",
       "entry_price": 279.17999267578125,
       "shares": 6.250237908511837,
       "entry_value": 1744.941373520225,
-      "current_price": 284.1747131347656,
+      "current_price": 277.8949890136719,
       "peak_price": 284.9599914550781,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-13",
+      "trading_days_held": 7,
+      "last_update_date": "2026-08-14",
       "entry_date": "2026-08-05T16:15:59.282492",
       "sps_score": 77.81819246074018,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 41.48500061035156,
       "shares": 43.01856330839159,
       "entry_value": 1784.6251251050726,
-      "current_price": 41.48500061035156,
+      "current_price": 39.26499938964844,
       "peak_price": 41.48500061035156,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-13",
+      "trading_days_held": 2,
+      "last_update_date": "2026-08-14",
       "entry_date": "2026-08-13T15:30:38.347836",
       "sps_score": 160.4573358976653,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "entry_price": 502.8099060058594,
+      "shares": 3.3839525366424894,
+      "entry_value": 1701.4848568774994,
+      "current_price": 502.8099060058594,
+      "peak_price": 502.8099060058594,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-14",
+      "entry_date": "2026-08-14T15:22:05.000946",
+      "sps_score": 98.05527415266235,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -855,6 +871,10 @@
     {
       "date": "2026-08-13",
       "equity": 9232.400879372126
+    },
+    {
+      "date": "2026-08-14",
+      "equity": 9097.649846557946
     }
   ]
 }
