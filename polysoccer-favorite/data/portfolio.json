@@ -1,20 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4.547473508864641e-13,
+  "cash": 0.0,
   "open_positions": {
-    "0xec2f2278740a5f62a683ae6fe33960b8368e48bcbb66205987cda5ff09568da4": {
-      "ticker": "[YES] National Bank Open: Tereza Valentova v",
-      "direction": "YES",
-      "condition_id": "0xec2f2278740a5f62a683ae6fe33960b8368e48bcbb66205987cda5ff09568da4",
-      "entry_price": 0.665,
-      "shares": 2965.8456402015368,
-      "entry_value": 1972.287350734022,
-      "current_price": 0.665,
-      "peak_price": 0.665,
-      "entry_date": "2026-08-03T23:57:15.394092",
-      "trading_days_held": 9,
-      "last_update_date": "2026-08-13"
-    },
     "0x3a2ef65b2988a853b16ca1b00cabaef5d425e6962b657bba49140f9bc94c7c88": {
       "ticker": "[YES] National Bank Open: Ben Shelton vs Bra",
       "direction": "YES",
@@ -25,8 +12,8 @@
       "current_price": 0.685,
       "peak_price": 0.685,
       "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-13"
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-14"
     },
     "0xc04094452b0386a73a9a6e07da0370fffb2722e05c837a5246b88c914e78b79f": {
       "ticker": "[YES] UFC 330: Islam Makhachev vs. Ian Macha",
@@ -35,11 +22,11 @@
       "entry_price": 0.755,
       "shares": 2612.301126800029,
       "entry_value": 1972.287350734022,
-      "current_price": 0.755,
-      "peak_price": 0.755,
+      "current_price": 0.765,
+      "peak_price": 0.765,
       "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-13"
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-14"
     },
     "0xb61a9d762515f7544705811811af9153bd07e18e484774ff95d5b8d070eebc56": {
       "ticker": "[YES] Washington Mystics vs. Las Vegas Aces",
@@ -51,8 +38,8 @@
       "current_price": 0.675,
       "peak_price": 0.675,
       "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-13"
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-14"
     },
     "0x46f6c75e9f8c7e1fc82f23de712875820c12feda2e9e8033f67fa083f16237b6": {
       "ticker": "[YES] Cardinals vs. Raiders",
@@ -64,8 +51,21 @@
       "current_price": 0.615,
       "peak_price": 0.615,
       "entry_date": "2026-08-13T23:28:51.536635",
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-14"
+    },
+    "0x5e19b524253bd09a387a301edea0ac3a4687f6165204686eff2f9e748d324838": {
+      "ticker": "[YES] Miami Marlins vs. Cincinnati Reds: O/U",
+      "direction": "YES",
+      "condition_id": "0x5e19b524253bd09a387a301edea0ac3a4687f6165204686eff2f9e748d324838",
+      "entry_price": 0.785,
+      "shares": 2512.4679627185,
+      "entry_value": 1972.2873507340225,
+      "current_price": 0.785,
+      "peak_price": 0.785,
+      "entry_date": "2026-08-14T23:09:40.436799",
       "trading_days_held": 0,
-      "last_update_date": "2026-08-13"
+      "last_update_date": "2026-08-14"
     }
   },
   "closed_trades": [
@@ -510,6 +510,19 @@
       "exit_date": "2026-08-13T23:28:51.536622",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] National Bank Open: Tereza Valentova v",
+      "entry_price": 0.665,
+      "exit_price": 0.665,
+      "shares": 2965.8456402015368,
+      "entry_value": 1972.287350734022,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-03T23:57:15.394092",
+      "exit_date": "2026-08-14T23:09:40.436781",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -796,6 +809,10 @@
     {
       "date": "2026-08-13",
       "equity": 9861.43675367011
+    },
+    {
+      "date": "2026-08-14",
+      "equity": 9887.55976493811
     }
   ]
 }
