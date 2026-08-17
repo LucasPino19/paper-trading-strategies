@@ -1,49 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3918.5658168135997,
+  "cash": 8017.784566594225,
   "open_positions": {
-    "META": {
-      "ticker": "META",
-      "entry_price": 536.3400268554688,
-      "shares": 4.206733049484134,
-      "entry_value": 2256.2393167341083,
-      "current_price": 593.5,
-      "peak_price": 609.77001953125,
-      "volume_spiked": false,
-      "trading_days_held": 11,
-      "last_update_date": "2026-08-14",
-      "entry_date": "2026-07-30T16:07:20.554253",
-      "sps_score": 50.89025596979466,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "MSFT": {
-      "ticker": "MSFT",
-      "entry_price": 452.625,
-      "shares": 3.489351055982051,
-      "entry_value": 1579.367521713876,
-      "current_price": 497.989990234375,
-      "peak_price": 509.55999755859375,
-      "volume_spiked": false,
-      "trading_days_held": 11,
-      "last_update_date": "2026-08-14",
-      "entry_date": "2026-07-30T16:07:20.699819",
-      "sps_score": 11.63525645864668,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "AAPL": {
       "ticker": "AAPL",
       "entry_price": 306.510009765625,
       "shares": 5.479055484508074,
       "entry_value": 1679.3853500629712,
-      "current_price": 305.31500244140625,
+      "current_price": 303.7799987792969,
       "peak_price": 306.68499755859375,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-14",
+      "trading_days_held": 6,
+      "last_update_date": "2026-08-17",
       "entry_date": "2026-08-10T15:30:55.939759",
       "sps_score": 7.645605526747766,
       "short_float_pct": 0,
@@ -403,6 +371,50 @@
       "pnl": 113.8557023350395,
       "pnl_pct": 0.06329168515469817,
       "exit_reason": "Stop de tiempo: 12d \u2014 +6.3%"
+    },
+    {
+      "ticker": "META",
+      "entry_price": 536.3400268554688,
+      "shares": 4.206733049484134,
+      "entry_value": 2256.2393167341083,
+      "current_price": 573.99169921875,
+      "peak_price": 609.77001953125,
+      "volume_spiked": false,
+      "trading_days_held": 12,
+      "last_update_date": "2026-08-17",
+      "entry_date": "2026-07-30T16:07:20.554253",
+      "sps_score": 50.89025596979466,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 573.99169921875,
+      "exit_date": "2026-08-17T14:54:53.767678",
+      "proceeds": 2414.629851233072,
+      "pnl": 158.39053449896346,
+      "pnl_pct": 0.07020112331356441,
+      "exit_reason": "Stop de tiempo: 12d \u2014 +7.0%"
+    },
+    {
+      "ticker": "MSFT",
+      "entry_price": 452.625,
+      "shares": 3.489351055982051,
+      "entry_value": 1579.367521713876,
+      "current_price": 482.7799987792969,
+      "peak_price": 509.55999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 12,
+      "last_update_date": "2026-08-17",
+      "entry_date": "2026-07-30T16:07:20.699819",
+      "sps_score": 11.63525645864668,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 482.7799987792969,
+      "exit_date": "2026-08-17T14:54:53.768869",
+      "proceeds": 1684.5888985475528,
+      "pnl": 105.22137683367691,
+      "pnl_pct": 0.06662247728096514,
+      "exit_reason": "Stop de tiempo: 12d \u2014 +6.7%"
     }
   ],
   "equity_history": [
@@ -633,6 +645,10 @@
     {
       "date": "2026-08-14",
       "equity": 9825.761618604425
+    },
+    {
+      "date": "2026-08-17",
+      "equity": 9682.212034989789
     }
   ]
 }
