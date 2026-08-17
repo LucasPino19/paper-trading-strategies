@@ -6,66 +6,66 @@
       "ticker": "ANSEM",
       "name": "The Black Bull",
       "entry_price": 0.18497,
-      "shares": 10237.768937075642,
+      "shares": 6526.07871563122,
       "entry_value": 1915.5460778050535,
-      "current_price": 0.228987,
-      "peak_price": 0.249878,
+      "current_price": 0.28046,
+      "peak_price": 0.28046,
       "entry_date": "2026-08-03T23:17:19.928030",
-      "trading_days_held": 12,
-      "last_update_date": "2026-08-16",
+      "trading_days_held": 13,
+      "last_update_date": "2026-08-17",
       "momentum_7d": 13.2
     },
-    "cash-cat": {
-      "ticker": "CASHCAT",
-      "name": "Cash Cat",
-      "entry_price": 0.063882,
-      "shares": 12898.912845660647,
-      "entry_value": 1438.7767166921356,
-      "current_price": 0.101124,
-      "peak_price": 0.162383,
-      "entry_date": "2026-08-03T23:17:19.928030",
-      "trading_days_held": 12,
-      "last_update_date": "2026-08-16",
-      "momentum_7d": 67.4
+    "fartcoin": {
+      "ticker": "FARTCOIN",
+      "name": "Fartcoin",
+      "entry_price": 0.143105,
+      "shares": 12789.937714167441,
+      "entry_value": 1830.3040365859317,
+      "current_price": 0.143105,
+      "peak_price": 0.143105,
+      "entry_date": "2026-08-17T22:37:53.288471",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-17",
+      "momentum_7d": 6.1
     },
-    "pudgy-penguins": {
-      "ticker": "PENGU",
-      "name": "Pudgy Penguins",
-      "entry_price": 0.00656436,
-      "shares": 302345.41126788,
-      "entry_value": 1984.7041239104208,
-      "current_price": 0.00592363,
-      "peak_price": 0.00656436,
-      "entry_date": "2026-08-10T22:54:26.420730",
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-16",
-      "momentum_7d": 5.7
+    "memecore": {
+      "ticker": "M",
+      "name": "MemeCore",
+      "entry_price": 1.15,
+      "shares": 1591.5687274660277,
+      "entry_value": 1830.3040365859317,
+      "current_price": 1.15,
+      "peak_price": 1.15,
+      "entry_date": "2026-08-17T22:37:53.288471",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-17",
+      "momentum_7d": 5.5
     },
-    "tutorial": {
-      "ticker": "TUT",
-      "name": "Tutorial",
-      "entry_price": 0.122937,
-      "shares": 16144.07480181248,
-      "entry_value": 1984.7041239104208,
-      "current_price": 0.068599,
-      "peak_price": 0.122937,
-      "entry_date": "2026-08-10T22:54:26.420730",
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-16",
-      "momentum_7d": 516.0
+    "ribbita-by-virtuals": {
+      "ticker": "TIBBIR",
+      "name": "Ribbita by Virtuals",
+      "entry_price": 0.172086,
+      "shares": 10635.984546017293,
+      "entry_value": 1830.3040365859317,
+      "current_price": 0.172086,
+      "peak_price": 0.172086,
+      "entry_date": "2026-08-17T22:37:53.288471",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-17",
+      "momentum_7d": 37.4
     },
-    "pump-fun": {
-      "ticker": "PUMP",
-      "name": "Pump.fun",
-      "entry_price": 0.00282844,
-      "shares": 701695.6781513556,
-      "entry_value": 1984.7041239104203,
-      "current_price": 0.00266893,
-      "peak_price": 0.00291092,
-      "entry_date": "2026-08-10T22:54:26.420730",
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-16",
-      "momentum_7d": 28.9
+    "spx6900": {
+      "ticker": "SPX",
+      "name": "SPX6900",
+      "entry_price": 0.317124,
+      "shares": 5771.572118748285,
+      "entry_value": 1830.3040365859313,
+      "current_price": 0.317124,
+      "peak_price": 0.317124,
+      "entry_date": "2026-08-17T22:37:53.288471",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-17",
+      "momentum_7d": 1.2
     }
   },
   "closed_trades": [
@@ -458,6 +458,58 @@
       "exit_date": "2026-08-10T22:54:26.420730",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 6
+    },
+    {
+      "ticker": "pudgy-penguins",
+      "entry_price": 0.00656436,
+      "exit_price": 0.00598825,
+      "shares": 302345.41126788,
+      "entry_value": 1984.7041239104208,
+      "pnl": -174.18421488553844,
+      "pnl_pct": -0.08776331584495675,
+      "entry_date": "2026-08-10T22:54:26.420730",
+      "exit_date": "2026-08-17T22:37:53.288471",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "tutorial",
+      "entry_price": 0.122937,
+      "exit_price": 0.068599,
+      "shares": 16144.07480181248,
+      "entry_value": 1984.7041239104208,
+      "pnl": -877.2367365808867,
+      "pnl_pct": -0.4419987473258662,
+      "entry_date": "2026-08-10T22:54:26.420730",
+      "exit_date": "2026-08-17T22:37:53.288471",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "cash-cat",
+      "entry_price": 0.063882,
+      "exit_price": 0.110525,
+      "shares": 12898.912845660647,
+      "entry_value": 1438.7767166921356,
+      "pnl": 601.6439918601496,
+      "pnl_pct": 0.7301430762969225,
+      "entry_date": "2026-08-03T23:17:19.928030",
+      "exit_date": "2026-08-17T22:37:53.288471",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 13
+    },
+    {
+      "ticker": "pump-fun",
+      "entry_price": 0.00282844,
+      "exit_price": 0.00275988,
+      "shares": 701695.6781513556,
+      "entry_value": 1984.7041239104203,
+      "pnl": -48.108255694056986,
+      "pnl_pct": -0.024239510118651997,
+      "entry_date": "2026-08-10T22:54:26.420730",
+      "exit_date": "2026-08-17T22:37:53.288471",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
     }
   ],
   "equity_history": [
@@ -760,7 +812,11 @@
     {
       "date": "2026-08-16",
       "equity": 8419.932040365511
+    },
+    {
+      "date": "2026-08-17",
+      "equity": 9151.520182929657
     }
   ],
-  "last_rebalance": "2026-32"
+  "last_rebalance": "2026-33"
 }
