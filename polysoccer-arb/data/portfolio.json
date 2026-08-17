@@ -2,18 +2,18 @@
   "initial_capital": 10000.0,
   "cash": 7945.762711864407,
   "open_positions": {
-    "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815": {
-      "ticker": "[YES] Will Arsenal win the 2026-27 English P",
+    "0x73463cf40eb2c83e845becbf16ad35e0a8a07863194bc76fd3af9a9d630b387f": {
+      "ticker": "[YES] Will Arsenal win the 2026-27 UEFA Cham",
       "direction": "YES",
-      "condition_id": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815",
-      "entry_price": 0.365,
-      "shares": 5442.303227304389,
+      "condition_id": "0x73463cf40eb2c83e845becbf16ad35e0a8a07863194bc76fd3af9a9d630b387f",
+      "entry_price": 0.135,
+      "shares": 14714.375392341495,
       "entry_value": 1986.440677966102,
-      "current_price": 0.365,
-      "peak_price": 0.365,
-      "entry_date": "2026-08-07T01:42:50.718462",
-      "trading_days_held": 9,
-      "last_update_date": "2026-08-16"
+      "current_price": 0.135,
+      "peak_price": 0.135,
+      "entry_date": "2026-08-17T23:31:55.130788",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-17"
     }
   },
   "closed_trades": [
@@ -66,6 +66,19 @@
       "pnl_pct": -0.0338983050847458,
       "entry_date": "2026-08-02T00:06:44.870347",
       "exit_date": "2026-08-12T23:53:07.264406",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Arsenal win the 2026-27 English P",
+      "entry_price": 0.365,
+      "exit_price": 0.365,
+      "shares": 5442.303227304389,
+      "entry_value": 1986.440677966102,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-07T01:42:50.718462",
+      "exit_date": "2026-08-17T23:31:55.130773",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -193,6 +206,10 @@
     },
     {
       "date": "2026-08-16",
+      "equity": 9932.203389830509
+    },
+    {
+      "date": "2026-08-17",
       "equity": 9932.203389830509
     }
   ]
