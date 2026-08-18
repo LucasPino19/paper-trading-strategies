@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5695.237862687112,
+  "cash": 7861.423371879497,
   "open_positions": {
-    "META": {
-      "ticker": "META",
-      "entry_price": 592.4349975585938,
-      "shares": 3.9792156311226354,
-      "entry_value": 2357.4266027092567,
-      "current_price": 568.260009765625,
-      "peak_price": 601.8099975585938,
-      "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-17",
-      "entry_date": "2026-08-10T19:30:39.328462",
-      "sps_score": 15.149300130686228,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "DIA": {
       "ticker": "DIA",
       "entry_price": 537.8250122070312,
       "shares": 3.068281661212978,
       "entry_value": 1650.19862189648,
-      "current_price": 534.3200073242188,
+      "current_price": 533.239990234375,
       "peak_price": 537.85498046875,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-08-17",
+      "trading_days_held": 5,
+      "last_update_date": "2026-08-18",
       "entry_date": "2026-08-12T19:37:13.938525",
       "sps_score": 3.5327929548414185,
       "short_float_pct": 0,
@@ -541,6 +525,28 @@
       "pnl": 21.80968074871771,
       "pnl_pct": 0.011963852278474428,
       "exit_reason": "Stop de tiempo: 7d \u2014 +1.2%"
+    },
+    {
+      "ticker": "META",
+      "entry_price": 592.4349975585938,
+      "shares": 3.9792156311226354,
+      "entry_value": 2357.4266027092567,
+      "current_price": 544.375,
+      "peak_price": 601.8099975585938,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-08-18",
+      "entry_date": "2026-08-10T19:30:39.328462",
+      "sps_score": 15.149300130686228,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 544.375,
+      "exit_date": "2026-08-18T19:06:59.475592",
+      "proceeds": 2166.185509192385,
+      "pnl": -191.24109351687184,
+      "pnl_pct": -0.08112281981423697,
+      "exit_reason": "Stop loss: -8.1%"
     }
   ],
   "equity_history": [
@@ -775,6 +781,10 @@
     {
       "date": "2026-08-17",
       "equity": 9595.911255780473
+    },
+    {
+      "date": "2026-08-18",
+      "equity": 9497.553854941018
     }
   ]
 }
