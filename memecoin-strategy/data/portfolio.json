@@ -8,11 +8,11 @@
       "entry_price": 0.18497,
       "shares": 6526.07871563122,
       "entry_value": 1915.5460778050535,
-      "current_price": 0.28046,
+      "current_price": 0.237923,
       "peak_price": 0.28046,
       "entry_date": "2026-08-03T23:17:19.928030",
-      "trading_days_held": 13,
-      "last_update_date": "2026-08-17",
+      "trading_days_held": 14,
+      "last_update_date": "2026-08-18",
       "momentum_7d": 13.2
     },
     "fartcoin": {
@@ -21,11 +21,11 @@
       "entry_price": 0.143105,
       "shares": 12789.937714167441,
       "entry_value": 1830.3040365859317,
-      "current_price": 0.143105,
+      "current_price": 0.14112,
       "peak_price": 0.143105,
       "entry_date": "2026-08-17T22:37:53.288471",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-17",
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-18",
       "momentum_7d": 6.1
     },
     "memecore": {
@@ -37,8 +37,8 @@
       "current_price": 1.15,
       "peak_price": 1.15,
       "entry_date": "2026-08-17T22:37:53.288471",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-17",
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-18",
       "momentum_7d": 5.5
     },
     "ribbita-by-virtuals": {
@@ -47,11 +47,11 @@
       "entry_price": 0.172086,
       "shares": 10635.984546017293,
       "entry_value": 1830.3040365859317,
-      "current_price": 0.172086,
-      "peak_price": 0.172086,
+      "current_price": 0.2045,
+      "peak_price": 0.2045,
       "entry_date": "2026-08-17T22:37:53.288471",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-17",
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-18",
       "momentum_7d": 37.4
     },
     "spx6900": {
@@ -60,11 +60,11 @@
       "entry_price": 0.317124,
       "shares": 5771.572118748285,
       "entry_value": 1830.3040365859313,
-      "current_price": 0.317124,
-      "peak_price": 0.317124,
+      "current_price": 0.31849,
+      "peak_price": 0.31849,
       "entry_date": "2026-08-17T22:37:53.288471",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-17",
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-18",
       "momentum_7d": 1.2
     }
   },
@@ -816,6 +816,10 @@
     {
       "date": "2026-08-17",
       "equity": 9151.520182929657
+    },
+    {
+      "date": "2026-08-18",
+      "equity": 9201.171116829046
     }
   ],
   "last_rebalance": "2026-33"
