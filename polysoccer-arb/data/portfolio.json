@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7945.762711864407,
+  "cash": 3972.8813559322025,
   "open_positions": {
     "0x73463cf40eb2c83e845becbf16ad35e0a8a07863194bc76fd3af9a9d630b387f": {
       "ticker": "[YES] Will Arsenal win the 2026-27 UEFA Cham",
@@ -12,8 +12,34 @@
       "current_price": 0.135,
       "peak_price": 0.135,
       "entry_date": "2026-08-17T23:31:55.130788",
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-18"
+    },
+    "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f": {
+      "ticker": "[YES] Will Inter Milan win the 2026-27 UEFA ",
+      "direction": "YES",
+      "condition_id": "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f",
+      "entry_price": 0.022,
+      "shares": 90292.75808936828,
+      "entry_value": 1986.440677966102,
+      "current_price": 0.022,
+      "peak_price": 0.022,
+      "entry_date": "2026-08-18T23:31:50.104282",
       "trading_days_held": 0,
-      "last_update_date": "2026-08-17"
+      "last_update_date": "2026-08-18"
+    },
+    "0x6bac08e7f660a372953c845044e3636bba66b62e6bc01475a64d8c87f9fc43fd": {
+      "ticker": "[YES] Will Chelsea win the 2026-27 English P",
+      "direction": "YES",
+      "condition_id": "0x6bac08e7f660a372953c845044e3636bba66b62e6bc01475a64d8c87f9fc43fd",
+      "entry_price": 0.095,
+      "shares": 20909.901873327388,
+      "entry_value": 1986.440677966102,
+      "current_price": 0.095,
+      "peak_price": 0.095,
+      "entry_date": "2026-08-18T23:31:50.104282",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-18"
     }
   },
   "closed_trades": [
@@ -210,6 +236,10 @@
     },
     {
       "date": "2026-08-17",
+      "equity": 9932.203389830509
+    },
+    {
+      "date": "2026-08-18",
       "equity": 9932.203389830509
     }
   ]
