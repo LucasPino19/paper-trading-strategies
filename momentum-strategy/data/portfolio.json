@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5415.241719378175,
+  "cash": 3790.6692035647225,
   "open_positions": {
     "TSLA": {
       "ticker": "TSLA",
       "entry_price": 335.32501220703125,
       "shares": 5.0153541168254,
       "entry_value": 1681.773680447062,
-      "current_price": 347.0400085449219,
+      "current_price": 340.7850036621094,
       "peak_price": 347.0400085449219,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-08-19",
+      "trading_days_held": 3,
+      "last_update_date": "2026-08-20",
       "entry_date": "2026-08-18T15:02:32.517581",
       "sps_score": 59.75182772274357,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 160.52499389648438,
       "shares": 10.25391360869804,
       "entry_value": 1646.009419451331,
-      "current_price": 160.52499389648438,
-      "peak_price": 160.52499389648438,
+      "current_price": 173.44000244140625,
+      "peak_price": 173.44000244140625,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-19",
+      "trading_days_held": 2,
+      "last_update_date": "2026-08-20",
       "entry_date": "2026-08-19T15:03:12.596167",
       "sps_score": 48.798305492710355,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "PLTR": {
+      "ticker": "PLTR",
+      "entry_price": 175.39999389648438,
+      "shares": 9.26210132465697,
+      "entry_value": 1624.5725158134524,
+      "current_price": 175.39999389648438,
+      "peak_price": 175.39999389648438,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-20",
+      "entry_date": "2026-08-20T15:05:37.011326",
+      "sps_score": 52.15294867904174,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -937,6 +953,10 @@
     {
       "date": "2026-08-19",
       "equity": 8801.779674388403
+    },
+    {
+      "date": "2026-08-20",
+      "equity": 8902.837991773851
     }
   ]
 }
