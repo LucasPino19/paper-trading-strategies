@@ -1,19 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7861.423371879497,
+  "cash": 7122.680898618599,
   "open_positions": {
-    "DIA": {
-      "ticker": "DIA",
-      "entry_price": 537.8250122070312,
-      "shares": 3.068281661212978,
-      "entry_value": 1650.19862189648,
-      "current_price": 534.02001953125,
-      "peak_price": 537.85498046875,
+    "USO": {
+      "ticker": "USO",
+      "entry_price": 134.7899932861328,
+      "shares": 17.497048216015333,
+      "entry_value": 2358.4270115638487,
+      "current_price": 134.7899932861328,
+      "peak_price": 134.7899932861328,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-19",
-      "entry_date": "2026-08-12T19:37:13.938525",
-      "sps_score": 3.5327929548414185,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-20",
+      "entry_date": "2026-08-20T19:10:10.659155",
+      "sps_score": 18.54737090677784,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -547,6 +547,28 @@
       "pnl": -191.24109351687184,
       "pnl_pct": -0.08112281981423697,
       "exit_reason": "Stop loss: -8.1%"
+    },
+    {
+      "ticker": "DIA",
+      "entry_price": 537.8250122070312,
+      "shares": 3.068281661212978,
+      "entry_value": 1650.19862189648,
+      "current_price": 527.8800048828125,
+      "peak_price": 537.85498046875,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-08-20",
+      "entry_date": "2026-08-12T19:37:13.938525",
+      "sps_score": 3.5327929548414185,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 527.8800048828125,
+      "exit_date": "2026-08-20T19:10:10.899272",
+      "proceeds": 1619.6845383029508,
+      "pnl": -30.51408359352922,
+      "pnl_pct": -0.01849115808766166,
+      "exit_reason": "Stop de tiempo: 7d \u2014 -1.8%"
     }
   ],
   "equity_history": [
@@ -789,6 +811,10 @@
     {
       "date": "2026-08-19",
       "equity": 9499.947204527827
+    },
+    {
+      "date": "2026-08-20",
+      "equity": 9481.107910182447
     }
   ]
 }
