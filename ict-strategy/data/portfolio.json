@@ -1,19 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7122.680898618599,
+  "cash": 4985.876629033019,
   "open_positions": {
     "USO": {
       "ticker": "USO",
       "entry_price": 134.7899932861328,
       "shares": 17.497048216015333,
       "entry_value": 2358.4270115638487,
-      "current_price": 134.7899932861328,
-      "peak_price": 134.7899932861328,
+      "current_price": 134.9949951171875,
+      "peak_price": 134.9949951171875,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-20",
+      "trading_days_held": 2,
+      "last_update_date": "2026-08-21",
       "entry_date": "2026-08-20T19:10:10.659155",
       "sps_score": 18.54737090677784,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "entry_price": 61.85770034790039,
+      "shares": 34.543868549392464,
+      "entry_value": 2136.8042695855797,
+      "current_price": 61.85770034790039,
+      "peak_price": 61.85770034790039,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-21",
+      "entry_date": "2026-08-21T19:06:37.563263",
+      "sps_score": 11.477941799961457,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -815,6 +831,10 @@
     {
       "date": "2026-08-20",
       "equity": 9481.107910182447
+    },
+    {
+      "date": "2026-08-21",
+      "equity": 9484.694837104782
     }
   ]
 }
