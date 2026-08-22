@@ -12,8 +12,8 @@
       "current_price": 0.685,
       "peak_price": 0.685,
       "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-21"
+      "trading_days_held": 9,
+      "last_update_date": "2026-08-22"
     },
     "0xc04094452b0386a73a9a6e07da0370fffb2722e05c837a5246b88c914e78b79f": {
       "ticker": "[YES] UFC 330: Islam Makhachev vs. Ian Macha",
@@ -25,8 +25,8 @@
       "current_price": 0.735,
       "peak_price": 0.765,
       "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-21"
+      "trading_days_held": 9,
+      "last_update_date": "2026-08-22"
     },
     "0xb61a9d762515f7544705811811af9153bd07e18e484774ff95d5b8d070eebc56": {
       "ticker": "[YES] Washington Mystics vs. Las Vegas Aces",
@@ -38,8 +38,8 @@
       "current_price": 0.675,
       "peak_price": 0.675,
       "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-21"
+      "trading_days_held": 9,
+      "last_update_date": "2026-08-22"
     },
     "0x46f6c75e9f8c7e1fc82f23de712875820c12feda2e9e8033f67fa083f16237b6": {
       "ticker": "[YES] Cardinals vs. Raiders",
@@ -51,8 +51,8 @@
       "current_price": 0.615,
       "peak_price": 0.615,
       "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-21"
+      "trading_days_held": 9,
+      "last_update_date": "2026-08-22"
     },
     "0x5e19b524253bd09a387a301edea0ac3a4687f6165204686eff2f9e748d324838": {
       "ticker": "[YES] Miami Marlins vs. Cincinnati Reds: O/U",
@@ -64,8 +64,8 @@
       "current_price": 0.785,
       "peak_price": 0.785,
       "entry_date": "2026-08-14T23:09:40.436799",
-      "trading_days_held": 7,
-      "last_update_date": "2026-08-21"
+      "trading_days_held": 8,
+      "last_update_date": "2026-08-22"
     }
   },
   "closed_trades": [
@@ -840,6 +840,10 @@
     },
     {
       "date": "2026-08-21",
+      "equity": 9809.19073113411
+    },
+    {
+      "date": "2026-08-22",
       "equity": 9809.19073113411
     }
   ]
