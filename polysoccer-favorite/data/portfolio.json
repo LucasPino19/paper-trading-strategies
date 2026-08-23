@@ -1,59 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 0.0,
+  "cash": 1951.3889417196222,
   "open_positions": {
-    "0x3a2ef65b2988a853b16ca1b00cabaef5d425e6962b657bba49140f9bc94c7c88": {
-      "ticker": "[YES] National Bank Open: Ben Shelton vs Bra",
-      "direction": "YES",
-      "condition_id": "0x3a2ef65b2988a853b16ca1b00cabaef5d425e6962b657bba49140f9bc94c7c88",
-      "entry_price": 0.685,
-      "shares": 2879.251606910981,
-      "entry_value": 1972.287350734022,
-      "current_price": 0.685,
-      "peak_price": 0.685,
-      "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 9,
-      "last_update_date": "2026-08-22"
-    },
-    "0xc04094452b0386a73a9a6e07da0370fffb2722e05c837a5246b88c914e78b79f": {
-      "ticker": "[YES] UFC 330: Islam Makhachev vs. Ian Macha",
-      "direction": "YES",
-      "condition_id": "0xc04094452b0386a73a9a6e07da0370fffb2722e05c837a5246b88c914e78b79f",
-      "entry_price": 0.755,
-      "shares": 2612.301126800029,
-      "entry_value": 1972.287350734022,
-      "current_price": 0.735,
-      "peak_price": 0.765,
-      "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 9,
-      "last_update_date": "2026-08-22"
-    },
-    "0xb61a9d762515f7544705811811af9153bd07e18e484774ff95d5b8d070eebc56": {
-      "ticker": "[YES] Washington Mystics vs. Las Vegas Aces",
-      "direction": "YES",
-      "condition_id": "0xb61a9d762515f7544705811811af9153bd07e18e484774ff95d5b8d070eebc56",
-      "entry_price": 0.675,
-      "shares": 2921.907186272625,
-      "entry_value": 1972.287350734022,
-      "current_price": 0.675,
-      "peak_price": 0.675,
-      "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 9,
-      "last_update_date": "2026-08-22"
-    },
-    "0x46f6c75e9f8c7e1fc82f23de712875820c12feda2e9e8033f67fa083f16237b6": {
-      "ticker": "[YES] Cardinals vs. Raiders",
-      "direction": "YES",
-      "condition_id": "0x46f6c75e9f8c7e1fc82f23de712875820c12feda2e9e8033f67fa083f16237b6",
-      "entry_price": 0.615,
-      "shares": 3206.97130200654,
-      "entry_value": 1972.287350734022,
-      "current_price": 0.615,
-      "peak_price": 0.615,
-      "entry_date": "2026-08-13T23:28:51.536635",
-      "trading_days_held": 9,
-      "last_update_date": "2026-08-22"
-    },
     "0x5e19b524253bd09a387a301edea0ac3a4687f6165204686eff2f9e748d324838": {
       "ticker": "[YES] Miami Marlins vs. Cincinnati Reds: O/U",
       "direction": "YES",
@@ -64,8 +12,47 @@
       "current_price": 0.785,
       "peak_price": 0.785,
       "entry_date": "2026-08-14T23:09:40.436799",
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-22"
+      "trading_days_held": 9,
+      "last_update_date": "2026-08-23"
+    },
+    "0xe97b3db97ebb15dac000603f3c0870f7557e107f30bf0dc3f6e6da631556be39": {
+      "ticker": "[YES] Winston-Salem Open: Pablo Carreno Bust",
+      "direction": "YES",
+      "condition_id": "0xe97b3db97ebb15dac000603f3c0870f7557e107f30bf0dc3f6e6da631556be39",
+      "entry_price": 0.715,
+      "shares": 2743.8295751424084,
+      "entry_value": 1961.838146226822,
+      "current_price": 0.715,
+      "peak_price": 0.715,
+      "entry_date": "2026-08-23T23:08:33.219216",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-23"
+    },
+    "0x49df159af57dc360e32ad00254d4dc834a5dcba69a3f01d5d49b54472f78dd17": {
+      "ticker": "[YES] Valorant: Team Envy vs G2 Esports (BO3",
+      "direction": "YES",
+      "condition_id": "0x49df159af57dc360e32ad00254d4dc834a5dcba69a3f01d5d49b54472f78dd17",
+      "entry_price": 0.635,
+      "shares": 3089.5088916957825,
+      "entry_value": 1961.838146226822,
+      "current_price": 0.635,
+      "peak_price": 0.635,
+      "entry_date": "2026-08-23T23:08:33.219216",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-23"
+    },
+    "0x8a1304e22b974f929a3bec26b6b8c2717c915c3fc10b6b95b359b712c99ab95c": {
+      "ticker": "[YES] LoL: Dignitas vs FlyQuest - Game 2 Win",
+      "direction": "YES",
+      "condition_id": "0x8a1304e22b974f929a3bec26b6b8c2717c915c3fc10b6b95b359b712c99ab95c",
+      "entry_price": 0.73,
+      "shares": 2687.449515379208,
+      "entry_value": 1961.838146226822,
+      "current_price": 0.73,
+      "peak_price": 0.73,
+      "entry_date": "2026-08-23T23:08:33.219216",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-23"
     }
   },
   "closed_trades": [
@@ -523,6 +510,58 @@
       "exit_date": "2026-08-14T23:09:40.436781",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] National Bank Open: Ben Shelton vs Bra",
+      "entry_price": 0.685,
+      "exit_price": 0.685,
+      "shares": 2879.251606910981,
+      "entry_value": 1972.287350734022,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-13T23:28:51.536635",
+      "exit_date": "2026-08-23T23:08:33.219180",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] UFC 330: Islam Makhachev vs. Ian Macha",
+      "entry_price": 0.755,
+      "exit_price": 0.735,
+      "shares": 2612.301126800029,
+      "entry_value": 1972.287350734022,
+      "pnl": -52.24602253600063,
+      "pnl_pct": -0.026490066225165587,
+      "entry_date": "2026-08-13T23:28:51.536635",
+      "exit_date": "2026-08-23T23:08:33.219191",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Washington Mystics vs. Las Vegas Aces",
+      "entry_price": 0.675,
+      "exit_price": 0.675,
+      "shares": 2921.907186272625,
+      "entry_value": 1972.287350734022,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-13T23:28:51.536635",
+      "exit_date": "2026-08-23T23:08:33.219199",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Cardinals vs. Raiders",
+      "entry_price": 0.615,
+      "exit_price": 0.615,
+      "shares": 3206.97130200654,
+      "entry_value": 1972.287350734022,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-13T23:28:51.536635",
+      "exit_date": "2026-08-23T23:08:33.219203",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -844,6 +883,10 @@
     },
     {
       "date": "2026-08-22",
+      "equity": 9809.19073113411
+    },
+    {
+      "date": "2026-08-23",
       "equity": 9809.19073113411
     }
   ]
