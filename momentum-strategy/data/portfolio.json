@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5746.705707233531,
+  "cash": 4022.6939950634714,
   "open_positions": {
     "TSLA": {
       "ticker": "TSLA",
       "entry_price": 335.32501220703125,
       "shares": 5.0153541168254,
       "entry_value": 1681.773680447062,
-      "current_price": 362.7200012207031,
+      "current_price": 357.0899963378906,
       "peak_price": 362.7200012207031,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-08-21",
+      "trading_days_held": 5,
+      "last_update_date": "2026-08-24",
       "entry_date": "2026-08-18T15:02:32.517581",
       "sps_score": 59.75182772274357,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 175.39999389648438,
       "shares": 9.26210132465697,
       "entry_value": 1624.5725158134524,
-      "current_price": 176.38499450683594,
-      "peak_price": 176.38499450683594,
+      "current_price": 176.77499389648438,
+      "peak_price": 176.77499389648438,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-08-21",
+      "trading_days_held": 3,
+      "last_update_date": "2026-08-24",
       "entry_date": "2026-08-20T15:05:37.011326",
       "sps_score": 52.15294867904174,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "COIN": {
+      "ticker": "COIN",
+      "entry_price": 186.64999389648438,
+      "shares": 9.236602028105033,
+      "entry_value": 1724.0117121700594,
+      "current_price": 186.64999389648438,
+      "peak_price": 186.64999389648438,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-08-24",
+      "entry_date": "2026-08-24T15:10:29.242037",
+      "sps_score": 113.30721482142047,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -967,6 +983,10 @@
     {
       "date": "2026-08-21",
       "equity": 9199.570649882076
+    },
+    {
+      "date": "2026-08-24",
+      "equity": 9174.946395578794
     }
   ]
 }
