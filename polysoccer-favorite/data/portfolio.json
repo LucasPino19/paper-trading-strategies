@@ -12,8 +12,8 @@
       "current_price": 0.715,
       "peak_price": 0.715,
       "entry_date": "2026-08-23T23:08:33.219216",
-      "trading_days_held": 2,
-      "last_update_date": "2026-08-25"
+      "trading_days_held": 3,
+      "last_update_date": "2026-08-27"
     },
     "0x49df159af57dc360e32ad00254d4dc834a5dcba69a3f01d5d49b54472f78dd17": {
       "ticker": "[YES] Valorant: Team Envy vs G2 Esports (BO3",
@@ -25,8 +25,8 @@
       "current_price": 0.635,
       "peak_price": 0.635,
       "entry_date": "2026-08-23T23:08:33.219216",
-      "trading_days_held": 2,
-      "last_update_date": "2026-08-25"
+      "trading_days_held": 3,
+      "last_update_date": "2026-08-27"
     },
     "0x8a1304e22b974f929a3bec26b6b8c2717c915c3fc10b6b95b359b712c99ab95c": {
       "ticker": "[YES] LoL: Dignitas vs FlyQuest - Game 2 Win",
@@ -38,8 +38,8 @@
       "current_price": 0.73,
       "peak_price": 0.73,
       "entry_date": "2026-08-23T23:08:33.219216",
-      "trading_days_held": 2,
-      "last_update_date": "2026-08-25"
+      "trading_days_held": 3,
+      "last_update_date": "2026-08-27"
     },
     "0x9c79aa5db85353e1b90ece28ed2bcbdee6d67d6acea8e2ebdd5be97ce4fd7ebd": {
       "ticker": "[YES] Tampa Bay Rays vs. Detroit Tigers",
@@ -51,8 +51,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-08-24T23:11:57.701382",
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-25"
+      "trading_days_held": 2,
+      "last_update_date": "2026-08-27"
     },
     "0xfafe85dc1adbddd4f0793b94ebaaa149a16302d2993eaf028313dee6e09b3397": {
       "ticker": "[YES] Colorado Rockies vs. Washington Nation",
@@ -64,8 +64,8 @@
       "current_price": 0.635,
       "peak_price": 0.635,
       "entry_date": "2026-08-24T23:11:57.701382",
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-25"
+      "trading_days_held": 2,
+      "last_update_date": "2026-08-27"
     }
   },
   "closed_trades": [
@@ -921,6 +921,10 @@
     },
     {
       "date": "2026-08-25",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-08-27",
       "equity": 9809.190731134111
     }
   ]
