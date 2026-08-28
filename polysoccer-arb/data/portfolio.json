@@ -1,20 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 0.0,
+  "cash": 1986.440677966102,
   "open_positions": {
-    "0x73463cf40eb2c83e845becbf16ad35e0a8a07863194bc76fd3af9a9d630b387f": {
-      "ticker": "[YES] Will Arsenal win the 2026-27 UEFA Cham",
-      "direction": "YES",
-      "condition_id": "0x73463cf40eb2c83e845becbf16ad35e0a8a07863194bc76fd3af9a9d630b387f",
-      "entry_price": 0.135,
-      "shares": 14714.375392341495,
-      "entry_value": 1986.440677966102,
-      "current_price": 0.135,
-      "peak_price": 0.135,
-      "entry_date": "2026-08-17T23:31:55.130788",
-      "trading_days_held": 9,
-      "last_update_date": "2026-08-27"
-    },
     "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f": {
       "ticker": "[YES] Will Inter Milan win the 2026-27 UEFA ",
       "direction": "YES",
@@ -22,11 +9,11 @@
       "entry_price": 0.022,
       "shares": 90292.75808936828,
       "entry_value": 1986.440677966102,
-      "current_price": 0.022,
-      "peak_price": 0.022,
+      "current_price": 0.0395,
+      "peak_price": 0.0395,
       "entry_date": "2026-08-18T23:31:50.104282",
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-27"
+      "trading_days_held": 9,
+      "last_update_date": "2026-08-28"
     },
     "0x6bac08e7f660a372953c845044e3636bba66b62e6bc01475a64d8c87f9fc43fd": {
       "ticker": "[YES] Will Chelsea win the 2026-27 English P",
@@ -38,8 +25,8 @@
       "current_price": 0.12,
       "peak_price": 0.12,
       "entry_date": "2026-08-18T23:31:50.104282",
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-27"
+      "trading_days_held": 9,
+      "last_update_date": "2026-08-28"
     },
     "0xabb68414dc31c89f672d88bf8e82e7f7117032958a86d5330382b74a1d812d90": {
       "ticker": "[YES] Will Manchester United win the 2026-27",
@@ -51,8 +38,8 @@
       "current_price": 0.0315,
       "peak_price": 0.0315,
       "entry_date": "2026-08-20T23:34:56.035190",
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-27"
+      "trading_days_held": 7,
+      "last_update_date": "2026-08-28"
     },
     "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392": {
       "ticker": "[YES] Will Manchester United win the 2026-27",
@@ -64,8 +51,8 @@
       "current_price": 0.055,
       "peak_price": 0.055,
       "entry_date": "2026-08-22T23:30:26.349965",
-      "trading_days_held": 4,
-      "last_update_date": "2026-08-27"
+      "trading_days_held": 5,
+      "last_update_date": "2026-08-28"
     }
   },
   "closed_trades": [
@@ -131,6 +118,19 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-08-07T01:42:50.718462",
       "exit_date": "2026-08-17T23:31:55.130773",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Arsenal win the 2026-27 UEFA Cham",
+      "entry_price": 0.135,
+      "exit_price": 0.135,
+      "shares": 14714.375392341495,
+      "entry_value": 1986.440677966102,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-17T23:31:55.130788",
+      "exit_date": "2026-08-28T06:53:11.543696",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -299,6 +299,10 @@
     {
       "date": "2026-08-27",
       "equity": 10454.950936663692
+    },
+    {
+      "date": "2026-08-28",
+      "equity": 12035.074203227638
     }
   ]
 }
