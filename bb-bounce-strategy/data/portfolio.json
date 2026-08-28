@@ -1,24 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7929.690240962569,
-  "open_positions": {
-    "UNH": {
-      "ticker": "UNH",
-      "entry_price": 407.0799865722656,
-      "shares": 5.1993735102600205,
-      "entry_value": 2116.5608987408427,
-      "current_price": 401.010009765625,
-      "peak_price": 408.739990234375,
-      "volume_spiked": false,
-      "trading_days_held": 14,
-      "last_update_date": "2026-08-27",
-      "entry_date": "2026-08-07T22:06:49.686220",
-      "sps_score": 41.841215981697836,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    }
-  },
+  "cash": 9983.702682721876,
+  "open_positions": {},
   "closed_trades": [
     {
       "ticker": "AMZN",
@@ -129,6 +112,28 @@
       "pnl": 102.94213610007,
       "pnl_pct": 0.03564347562798316,
       "exit_reason": "Stop de tiempo: 15d \u2014 +3.6%"
+    },
+    {
+      "ticker": "UNH",
+      "entry_price": 407.0799865722656,
+      "shares": 5.1993735102600205,
+      "entry_value": 2116.5608987408427,
+      "current_price": 395.04998779296875,
+      "peak_price": 408.739990234375,
+      "volume_spiked": false,
+      "trading_days_held": 15,
+      "last_update_date": "2026-08-28",
+      "entry_date": "2026-08-07T22:06:49.686220",
+      "sps_score": 41.841215981697836,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 395.04998779296875,
+      "exit_date": "2026-08-28T05:32:47.995024",
+      "proceeds": 2054.012441759306,
+      "pnl": -62.548456981536674,
+      "pnl_pct": -0.02955192880051181,
+      "exit_reason": "Stop de tiempo: 15d \u2014 -3.0%"
     }
   ],
   "equity_history": [
@@ -391,6 +396,10 @@
     {
       "date": "2026-08-27",
       "equity": 10014.691063087072
+    },
+    {
+      "date": "2026-08-28",
+      "equity": 9983.702682721876
     }
   ]
 }
