@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8062.192847295435,
+  "cash": 5655.178006649907,
   "open_positions": {
     "0xabb68414dc31c89f672d88bf8e82e7f7117032958a86d5330382b74a1d812d90": {
       "ticker": "[YES] Will Manchester United win the 2026-27",
@@ -12,8 +12,8 @@
       "current_price": 0.0315,
       "peak_price": 0.0315,
       "entry_date": "2026-08-20T23:34:56.035190",
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-29"
+      "trading_days_held": 9,
+      "last_update_date": "2026-08-30"
     },
     "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392": {
       "ticker": "[YES] Will Manchester United win the 2026-27",
@@ -25,8 +25,21 @@
       "current_price": 0.055,
       "peak_price": 0.055,
       "entry_date": "2026-08-22T23:30:26.349965",
-      "trading_days_held": 6,
-      "last_update_date": "2026-08-29"
+      "trading_days_held": 7,
+      "last_update_date": "2026-08-30"
+    },
+    "0x2ca538b5549c3380627080362400ba6e6495aa632f54f15467d68e24235f5937": {
+      "ticker": "[NO] Counter-Strike: G2 vs Natus Vincere (B",
+      "direction": "NO",
+      "condition_id": "0x2ca538b5549c3380627080362400ba6e6495aa632f54f15467d68e24235f5937",
+      "entry_price": 0.525,
+      "shares": 4584.790172658148,
+      "entry_value": 2407.014840645528,
+      "current_price": 0.525,
+      "peak_price": 0.525,
+      "entry_date": "2026-08-30T01:12:33.599744",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-30"
     }
   },
   "closed_trades": [
@@ -306,6 +319,10 @@
     },
     {
       "date": "2026-08-29",
+      "equity": 12035.074203227638
+    },
+    {
+      "date": "2026-08-30",
       "equity": 12035.074203227638
     }
   ]
