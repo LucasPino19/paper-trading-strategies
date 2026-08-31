@@ -2,70 +2,70 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "purr-2": {
-      "ticker": "PURR",
-      "name": "Purr",
-      "entry_price": 0.135105,
-      "shares": 16004.68721021965,
-      "entry_value": 2162.313265536726,
-      "current_price": 0.117728,
-      "peak_price": 0.135105,
-      "entry_date": "2026-08-24T22:41:06.976956",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-30",
-      "momentum_7d": 86.0
-    },
-    "dog-go-to-the-moon-rune": {
-      "ticker": "DOG",
-      "name": "Dog (Bitcoin)",
-      "entry_price": 0.00115905,
-      "shares": 1865591.0146557316,
-      "entry_value": 2162.313265536726,
-      "current_price": 0.00123746,
-      "peak_price": 0.00132867,
-      "entry_date": "2026-08-24T22:41:06.976956",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-30",
-      "momentum_7d": 89.6
-    },
     "cash-cat": {
       "ticker": "CASHCAT",
       "name": "Cash Cat",
       "entry_price": 0.212834,
-      "shares": 10159.623300491114,
-      "entry_value": 2162.313265536726,
-      "current_price": 0.211207,
+      "shares": 10715.468966980037,
+      "entry_value": 2276.5862410361847,
+      "current_price": 0.205584,
       "peak_price": 0.230106,
       "entry_date": "2026-08-24T22:41:06.976956",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-30",
+      "trading_days_held": 6,
+      "last_update_date": "2026-08-31",
       "momentum_7d": 84.8
     },
     "non-playable-coin": {
       "ticker": "NPC",
       "name": "Non-Playable Coin",
       "entry_price": 0.0133024,
-      "shares": 162550.61233587365,
+      "shares": 134141.06591133765,
       "entry_value": 2162.313265536726,
-      "current_price": 0.01749127,
+      "current_price": 0.01642248,
       "peak_price": 0.01836178,
       "entry_date": "2026-08-24T22:41:06.976956",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-30",
+      "trading_days_held": 6,
+      "last_update_date": "2026-08-31",
       "momentum_7d": 150.7
     },
-    "pump-fun": {
-      "ticker": "PUMP",
-      "name": "Pump.fun",
-      "entry_price": 0.00479815,
-      "shares": 450655.6205072215,
-      "entry_value": 2162.313265536725,
-      "current_price": 0.00505189,
-      "peak_price": 0.00505189,
-      "entry_date": "2026-08-24T22:41:06.976956",
-      "trading_days_held": 5,
-      "last_update_date": "2026-08-30",
-      "momentum_7d": 71.9
+    "ai-xovia": {
+      "ticker": "AIX",
+      "name": "AI XOVIA",
+      "entry_price": 0.893702,
+      "shares": 2464.948016349548,
+      "entry_value": 2202.928972107624,
+      "current_price": 0.893702,
+      "peak_price": 0.893702,
+      "entry_date": "2026-08-31T00:34:12.883787",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-31",
+      "momentum_7d": 77.3
+    },
+    "niu-lai": {
+      "ticker": "\u725b\u6765",
+      "name": "\u725b\u6765 (Niu Lai)",
+      "entry_price": 0.101213,
+      "shares": 21765.276912132078,
+      "entry_value": 2202.928972107624,
+      "current_price": 0.101213,
+      "peak_price": 0.101213,
+      "entry_date": "2026-08-31T00:34:12.883787",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-31",
+      "momentum_7d": 163.2
+    },
+    "lobster-2": {
+      "ticker": "\u9f99\u867e",
+      "name": "\u9f99\u867e (Lobster)",
+      "entry_price": 0.072436,
+      "shares": 30412.073721735378,
+      "entry_value": 2202.928972107624,
+      "current_price": 0.072436,
+      "peak_price": 0.072436,
+      "entry_date": "2026-08-31T00:34:12.883787",
+      "trading_days_held": 0,
+      "last_update_date": "2026-08-31",
+      "momentum_7d": 179.9
     }
   },
   "closed_trades": [
@@ -575,6 +575,45 @@
       "exit_date": "2026-08-24T22:41:06.976956",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 20
+    },
+    {
+      "ticker": "purr-2",
+      "entry_price": 0.135105,
+      "exit_price": 0.11989,
+      "shares": 16004.68721021965,
+      "entry_value": 2162.313265536726,
+      "pnl": -243.5113159034921,
+      "pnl_pct": -0.11261611339328674,
+      "entry_date": "2026-08-24T22:41:06.976956",
+      "exit_date": "2026-08-31T00:34:12.883787",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 6
+    },
+    {
+      "ticker": "pump-fun",
+      "entry_price": 0.00479815,
+      "exit_price": 0.00450257,
+      "shares": 450655.6205072215,
+      "entry_value": 2162.313265536725,
+      "pnl": -133.2047883095246,
+      "pnl_pct": -0.06160290945468569,
+      "entry_date": "2026-08-24T22:41:06.976956",
+      "exit_date": "2026-08-31T00:34:12.883787",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 6
+    },
+    {
+      "ticker": "dog-go-to-the-moon-rune",
+      "entry_price": 0.00115905,
+      "exit_price": 0.00123746,
+      "shares": 1865591.0146557316,
+      "entry_value": 2162.313265536726,
+      "pnl": 146.28099145915573,
+      "pnl_pct": 0.06765023079245926,
+      "entry_date": "2026-08-24T22:41:06.976956",
+      "exit_date": "2026-08-31T00:34:12.883787",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 6
     }
   ],
   "equity_history": [
@@ -929,7 +968,11 @@
     {
       "date": "2026-08-30",
       "equity": 11458.45690302377
+    },
+    {
+      "date": "2026-08-31",
+      "equity": 11014.64486053812
     }
   ],
-  "last_rebalance": "2026-34"
+  "last_rebalance": "2026-35"
 }
