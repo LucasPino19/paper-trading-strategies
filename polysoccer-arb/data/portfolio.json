@@ -12,8 +12,8 @@
       "current_price": 0.055,
       "peak_price": 0.055,
       "entry_date": "2026-08-22T23:30:26.349965",
-      "trading_days_held": 8,
-      "last_update_date": "2026-08-31"
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-01"
     },
     "0x2ca538b5549c3380627080362400ba6e6495aa632f54f15467d68e24235f5937": {
       "ticker": "[NO] Counter-Strike: G2 vs Natus Vincere (B",
@@ -25,8 +25,8 @@
       "current_price": 0.525,
       "peak_price": 0.525,
       "entry_date": "2026-08-30T01:12:33.599744",
-      "trading_days_held": 1,
-      "last_update_date": "2026-08-31"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-01"
     },
     "0x0caef97f7539ecacb0a9ee8be74ddd1757628fe170fa0fe4b0d24ef15758397e": {
       "ticker": "[NO] Counter-Strike: MOUZ vs Team Falcons (",
@@ -38,8 +38,8 @@
       "current_price": 0.5449999999999999,
       "peak_price": 0.5449999999999999,
       "entry_date": "2026-08-31T01:20:41.555778",
-      "trading_days_held": 0,
-      "last_update_date": "2026-08-31"
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-01"
     }
   },
   "closed_trades": [
@@ -341,6 +341,10 @@
     {
       "date": "2026-08-31",
       "equity": 12035.074203227638
+    },
+    {
+      "date": "2026-09-01",
+      "equity": 12035.074203227636
     }
   ]
 }
