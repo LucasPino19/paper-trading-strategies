@@ -1,7 +1,40 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9983.702682721876,
-  "open_positions": {},
+  "cash": 4892.01431453372,
+  "open_positions": {
+    "IWM": {
+      "ticker": "IWM",
+      "entry_price": 294.010009765625,
+      "shares": 10.187104878518134,
+      "entry_value": 2995.110804816563,
+      "current_price": 294.010009765625,
+      "peak_price": 294.010009765625,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-02",
+      "entry_date": "2026-09-02T23:30:25.043219",
+      "sps_score": 37.95105845541026,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "XLI": {
+      "ticker": "XLI",
+      "entry_price": 172.77999877929688,
+      "shares": 12.1343765377015,
+      "entry_value": 2096.577563371594,
+      "current_price": 172.77999877929688,
+      "peak_price": 172.77999877929688,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-02",
+      "entry_date": "2026-09-02T23:30:25.099336",
+      "sps_score": 30.00492607026146,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    }
+  },
   "closed_trades": [
     {
       "ticker": "AMZN",
@@ -407,6 +440,10 @@
     },
     {
       "date": "2026-09-01",
+      "equity": 9983.702682721876
+    },
+    {
+      "date": "2026-09-02",
       "equity": 9983.702682721876
     }
   ]
