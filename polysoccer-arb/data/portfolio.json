@@ -1,20 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5234.603843970481,
+  "cash": 4814.029681291054,
   "open_positions": {
-    "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392": {
-      "ticker": "[YES] Will Manchester United win the 2026-27",
-      "direction": "YES",
-      "condition_id": "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392",
-      "entry_price": 0.055,
-      "shares": 36117.10323574728,
-      "entry_value": 1986.4406779661006,
-      "current_price": 0.055,
-      "peak_price": 0.055,
-      "entry_date": "2026-08-22T23:30:26.349965",
-      "trading_days_held": 9,
-      "last_update_date": "2026-09-01"
-    },
     "0x2ca538b5549c3380627080362400ba6e6495aa632f54f15467d68e24235f5937": {
       "ticker": "[NO] Counter-Strike: G2 vs Natus Vincere (B",
       "direction": "NO",
@@ -25,8 +12,8 @@
       "current_price": 0.525,
       "peak_price": 0.525,
       "entry_date": "2026-08-30T01:12:33.599744",
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-01"
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-02"
     },
     "0x0caef97f7539ecacb0a9ee8be74ddd1757628fe170fa0fe4b0d24ef15758397e": {
       "ticker": "[NO] Counter-Strike: MOUZ vs Team Falcons (",
@@ -38,8 +25,21 @@
       "current_price": 0.5449999999999999,
       "peak_price": 0.5449999999999999,
       "entry_date": "2026-08-31T01:20:41.555778",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-01"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-02"
+    },
+    "0xd0ef28f31dd1dbcee925fca7b5d663240a352c632210247a853ebe61dcc75381": {
+      "ticker": "[NO] Counter-Strike: Team Falcons vs G2 (BO",
+      "direction": "NO",
+      "condition_id": "0xd0ef28f31dd1dbcee925fca7b5d663240a352c632210247a853ebe61dcc75381",
+      "entry_price": 0.42500000000000004,
+      "shares": 5663.5643309306515,
+      "entry_value": 2407.0148406455273,
+      "current_price": 0.42500000000000004,
+      "peak_price": 0.42500000000000004,
+      "entry_date": "2026-09-02T00:59:11.033765",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-02"
     }
   },
   "closed_trades": [
@@ -157,6 +157,19 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-08-20T23:34:56.035190",
       "exit_date": "2026-08-31T01:20:41.555756",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Manchester United win the 2026-27",
+      "entry_price": 0.055,
+      "exit_price": 0.055,
+      "shares": 36117.10323574728,
+      "entry_value": 1986.4406779661006,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-22T23:30:26.349965",
+      "exit_date": "2026-09-02T00:59:11.033747",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -344,6 +357,10 @@
     },
     {
       "date": "2026-09-01",
+      "equity": 12035.074203227636
+    },
+    {
+      "date": "2026-09-02",
       "equity": 12035.074203227636
     }
   ]
