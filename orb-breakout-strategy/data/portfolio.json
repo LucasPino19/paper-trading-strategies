@@ -1,49 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3935.890945119667,
+  "cash": 8094.640176100187,
   "open_positions": {
-    "META": {
-      "ticker": "META",
-      "entry_price": 550.5800170898438,
-      "shares": 4.368729876343776,
-      "entry_value": 2405.3353699782674,
-      "current_price": 582.719970703125,
-      "peak_price": 582.719970703125,
-      "volume_spiked": false,
-      "trading_days_held": 11,
-      "last_update_date": "2026-09-01",
-      "entry_date": "2026-08-18T15:02:42.441458",
-      "sps_score": 50.89025596979466,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "HD": {
-      "ticker": "HD",
-      "entry_price": 343.19500732421875,
-      "shares": 4.906058430489203,
-      "entry_value": 1683.7347589847873,
-      "current_price": 319.79998779296875,
-      "peak_price": 348.30499267578125,
-      "volume_spiked": false,
-      "trading_days_held": 11,
-      "last_update_date": "2026-09-01",
-      "entry_date": "2026-08-18T15:02:42.673817",
-      "sps_score": 13.71142658939708,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "JPM": {
       "ticker": "JPM",
       "entry_price": 357.4200134277344,
       "shares": 4.719406697108013,
       "entry_value": 1686.8104050512857,
-      "current_price": 354.92999267578125,
+      "current_price": 354.6199951171875,
       "peak_price": 357.6199951171875,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-09-01",
+      "trading_days_held": 6,
+      "last_update_date": "2026-09-02",
       "entry_date": "2026-08-26T16:00:36.745349",
       "sps_score": 4.744202790799596,
       "short_float_pct": 0,
@@ -469,6 +437,50 @@
       "pnl": 14.601562476811296,
       "pnl_pct": 0.008694587264479702,
       "exit_reason": "Stop de tiempo: 12d \u2014 +0.9%"
+    },
+    {
+      "ticker": "META",
+      "entry_price": 550.5800170898438,
+      "shares": 4.368729876343776,
+      "entry_value": 2405.3353699782674,
+      "current_price": 592.510009765625,
+      "peak_price": 592.510009765625,
+      "volume_spiked": false,
+      "trading_days_held": 12,
+      "last_update_date": "2026-09-02",
+      "entry_date": "2026-08-18T15:02:42.441458",
+      "sps_score": 50.89025596979466,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 592.510009765625,
+      "exit_date": "2026-09-02T17:59:36.565920",
+      "proceeds": 2588.5161816958284,
+      "pnl": 183.18081171756103,
+      "pnl_pct": 0.07615603794959208,
+      "exit_reason": "Stop de tiempo: 12d \u2014 +7.6%"
+    },
+    {
+      "ticker": "HD",
+      "entry_price": 343.19500732421875,
+      "shares": 4.906058430489203,
+      "entry_value": 1683.7347589847873,
+      "current_price": 320.05999755859375,
+      "peak_price": 348.30499267578125,
+      "volume_spiked": false,
+      "trading_days_held": 12,
+      "last_update_date": "2026-09-02",
+      "entry_date": "2026-08-18T15:02:42.673817",
+      "sps_score": 13.71142658939708,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 320.05999755859375,
+      "exit_date": "2026-09-02T17:59:36.567019",
+      "proceeds": 1570.2330492846927,
+      "pnl": -113.50170970009458,
+      "pnl_pct": -0.06741068276604967,
+      "exit_reason": "Stop de tiempo: 12d \u2014 -6.7%"
     }
   ],
   "equity_history": [
@@ -747,6 +759,10 @@
     {
       "date": "2026-09-01",
       "equity": 9725.653501293198
+    },
+    {
+      "date": "2026-09-02",
+      "equity": 9768.236155984652
     }
   ]
 }
