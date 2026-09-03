@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8094.640176100187,
+  "cash": 3966.373686289092,
   "open_positions": {
     "JPM": {
       "ticker": "JPM",
       "entry_price": 357.4200134277344,
       "shares": 4.719406697108013,
       "entry_value": 1686.8104050512857,
-      "current_price": 354.6199951171875,
-      "peak_price": 357.6199951171875,
+      "current_price": 361.69000244140625,
+      "peak_price": 361.69000244140625,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-09-02",
+      "trading_days_held": 7,
+      "last_update_date": "2026-09-03",
       "entry_date": "2026-08-26T16:00:36.745349",
       "sps_score": 4.744202790799596,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "META": {
+      "ticker": "META",
+      "entry_price": 615.1500244140625,
+      "shares": 3.947641967734826,
+      "entry_value": 2428.392052830056,
+      "current_price": 615.1500244140625,
+      "peak_price": 615.1500244140625,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-03",
+      "entry_date": "2026-09-03T17:58:25.783953",
+      "sps_score": 50.89025596979466,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "entry_price": 230.0399932861328,
+      "shares": 7.389473511532703,
+      "entry_value": 1699.8744369810393,
+      "current_price": 230.0399932861328,
+      "peak_price": 230.0399932861328,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-03",
+      "entry_date": "2026-09-03T17:58:25.908897",
+      "sps_score": 12.58614240413551,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -763,6 +795,10 @@
     {
       "date": "2026-09-02",
       "equity": 9768.236155984652
+    },
+    {
+      "date": "2026-09-03",
+      "equity": 9801.602395899174
     }
   ]
 }
