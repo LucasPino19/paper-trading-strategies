@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5881.159898451269,
+  "cash": 4116.8119289158885,
   "open_positions": {
     "MSTR": {
       "ticker": "MSTR",
       "entry_price": 125.45189666748047,
       "shares": 14.726780610690684,
       "entry_value": 1847.5025594170224,
-      "current_price": 123.13970184326172,
-      "peak_price": 137.39999389648438,
+      "current_price": 141.52999877929688,
+      "peak_price": 141.52999877929688,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-02",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-03",
       "entry_date": "2026-08-24T15:10:37.742346",
       "sps_score": 35.783663095414155,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 243.9803009033203,
       "shares": 7.383481226148619,
       "entry_value": 1801.4239712697563,
-      "current_price": 233.27430725097656,
+      "current_price": 242.77000427246094,
       "peak_price": 255.2100067138672,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-09-02",
+      "trading_days_held": 8,
+      "last_update_date": "2026-09-03",
       "entry_date": "2026-08-25T15:22:45.764191",
       "sps_score": 104.18941698381369,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "META": {
+      "ticker": "META",
+      "entry_price": 615.1699829101562,
+      "shares": 2.868065768080655,
+      "entry_value": 1764.3479695353808,
+      "current_price": 615.1699829101562,
+      "peak_price": 615.1699829101562,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-03",
+      "entry_date": "2026-09-03T17:58:16.447738",
+      "sps_score": 79.57733884105821,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -713,6 +729,10 @@
     {
       "date": "2026-09-02",
       "equity": 9416.987740093258
+    },
+    {
+      "date": "2026-09-03",
+      "equity": 9757.928909123031
     }
   ]
 }
