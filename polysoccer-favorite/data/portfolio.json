@@ -2,45 +2,6 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "0xe97b3db97ebb15dac000603f3c0870f7557e107f30bf0dc3f6e6da631556be39": {
-      "ticker": "[YES] Winston-Salem Open: Pablo Carreno Bust",
-      "direction": "YES",
-      "condition_id": "0xe97b3db97ebb15dac000603f3c0870f7557e107f30bf0dc3f6e6da631556be39",
-      "entry_price": 0.715,
-      "shares": 2743.8295751424084,
-      "entry_value": 1961.838146226822,
-      "current_price": 0.715,
-      "peak_price": 0.715,
-      "entry_date": "2026-08-23T23:08:33.219216",
-      "trading_days_held": 9,
-      "last_update_date": "2026-09-02"
-    },
-    "0x49df159af57dc360e32ad00254d4dc834a5dcba69a3f01d5d49b54472f78dd17": {
-      "ticker": "[YES] Valorant: Team Envy vs G2 Esports (BO3",
-      "direction": "YES",
-      "condition_id": "0x49df159af57dc360e32ad00254d4dc834a5dcba69a3f01d5d49b54472f78dd17",
-      "entry_price": 0.635,
-      "shares": 3089.5088916957825,
-      "entry_value": 1961.838146226822,
-      "current_price": 0.635,
-      "peak_price": 0.635,
-      "entry_date": "2026-08-23T23:08:33.219216",
-      "trading_days_held": 9,
-      "last_update_date": "2026-09-02"
-    },
-    "0x8a1304e22b974f929a3bec26b6b8c2717c915c3fc10b6b95b359b712c99ab95c": {
-      "ticker": "[YES] LoL: Dignitas vs FlyQuest - Game 2 Win",
-      "direction": "YES",
-      "condition_id": "0x8a1304e22b974f929a3bec26b6b8c2717c915c3fc10b6b95b359b712c99ab95c",
-      "entry_price": 0.73,
-      "shares": 2687.449515379208,
-      "entry_value": 1961.838146226822,
-      "current_price": 0.73,
-      "peak_price": 0.73,
-      "entry_date": "2026-08-23T23:08:33.219216",
-      "trading_days_held": 9,
-      "last_update_date": "2026-09-02"
-    },
     "0x9c79aa5db85353e1b90ece28ed2bcbdee6d67d6acea8e2ebdd5be97ce4fd7ebd": {
       "ticker": "[YES] Tampa Bay Rays vs. Detroit Tigers",
       "direction": "YES",
@@ -51,8 +12,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-08-24T23:11:57.701382",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-02"
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-03"
     },
     "0xfafe85dc1adbddd4f0793b94ebaaa149a16302d2993eaf028313dee6e09b3397": {
       "ticker": "[YES] Colorado Rockies vs. Washington Nation",
@@ -64,8 +25,47 @@
       "current_price": 0.635,
       "peak_price": 0.635,
       "entry_date": "2026-08-24T23:11:57.701382",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-02"
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-03"
+    },
+    "0x2b29e2370883b6e6d4926e9f2cda68539758c9f3e263a22a7a4cf25d9aad1b12": {
+      "ticker": "[YES] US Open ATP: Lloyd Harris vs Stefanos ",
+      "direction": "YES",
+      "condition_id": "0x2b29e2370883b6e6d4926e9f2cda68539758c9f3e263a22a7a4cf25d9aad1b12",
+      "entry_price": 0.795,
+      "shares": 2467.720938650091,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.795,
+      "peak_price": 0.795,
+      "entry_date": "2026-09-03T00:47:00.408310",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-03"
+    },
+    "0x99106842b4a3afb9a8f15345bbdc5396e30a3d289824c60aa9a5ca78b23f4fb3": {
+      "ticker": "[YES] New York Mets vs. Tampa Bay Rays",
+      "direction": "YES",
+      "condition_id": "0x99106842b4a3afb9a8f15345bbdc5396e30a3d289824c60aa9a5ca78b23f4fb3",
+      "entry_price": 0.785,
+      "shares": 2499.156874174296,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.785,
+      "peak_price": 0.785,
+      "entry_date": "2026-09-03T00:47:00.408310",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-03"
+    },
+    "0x8b6d52e1e548ff8ed6442de52b64aab17b5fcba9c75d287c78d480555a03ca95": {
+      "ticker": "[YES] San Francisco Giants vs. Pittsburgh Pi",
+      "direction": "YES",
+      "condition_id": "0x8b6d52e1e548ff8ed6442de52b64aab17b5fcba9c75d287c78d480555a03ca95",
+      "entry_price": 0.765,
+      "shares": 2564.49430879323,
+      "entry_value": 1961.838146226821,
+      "current_price": 0.765,
+      "peak_price": 0.765,
+      "entry_date": "2026-09-03T00:47:00.408310",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-03"
     }
   },
   "closed_trades": [
@@ -588,6 +588,45 @@
       "exit_date": "2026-08-24T23:11:57.701362",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Winston-Salem Open: Pablo Carreno Bust",
+      "entry_price": 0.715,
+      "exit_price": 0.715,
+      "shares": 2743.8295751424084,
+      "entry_value": 1961.838146226822,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-23T23:08:33.219216",
+      "exit_date": "2026-09-03T00:47:00.408281",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Valorant: Team Envy vs G2 Esports (BO3",
+      "entry_price": 0.635,
+      "exit_price": 0.635,
+      "shares": 3089.5088916957825,
+      "entry_value": 1961.838146226822,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-23T23:08:33.219216",
+      "exit_date": "2026-09-03T00:47:00.408291",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] LoL: Dignitas vs FlyQuest - Game 2 Win",
+      "entry_price": 0.73,
+      "exit_price": 0.73,
+      "shares": 2687.449515379208,
+      "entry_value": 1961.838146226822,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-23T23:08:33.219216",
+      "exit_date": "2026-09-03T00:47:00.408298",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -949,6 +988,10 @@
     },
     {
       "date": "2026-09-02",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-09-03",
       "equity": 9809.190731134111
     }
   ]
