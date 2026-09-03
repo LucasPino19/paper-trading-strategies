@@ -8,11 +8,11 @@
       "entry_price": 0.212834,
       "shares": 10715.468966980037,
       "entry_value": 2276.5862410361847,
-      "current_price": 0.222403,
-      "peak_price": 0.230106,
+      "current_price": 0.275994,
+      "peak_price": 0.275994,
       "entry_date": "2026-08-24T22:41:06.976956",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-02",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-03",
       "momentum_7d": 84.8
     },
     "non-playable-coin": {
@@ -21,11 +21,11 @@
       "entry_price": 0.0133024,
       "shares": 134141.06591133765,
       "entry_value": 2162.313265536726,
-      "current_price": 0.01686769,
+      "current_price": 0.0169078,
       "peak_price": 0.01836178,
       "entry_date": "2026-08-24T22:41:06.976956",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-02",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-03",
       "momentum_7d": 150.7
     },
     "ai-xovia": {
@@ -37,8 +37,8 @@
       "current_price": 0.776685,
       "peak_price": 0.893702,
       "entry_date": "2026-08-31T00:34:12.883787",
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-02",
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-03",
       "momentum_7d": 77.3
     },
     "niu-lai": {
@@ -47,11 +47,11 @@
       "entry_price": 0.101213,
       "shares": 21765.276912132078,
       "entry_value": 2202.928972107624,
-      "current_price": 0.082672,
+      "current_price": 0.078371,
       "peak_price": 0.108235,
       "entry_date": "2026-08-31T00:34:12.883787",
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-02",
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-03",
       "momentum_7d": 163.2
     },
     "lobster-2": {
@@ -60,11 +60,11 @@
       "entry_price": 0.072436,
       "shares": 30412.073721735378,
       "entry_value": 2202.928972107624,
-      "current_price": 0.064456,
+      "current_price": 0.069391,
       "peak_price": 0.072436,
       "entry_date": "2026-08-31T00:34:12.883787",
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-02",
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-03",
       "momentum_7d": 179.9
     }
   },
@@ -980,6 +980,10 @@
     {
       "date": "2026-09-02",
       "equity": 10319.91010749168
+    },
+    {
+      "date": "2026-09-03",
+      "equity": 10956.014330872495
     }
   ],
   "last_rebalance": "2026-35"
