@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5684.445702888219,
+  "cash": 3979.1119920217534,
   "open_positions": {
     "COIN": {
       "ticker": "COIN",
       "entry_price": 186.64999389648438,
       "shares": 9.236602028105033,
       "entry_value": 1724.0117121700594,
-      "current_price": 176.8350067138672,
-      "peak_price": 190.72000122070312,
+      "current_price": 193.66969299316406,
+      "peak_price": 193.66969299316406,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-02",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-03",
       "entry_date": "2026-08-24T15:10:29.242037",
       "sps_score": 113.30721482142047,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 218.0399932861328,
       "shares": 8.073876973392618,
       "entry_value": 1760.4280810715886,
-      "current_price": 224.6999969482422,
-      "peak_price": 224.6999969482422,
+      "current_price": 229.91799926757812,
+      "peak_price": 229.91799926757812,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-02",
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-03",
       "entry_date": "2026-09-01T17:55:02.707551",
       "sps_score": 65.8645544592984,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "SMCI": {
+      "ticker": "SMCI",
+      "entry_price": 37.775001525878906,
+      "shares": 45.14450408951474,
+      "entry_value": 1705.3337108664657,
+      "current_price": 37.775001525878906,
+      "peak_price": 37.775001525878906,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-03",
+      "entry_date": "2026-09-03T17:58:05.340262",
+      "sps_score": 160.4573358976653,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1043,6 +1059,10 @@
     {
       "date": "2026-09-02",
       "equity": 9132.000415823295
+    },
+    {
+      "date": "2026-09-03",
+      "equity": 9329.625222026358
     }
   ]
 }
