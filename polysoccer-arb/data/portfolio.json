@@ -12,8 +12,8 @@
       "current_price": 0.525,
       "peak_price": 0.525,
       "entry_date": "2026-08-30T01:12:33.599744",
-      "trading_days_held": 4,
-      "last_update_date": "2026-09-03"
+      "trading_days_held": 5,
+      "last_update_date": "2026-09-04"
     },
     "0x0caef97f7539ecacb0a9ee8be74ddd1757628fe170fa0fe4b0d24ef15758397e": {
       "ticker": "[NO] Counter-Strike: MOUZ vs Team Falcons (",
@@ -25,8 +25,8 @@
       "current_price": 0.5449999999999999,
       "peak_price": 0.5449999999999999,
       "entry_date": "2026-08-31T01:20:41.555778",
-      "trading_days_held": 3,
-      "last_update_date": "2026-09-03"
+      "trading_days_held": 4,
+      "last_update_date": "2026-09-04"
     },
     "0xd0ef28f31dd1dbcee925fca7b5d663240a352c632210247a853ebe61dcc75381": {
       "ticker": "[NO] Counter-Strike: Team Falcons vs G2 (BO",
@@ -38,8 +38,8 @@
       "current_price": 0.42500000000000004,
       "peak_price": 0.42500000000000004,
       "entry_date": "2026-09-02T00:59:11.033765",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-03"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-04"
     },
     "0xd961e85c58d27699749eaa069e629519e2f4af701a7c2a02a486dca77e101fdc": {
       "ticker": "[YES] Will Manchester City win the 2026-27 U",
@@ -51,8 +51,8 @@
       "current_price": 0.105,
       "peak_price": 0.105,
       "entry_date": "2026-09-03T01:05:01.823550",
-      "trading_days_held": 0,
-      "last_update_date": "2026-09-03"
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-04"
     },
     "0xa23467e95abf6544819a9dcb90b7719846aacf300b991ea07204e1f1649097cb": {
       "ticker": "[YES] Will Barcelona win the 2026-27 UEFA Ch",
@@ -64,8 +64,8 @@
       "current_price": 0.175,
       "peak_price": 0.175,
       "entry_date": "2026-09-03T01:05:01.823550",
-      "trading_days_held": 0,
-      "last_update_date": "2026-09-03"
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-04"
     }
   },
   "closed_trades": [
@@ -391,6 +391,10 @@
     },
     {
       "date": "2026-09-03",
+      "equity": 12035.074203227636
+    },
+    {
+      "date": "2026-09-04",
       "equity": 12035.074203227636
     }
   ]
