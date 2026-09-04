@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3979.1119920217534,
+  "cash": 5684.096326564215,
   "open_positions": {
-    "COIN": {
-      "ticker": "COIN",
-      "entry_price": 186.64999389648438,
-      "shares": 9.236602028105033,
-      "entry_value": 1724.0117121700594,
-      "current_price": 193.66969299316406,
-      "peak_price": 193.66969299316406,
-      "volume_spiked": false,
-      "trading_days_held": 9,
-      "last_update_date": "2026-09-03",
-      "entry_date": "2026-08-24T15:10:29.242037",
-      "sps_score": 113.30721482142047,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "NVDA": {
       "ticker": "NVDA",
       "entry_price": 218.0399932861328,
       "shares": 8.073876973392618,
       "entry_value": 1760.4280810715886,
-      "current_price": 229.91799926757812,
-      "peak_price": 229.91799926757812,
+      "current_price": 230.38499450683594,
+      "peak_price": 230.38499450683594,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-09-03",
+      "trading_days_held": 4,
+      "last_update_date": "2026-09-04",
       "entry_date": "2026-09-01T17:55:02.707551",
       "sps_score": 65.8645544592984,
       "short_float_pct": 0,
@@ -39,11 +23,11 @@
       "entry_price": 37.775001525878906,
       "shares": 45.14450408951474,
       "entry_value": 1705.3337108664657,
-      "current_price": 37.775001525878906,
-      "peak_price": 37.775001525878906,
+      "current_price": 40.755001068115234,
+      "peak_price": 40.755001068115234,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-03",
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-04",
       "entry_date": "2026-09-03T17:58:05.340262",
       "sps_score": 160.4573358976653,
       "short_float_pct": 0,
@@ -777,6 +761,28 @@
       "pnl": -47.79233542560769,
       "pnl_pct": -0.029418406971927144,
       "exit_reason": "Stop de tiempo: 10d \u2014 -2.9%"
+    },
+    {
+      "ticker": "COIN",
+      "entry_price": 186.64999389648438,
+      "shares": 9.236602028105033,
+      "entry_value": 1724.0117121700594,
+      "current_price": 184.58999633789062,
+      "peak_price": 193.66969299316406,
+      "volume_spiked": false,
+      "trading_days_held": 10,
+      "last_update_date": "2026-09-04",
+      "entry_date": "2026-08-24T15:10:29.242037",
+      "sps_score": 113.30721482142047,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 184.58999633789062,
+      "exit_date": "2026-09-04T17:43:00.950227",
+      "proceeds": 1704.984334542461,
+      "pnl": -19.027377627598298,
+      "pnl_pct": -0.011036686986104076,
+      "exit_reason": "Stop de tiempo: 10d \u2014 -1.1%"
     }
   ],
   "equity_history": [
@@ -1063,6 +1069,10 @@
     {
       "date": "2026-09-03",
       "equity": 9329.625222026358
+    },
+    {
+      "date": "2026-09-04",
+      "equity": 9384.060741115849
     }
   ]
 }
