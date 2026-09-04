@@ -1,33 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 0.0,
+  "cash": 4.547473508864641e-13,
   "open_positions": {
-    "0x9c79aa5db85353e1b90ece28ed2bcbdee6d67d6acea8e2ebdd5be97ce4fd7ebd": {
-      "ticker": "[YES] Tampa Bay Rays vs. Detroit Tigers",
-      "direction": "YES",
-      "condition_id": "0x9c79aa5db85353e1b90ece28ed2bcbdee6d67d6acea8e2ebdd5be97ce4fd7ebd",
-      "entry_price": 0.765,
-      "shares": 2564.494308793232,
-      "entry_value": 1961.8381462268223,
-      "current_price": 0.765,
-      "peak_price": 0.765,
-      "entry_date": "2026-08-24T23:11:57.701382",
-      "trading_days_held": 9,
-      "last_update_date": "2026-09-03"
-    },
-    "0xfafe85dc1adbddd4f0793b94ebaaa149a16302d2993eaf028313dee6e09b3397": {
-      "ticker": "[YES] Colorado Rockies vs. Washington Nation",
-      "direction": "YES",
-      "condition_id": "0xfafe85dc1adbddd4f0793b94ebaaa149a16302d2993eaf028313dee6e09b3397",
-      "entry_price": 0.635,
-      "shares": 3089.5088916957834,
-      "entry_value": 1961.8381462268223,
-      "current_price": 0.635,
-      "peak_price": 0.635,
-      "entry_date": "2026-08-24T23:11:57.701382",
-      "trading_days_held": 9,
-      "last_update_date": "2026-09-03"
-    },
     "0x2b29e2370883b6e6d4926e9f2cda68539758c9f3e263a22a7a4cf25d9aad1b12": {
       "ticker": "[YES] US Open ATP: Lloyd Harris vs Stefanos ",
       "direction": "YES",
@@ -38,8 +12,8 @@
       "current_price": 0.795,
       "peak_price": 0.795,
       "entry_date": "2026-09-03T00:47:00.408310",
-      "trading_days_held": 0,
-      "last_update_date": "2026-09-03"
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-04"
     },
     "0x99106842b4a3afb9a8f15345bbdc5396e30a3d289824c60aa9a5ca78b23f4fb3": {
       "ticker": "[YES] New York Mets vs. Tampa Bay Rays",
@@ -51,8 +25,8 @@
       "current_price": 0.785,
       "peak_price": 0.785,
       "entry_date": "2026-09-03T00:47:00.408310",
-      "trading_days_held": 0,
-      "last_update_date": "2026-09-03"
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-04"
     },
     "0x8b6d52e1e548ff8ed6442de52b64aab17b5fcba9c75d287c78d480555a03ca95": {
       "ticker": "[YES] San Francisco Giants vs. Pittsburgh Pi",
@@ -64,8 +38,34 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-09-03T00:47:00.408310",
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-04"
+    },
+    "0xc5dfefa7b5acab5a900b1e539d845b48ec6fe4338ac158dcd6ec6e2df8fefd39": {
+      "ticker": "[YES] Milwaukee Brewers vs. Chicago Cubs",
+      "direction": "YES",
+      "condition_id": "0xc5dfefa7b5acab5a900b1e539d845b48ec6fe4338ac158dcd6ec6e2df8fefd39",
+      "entry_price": 0.625,
+      "shares": 3138.9410339629158,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.625,
+      "peak_price": 0.625,
+      "entry_date": "2026-09-04T00:29:10.135185",
       "trading_days_held": 0,
-      "last_update_date": "2026-09-03"
+      "last_update_date": "2026-09-04"
+    },
+    "0x63152f242491ea44fe92a16f72b85e49125ff04ade2b9acf02088ebf267e7c3d": {
+      "ticker": "[YES] US Open WTA: Maria Sakkari vs Yulia St",
+      "direction": "YES",
+      "condition_id": "0x63152f242491ea44fe92a16f72b85e49125ff04ade2b9acf02088ebf267e7c3d",
+      "entry_price": 0.7085,
+      "shares": 2769.002323538211,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.7085,
+      "peak_price": 0.7085,
+      "entry_date": "2026-09-04T00:29:10.135185",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-04"
     }
   },
   "closed_trades": [
@@ -627,6 +627,32 @@
       "exit_date": "2026-09-03T00:47:00.408298",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Tampa Bay Rays vs. Detroit Tigers",
+      "entry_price": 0.765,
+      "exit_price": 0.765,
+      "shares": 2564.494308793232,
+      "entry_value": 1961.8381462268223,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-24T23:11:57.701382",
+      "exit_date": "2026-09-04T00:29:10.135160",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Colorado Rockies vs. Washington Nation",
+      "entry_price": 0.635,
+      "exit_price": 0.635,
+      "shares": 3089.5088916957834,
+      "entry_value": 1961.8381462268223,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-08-24T23:11:57.701382",
+      "exit_date": "2026-09-04T00:29:10.135170",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -992,6 +1018,10 @@
     },
     {
       "date": "2026-09-03",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-09-04",
       "equity": 9809.190731134111
     }
   ]
