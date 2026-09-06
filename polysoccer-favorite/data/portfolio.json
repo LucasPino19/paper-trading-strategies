@@ -12,8 +12,8 @@
       "current_price": 0.795,
       "peak_price": 0.795,
       "entry_date": "2026-09-03T00:47:00.408310",
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-05"
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-06"
     },
     "0x99106842b4a3afb9a8f15345bbdc5396e30a3d289824c60aa9a5ca78b23f4fb3": {
       "ticker": "[YES] New York Mets vs. Tampa Bay Rays",
@@ -25,8 +25,8 @@
       "current_price": 0.785,
       "peak_price": 0.785,
       "entry_date": "2026-09-03T00:47:00.408310",
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-05"
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-06"
     },
     "0x8b6d52e1e548ff8ed6442de52b64aab17b5fcba9c75d287c78d480555a03ca95": {
       "ticker": "[YES] San Francisco Giants vs. Pittsburgh Pi",
@@ -38,8 +38,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-09-03T00:47:00.408310",
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-05"
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-06"
     },
     "0xc5dfefa7b5acab5a900b1e539d845b48ec6fe4338ac158dcd6ec6e2df8fefd39": {
       "ticker": "[YES] Milwaukee Brewers vs. Chicago Cubs",
@@ -51,8 +51,8 @@
       "current_price": 0.625,
       "peak_price": 0.625,
       "entry_date": "2026-09-04T00:29:10.135185",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-05"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-06"
     },
     "0x63152f242491ea44fe92a16f72b85e49125ff04ade2b9acf02088ebf267e7c3d": {
       "ticker": "[YES] US Open WTA: Maria Sakkari vs Yulia St",
@@ -64,8 +64,8 @@
       "current_price": 0.7085,
       "peak_price": 0.7085,
       "entry_date": "2026-09-04T00:29:10.135185",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-05"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-06"
     }
   },
   "closed_trades": [
@@ -1026,6 +1026,10 @@
     },
     {
       "date": "2026-09-05",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-09-06",
       "equity": 9809.190731134111
     }
   ]
