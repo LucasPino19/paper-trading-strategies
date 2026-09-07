@@ -1,23 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4512.029576010565,
+  "cash": 6441.646795780255,
   "open_positions": {
-    "SPY": {
-      "ticker": "SPY",
-      "entry_price": 738.9299926757812,
-      "shares": 2.5053781711695096,
-      "entry_value": 1851.299073672348,
-      "current_price": 770.1900024414062,
-      "peak_price": 777.8800048828125,
-      "volume_spiked": false,
-      "trading_days_held": 29,
-      "last_update_date": "2026-09-04",
-      "entry_date": "2026-07-24T22:35:28.761950",
-      "sps_score": 23.60105183735245,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "QQQ": {
       "ticker": "QQQ",
       "entry_price": 683.5499877929688,
@@ -26,8 +10,8 @@
       "current_price": 718.9600219726562,
       "peak_price": 732.0700073242188,
       "volume_spiked": false,
-      "trading_days_held": 25,
-      "last_update_date": "2026-09-04",
+      "trading_days_held": 26,
+      "last_update_date": "2026-09-07",
       "entry_date": "2026-07-30T22:36:39.675122",
       "sps_score": 45.24726500164623,
       "short_float_pct": 0,
@@ -42,8 +26,8 @@
       "current_price": 397.1400146484375,
       "peak_price": 405.5899963378906,
       "volume_spiked": false,
-      "trading_days_held": 17,
-      "last_update_date": "2026-09-04",
+      "trading_days_held": 18,
+      "last_update_date": "2026-09-07",
       "entry_date": "2026-08-12T22:11:23.926749",
       "sps_score": 33.750507930823176,
       "short_float_pct": 0,
@@ -161,6 +145,28 @@
       "pnl": 294.19284195254204,
       "pnl_pct": 0.15803280188514102,
       "exit_reason": "Stop de tiempo: 30d \u2014 +15.8%"
+    },
+    {
+      "ticker": "SPY",
+      "entry_price": 738.9299926757812,
+      "shares": 2.5053781711695096,
+      "entry_value": 1851.299073672348,
+      "current_price": 770.1900024414062,
+      "peak_price": 777.8800048828125,
+      "volume_spiked": false,
+      "trading_days_held": 30,
+      "last_update_date": "2026-09-07",
+      "entry_date": "2026-07-24T22:35:28.761950",
+      "sps_score": 23.60105183735245,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 770.1900024414062,
+      "exit_date": "2026-09-07T23:40:19.797612",
+      "proceeds": 1929.6172197696906,
+      "pnl": 78.3181460973426,
+      "pnl_pct": 0.04230442677313397,
+      "exit_reason": "Stop de tiempo: 30d \u2014 +4.2%"
     }
   ],
   "equity_history": [
@@ -446,6 +452,10 @@
     },
     {
       "date": "2026-09-04",
+      "equity": 10268.888619839197
+    },
+    {
+      "date": "2026-09-07",
       "equity": 10268.888619839197
     }
   ]
