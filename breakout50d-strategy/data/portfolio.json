@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5917.827286844733,
+  "cash": 4142.479100791314,
   "open_positions": {
     "NVDA": {
       "ticker": "NVDA",
       "entry_price": 219.22000122070312,
       "shares": 7.8317182606559435,
       "entry_value": 1716.8692866611989,
-      "current_price": 230.36000061035156,
+      "current_price": 225.72999572753906,
       "peak_price": 230.36000061035156,
       "volume_spiked": false,
-      "trading_days_held": 22,
-      "last_update_date": "2026-09-07",
+      "trading_days_held": 23,
+      "last_update_date": "2026-09-08",
       "entry_date": "2026-08-05T22:35:15.735446",
       "sps_score": 43.93205054318437,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 60.0099983215332,
       "shares": 29.14364267699882,
       "entry_value": 1748.9099481300625,
-      "current_price": 59.81999969482422,
+      "current_price": 59.369998931884766,
       "peak_price": 62.77000045776367,
       "volume_spiked": false,
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-07",
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-08",
       "entry_date": "2026-08-19T21:51:36.288222",
       "sps_score": 41.48873279429494,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AVGO": {
+      "ticker": "AVGO",
+      "entry_price": 368.55999755859375,
+      "shares": 4.816985559511717,
+      "entry_value": 1775.3481860534198,
+      "current_price": 368.55999755859375,
+      "peak_price": 368.55999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-08",
+      "entry_date": "2026-09-08T23:33:28.869446",
+      "sps_score": 30.02741127115596,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -611,6 +627,10 @@
     {
       "date": "2026-09-07",
       "equity": 9465.314606193673
+    },
+    {
+      "date": "2026-09-08",
+      "equity": 9415.93905096654
     }
   ]
 }
