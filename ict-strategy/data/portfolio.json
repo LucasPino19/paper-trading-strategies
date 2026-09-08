@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4112.464040717912,
+  "cash": 5821.68431502396,
   "open_positions": {
-    "AMZN": {
-      "ticker": "AMZN",
-      "entry_price": 259.7699890136719,
-      "shares": 6.651438946906706,
-      "entry_value": 1727.8442221630642,
-      "current_price": 258.510009765625,
-      "peak_price": 259.7699890136719,
-      "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-09-07",
-      "entry_date": "2026-08-31T22:58:09.533925",
-      "sps_score": 7.309637017742298,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "GS": {
       "ticker": "GS",
       "entry_price": 1002.5599975585938,
       "shares": 1.8466576675468422,
       "entry_value": 1851.3851066673205,
-      "current_price": 1038.6099853515625,
+      "current_price": 1036.530029296875,
       "peak_price": 1038.6099853515625,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-09-07",
+      "trading_days_held": 6,
+      "last_update_date": "2026-09-08",
       "entry_date": "2026-09-01T21:13:04.091336",
       "sps_score": 11.436062889304683,
       "short_float_pct": 0,
@@ -39,11 +23,11 @@
       "entry_price": 356.2200012207031,
       "shares": 4.9477417967530775,
       "entry_value": 1762.484588879105,
-      "current_price": 358.6400146484375,
+      "current_price": 353.510009765625,
       "peak_price": 362.05999755859375,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-09-07",
+      "trading_days_held": 5,
+      "last_update_date": "2026-09-08",
       "entry_date": "2026-09-02T21:11:56.737256",
       "sps_score": 11.75448168615659,
       "short_float_pct": 0,
@@ -667,6 +651,28 @@
       "pnl": 59.287058663363496,
       "pnl_pct": 0.0396366664443934,
       "exit_reason": "Stop de tiempo: 7d \u2014 +4.0%"
+    },
+    {
+      "ticker": "AMZN",
+      "entry_price": 259.7699890136719,
+      "shares": 6.651438946906706,
+      "entry_value": 1727.8442221630642,
+      "current_price": 256.9700012207031,
+      "peak_price": 259.7699890136719,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-09-08",
+      "entry_date": "2026-08-31T22:58:09.533925",
+      "sps_score": 7.309637017742298,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 256.9700012207031,
+      "exit_date": "2026-09-08T21:19:12.397491",
+      "proceeds": 1709.2202743060484,
+      "pnl": -18.623947857015764,
+      "pnl_pct": -0.010778719295481801,
+      "exit_reason": "Stop de tiempo: 7d \u2014 -1.1%"
     }
   ],
   "equity_history": [
@@ -961,6 +967,10 @@
     {
       "date": "2026-09-07",
       "equity": 9524.342871342611
+    },
+    {
+      "date": "2026-09-08",
+      "equity": 9484.876692155558
     }
   ]
 }
