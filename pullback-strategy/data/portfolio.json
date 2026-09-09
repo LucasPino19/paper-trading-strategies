@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6441.646795780255,
+  "cash": 4509.1527570461785,
   "open_positions": {
     "QQQ": {
       "ticker": "QQQ",
       "entry_price": 683.5499877929688,
       "shares": 2.6897208307858245,
       "entry_value": 1838.558641050144,
-      "current_price": 718.3599853515625,
+      "current_price": 716.3099975585938,
       "peak_price": 732.0700073242188,
       "volume_spiked": false,
-      "trading_days_held": 27,
-      "last_update_date": "2026-09-08",
+      "trading_days_held": 28,
+      "last_update_date": "2026-09-09",
       "entry_date": "2026-07-30T22:36:39.675122",
       "sps_score": 45.24726500164623,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 405.5899963378906,
       "shares": 4.767688992842978,
       "entry_value": 1933.7269611473848,
-      "current_price": 400.8399963378906,
+      "current_price": 393.05999755859375,
       "peak_price": 405.5899963378906,
       "volume_spiked": false,
-      "trading_days_held": 19,
-      "last_update_date": "2026-09-08",
+      "trading_days_held": 20,
+      "last_update_date": "2026-09-09",
       "entry_date": "2026-08-12T22:11:23.926749",
       "sps_score": 33.750507930823176,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "ABBV": {
+      "ticker": "ABBV",
+      "entry_price": 250.91000366210938,
+      "shares": 7.701940976958775,
+      "entry_value": 1932.4940387340764,
+      "current_price": 250.91000366210938,
+      "peak_price": 250.91000366210938,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-09",
+      "entry_date": "2026-09-09T23:27:18.436072",
+      "sps_score": 24.348751596318888,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -461,6 +477,10 @@
     {
       "date": "2026-09-08",
       "equity": 10284.915050814732
+    },
+    {
+      "date": "2026-09-09",
+      "equity": 10242.308541400744
     }
   ]
 }
