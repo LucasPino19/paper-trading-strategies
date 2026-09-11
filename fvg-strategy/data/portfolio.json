@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6768.959952277575,
+  "cash": 4738.271966594302,
   "open_positions": {
     "CVX": {
       "ticker": "CVX",
       "entry_price": 209.5399932861328,
       "shares": 8.91201041561324,
       "entry_value": 1867.4226026535441,
-      "current_price": 213.3699951171875,
-      "peak_price": 213.3699951171875,
+      "current_price": 213.8699951171875,
+      "peak_price": 213.8699951171875,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-10",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-11",
       "entry_date": "2026-09-01T17:22:30.540674",
       "sps_score": 8.757237347871783,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 312.98040771484375,
       "shares": 6.81557586319356,
       "entry_value": 2133.1417124737686,
-      "current_price": 323.2699890136719,
-      "peak_price": 323.2699890136719,
+      "current_price": 334.32000732421875,
+      "peak_price": 334.32000732421875,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-10",
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-11",
       "entry_date": "2026-09-09T17:13:01.061687",
       "sps_score": 3.736918373300591,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "entry_price": 341.010009765625,
+      "shares": 5.954921930529128,
+      "entry_value": 2030.6879856832725,
+      "current_price": 341.010009765625,
+      "peak_price": 341.010009765625,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-11",
+      "entry_date": "2026-09-11T17:04:52.599200",
+      "sps_score": 8.65080825357233,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -847,6 +863,10 @@
     {
       "date": "2026-09-10",
       "equity": 10873.786705557726
+    },
+    {
+      "date": "2026-09-11",
+      "equity": 10953.554948850742
     }
   ]
 }
