@@ -1,49 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4509.1527570461785,
+  "cash": 8239.363600528797,
   "open_positions": {
-    "QQQ": {
-      "ticker": "QQQ",
-      "entry_price": 683.5499877929688,
-      "shares": 2.6897208307858245,
-      "entry_value": 1838.558641050144,
-      "current_price": 708.6900024414062,
-      "peak_price": 732.0700073242188,
-      "volume_spiked": false,
-      "trading_days_held": 29,
-      "last_update_date": "2026-09-10",
-      "entry_date": "2026-07-30T22:36:39.675122",
-      "sps_score": 45.24726500164623,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "UNH": {
-      "ticker": "UNH",
-      "entry_price": 405.5899963378906,
-      "shares": 4.767688992842978,
-      "entry_value": 1933.7269611473848,
-      "current_price": 388.2799987792969,
-      "peak_price": 405.5899963378906,
-      "volume_spiked": false,
-      "trading_days_held": 21,
-      "last_update_date": "2026-09-10",
-      "entry_date": "2026-08-12T22:11:23.926749",
-      "sps_score": 33.750507930823176,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "ABBV": {
       "ticker": "ABBV",
       "entry_price": 250.91000366210938,
       "shares": 7.701940976958775,
       "entry_value": 1932.4940387340764,
-      "current_price": 255.0,
-      "peak_price": 255.0,
+      "current_price": 257.1199951171875,
+      "peak_price": 257.1199951171875,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-10",
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-11",
       "entry_date": "2026-09-09T23:27:18.436072",
       "sps_score": 24.348751596318888,
       "short_float_pct": 0,
@@ -183,6 +151,50 @@
       "pnl": 78.3181460973426,
       "pnl_pct": 0.04230442677313397,
       "exit_reason": "Stop de tiempo: 30d \u2014 +4.2%"
+    },
+    {
+      "ticker": "QQQ",
+      "entry_price": 683.5499877929688,
+      "shares": 2.6897208307858245,
+      "entry_value": 1838.558641050144,
+      "current_price": 714.8800048828125,
+      "peak_price": 732.0700073242188,
+      "volume_spiked": false,
+      "trading_days_held": 30,
+      "last_update_date": "2026-09-11",
+      "entry_date": "2026-07-30T22:36:39.675122",
+      "sps_score": 45.24726500164623,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 714.8800048828125,
+      "exit_date": "2026-09-11T23:29:29.576580",
+      "proceeds": 1922.8276406455727,
+      "pnl": 84.2689995954288,
+      "pnl_pct": 0.045834273497687414,
+      "exit_reason": "Stop de tiempo: 30d \u2014 +4.6%"
+    },
+    {
+      "ticker": "UNH",
+      "entry_price": 405.5899963378906,
+      "shares": 4.767688992842978,
+      "entry_value": 1933.7269611473848,
+      "current_price": 379.0899963378906,
+      "peak_price": 405.5899963378906,
+      "volume_spiked": false,
+      "trading_days_held": 22,
+      "last_update_date": "2026-09-11",
+      "entry_date": "2026-08-12T22:11:23.926749",
+      "sps_score": 33.750507930823176,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 379.0899963378906,
+      "exit_date": "2026-09-11T23:29:29.577215",
+      "proceeds": 1807.3832028370462,
+      "pnl": -126.34375831033867,
+      "pnl_pct": -0.06533691718057863,
+      "exit_reason": "Stop loss: -6.5%"
     }
   ],
   "equity_history": [
@@ -485,6 +497,10 @@
     {
       "date": "2026-09-10",
       "equity": 10230.524244628112
+    },
+    {
+      "date": "2026-09-11",
+      "equity": 10219.686626917304
     }
   ]
 }
