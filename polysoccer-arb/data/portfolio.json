@@ -1,20 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 0.0,
+  "cash": 2407.0148406455273,
   "open_positions": {
-    "0xd0ef28f31dd1dbcee925fca7b5d663240a352c632210247a853ebe61dcc75381": {
-      "ticker": "[NO] Counter-Strike: Team Falcons vs G2 (BO",
-      "direction": "NO",
-      "condition_id": "0xd0ef28f31dd1dbcee925fca7b5d663240a352c632210247a853ebe61dcc75381",
-      "entry_price": 0.42500000000000004,
-      "shares": 5663.5643309306515,
-      "entry_value": 2407.0148406455273,
-      "current_price": 0.42500000000000004,
-      "peak_price": 0.42500000000000004,
-      "entry_date": "2026-09-02T00:59:11.033765",
-      "trading_days_held": 9,
-      "last_update_date": "2026-09-11"
-    },
     "0xd961e85c58d27699749eaa069e629519e2f4af701a7c2a02a486dca77e101fdc": {
       "ticker": "[YES] Will Manchester City win the 2026-27 U",
       "direction": "YES",
@@ -25,8 +12,8 @@
       "current_price": 0.105,
       "peak_price": 0.105,
       "entry_date": "2026-09-03T01:05:01.823550",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-11"
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-12"
     },
     "0xa23467e95abf6544819a9dcb90b7719846aacf300b991ea07204e1f1649097cb": {
       "ticker": "[YES] Will Barcelona win the 2026-27 UEFA Ch",
@@ -38,8 +25,8 @@
       "current_price": 0.175,
       "peak_price": 0.175,
       "entry_date": "2026-09-03T01:05:01.823550",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-11"
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-12"
     },
     "0x0b701a510fe36844eb7a9839839b98dead384780e20b9504efcad1ab4b5b79af": {
       "ticker": "[YES] Will Borussia Dortmund win the 2026-27",
@@ -51,8 +38,8 @@
       "current_price": 0.0125,
       "peak_price": 0.0125,
       "entry_date": "2026-09-09T01:12:09.257992",
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-11"
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-12"
     },
     "0x67a633090f9ce7993fe2e310a591444f5a9e1ba74f60b9674ecaf7c42a0c7905": {
       "ticker": "[YES] Will Liverpool win the 2026-27 UEFA Ch",
@@ -64,8 +51,8 @@
       "current_price": 0.045,
       "peak_price": 0.045,
       "entry_date": "2026-09-10T01:00:34.230056",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-11"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-12"
     }
   },
   "closed_trades": [
@@ -222,6 +209,19 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-08-31T01:20:41.555778",
       "exit_date": "2026-09-10T01:00:34.230036",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[NO] Counter-Strike: Team Falcons vs G2 (BO",
+      "entry_price": 0.42500000000000004,
+      "exit_price": 0.42500000000000004,
+      "shares": 5663.5643309306515,
+      "entry_value": 2407.0148406455273,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-09-02T00:59:11.033765",
+      "exit_date": "2026-09-12T01:03:22.498534",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -449,6 +449,10 @@
     },
     {
       "date": "2026-09-11",
+      "equity": 12035.074203227636
+    },
+    {
+      "date": "2026-09-12",
       "equity": 12035.074203227636
     }
   ]
