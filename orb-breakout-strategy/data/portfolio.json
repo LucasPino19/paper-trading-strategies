@@ -1,35 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3942.09838960959,
+  "cash": 5508.07560264307,
   "open_positions": {
     "META": {
       "ticker": "META",
       "entry_price": 615.1500244140625,
       "shares": 3.947641967734826,
       "entry_value": 2428.392052830056,
-      "current_price": 648.72998046875,
-      "peak_price": 651.905029296875,
+      "current_price": 666.6599731445312,
+      "peak_price": 666.6599731445312,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-09-11",
+      "trading_days_held": 8,
+      "last_update_date": "2026-09-14",
       "entry_date": "2026-09-03T17:58:25.783953",
       "sps_score": 50.89025596979466,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "entry_price": 230.0399932861328,
-      "shares": 7.389473511532703,
-      "entry_value": 1699.8744369810393,
-      "current_price": 219.2899932861328,
-      "peak_price": 230.360107421875,
-      "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-09-11",
-      "entry_date": "2026-09-03T17:58:25.908897",
-      "sps_score": 12.58614240413551,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -39,11 +23,11 @@
       "entry_price": 332.9700012207031,
       "shares": 5.073942794276758,
       "entry_value": 1689.4707384041099,
-      "current_price": 332.9700012207031,
-      "peak_price": 332.9700012207031,
+      "current_price": 334.3299865722656,
+      "peak_price": 334.3299865722656,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-11",
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-14",
       "entry_date": "2026-09-11T17:50:24.124432",
       "sps_score": 7.645605526747766,
       "short_float_pct": 0,
@@ -535,6 +519,28 @@
       "pnl": -21.614963326677753,
       "pnl_pct": -0.012814103625368953,
       "exit_reason": "Stop de tiempo: 12d \u2014 -1.3%"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_price": 230.0399932861328,
+      "shares": 7.389473511532703,
+      "entry_value": 1699.8744369810393,
+      "current_price": 211.9199981689453,
+      "peak_price": 230.360107421875,
+      "volume_spiked": false,
+      "trading_days_held": 8,
+      "last_update_date": "2026-09-14",
+      "entry_date": "2026-09-03T17:58:25.908897",
+      "sps_score": 12.58614240413551,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 211.9199981689453,
+      "exit_date": "2026-09-14T19:32:20.116303",
+      "proceeds": 1565.9772130334802,
+      "pnl": -133.89722394755904,
+      "pnl_pct": -0.07876889082781857,
+      "exit_reason": "Stop loss: -7.9%"
     }
   ],
   "equity_history": [
@@ -845,6 +851,10 @@
     {
       "date": "2026-09-11",
       "equity": 9812.960421371994
+    },
+    {
+      "date": "2026-09-14",
+      "equity": 9836.181717116386
     }
   ]
 }
