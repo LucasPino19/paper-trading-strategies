@@ -1,71 +1,71 @@
 {
   "initial_capital": 10000.0,
-  "cash": 0.0,
+  "cash": 9.094947017729282e-13,
   "open_positions": {
-    "cash-cat": {
-      "ticker": "CASHCAT",
-      "name": "Cash Cat",
-      "entry_price": 0.212834,
-      "shares": 10715.468966980037,
-      "entry_value": 2276.5862410361847,
-      "current_price": 0.171431,
-      "peak_price": 0.295809,
-      "entry_date": "2026-08-24T22:41:06.976956",
-      "trading_days_held": 17,
-      "last_update_date": "2026-09-12",
-      "momentum_7d": 84.8
-    },
-    "non-playable-coin": {
-      "ticker": "NPC",
-      "name": "Non-Playable Coin",
-      "entry_price": 0.0133024,
-      "shares": 134141.06591133765,
-      "entry_value": 2162.313265536726,
-      "current_price": 0.01979603,
-      "peak_price": 0.0214498,
-      "entry_date": "2026-08-24T22:41:06.976956",
-      "trading_days_held": 17,
-      "last_update_date": "2026-09-12",
-      "momentum_7d": 150.7
-    },
-    "ai-xovia": {
-      "ticker": "AIX",
-      "name": "AI XOVIA",
-      "entry_price": 0.893702,
-      "shares": 2464.948016349548,
-      "entry_value": 2202.928972107624,
-      "current_price": 0.776685,
-      "peak_price": 0.893702,
-      "entry_date": "2026-08-31T00:34:12.883787",
-      "trading_days_held": 11,
-      "last_update_date": "2026-09-12",
-      "momentum_7d": 77.3
-    },
     "niu-lai": {
       "ticker": "\u725b\u6765",
       "name": "\u725b\u6765 (Niu Lai)",
       "entry_price": 0.101213,
-      "shares": 21765.276912132078,
-      "entry_value": 2202.928972107624,
-      "current_price": 0.136038,
+      "shares": 22922.102640378205,
+      "entry_value": 2336.685790110354,
+      "current_price": 0.115624,
       "peak_price": 0.136038,
       "entry_date": "2026-08-31T00:34:12.883787",
-      "trading_days_held": 11,
-      "last_update_date": "2026-09-12",
+      "trading_days_held": 12,
+      "last_update_date": "2026-09-14",
       "momentum_7d": 163.2
     },
     "lobster-2": {
       "ticker": "\u9f99\u867e",
       "name": "\u9f99\u867e (Lobster)",
       "entry_price": 0.072436,
-      "shares": 30412.073721735378,
+      "shares": 18651.530603464438,
       "entry_value": 2202.928972107624,
-      "current_price": 0.155057,
+      "current_price": 0.142098,
       "peak_price": 0.155057,
       "entry_date": "2026-08-31T00:34:12.883787",
-      "trading_days_held": 11,
-      "last_update_date": "2026-09-12",
+      "trading_days_held": 12,
+      "last_update_date": "2026-09-14",
       "momentum_7d": 179.9
+    },
+    "build-on": {
+      "ticker": "B",
+      "name": "BUILDon",
+      "entry_price": 0.214775,
+      "shares": 12340.101015905433,
+      "entry_value": 2650.3451956910894,
+      "current_price": 0.214775,
+      "peak_price": 0.214775,
+      "entry_date": "2026-09-14T00:08:41.427847",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-14",
+      "momentum_7d": 32.6
+    },
+    "greenhood": {
+      "ticker": "HOOD",
+      "name": "GreenHood",
+      "entry_price": 0.052632,
+      "shares": 50356.15586888375,
+      "entry_value": 2650.3451956910894,
+      "current_price": 0.052632,
+      "peak_price": 0.052632,
+      "entry_date": "2026-09-14T00:08:41.427847",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-14",
+      "momentum_7d": 445.8
+    },
+    "artificial-inu-3": {
+      "ticker": "AI",
+      "name": "Artificial Inu",
+      "entry_price": 0.243073,
+      "shares": 10903.494817158176,
+      "entry_value": 2650.3451956910894,
+      "current_price": 0.243073,
+      "peak_price": 0.243073,
+      "entry_date": "2026-09-14T00:08:41.427847",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-14",
+      "momentum_7d": 9.1
     }
   },
   "closed_trades": [
@@ -614,6 +614,45 @@
       "exit_date": "2026-08-31T00:34:12.883787",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 6
+    },
+    {
+      "ticker": "non-playable-coin",
+      "entry_price": 0.0133024,
+      "exit_price": 0.02078426,
+      "shares": 134141.06591133765,
+      "entry_value": 2162.313265536726,
+      "pnl": 1003.6246753994004,
+      "pnl_pct": 0.562444370940582,
+      "entry_date": "2026-08-24T22:41:06.976956",
+      "exit_date": "2026-09-14T00:08:41.427847",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 18
+    },
+    {
+      "ticker": "ai-xovia",
+      "entry_price": 0.893702,
+      "exit_price": 0.776685,
+      "shares": 2464.948016349548,
+      "entry_value": 2202.928972107624,
+      "pnl": -288.4408220291752,
+      "pnl_pct": -0.13093514392940828,
+      "entry_date": "2026-08-31T00:34:12.883787",
+      "exit_date": "2026-09-14T00:08:41.427847",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 12
+    },
+    {
+      "ticker": "cash-cat",
+      "entry_price": 0.212834,
+      "exit_price": 0.159688,
+      "shares": 10715.468966980037,
+      "entry_value": 2276.5862410361847,
+      "pnl": -569.484313719121,
+      "pnl_pct": -0.24970634391121718,
+      "entry_date": "2026-08-24T22:41:06.976956",
+      "exit_date": "2026-09-14T00:08:41.427847",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 18
     }
   ],
   "equity_history": [
@@ -1016,7 +1055,11 @@
     {
       "date": "2026-09-12",
       "equity": 14083.421931213366
+    },
+    {
+      "date": "2026-09-14",
+      "equity": 13251.725978455448
     }
   ],
-  "last_rebalance": "2026-35"
+  "last_rebalance": "2026-37"
 }
