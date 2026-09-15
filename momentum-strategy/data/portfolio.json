@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7188.210885933914,
+  "cash": 3522.223334107618,
   "open_positions": {
     "SMCI": {
       "ticker": "SMCI",
       "entry_price": 37.775001525878906,
       "shares": 45.14450408951474,
       "entry_value": 1705.3337108664657,
-      "current_price": 37.20000076293945,
+      "current_price": 36.22010040283203,
       "peak_price": 40.755001068115234,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-14",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-15",
       "entry_date": "2026-09-03T17:58:05.340262",
       "sps_score": 160.4573358976653,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "PLTR": {
+      "ticker": "PLTR",
+      "entry_price": 174.8350067138672,
+      "shares": 12.334276220261856,
+      "entry_value": 2156.463265780174,
+      "current_price": 174.8350067138672,
+      "peak_price": 174.8350067138672,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-15",
+      "entry_date": "2026-09-15T18:23:52.812473",
+      "sps_score": 175.76617415721407,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "COIN": {
+      "ticker": "COIN",
+      "entry_price": 176.47999572753906,
+      "shares": 8.553514973881915,
+      "entry_value": 1509.524286046122,
+      "current_price": 176.47999572753906,
+      "peak_price": 176.47999572753906,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-15",
+      "entry_date": "2026-09-15T18:23:52.861733",
+      "sps_score": 101.92489188310705,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1125,6 +1157,10 @@
     {
       "date": "2026-09-14",
       "equity": 8867.586472506386
+    },
+    {
+      "date": "2026-09-15",
+      "equity": 8823.349356692199
     }
   ]
 }
