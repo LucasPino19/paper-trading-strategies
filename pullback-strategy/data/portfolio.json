@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5767.554520370159,
+  "cash": 4037.288164259111,
   "open_positions": {
     "ABBV": {
       "ticker": "ABBV",
       "entry_price": 250.91000366210938,
       "shares": 7.701940976958775,
       "entry_value": 1932.4940387340764,
-      "current_price": 261.7699890136719,
-      "peak_price": 261.7699890136719,
+      "current_price": 263.0400085449219,
+      "peak_price": 263.0400085449219,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-09-14",
+      "trading_days_held": 5,
+      "last_update_date": "2026-09-15",
       "entry_date": "2026-09-09T23:27:18.436072",
       "sps_score": 24.348751596318888,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 574.4199829101562,
       "shares": 4.303139085858107,
       "entry_value": 2471.809080158639,
-      "current_price": 574.4199829101562,
+      "current_price": 573.27001953125,
       "peak_price": 574.4199829101562,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-14",
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-15",
       "entry_date": "2026-09-14T23:57:13.752884",
       "sps_score": 26.476681811395245,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "entry_price": 212.1699981689453,
+      "shares": 8.155094363215682,
+      "entry_value": 1730.2663561110476,
+      "current_price": 212.1699981689453,
+      "peak_price": 212.1699981689453,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-15",
+      "entry_date": "2026-09-15T23:35:59.140803",
+      "sps_score": 23.021255867157905,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -521,6 +537,10 @@
     {
       "date": "2026-09-14",
       "equity": 10255.500605451245
+    },
+    {
+      "date": "2026-09-15",
+      "equity": 10260.33376855744
     }
   ]
 }
