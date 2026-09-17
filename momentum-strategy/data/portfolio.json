@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6599.684807980532,
+  "cash": 3233.8455559104605,
   "open_positions": {
     "PLTR": {
       "ticker": "PLTR",
       "entry_price": 174.8350067138672,
       "shares": 12.334276220261856,
       "entry_value": 2156.463265780174,
-      "current_price": 172.93499755859375,
-      "peak_price": 174.8350067138672,
+      "current_price": 175.5,
+      "peak_price": 175.5,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-16",
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-17",
       "entry_date": "2026-09-15T18:23:52.812473",
       "sps_score": 175.76617415721407,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "SMCI": {
+      "ticker": "SMCI",
+      "entry_price": 40.59000015258789,
+      "shares": 48.77815804265098,
+      "entry_value": 1979.9054423941595,
+      "current_price": 40.59000015258789,
+      "peak_price": 40.59000015258789,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-17",
+      "entry_date": "2026-09-17T18:27:20.256576",
+      "sps_score": 160.4573358976653,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "entry_price": 219.67010498046875,
+      "shares": 6.309159864056776,
+      "entry_value": 1385.9338096759118,
+      "current_price": 219.67010498046875,
+      "peak_price": 219.67010498046875,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-17",
+      "entry_date": "2026-09-17T18:27:20.391467",
+      "sps_score": 50.05567009815648,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1177,6 +1209,10 @@
     {
       "date": "2026-09-16",
       "equity": 8732.712836018538
+    },
+    {
+      "date": "2026-09-17",
+      "equity": 8764.350284636488
     }
   ]
 }
