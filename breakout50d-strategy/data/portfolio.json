@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5779.902312734077,
+  "cash": 4045.931618913854,
   "open_positions": {
     "SLV": {
       "ticker": "SLV",
       "entry_price": 60.0099983215332,
       "shares": 29.14364267699882,
       "entry_value": 1748.9099481300625,
-      "current_price": 58.970001220703125,
+      "current_price": 59.93000030517578,
       "peak_price": 62.77000045776367,
       "volume_spiked": false,
-      "trading_days_held": 21,
-      "last_update_date": "2026-09-17",
+      "trading_days_held": 22,
+      "last_update_date": "2026-09-18",
       "entry_date": "2026-08-19T21:51:36.288222",
       "sps_score": 41.48873279429494,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 331.3399963378906,
       "shares": 5.254110973214884,
       "entry_value": 1740.8971106238905,
-      "current_price": 337.0,
+      "current_price": 336.1300048828125,
       "peak_price": 337.0,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-09-17",
+      "trading_days_held": 4,
+      "last_update_date": "2026-09-18",
       "entry_date": "2026-09-15T23:35:49.131608",
       "sps_score": 21.55115038391467,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "entry_price": 253.7100067138672,
+      "shares": 6.83445921695862,
+      "entry_value": 1733.970693820223,
+      "current_price": 253.7100067138672,
+      "peak_price": 253.7100067138672,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-18",
+      "entry_date": "2026-09-18T23:30:11.030110",
+      "sps_score": 24.942366608223633,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -687,6 +703,10 @@
     {
       "date": "2026-09-17",
       "equity": 9269.138354945848
+    },
+    {
+      "date": "2026-09-18",
+      "equity": 9292.545174342107
     }
   ]
 }
