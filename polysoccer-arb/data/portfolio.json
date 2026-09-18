@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 2407.0148406455264,
+  "cash": 0.0,
   "open_positions": {
     "0x0b701a510fe36844eb7a9839839b98dead384780e20b9504efcad1ab4b5b79af": {
       "ticker": "[YES] Will Borussia Dortmund win the 2026-27",
@@ -12,8 +12,8 @@
       "current_price": 0.0125,
       "peak_price": 0.0125,
       "entry_date": "2026-09-09T01:12:09.257992",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-17"
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-18"
     },
     "0x67a633090f9ce7993fe2e310a591444f5a9e1ba74f60b9674ecaf7c42a0c7905": {
       "ticker": "[YES] Will Liverpool win the 2026-27 UEFA Ch",
@@ -25,8 +25,8 @@
       "current_price": 0.045,
       "peak_price": 0.045,
       "entry_date": "2026-09-10T01:00:34.230056",
-      "trading_days_held": 7,
-      "last_update_date": "2026-09-17"
+      "trading_days_held": 8,
+      "last_update_date": "2026-09-18"
     },
     "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392": {
       "ticker": "[YES] Will Manchester United win the 2026-27",
@@ -38,8 +38,8 @@
       "current_price": 0.0155,
       "peak_price": 0.0155,
       "entry_date": "2026-09-14T00:58:33.292343",
-      "trading_days_held": 3,
-      "last_update_date": "2026-09-17"
+      "trading_days_held": 4,
+      "last_update_date": "2026-09-18"
     },
     "0xa528a2fc4c27b1ac7a7c591ff8482bc9382e9f3de3daa830118f60edbd79b805": {
       "ticker": "[NO] Valencia: Guiomar Maristany vs Marina ",
@@ -51,8 +51,21 @@
       "current_price": 0.4,
       "peak_price": 0.4,
       "entry_date": "2026-09-17T01:19:02.311693",
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-18"
+    },
+    "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f": {
+      "ticker": "[YES] Will Inter Milan win the 2026-27 UEFA ",
+      "direction": "YES",
+      "condition_id": "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f",
+      "entry_price": 0.0275,
+      "shares": 87527.81238711005,
+      "entry_value": 2407.0148406455264,
+      "current_price": 0.0275,
+      "peak_price": 0.0275,
+      "entry_date": "2026-09-18T01:13:48.340276",
       "trading_days_held": 0,
-      "last_update_date": "2026-09-17"
+      "last_update_date": "2026-09-18"
     }
   },
   "closed_trades": [
@@ -499,6 +512,10 @@
     },
     {
       "date": "2026-09-17",
+      "equity": 12035.074203227636
+    },
+    {
+      "date": "2026-09-18",
       "equity": 12035.074203227636
     }
   ]
