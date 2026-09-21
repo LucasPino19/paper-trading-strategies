@@ -7,11 +7,11 @@
       "entry_price": 174.8350067138672,
       "shares": 12.334276220261856,
       "entry_value": 2156.463265780174,
-      "current_price": 175.81500244140625,
-      "peak_price": 175.81500244140625,
+      "current_price": 182.11500549316406,
+      "peak_price": 182.11500549316406,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-09-18",
+      "trading_days_held": 5,
+      "last_update_date": "2026-09-21",
       "entry_date": "2026-09-15T18:23:52.812473",
       "sps_score": 175.76617415721407,
       "short_float_pct": 0,
@@ -23,11 +23,11 @@
       "entry_price": 40.59000015258789,
       "shares": 48.77815804265098,
       "entry_value": 1979.9054423941595,
-      "current_price": 38.94499969482422,
-      "peak_price": 40.59000015258789,
+      "current_price": 41.05500030517578,
+      "peak_price": 41.05500030517578,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-18",
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-21",
       "entry_date": "2026-09-17T18:27:20.256576",
       "sps_score": 160.4573358976653,
       "short_float_pct": 0,
@@ -39,11 +39,11 @@
       "entry_price": 219.67010498046875,
       "shares": 6.309159864056776,
       "entry_value": 1385.9338096759118,
-      "current_price": 219.77499389648438,
-      "peak_price": 219.77499389648438,
+      "current_price": 227.61000061035156,
+      "peak_price": 227.61000061035156,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-18",
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-21",
       "entry_date": "2026-09-17T18:27:20.391467",
       "sps_score": 50.05567009815648,
       "short_float_pct": 0,
@@ -1217,6 +1217,10 @@
     {
       "date": "2026-09-18",
       "equity": 8688.65728038893
+    },
+    {
+      "date": "2026-09-21",
+      "equity": 8918.717511353367
     }
   ]
 }
