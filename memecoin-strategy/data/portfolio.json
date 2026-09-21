@@ -1,71 +1,71 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9.094947017729282e-13,
+  "cash": 0.0,
   "open_positions": {
-    "niu-lai": {
-      "ticker": "\u725b\u6765",
-      "name": "\u725b\u6765 (Niu Lai)",
-      "entry_price": 0.101213,
-      "shares": 22922.102640378205,
-      "entry_value": 2336.685790110354,
-      "current_price": 0.107255,
-      "peak_price": 0.136038,
-      "entry_date": "2026-08-31T00:34:12.883787",
-      "trading_days_held": 18,
-      "last_update_date": "2026-09-20",
-      "momentum_7d": 163.2
-    },
     "lobster-2": {
       "ticker": "\u9f99\u867e",
       "name": "\u9f99\u867e (Lobster)",
       "entry_price": 0.072436,
-      "shares": 18651.530603464438,
+      "shares": 17335.72841556835,
       "entry_value": 2202.928972107624,
-      "current_price": 0.229483,
-      "peak_price": 0.231351,
+      "current_price": 0.239789,
+      "peak_price": 0.239789,
       "entry_date": "2026-08-31T00:34:12.883787",
-      "trading_days_held": 18,
-      "last_update_date": "2026-09-20",
+      "trading_days_held": 19,
+      "last_update_date": "2026-09-21",
       "momentum_7d": 179.9
     },
-    "build-on": {
-      "ticker": "B",
-      "name": "BUILDon",
-      "entry_price": 0.214775,
-      "shares": 12340.101015905433,
-      "entry_value": 2650.3451956910894,
-      "current_price": 0.204546,
-      "peak_price": 0.231005,
-      "entry_date": "2026-09-14T00:08:41.427847",
-      "trading_days_held": 6,
-      "last_update_date": "2026-09-20",
-      "momentum_7d": 32.6
+    "pudgy-penguins": {
+      "ticker": "PENGU",
+      "name": "Pudgy Penguins",
+      "entry_price": 0.00792277,
+      "shares": 524679.7497643776,
+      "entry_value": 4156.916981040718,
+      "current_price": 0.00792277,
+      "peak_price": 0.00792277,
+      "entry_date": "2026-09-21T00:13:36.602987",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-21",
+      "momentum_7d": 12.5
     },
-    "greenhood": {
-      "ticker": "HOOD",
-      "name": "GreenHood",
-      "entry_price": 0.052632,
-      "shares": 50356.15586888375,
-      "entry_value": 2650.3451956910894,
-      "current_price": 0.167788,
-      "peak_price": 0.167788,
-      "entry_date": "2026-09-14T00:08:41.427847",
-      "trading_days_held": 6,
-      "last_update_date": "2026-09-20",
-      "momentum_7d": 445.8
+    "official-trump": {
+      "ticker": "TRUMP",
+      "name": "Official Trump",
+      "entry_price": 2.09,
+      "shares": 1988.955493320918,
+      "entry_value": 4156.916981040718,
+      "current_price": 2.09,
+      "peak_price": 2.09,
+      "entry_date": "2026-09-21T00:13:36.602987",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-21",
+      "momentum_7d": 6.8
     },
-    "artificial-inu-3": {
-      "ticker": "AI",
-      "name": "Artificial Inu",
-      "entry_price": 0.243073,
-      "shares": 10903.494817158176,
-      "entry_value": 2650.3451956910894,
-      "current_price": 0.257435,
-      "peak_price": 0.322759,
-      "entry_date": "2026-09-14T00:08:41.427847",
-      "trading_days_held": 6,
-      "last_update_date": "2026-09-20",
-      "momentum_7d": 9.1
+    "fartcoin": {
+      "ticker": "FARTCOIN",
+      "name": "Fartcoin",
+      "entry_price": 0.168204,
+      "shares": 24713.54415495897,
+      "entry_value": 4156.916981040718,
+      "current_price": 0.168204,
+      "peak_price": 0.168204,
+      "entry_date": "2026-09-21T00:13:36.602987",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-21",
+      "momentum_7d": 21.3
+    },
+    "memecore": {
+      "ticker": "M",
+      "name": "MemeCore",
+      "entry_price": 1.49,
+      "shares": 2789.877168483704,
+      "entry_value": 4156.916981040718,
+      "current_price": 1.49,
+      "peak_price": 1.49,
+      "entry_date": "2026-09-21T00:13:36.602987",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-21",
+      "momentum_7d": 29.4
     }
   },
   "closed_trades": [
@@ -653,6 +653,58 @@
       "exit_date": "2026-09-14T00:08:41.427847",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 18
+    },
+    {
+      "ticker": "build-on",
+      "entry_price": 0.214775,
+      "exit_price": 0.208825,
+      "shares": 12340.101015905433,
+      "entry_value": 2650.3451956910894,
+      "pnl": -73.42360104463712,
+      "pnl_pct": -0.02770341054592007,
+      "entry_date": "2026-09-14T00:08:41.427847",
+      "exit_date": "2026-09-21T00:13:36.602987",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "greenhood",
+      "entry_price": 0.052632,
+      "exit_price": 0.167788,
+      "shares": 50356.15586888375,
+      "entry_value": 2650.3451956910894,
+      "pnl": 5798.813485237177,
+      "pnl_pct": 2.1879464964280286,
+      "entry_date": "2026-09-14T00:08:41.427847",
+      "exit_date": "2026-09-21T00:13:36.602987",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "niu-lai",
+      "entry_price": 0.101213,
+      "exit_price": 0.10187,
+      "shares": 22922.102640378205,
+      "entry_value": 2336.685790110354,
+      "pnl": 15.05982143472859,
+      "pnl_pct": 0.00649126100402127,
+      "entry_date": "2026-08-31T00:34:12.883787",
+      "exit_date": "2026-09-21T00:13:36.602987",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 19
+    },
+    {
+      "ticker": "artificial-inu-3",
+      "entry_price": 0.243073,
+      "exit_price": 0.270647,
+      "shares": 10903.494817158176,
+      "entry_value": 2650.3451956910894,
+      "pnl": 300.6529660883197,
+      "pnl_pct": 0.1134391725942413,
+      "entry_date": "2026-09-14T00:08:41.427847",
+      "exit_date": "2026-09-21T00:13:36.602987",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
     }
   ],
   "equity_history": [
@@ -1083,7 +1135,11 @@
     {
       "date": "2026-09-20",
       "equity": 20518.937487751366
+    },
+    {
+      "date": "2026-09-21",
+      "equity": 20784.584905203592
     }
   ],
-  "last_rebalance": "2026-37"
+  "last_rebalance": "2026-38"
 }
