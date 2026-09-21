@@ -12,8 +12,8 @@
       "current_price": 0.014,
       "peak_price": 0.0155,
       "entry_date": "2026-09-14T00:58:33.292343",
-      "trading_days_held": 6,
-      "last_update_date": "2026-09-20"
+      "trading_days_held": 7,
+      "last_update_date": "2026-09-21"
     },
     "0xa528a2fc4c27b1ac7a7c591ff8482bc9382e9f3de3daa830118f60edbd79b805": {
       "ticker": "[NO] Valencia: Guiomar Maristany vs Marina ",
@@ -25,8 +25,8 @@
       "current_price": 0.4,
       "peak_price": 0.4,
       "entry_date": "2026-09-17T01:19:02.311693",
-      "trading_days_held": 3,
-      "last_update_date": "2026-09-20"
+      "trading_days_held": 4,
+      "last_update_date": "2026-09-21"
     },
     "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f": {
       "ticker": "[YES] Will Inter Milan win the 2026-27 UEFA ",
@@ -38,8 +38,8 @@
       "current_price": 0.0275,
       "peak_price": 0.0275,
       "entry_date": "2026-09-18T01:13:48.340276",
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-20"
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-21"
     }
   },
   "closed_trades": [
@@ -524,6 +524,10 @@
     },
     {
       "date": "2026-09-20",
+      "equity": 11802.137283165166
+    },
+    {
+      "date": "2026-09-21",
       "equity": 11802.137283165166
     }
   ]
