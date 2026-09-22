@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5767.902673514031,
+  "cash": 4037.531871459822,
   "open_positions": {
     "AMZN": {
       "ticker": "AMZN",
       "entry_price": 251.19000244140625,
       "shares": 6.928218639969233,
       "entry_value": 1740.299257088468,
-      "current_price": 258.45001220703125,
+      "current_price": 254.97999572753906,
       "peak_price": 258.45001220703125,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-09-21",
+      "trading_days_held": 4,
+      "last_update_date": "2026-09-22",
       "entry_date": "2026-09-17T21:36:22.553356",
       "sps_score": 4.8172286422508215,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 163.5399932861328,
       "shares": 10.654773441333543,
       "entry_value": 1742.4815770609537,
-      "current_price": 158.3000030517578,
+      "current_price": 158.7100067138672,
       "peak_price": 163.5399932861328,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-21",
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-22",
       "entry_date": "2026-09-18T21:07:06.504287",
       "sps_score": 23.409059542052116,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "IWM": {
+      "ticker": "IWM",
+      "entry_price": 287.2099914550781,
+      "shares": 6.024758377268546,
+      "entry_value": 1730.3708020542094,
+      "current_price": 287.2099914550781,
+      "peak_price": 287.2099914550781,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-22",
+      "entry_date": "2026-09-22T21:33:49.795087",
+      "sps_score": 6.860530254488869,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1117,6 +1133,10 @@
     {
       "date": "2026-09-21",
       "equity": 9245.151533865948
+    },
+    {
+      "date": "2026-09-22",
+      "equity": 9225.478997141623
     }
   ]
 }
