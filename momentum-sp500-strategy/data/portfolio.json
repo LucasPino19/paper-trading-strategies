@@ -10,8 +10,8 @@
       "current_price": 288.1099853515625,
       "peak_price": 433.3299865722656,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 79,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 80,
+      "last_update_date": "2026-09-22"
     },
     "AMD": {
       "ticker": "AMD",
@@ -21,8 +21,8 @@
       "current_price": 559.8200073242188,
       "peak_price": 580.9099731445312,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 79,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 80,
+      "last_update_date": "2026-09-22"
     },
     "AMAT": {
       "ticker": "AMAT",
@@ -32,8 +32,8 @@
       "current_price": 444.57000732421875,
       "peak_price": 723.0,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 79,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 80,
+      "last_update_date": "2026-09-22"
     },
     "INTC": {
       "ticker": "INTC",
@@ -43,8 +43,8 @@
       "current_price": 108.5999984741211,
       "peak_price": 108.80000305175781,
       "entry_date": "2026-08-03T22:37:44.803600",
-      "trading_days_held": 32,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 33,
+      "last_update_date": "2026-09-22"
     },
     "APA": {
       "ticker": "APA",
@@ -54,8 +54,8 @@
       "current_price": 44.869998931884766,
       "peak_price": 47.40999984741211,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "MRVL": {
       "ticker": "MRVL",
@@ -65,8 +65,8 @@
       "current_price": 244.25,
       "peak_price": 244.25,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "KLAC": {
       "ticker": "KLAC",
@@ -76,8 +76,8 @@
       "current_price": 176.99000549316406,
       "peak_price": 188.97999572753906,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "CIEN": {
       "ticker": "CIEN",
@@ -87,8 +87,8 @@
       "current_price": 348.79998779296875,
       "peak_price": 382.79998779296875,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "DELL": {
       "ticker": "DELL",
@@ -98,8 +98,8 @@
       "current_price": 568.0599975585938,
       "peak_price": 588.4000244140625,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "GLW": {
       "ticker": "GLW",
@@ -109,8 +109,8 @@
       "current_price": 150.1300048828125,
       "peak_price": 168.4600067138672,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "ECHO": {
       "ticker": "ECHO",
@@ -120,8 +120,8 @@
       "current_price": 93.45999908447266,
       "peak_price": 94.08000183105469,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "STLD": {
       "ticker": "STLD",
@@ -131,8 +131,8 @@
       "current_price": 235.25999450683594,
       "peak_price": 247.63999938964844,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "FLEX": {
       "ticker": "FLEX",
@@ -142,8 +142,8 @@
       "current_price": 108.51000213623047,
       "peak_price": 115.77999877929688,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "VTRS": {
       "ticker": "VTRS",
@@ -153,8 +153,8 @@
       "current_price": 16.950000762939453,
       "peak_price": 17.1299991607666,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "KEYS": {
       "ticker": "KEYS",
@@ -164,8 +164,8 @@
       "current_price": 335.0,
       "peak_price": 338.6400146484375,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "COHR": {
       "ticker": "COHR",
@@ -175,8 +175,8 @@
       "current_price": 317.3599853515625,
       "peak_price": 317.3599853515625,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "VLO": {
       "ticker": "VLO",
@@ -186,8 +186,8 @@
       "current_price": 413.2799987792969,
       "peak_price": 413.2799987792969,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "MPWR": {
       "ticker": "MPWR",
@@ -197,8 +197,8 @@
       "current_price": 1217.800048828125,
       "peak_price": 1267.77001953125,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "CNC": {
       "ticker": "CNC",
@@ -208,8 +208,8 @@
       "current_price": 65.11000061035156,
       "peak_price": 69.41000366210938,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "WBD": {
       "ticker": "WBD",
@@ -219,8 +219,8 @@
       "current_price": 27.799999237060547,
       "peak_price": 28.530000686645508,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "TER": {
       "ticker": "TER",
@@ -230,8 +230,8 @@
       "current_price": 371.4700012207031,
       "peak_price": 383.69000244140625,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "STX": {
       "ticker": "STX",
@@ -241,8 +241,8 @@
       "current_price": 858.7899780273438,
       "peak_price": 904.3800048828125,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "HPE": {
       "ticker": "HPE",
@@ -252,8 +252,8 @@
       "current_price": 60.7599983215332,
       "peak_price": 62.09000015258789,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     },
     "FIX": {
       "ticker": "FIX",
@@ -263,8 +263,8 @@
       "current_price": 1651.3699951171875,
       "peak_price": 1690.8199462890625,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 13,
-      "last_update_date": "2026-09-18"
+      "trading_days_held": 14,
+      "last_update_date": "2026-09-22"
     }
   },
   "closed_trades": [
@@ -887,6 +887,10 @@
     },
     {
       "date": "2026-09-18",
+      "equity": 10231.336418771676
+    },
+    {
+      "date": "2026-09-22",
       "equity": 10231.336418771676
     }
   ],
