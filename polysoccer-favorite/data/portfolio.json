@@ -12,8 +12,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-09-13T00:28:19.756147",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-21"
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-22"
     },
     "0x8bbef2e02646724981fb9847906c7e549975ce502277754e16a0c4b8cc1eaa18": {
       "ticker": "[YES] Ohio State vs. Texas",
@@ -25,8 +25,8 @@
       "current_price": 0.72,
       "peak_price": 0.72,
       "entry_date": "2026-09-13T00:28:19.756147",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-21"
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-22"
     },
     "0x46f85d23512a796332a4f560228c5ee9c5d037dce3587a9333ee9c028630b2e2": {
       "ticker": "[YES] LoL: Gen.G vs Hanwha Life Esports (BO5",
@@ -38,8 +38,8 @@
       "current_price": 0.635,
       "peak_price": 0.635,
       "entry_date": "2026-09-13T00:28:19.756147",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-21"
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-22"
     },
     "0xd6ec980e69170ec9ce33e65552c44e422862fee608c9ac3d7aaddef92a1cc66f": {
       "ticker": "[YES] Vancouver Whitecaps FC vs. Austin FC: ",
@@ -51,8 +51,8 @@
       "current_price": 0.645,
       "peak_price": 0.645,
       "entry_date": "2026-09-14T00:30:21.929352",
-      "trading_days_held": 7,
-      "last_update_date": "2026-09-21"
+      "trading_days_held": 8,
+      "last_update_date": "2026-09-22"
     },
     "0x2d2c54a5e2aecfa0429c0d21db217e86a125de6d4c3c63deb51b723af7a10114": {
       "ticker": "[YES] Guadalajara Open Akron: Cristina Bucsa",
@@ -64,8 +64,8 @@
       "current_price": 0.745,
       "peak_price": 0.745,
       "entry_date": "2026-09-14T00:30:21.929352",
-      "trading_days_held": 7,
-      "last_update_date": "2026-09-21"
+      "trading_days_held": 8,
+      "last_update_date": "2026-09-22"
     }
   },
   "closed_trades": [
@@ -1155,6 +1155,10 @@
     },
     {
       "date": "2026-09-21",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-09-22",
       "equity": 9809.190731134111
     }
   ]
