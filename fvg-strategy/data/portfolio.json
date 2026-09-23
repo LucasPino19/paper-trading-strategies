@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6972.420337514064,
+  "cash": 4880.694236259846,
   "open_positions": {
     "GOOGL": {
       "ticker": "GOOGL",
       "entry_price": 341.010009765625,
       "shares": 5.954921930529128,
       "entry_value": 2030.6879856832725,
-      "current_price": 351.7799987792969,
+      "current_price": 338.94000244140625,
       "peak_price": 355.0799865722656,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-22",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-23",
       "entry_date": "2026-09-11T17:04:52.599200",
       "sps_score": 8.65080825357233,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 219.25999450683594,
       "shares": 9.080113207740443,
       "entry_value": 1990.905572050618,
-      "current_price": 229.00999450683594,
+      "current_price": 225.22500610351562,
       "peak_price": 229.00999450683594,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-09-22",
+      "trading_days_held": 5,
+      "last_update_date": "2026-09-23",
       "entry_date": "2026-09-17T17:41:32.869829",
       "sps_score": 57.03016664000247,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "QQQ": {
+      "ticker": "QQQ",
+      "entry_price": 740.7999877929688,
+      "shares": 2.8236043948731724,
+      "entry_value": 2091.726101254219,
+      "current_price": 740.7999877929688,
+      "peak_price": 740.7999877929688,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-23",
+      "entry_date": "2026-09-23T17:54:22.330446",
+      "sps_score": 1.0393608379876624,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -923,6 +939,10 @@
     {
       "date": "2026-09-22",
       "equity": 11146.679442792496
+    },
+    {
+      "date": "2026-09-23",
+      "equity": 11035.850143819946
     }
   ]
 }
