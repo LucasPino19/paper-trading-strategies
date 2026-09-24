@@ -1,20 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4814.029681291055,
+  "cash": 6988.107601874111,
   "open_positions": {
-    "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392": {
-      "ticker": "[YES] Will Manchester United win the 2026-27",
-      "direction": "YES",
-      "condition_id": "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392",
-      "entry_price": 0.0155,
-      "shares": 155291.28004164694,
-      "entry_value": 2407.0148406455273,
-      "current_price": 0.014,
-      "peak_price": 0.0155,
-      "entry_date": "2026-09-14T00:58:33.292343",
-      "trading_days_held": 9,
-      "last_update_date": "2026-09-23"
-    },
     "0xa528a2fc4c27b1ac7a7c591ff8482bc9382e9f3de3daa830118f60edbd79b805": {
       "ticker": "[NO] Valencia: Guiomar Maristany vs Marina ",
       "direction": "NO",
@@ -25,8 +12,8 @@
       "current_price": 0.4,
       "peak_price": 0.4,
       "entry_date": "2026-09-17T01:19:02.311693",
-      "trading_days_held": 6,
-      "last_update_date": "2026-09-23"
+      "trading_days_held": 7,
+      "last_update_date": "2026-09-24"
     },
     "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f": {
       "ticker": "[YES] Will Inter Milan win the 2026-27 UEFA ",
@@ -38,8 +25,8 @@
       "current_price": 0.0275,
       "peak_price": 0.0275,
       "entry_date": "2026-09-18T01:13:48.340276",
-      "trading_days_held": 5,
-      "last_update_date": "2026-09-23"
+      "trading_days_held": 6,
+      "last_update_date": "2026-09-24"
     }
   },
   "closed_trades": [
@@ -261,6 +248,19 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-09-10T01:00:34.230056",
       "exit_date": "2026-09-20T01:00:21.168880",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Manchester United win the 2026-27",
+      "entry_price": 0.0155,
+      "exit_price": 0.014,
+      "shares": 155291.28004164694,
+      "entry_value": 2407.0148406455273,
+      "pnl": -232.93692006247034,
+      "pnl_pct": -0.09677419354838707,
+      "entry_date": "2026-09-14T00:58:33.292343",
+      "exit_date": "2026-09-24T01:19:08.214887",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -537,6 +537,10 @@
     {
       "date": "2026-09-23",
       "equity": 11802.137283165166
+    },
+    {
+      "date": "2026-09-24",
+      "equity": 11802.137283165164
     }
   ]
 }
