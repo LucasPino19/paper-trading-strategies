@@ -8,11 +8,11 @@
       "entry_price": 0.072436,
       "shares": 17335.72841556835,
       "entry_value": 2202.928972107624,
-      "current_price": 0.166608,
+      "current_price": 0.103187,
       "peak_price": 0.239789,
       "entry_date": "2026-08-31T00:34:12.883787",
-      "trading_days_held": 22,
-      "last_update_date": "2026-09-24",
+      "trading_days_held": 23,
+      "last_update_date": "2026-09-25",
       "momentum_7d": 179.9
     },
     "pudgy-penguins": {
@@ -21,11 +21,11 @@
       "entry_price": 0.00792277,
       "shares": 524679.7497643776,
       "entry_value": 4156.916981040718,
-      "current_price": 0.00969778,
+      "current_price": 0.00967241,
       "peak_price": 0.01002459,
       "entry_date": "2026-09-21T00:13:36.602987",
-      "trading_days_held": 3,
-      "last_update_date": "2026-09-24",
+      "trading_days_held": 4,
+      "last_update_date": "2026-09-25",
       "momentum_7d": 12.5
     },
     "official-trump": {
@@ -34,11 +34,11 @@
       "entry_price": 2.09,
       "shares": 1988.955493320918,
       "entry_value": 4156.916981040718,
-      "current_price": 1.97,
+      "current_price": 2.08,
       "peak_price": 2.26,
       "entry_date": "2026-09-21T00:13:36.602987",
-      "trading_days_held": 3,
-      "last_update_date": "2026-09-24",
+      "trading_days_held": 4,
+      "last_update_date": "2026-09-25",
       "momentum_7d": 6.8
     },
     "fartcoin": {
@@ -47,11 +47,11 @@
       "entry_price": 0.168204,
       "shares": 24713.54415495897,
       "entry_value": 4156.916981040718,
-      "current_price": 0.184469,
+      "current_price": 0.185035,
       "peak_price": 0.21272,
       "entry_date": "2026-09-21T00:13:36.602987",
-      "trading_days_held": 3,
-      "last_update_date": "2026-09-24",
+      "trading_days_held": 4,
+      "last_update_date": "2026-09-25",
       "momentum_7d": 21.3
     },
     "memecore": {
@@ -60,11 +60,11 @@
       "entry_price": 1.49,
       "shares": 2789.877168483704,
       "entry_value": 4156.916981040718,
-      "current_price": 1.23,
+      "current_price": 1.22,
       "peak_price": 1.49,
       "entry_date": "2026-09-21T00:13:36.602987",
-      "trading_days_held": 3,
-      "last_update_date": "2026-09-24",
+      "trading_days_held": 4,
+      "last_update_date": "2026-09-25",
       "momentum_7d": 29.4
     }
   },
@@ -1151,6 +1151,10 @@
     {
       "date": "2026-09-24",
       "equity": 19885.173839329287
+    },
+    {
+      "date": "2026-09-25",
+      "equity": 18977.287680806177
     }
   ],
   "last_rebalance": "2026-38"
