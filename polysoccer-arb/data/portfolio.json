@@ -12,8 +12,8 @@
       "current_price": 0.4,
       "peak_price": 0.4,
       "entry_date": "2026-09-17T01:19:02.311693",
-      "trading_days_held": 7,
-      "last_update_date": "2026-09-24"
+      "trading_days_held": 8,
+      "last_update_date": "2026-09-25"
     },
     "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f": {
       "ticker": "[YES] Will Inter Milan win the 2026-27 UEFA ",
@@ -25,8 +25,8 @@
       "current_price": 0.0275,
       "peak_price": 0.0275,
       "entry_date": "2026-09-18T01:13:48.340276",
-      "trading_days_held": 6,
-      "last_update_date": "2026-09-24"
+      "trading_days_held": 7,
+      "last_update_date": "2026-09-25"
     }
   },
   "closed_trades": [
@@ -540,6 +540,10 @@
     },
     {
       "date": "2026-09-24",
+      "equity": 11802.137283165164
+    },
+    {
+      "date": "2026-09-25",
       "equity": 11802.137283165164
     }
   ]
