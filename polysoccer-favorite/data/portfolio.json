@@ -12,8 +12,8 @@
       "current_price": 0.715,
       "peak_price": 0.715,
       "entry_date": "2026-09-23T00:59:29.794188",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-24"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-25"
     },
     "0x39fa52060b6a11c0bb6a7fbb8f431647d9cfdf297a050ccf4c339b2c36cedf2f": {
       "ticker": "[YES] Tampa Bay Rays vs. New York Yankees",
@@ -25,8 +25,8 @@
       "current_price": 0.795,
       "peak_price": 0.795,
       "entry_date": "2026-09-23T00:59:29.794188",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-24"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-25"
     },
     "0x7ab6bbc9ef222ae4231846ff339a9bafccd11ffc469719a27a42764a9825cbdd": {
       "ticker": "[YES] Cleveland Guardians vs. Boston Red Sox",
@@ -38,8 +38,8 @@
       "current_price": 0.685,
       "peak_price": 0.685,
       "entry_date": "2026-09-23T00:59:29.794188",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-24"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-25"
     },
     "0x635bc7ea3fd56e53aa7b9b482d2e6204d4463209155071d0c3421304d6181b72": {
       "ticker": "[YES] Arizona Diamondbacks vs. Colorado Rock",
@@ -51,8 +51,8 @@
       "current_price": 0.64,
       "peak_price": 0.64,
       "entry_date": "2026-09-24T00:56:20.605864",
-      "trading_days_held": 0,
-      "last_update_date": "2026-09-24"
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-25"
     },
     "0x26d2f6a1f2c64bd47cc50ef8f446a31935a1a817814dc6daa199c722528b7e05": {
       "ticker": "[YES] Cleveland Guardians vs. Boston Red Sox",
@@ -64,8 +64,8 @@
       "current_price": 0.785,
       "peak_price": 0.785,
       "entry_date": "2026-09-24T00:56:20.605864",
-      "trading_days_held": 0,
-      "last_update_date": "2026-09-24"
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-25"
     }
   },
   "closed_trades": [
@@ -1232,6 +1232,10 @@
     },
     {
       "date": "2026-09-24",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-09-25",
       "equity": 9809.190731134111
     }
   ]
