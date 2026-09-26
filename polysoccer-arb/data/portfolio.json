@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6988.107601874111,
+  "cash": 4627.680145241078,
   "open_positions": {
     "0xa528a2fc4c27b1ac7a7c591ff8482bc9382e9f3de3daa830118f60edbd79b805": {
       "ticker": "[NO] Valencia: Guiomar Maristany vs Marina ",
@@ -12,8 +12,8 @@
       "current_price": 0.4,
       "peak_price": 0.4,
       "entry_date": "2026-09-17T01:19:02.311693",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-25"
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-26"
     },
     "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f": {
       "ticker": "[YES] Will Inter Milan win the 2026-27 UEFA ",
@@ -25,8 +25,21 @@
       "current_price": 0.0275,
       "peak_price": 0.0275,
       "entry_date": "2026-09-18T01:13:48.340276",
-      "trading_days_held": 7,
-      "last_update_date": "2026-09-25"
+      "trading_days_held": 8,
+      "last_update_date": "2026-09-26"
+    },
+    "0x86e8f678e6cebb9596ffbb5a736b2ff9f36b12905d5b65b1556329c28533c7a1": {
+      "ticker": "[YES] Will Manchester City win the 2026-27 E",
+      "direction": "YES",
+      "condition_id": "0x86e8f678e6cebb9596ffbb5a736b2ff9f36b12905d5b65b1556329c28533c7a1",
+      "entry_price": 0.225,
+      "shares": 10490.788696146812,
+      "entry_value": 2360.4274566330328,
+      "current_price": 0.225,
+      "peak_price": 0.225,
+      "entry_date": "2026-09-26T01:28:41.109590",
+      "trading_days_held": 0,
+      "last_update_date": "2026-09-26"
     }
   },
   "closed_trades": [
@@ -544,6 +557,10 @@
     },
     {
       "date": "2026-09-25",
+      "equity": 11802.137283165164
+    },
+    {
+      "date": "2026-09-26",
       "equity": 11802.137283165164
     }
   ]
