@@ -1,20 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4716.23068403816,
+  "cash": 4804.78122283524,
   "open_positions": {
-    "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f": {
-      "ticker": "[YES] Will Inter Milan win the 2026-27 UEFA ",
-      "direction": "YES",
-      "condition_id": "0x66e11d0cbba8959c1cd9ba02908297c805fe70239bde0c1de0b94ad2ded29a2f",
-      "entry_price": 0.0275,
-      "shares": 87527.81238711005,
-      "entry_value": 2407.0148406455264,
-      "current_price": 0.0275,
-      "peak_price": 0.0275,
-      "entry_date": "2026-09-18T01:13:48.340276",
-      "trading_days_held": 9,
-      "last_update_date": "2026-09-27"
-    },
     "0x86e8f678e6cebb9596ffbb5a736b2ff9f36b12905d5b65b1556329c28533c7a1": {
       "ticker": "[YES] Will Manchester City win the 2026-27 E",
       "direction": "YES",
@@ -25,8 +12,8 @@
       "current_price": 0.205,
       "peak_price": 0.225,
       "entry_date": "2026-09-26T01:28:41.109590",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-27"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-28"
     },
     "0xa23467e95abf6544819a9dcb90b7719846aacf300b991ea07204e1f1649097cb": {
       "ticker": "[NO] Will Barcelona win the 2026-27 UEFA Ch",
@@ -38,8 +25,21 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-09-27T01:20:51.025957",
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-28"
+    },
+    "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392": {
+      "ticker": "[YES] Will Manchester United win the 2026-27",
+      "direction": "YES",
+      "condition_id": "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392",
+      "entry_price": 0.0125,
+      "shares": 185477.14414787566,
+      "entry_value": 2318.4643018484458,
+      "current_price": 0.0125,
+      "peak_price": 0.0125,
+      "entry_date": "2026-09-28T01:34:09.399312",
       "trading_days_held": 0,
-      "last_update_date": "2026-09-27"
+      "last_update_date": "2026-09-28"
     }
   },
   "closed_trades": [
@@ -287,6 +287,19 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-09-17T01:19:02.311693",
       "exit_date": "2026-09-27T01:20:51.025941",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Inter Milan win the 2026-27 UEFA ",
+      "entry_price": 0.0275,
+      "exit_price": 0.0275,
+      "shares": 87527.81238711005,
+      "entry_value": 2407.0148406455264,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-09-18T01:13:48.340276",
+      "exit_date": "2026-09-28T01:34:09.399292",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -578,6 +591,10 @@
     },
     {
       "date": "2026-09-27",
+      "equity": 11592.321509242229
+    },
+    {
+      "date": "2026-09-28",
       "equity": 11592.321509242229
     }
   ]
