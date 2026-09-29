@@ -12,8 +12,8 @@
       "current_price": 0.205,
       "peak_price": 0.225,
       "entry_date": "2026-09-26T01:28:41.109590",
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-28"
+      "trading_days_held": 3,
+      "last_update_date": "2026-09-29"
     },
     "0xa23467e95abf6544819a9dcb90b7719846aacf300b991ea07204e1f1649097cb": {
       "ticker": "[NO] Will Barcelona win the 2026-27 UEFA Ch",
@@ -25,8 +25,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-09-27T01:20:51.025957",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-28"
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-29"
     },
     "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392": {
       "ticker": "[YES] Will Manchester United win the 2026-27",
@@ -38,8 +38,8 @@
       "current_price": 0.0125,
       "peak_price": 0.0125,
       "entry_date": "2026-09-28T01:34:09.399312",
-      "trading_days_held": 0,
-      "last_update_date": "2026-09-28"
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-29"
     }
   },
   "closed_trades": [
@@ -595,6 +595,10 @@
     },
     {
       "date": "2026-09-28",
+      "equity": 11592.321509242229
+    },
+    {
+      "date": "2026-09-29",
       "equity": 11592.321509242229
     }
   ]
