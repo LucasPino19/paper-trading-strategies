@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5546.27560898744,
+  "cash": 3882.392926291208,
   "open_positions": {
     "SMCI": {
       "ticker": "SMCI",
       "entry_price": 40.59000015258789,
       "shares": 48.77815804265098,
       "entry_value": 1979.9054423941595,
-      "current_price": 41.779998779296875,
+      "current_price": 41.224998474121094,
       "peak_price": 42.994998931884766,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-28",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-29",
       "entry_date": "2026-09-17T18:27:20.256576",
       "sps_score": 160.4573358976653,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 219.67010498046875,
       "shares": 6.309159864056776,
       "entry_value": 1385.9338096759118,
-      "current_price": 228.86000061035156,
+      "current_price": 228.02000427246094,
       "peak_price": 229.21139526367188,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-28",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-29",
       "entry_date": "2026-09-17T18:27:20.391467",
       "sps_score": 50.05567009815648,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "entry_price": 511.2250061035156,
+      "shares": 3.2546973697122317,
+      "entry_value": 1663.882682696232,
+      "current_price": 511.2250061035156,
+      "peak_price": 511.2250061035156,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-29",
+      "entry_date": "2026-09-29T19:34:36.253265",
+      "sps_score": 136.14324502852426,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1247,6 +1263,10 @@
     {
       "date": "2026-09-28",
       "equity": 9028.141322804588
+    },
+    {
+      "date": "2026-09-29",
+      "equity": 8995.76975902403
     }
   ]
 }
