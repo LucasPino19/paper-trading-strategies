@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6822.804098936522,
+  "cash": 4775.962869255565,
   "open_positions": {
     "SMCI": {
       "ticker": "SMCI",
       "entry_price": 41.027400970458984,
       "shares": 46.3428764674615,
       "entry_value": 1901.3277749549907,
-      "current_price": 41.779998779296875,
+      "current_price": 41.189998626708984,
       "peak_price": 42.994998931884766,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-09-28",
+      "trading_days_held": 7,
+      "last_update_date": "2026-09-29",
       "entry_date": "2026-09-21T19:39:52.489262",
       "sps_score": 147.70495972755668,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 950.27001953125,
       "shares": 2.1514301002902605,
       "entry_value": 2044.4395234229448,
-      "current_price": 916.280029296875,
+      "current_price": 914.1799926757812,
       "peak_price": 950.27001953125,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-09-28",
+      "trading_days_held": 6,
+      "last_update_date": "2026-09-29",
       "entry_date": "2026-09-22T18:13:33.051727",
       "sps_score": 36.640686658758405,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "ARM": {
+      "ticker": "ARM",
+      "entry_price": 295.55999755859375,
+      "shares": 6.9252985741928,
+      "entry_value": 2046.8412296809565,
+      "current_price": 295.55999755859375,
+      "peak_price": 295.55999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-09-29",
+      "entry_date": "2026-09-29T19:34:47.766052",
+      "sps_score": 61.24493063341128,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -851,6 +867,10 @@
     {
       "date": "2026-09-28",
       "equity": 10730.321856500308
+    },
+    {
+      "date": "2026-09-29",
+      "equity": 10698.46147031481
     }
   ]
 }
