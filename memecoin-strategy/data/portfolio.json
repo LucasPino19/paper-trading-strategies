@@ -11,8 +11,8 @@
       "current_price": 0.00910867,
       "peak_price": 0.01031006,
       "entry_date": "2026-09-21T00:13:36.602987",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-29",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-30",
       "momentum_7d": 12.5
     },
     "official-trump": {
@@ -24,8 +24,8 @@
       "current_price": 1.95,
       "peak_price": 2.26,
       "entry_date": "2026-09-21T00:13:36.602987",
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-29",
+      "trading_days_held": 9,
+      "last_update_date": "2026-09-30",
       "momentum_7d": 6.8
     },
     "marscoin-4": {
@@ -37,8 +37,8 @@
       "current_price": 0.15529,
       "peak_price": 0.15529,
       "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-29",
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-30",
       "momentum_7d": 33.8052
     },
     "ribbita-by-virtuals": {
@@ -50,8 +50,8 @@
       "current_price": 0.304751,
       "peak_price": 0.304751,
       "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-29",
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-30",
       "momentum_7d": 31.7699
     },
     "mubarak": {
@@ -63,8 +63,8 @@
       "current_price": 0.057071,
       "peak_price": 0.057071,
       "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 1,
-      "last_update_date": "2026-09-29",
+      "trading_days_held": 2,
+      "last_update_date": "2026-09-30",
       "momentum_7d": 60.0925
     }
   },
@@ -1209,6 +1209,10 @@
     },
     {
       "date": "2026-09-29",
+      "equity": 19877.348434326563
+    },
+    {
+      "date": "2026-09-30",
       "equity": 19877.348434326563
     }
   ],
