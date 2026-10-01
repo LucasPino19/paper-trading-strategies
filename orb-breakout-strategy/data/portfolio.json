@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5980.218824414622,
+  "cash": 4186.153177090236,
   "open_positions": {
     "NVDA": {
       "ticker": "NVDA",
       "entry_price": 227.5950927734375,
       "shares": 8.576173828014278,
       "entry_value": 1951.895078028036,
-      "current_price": 230.7899932861328,
-      "peak_price": 230.7899932861328,
+      "current_price": 231.63999938964844,
+      "peak_price": 231.63999938964844,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-09-30",
+      "trading_days_held": 9,
+      "last_update_date": "2026-10-01",
       "entry_date": "2026-09-21T19:39:56.778741",
       "sps_score": 12.58614240413551,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 330.07000732421875,
       "shares": 5.7001035418400035,
       "entry_value": 1881.4332178039351,
-      "current_price": 335.4549865722656,
+      "current_price": 329.67999267578125,
       "peak_price": 335.4549865722656,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-09-30",
+      "trading_days_held": 3,
+      "last_update_date": "2026-10-01",
       "entry_date": "2026-09-29T19:34:51.857440",
       "sps_score": 11.976228271826212,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "XLK": {
+      "ticker": "XLK",
+      "entry_price": 198.13999938964844,
+      "shares": 9.054535443882287,
+      "entry_value": 1794.0656473243864,
+      "current_price": 198.13999938964844,
+      "peak_price": 198.13999938964844,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-01",
+      "entry_date": "2026-10-01T19:44:29.631317",
+      "sps_score": 2.166694875899668,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -969,6 +985,10 @@
     {
       "date": "2026-09-30",
       "equity": 9871.642081691207
+    },
+    {
+      "date": "2026-10-01",
+      "equity": 9846.013818626376
     }
   ]
 }
