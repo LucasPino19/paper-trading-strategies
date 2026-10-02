@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5852.29140120839,
+  "cash": 7344.782283393971,
   "open_positions": {
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "entry_price": 332.6000061035156,
-      "shares": 4.412520347048193,
-      "entry_value": 1467.6042943601158,
-      "current_price": 344.08,
-      "peak_price": 354.97,
-      "volume_spiked": false,
-      "trading_days_held": 14,
-      "last_update_date": "2026-10-01",
-      "entry_date": "2026-09-10T23:20:50.865710",
-      "sps_score": 39.47425722946274,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "JPM": {
       "ticker": "JPM",
       "entry_price": 338.55999755859375,
       "shares": 7.4082139187105005,
       "entry_value": 2508.1248862321672,
-      "current_price": 330.83,
+      "current_price": 333.18,
       "peak_price": 343.06,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-01",
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-02",
       "entry_date": "2026-09-24T23:57:53.689969",
       "sps_score": 33.444077161320635,
       "short_float_pct": 0,
@@ -211,6 +195,28 @@
       "pnl": -32.52004024621192,
       "pnl_pct": -0.015511012239354067,
       "exit_reason": "Stop de tiempo: 15d \u2014 -1.6%"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_price": 332.6000061035156,
+      "shares": 4.412520347048193,
+      "entry_value": 1467.6042943601158,
+      "current_price": 338.24,
+      "peak_price": 354.97,
+      "volume_spiked": false,
+      "trading_days_held": 15,
+      "last_update_date": "2026-10-02",
+      "entry_date": "2026-09-10T23:20:50.865710",
+      "sps_score": 39.47425722946274,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 338.24,
+      "exit_date": "2026-10-02T01:01:57.269653",
+      "proceeds": 1492.4908821855806,
+      "pnl": 24.886587825464858,
+      "pnl_pct": 0.01695728741126065,
+      "exit_reason": "Stop de tiempo: 15d \u2014 +1.7%"
     }
   ],
   "equity_history": [
@@ -565,6 +571,10 @@
     {
       "date": "2026-10-01",
       "equity": 9821.410812947726
+    },
+    {
+      "date": "2026-10-02",
+      "equity": 9813.050996829936
     }
   ]
 }
