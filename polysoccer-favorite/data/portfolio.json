@@ -2,45 +2,6 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52": {
-      "ticker": "[YES] Cincinnati Reds vs. Atlanta Braves",
-      "direction": "YES",
-      "condition_id": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52",
-      "entry_price": 0.715,
-      "shares": 2743.829575142409,
-      "entry_value": 1961.8381462268223,
-      "current_price": 0.715,
-      "peak_price": 0.715,
-      "entry_date": "2026-09-23T00:59:29.794188",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-02"
-    },
-    "0x39fa52060b6a11c0bb6a7fbb8f431647d9cfdf297a050ccf4c339b2c36cedf2f": {
-      "ticker": "[YES] Tampa Bay Rays vs. New York Yankees",
-      "direction": "YES",
-      "condition_id": "0x39fa52060b6a11c0bb6a7fbb8f431647d9cfdf297a050ccf4c339b2c36cedf2f",
-      "entry_price": 0.795,
-      "shares": 2467.720938650091,
-      "entry_value": 1961.8381462268223,
-      "current_price": 0.795,
-      "peak_price": 0.795,
-      "entry_date": "2026-09-23T00:59:29.794188",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-02"
-    },
-    "0x7ab6bbc9ef222ae4231846ff339a9bafccd11ffc469719a27a42764a9825cbdd": {
-      "ticker": "[YES] Cleveland Guardians vs. Boston Red Sox",
-      "direction": "YES",
-      "condition_id": "0x7ab6bbc9ef222ae4231846ff339a9bafccd11ffc469719a27a42764a9825cbdd",
-      "entry_price": 0.685,
-      "shares": 2863.9972937617836,
-      "entry_value": 1961.838146226822,
-      "current_price": 0.685,
-      "peak_price": 0.685,
-      "entry_date": "2026-09-23T00:59:29.794188",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-02"
-    },
     "0x635bc7ea3fd56e53aa7b9b482d2e6204d4463209155071d0c3421304d6181b72": {
       "ticker": "[YES] Arizona Diamondbacks vs. Colorado Rock",
       "direction": "YES",
@@ -51,8 +12,8 @@
       "current_price": 0.64,
       "peak_price": 0.64,
       "entry_date": "2026-09-24T00:56:20.605864",
-      "trading_days_held": 8,
-      "last_update_date": "2026-10-02"
+      "trading_days_held": 9,
+      "last_update_date": "2026-10-03"
     },
     "0x26d2f6a1f2c64bd47cc50ef8f446a31935a1a817814dc6daa199c722528b7e05": {
       "ticker": "[YES] Cleveland Guardians vs. Boston Red Sox",
@@ -64,8 +25,47 @@
       "current_price": 0.785,
       "peak_price": 0.785,
       "entry_date": "2026-09-24T00:56:20.605864",
-      "trading_days_held": 8,
-      "last_update_date": "2026-10-02"
+      "trading_days_held": 9,
+      "last_update_date": "2026-10-03"
+    },
+    "0xb1f9bb144567e84476f89bb1cf893999d1e019467d3dc264bde370a87831484e": {
+      "ticker": "[YES] Penn State vs. Northwestern",
+      "direction": "YES",
+      "condition_id": "0xb1f9bb144567e84476f89bb1cf893999d1e019467d3dc264bde370a87831484e",
+      "entry_price": 0.725,
+      "shares": 2705.983649968031,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.725,
+      "peak_price": 0.725,
+      "entry_date": "2026-10-03T01:30:21.149107",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-03"
+    },
+    "0x3d9a0dc31e65e139d812dc5b0fa6f01669f4671f458902acd3669df3add280e5": {
+      "ticker": "[YES] Dallas Wings vs. Golden State Valkyrie",
+      "direction": "YES",
+      "condition_id": "0x3d9a0dc31e65e139d812dc5b0fa6f01669f4671f458902acd3669df3add280e5",
+      "entry_price": 0.695,
+      "shares": 2822.7886996069387,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.695,
+      "peak_price": 0.695,
+      "entry_date": "2026-10-03T01:30:21.149107",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-03"
+    },
+    "0xdd2bd57c2edca3502344ba23d1eeaada13ab3f07c812ef1201c1532877be77ec": {
+      "ticker": "[YES] Dallas Wings vs. Golden State Valkyrie",
+      "direction": "YES",
+      "condition_id": "0xdd2bd57c2edca3502344ba23d1eeaada13ab3f07c812ef1201c1532877be77ec",
+      "entry_price": 0.635,
+      "shares": 3089.5088916957825,
+      "entry_value": 1961.838146226822,
+      "current_price": 0.635,
+      "peak_price": 0.635,
+      "entry_date": "2026-10-03T01:30:21.149107",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-03"
     }
   },
   "closed_trades": [
@@ -783,6 +783,45 @@
       "exit_date": "2026-09-24T00:56:20.605847",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Cincinnati Reds vs. Atlanta Braves",
+      "entry_price": 0.715,
+      "exit_price": 0.715,
+      "shares": 2743.829575142409,
+      "entry_value": 1961.8381462268223,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-09-23T00:59:29.794188",
+      "exit_date": "2026-10-03T01:30:21.149082",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Tampa Bay Rays vs. New York Yankees",
+      "entry_price": 0.795,
+      "exit_price": 0.795,
+      "shares": 2467.720938650091,
+      "entry_value": 1961.8381462268223,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-09-23T00:59:29.794188",
+      "exit_date": "2026-10-03T01:30:21.149091",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Cleveland Guardians vs. Boston Red Sox",
+      "entry_price": 0.685,
+      "exit_price": 0.685,
+      "shares": 2863.9972937617836,
+      "entry_value": 1961.838146226822,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-09-23T00:59:29.794188",
+      "exit_date": "2026-10-03T01:30:21.149096",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -1264,6 +1303,10 @@
     },
     {
       "date": "2026-10-02",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-10-03",
       "equity": 9809.190731134111
     }
   ]
