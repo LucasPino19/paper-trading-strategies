@@ -8,11 +8,11 @@
       "entry_price": 0.00792277,
       "shares": 372923.4815520001,
       "entry_value": 4156.916981040718,
-      "current_price": 0.00903573,
+      "current_price": 0.00921896,
       "peak_price": 0.01031006,
       "entry_date": "2026-09-21T00:13:36.602987",
-      "trading_days_held": 12,
-      "last_update_date": "2026-10-03",
+      "trading_days_held": 13,
+      "last_update_date": "2026-10-04",
       "momentum_7d": 12.5
     },
     "official-trump": {
@@ -21,11 +21,11 @@
       "entry_price": 2.09,
       "shares": 1806.179242756986,
       "entry_value": 4156.916981040718,
-      "current_price": 2.1,
+      "current_price": 2.04,
       "peak_price": 2.26,
       "entry_date": "2026-09-21T00:13:36.602987",
-      "trading_days_held": 12,
-      "last_update_date": "2026-10-03",
+      "trading_days_held": 13,
+      "last_update_date": "2026-10-04",
       "momentum_7d": 6.8
     },
     "marscoin-4": {
@@ -34,11 +34,11 @@
       "entry_price": 0.121968,
       "shares": 31394.300100393637,
       "entry_value": 3829.099994644811,
-      "current_price": 0.109432,
+      "current_price": 0.111926,
       "peak_price": 0.15529,
       "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-03",
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-04",
       "momentum_7d": 33.8052
     },
     "ribbita-by-virtuals": {
@@ -50,8 +50,8 @@
       "current_price": 0.304751,
       "peak_price": 0.304751,
       "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-03",
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-04",
       "momentum_7d": 31.7699
     },
     "mubarak": {
@@ -60,11 +60,11 @@
       "entry_price": 0.052857,
       "shares": 72442.62812200485,
       "entry_value": 3829.099994644811,
-      "current_price": 0.061669,
-      "peak_price": 0.061904,
+      "current_price": 0.063286,
+      "peak_price": 0.063286,
       "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-03",
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-04",
       "momentum_7d": 60.0925
     }
   },
@@ -1226,6 +1226,10 @@
     {
       "date": "2026-10-03",
       "equity": 19014.48567209684
+    },
+    {
+      "date": "2026-10-04",
+      "equity": 19169.882801179854
     }
   ],
   "last_rebalance": "2026-39"
