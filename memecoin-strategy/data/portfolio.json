@@ -1,71 +1,71 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9.094947017729282e-13,
+  "cash": 0.0,
   "open_positions": {
-    "pudgy-penguins": {
-      "ticker": "PENGU",
-      "name": "Pudgy Penguins",
-      "entry_price": 0.00792277,
-      "shares": 372923.4815520001,
-      "entry_value": 4156.916981040718,
-      "current_price": 0.00921896,
-      "peak_price": 0.01031006,
-      "entry_date": "2026-09-21T00:13:36.602987",
-      "trading_days_held": 13,
-      "last_update_date": "2026-10-04",
-      "momentum_7d": 12.5
-    },
-    "official-trump": {
-      "ticker": "TRUMP",
-      "name": "Official Trump",
-      "entry_price": 2.09,
-      "shares": 1806.179242756986,
-      "entry_value": 4156.916981040718,
-      "current_price": 2.04,
-      "peak_price": 2.26,
-      "entry_date": "2026-09-21T00:13:36.602987",
-      "trading_days_held": 13,
-      "last_update_date": "2026-10-04",
-      "momentum_7d": 6.8
-    },
-    "marscoin-4": {
-      "ticker": "MARSCOIN",
-      "name": "MarsCoin",
-      "entry_price": 0.121968,
-      "shares": 31394.300100393637,
-      "entry_value": 3829.099994644811,
-      "current_price": 0.111926,
-      "peak_price": 0.15529,
-      "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-04",
-      "momentum_7d": 33.8052
-    },
-    "ribbita-by-virtuals": {
-      "ticker": "TIBBIR",
-      "name": "Ribbita by Virtuals",
-      "entry_price": 0.295508,
-      "shares": 12957.686406611027,
-      "entry_value": 3829.099994644811,
-      "current_price": 0.304751,
-      "peak_price": 0.304751,
-      "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-04",
-      "momentum_7d": 31.7699
-    },
     "mubarak": {
       "ticker": "MUBARAK",
       "name": "Mubarak",
       "entry_price": 0.052857,
-      "shares": 72442.62812200485,
+      "shares": 58861.28564086399,
       "entry_value": 3829.099994644811,
-      "current_price": 0.063286,
-      "peak_price": 0.063286,
+      "current_price": 0.066308,
+      "peak_price": 0.066308,
       "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-04",
+      "trading_days_held": 7,
+      "last_update_date": "2026-10-05",
       "momentum_7d": 60.0925
+    },
+    "boner-coin": {
+      "ticker": "BONER",
+      "name": "Boner Coin",
+      "entry_price": 0.066455,
+      "shares": 58731.08311299991,
+      "entry_value": 3902.9741282744094,
+      "current_price": 0.066455,
+      "peak_price": 0.066455,
+      "entry_date": "2026-10-05T00:53:18.236368",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-05",
+      "momentum_7d": 60.0965
+    },
+    "pump-fun": {
+      "ticker": "PUMP",
+      "name": "Pump.fun",
+      "entry_price": 0.00644864,
+      "shares": 605239.8844212748,
+      "entry_value": 3902.9741282744094,
+      "current_price": 0.00644864,
+      "peak_price": 0.00644864,
+      "entry_date": "2026-10-05T00:53:18.236368",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-05",
+      "momentum_7d": 28.199
+    },
+    "purr-2": {
+      "ticker": "PURR",
+      "name": "Purr",
+      "entry_price": 0.170908,
+      "shares": 22836.696516689735,
+      "entry_value": 3902.9741282744094,
+      "current_price": 0.170908,
+      "peak_price": 0.170908,
+      "entry_date": "2026-10-05T00:53:18.236368",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-05",
+      "momentum_7d": 10.2601
+    },
+    "bonk": {
+      "ticker": "BONK",
+      "name": "Bonk",
+      "entry_price": 3.96e-06,
+      "shares": 985599527.3420223,
+      "entry_value": 3902.9741282744085,
+      "current_price": 3.96e-06,
+      "peak_price": 3.96e-06,
+      "entry_date": "2026-10-05T00:53:18.236368",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-05",
+      "momentum_7d": 6.2671
     }
   },
   "closed_trades": [
@@ -744,6 +744,58 @@
       "exit_date": "2026-09-28T00:41:20.598554",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 7
+    },
+    {
+      "ticker": "pudgy-penguins",
+      "entry_price": 0.00792277,
+      "exit_price": 0.00968281,
+      "shares": 372923.4815520001,
+      "entry_value": 4156.916981040718,
+      "pnl": 656.3602444707819,
+      "pnl_pct": 0.22214957647388464,
+      "entry_date": "2026-09-21T00:13:36.602987",
+      "exit_date": "2026-10-05T00:53:18.236368",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 14
+    },
+    {
+      "ticker": "official-trump",
+      "entry_price": 2.09,
+      "exit_price": 2.06,
+      "shares": 1806.179242756986,
+      "entry_value": 4156.916981040718,
+      "pnl": -54.185377282709226,
+      "pnl_pct": -0.01435406698564584,
+      "entry_date": "2026-09-21T00:13:36.602987",
+      "exit_date": "2026-10-05T00:53:18.236368",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 14
+    },
+    {
+      "ticker": "ribbita-by-virtuals",
+      "entry_price": 0.295508,
+      "exit_price": 0.304751,
+      "shares": 12957.686406611027,
+      "entry_value": 3829.099994644811,
+      "pnl": 119.76789545630574,
+      "pnl_pct": 0.03127834102630048,
+      "entry_date": "2026-09-28T00:41:20.598554",
+      "exit_date": "2026-10-05T00:53:18.236368",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "marscoin-4",
+      "entry_price": 0.121968,
+      "exit_price": 0.109281,
+      "shares": 31394.300100393637,
+      "entry_value": 3829.099994644811,
+      "pnl": -398.29948537369376,
+      "pnl_pct": -0.10401908697363235,
+      "entry_date": "2026-09-28T00:41:20.598554",
+      "exit_date": "2026-10-05T00:53:18.236368",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
     }
   ],
   "equity_history": [
@@ -1230,7 +1282,11 @@
     {
       "date": "2026-10-04",
       "equity": 19169.882801179854
+    },
+    {
+      "date": "2026-10-05",
+      "equity": 19514.870641372047
     }
   ],
-  "last_rebalance": "2026-39"
+  "last_rebalance": "2026-40"
 }
