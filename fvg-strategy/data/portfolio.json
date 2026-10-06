@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4854.2424574590805,
+  "cash": 7002.666583217311,
   "open_positions": {
-    "QQQ": {
-      "ticker": "QQQ",
-      "entry_price": 740.7999877929688,
-      "shares": 2.8236043948731724,
-      "entry_value": 2091.726101254219,
-      "current_price": 756.2000122070312,
-      "peak_price": 756.2000122070312,
-      "volume_spiked": false,
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-05",
-      "entry_date": "2026-09-23T17:54:22.330446",
-      "sps_score": 1.0393608379876624,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "TSLA": {
       "ticker": "TSLA",
       "entry_price": 373.55499267578125,
       "shares": 5.551976310382268,
       "entry_value": 2073.9684699609593,
-      "current_price": 378.7300109863281,
-      "peak_price": 378.7300109863281,
+      "current_price": 380.260009765625,
+      "peak_price": 380.260009765625,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-10-05",
+      "trading_days_held": 8,
+      "last_update_date": "2026-10-06",
       "entry_date": "2026-09-25T18:01:17.915527",
       "sps_score": 54.075314627899665,
       "short_float_pct": 0,
@@ -39,11 +23,11 @@
       "entry_price": 265.760009765625,
       "shares": 7.828076264973143,
       "entry_value": 2080.38962462532,
-      "current_price": 265.760009765625,
-      "peak_price": 265.760009765625,
+      "current_price": 267.5799865722656,
+      "peak_price": 267.5799865722656,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-10-05",
+      "trading_days_held": 2,
+      "last_update_date": "2026-10-06",
       "entry_date": "2026-10-05T21:11:14.932141",
       "sps_score": 4.178922762751017,
       "short_float_pct": 0,
@@ -645,6 +629,28 @@
       "pnl": 104.46674679154376,
       "pnl_pct": 0.052471974692372664,
       "exit_reason": "Stop de tiempo: 10d \u2014 +5.2%"
+    },
+    {
+      "ticker": "QQQ",
+      "entry_price": 740.7999877929688,
+      "shares": 2.8236043948731724,
+      "entry_value": 2091.726101254219,
+      "current_price": 760.8800048828125,
+      "peak_price": 760.8800048828125,
+      "volume_spiked": false,
+      "trading_days_held": 10,
+      "last_update_date": "2026-10-06",
+      "entry_date": "2026-09-23T17:54:22.330446",
+      "sps_score": 1.0393608379876624,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 760.8800048828125,
+      "exit_date": "2026-10-06T18:58:36.788571",
+      "proceeds": 2148.4241257582303,
+      "pnl": 56.6980245040113,
+      "pnl_pct": 0.027105855049575862,
+      "exit_reason": "Stop de tiempo: 10d \u2014 +2.7%"
     }
   ],
   "equity_history": [
@@ -1019,6 +1025,10 @@
     {
       "date": "2026-10-05",
       "equity": 11172.54180898223
+    },
+    {
+      "date": "2026-10-06",
+      "equity": 11208.497691089975
     }
   ]
 }
