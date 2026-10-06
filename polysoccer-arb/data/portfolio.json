@@ -1,20 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 209.81577392293548,
+  "cash": 2465.3353435945,
   "open_positions": {
-    "0x86e8f678e6cebb9596ffbb5a736b2ff9f36b12905d5b65b1556329c28533c7a1": {
-      "ticker": "[YES] Will Manchester City win the 2026-27 E",
-      "direction": "YES",
-      "condition_id": "0x86e8f678e6cebb9596ffbb5a736b2ff9f36b12905d5b65b1556329c28533c7a1",
-      "entry_price": 0.225,
-      "shares": 10490.788696146812,
-      "entry_value": 2360.4274566330328,
-      "current_price": 0.215,
-      "peak_price": 0.225,
-      "entry_date": "2026-09-26T01:28:41.109590",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-05"
-    },
     "0xa23467e95abf6544819a9dcb90b7719846aacf300b991ea07204e1f1649097cb": {
       "ticker": "[NO] Will Barcelona win the 2026-27 UEFA Ch",
       "direction": "NO",
@@ -25,8 +12,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-09-27T01:20:51.025957",
-      "trading_days_held": 8,
-      "last_update_date": "2026-10-05"
+      "trading_days_held": 9,
+      "last_update_date": "2026-10-06"
     },
     "0x777c36cb439b5a8cf54d2449c2d355f91fc50d7c076caad4deaf97c749489392": {
       "ticker": "[YES] Will Manchester United win the 2026-27",
@@ -38,8 +25,8 @@
       "current_price": 0.0125,
       "peak_price": 0.0125,
       "entry_date": "2026-09-28T01:34:09.399312",
-      "trading_days_held": 7,
-      "last_update_date": "2026-10-05"
+      "trading_days_held": 8,
+      "last_update_date": "2026-10-06"
     },
     "0xbce9de4866ae9e1e778ab2632ad33ae1fe14967f3142b6e808798e85721a39cd": {
       "ticker": "[NO] Porto 2: Hugo Grenier vs Carl Overbeck",
@@ -51,8 +38,8 @@
       "current_price": 0.03049999999999997,
       "peak_price": 0.03049999999999997,
       "entry_date": "2026-09-30T02:01:43.174887",
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-05"
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-06"
     },
     "0x8f72baed1e5ec5392569d9b5414ceda10761f5f1c8748650000e4780d74772b8": {
       "ticker": "[NO] Porto 2: Otto Virtanen vs Tiago Pereir",
@@ -64,8 +51,8 @@
       "current_price": 0.255,
       "peak_price": 0.255,
       "entry_date": "2026-09-30T02:01:43.174887",
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-05"
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-06"
     }
   },
   "closed_trades": [
@@ -326,6 +313,19 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-09-18T01:13:48.340276",
       "exit_date": "2026-09-28T01:34:09.399292",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Manchester City win the 2026-27 E",
+      "entry_price": 0.225,
+      "exit_price": 0.215,
+      "shares": 10490.788696146812,
+      "entry_value": 2360.4274566330328,
+      "pnl": -104.90788696146821,
+      "pnl_pct": -0.04444444444444448,
+      "entry_date": "2026-09-26T01:28:41.109590",
+      "exit_date": "2026-10-06T02:54:06.259775",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -649,6 +649,10 @@
     },
     {
       "date": "2026-10-05",
+      "equity": 11697.229396203697
+    },
+    {
+      "date": "2026-10-06",
       "equity": 11697.229396203697
     }
   ]
