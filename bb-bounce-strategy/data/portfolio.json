@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5141.34759837578,
+  "cash": 3598.943318863046,
   "open_positions": {
     "JPM": {
       "ticker": "JPM",
       "entry_price": 338.55999755859375,
       "shares": 7.4082139187105005,
       "entry_value": 2508.1248862321672,
-      "current_price": 332.3800048828125,
+      "current_price": 331.2799987792969,
       "peak_price": 343.06,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-10-06",
+      "trading_days_held": 9,
+      "last_update_date": "2026-10-07",
       "entry_date": "2026-09-24T23:57:53.689969",
       "sps_score": 33.444077161320635,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 85.65,
       "shares": 25.72603251626609,
       "entry_value": 2203.434685018191,
-      "current_price": 86.51000213623047,
+      "current_price": 86.16999816894531,
       "peak_price": 86.51000213623047,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-10-06",
+      "trading_days_held": 3,
+      "last_update_date": "2026-10-07",
       "entry_date": "2026-10-03T00:39:19.184395",
       "sps_score": 40.55204677491712,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "JNJ": {
+      "ticker": "JNJ",
+      "entry_price": 254.77999877929688,
+      "shares": 6.053867206620255,
+      "entry_value": 1542.4042795127339,
+      "current_price": 254.77999877929688,
+      "peak_price": 254.77999877929688,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-07",
+      "entry_date": "2026-10-07T00:56:48.344337",
+      "sps_score": 29.56984252220245,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -599,6 +615,10 @@
     {
       "date": "2026-10-06",
       "equity": 9829.24890478861
+    },
+    {
+      "date": "2026-10-07",
+      "equity": 9812.352871143841
     }
   ]
 }
