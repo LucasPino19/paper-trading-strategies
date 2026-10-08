@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4901.866608252118,
+  "cash": 6968.811916285536,
   "open_positions": {
-    "TSLA": {
-      "ticker": "TSLA",
-      "entry_price": 373.55499267578125,
-      "shares": 5.551976310382268,
-      "entry_value": 2073.9684699609593,
-      "current_price": 377.7900085449219,
-      "peak_price": 380.260009765625,
-      "volume_spiked": false,
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-07",
-      "entry_date": "2026-09-25T18:01:17.915527",
-      "sps_score": 54.075314627899665,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "ABBV": {
       "ticker": "ABBV",
       "entry_price": 265.760009765625,
       "shares": 7.828076264973143,
       "entry_value": 2080.38962462532,
-      "current_price": 271.4599914550781,
-      "peak_price": 271.4599914550781,
+      "current_price": 271.9800109863281,
+      "peak_price": 271.9800109863281,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-10-07",
+      "trading_days_held": 4,
+      "last_update_date": "2026-10-08",
       "entry_date": "2026-10-05T21:11:14.932141",
       "sps_score": 4.178922762751017,
       "short_float_pct": 0,
@@ -39,11 +23,11 @@
       "entry_price": 723.010009765625,
       "shares": 2.905630553643649,
       "entry_value": 2100.799974965193,
-      "current_price": 723.010009765625,
+      "current_price": 718.511474609375,
       "peak_price": 723.010009765625,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-10-07",
+      "trading_days_held": 2,
+      "last_update_date": "2026-10-08",
       "entry_date": "2026-10-07T19:26:18.602679",
       "sps_score": 36.55566920112418,
       "short_float_pct": 0,
@@ -667,6 +651,28 @@
       "pnl": 56.6980245040113,
       "pnl_pct": 0.027105855049575862,
       "exit_reason": "Stop de tiempo: 10d \u2014 +2.7%"
+    },
+    {
+      "ticker": "TSLA",
+      "entry_price": 373.55499267578125,
+      "shares": 5.551976310382268,
+      "entry_value": 2073.9684699609593,
+      "current_price": 372.2900085449219,
+      "peak_price": 380.260009765625,
+      "volume_spiked": false,
+      "trading_days_held": 10,
+      "last_update_date": "2026-10-08",
+      "entry_date": "2026-09-25T18:01:17.915527",
+      "sps_score": 54.075314627899665,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 372.2900085449219,
+      "exit_date": "2026-10-08T19:21:02.410302",
+      "proceeds": 2066.9453080334183,
+      "pnl": -7.0231619275409685,
+      "pnl_pct": -0.003386339777707987,
+      "exit_reason": "Stop de tiempo: 10d \u2014 -0.3%"
     }
   ],
   "equity_history": [
@@ -1049,6 +1055,10 @@
     {
       "date": "2026-10-07",
       "equity": 11225.157276957141
+    },
+    {
+      "date": "2026-10-08",
+      "equity": 11185.621078603299
     }
   ]
 }
