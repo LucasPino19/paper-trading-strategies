@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5018.718457299431,
+  "cash": 3513.1029201096017,
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
       "entry_price": 511.2250061035156,
       "shares": 3.2546973697122317,
       "entry_value": 1663.882682696232,
-      "current_price": 522.6099853515625,
-      "peak_price": 531.2899169921875,
+      "current_price": 535.6799926757812,
+      "peak_price": 535.6799926757812,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-10-08",
+      "trading_days_held": 9,
+      "last_update_date": "2026-10-09",
       "entry_date": "2026-09-29T19:34:36.253265",
       "sps_score": 136.14324502852426,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 190.9600067138672,
       "shares": 11.525662729986056,
       "entry_value": 2200.940632299906,
-      "current_price": 198.77999877929688,
-      "peak_price": 198.77999877929688,
+      "current_price": 207.4550018310547,
+      "peak_price": 207.4550018310547,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-08",
+      "trading_days_held": 7,
+      "last_update_date": "2026-10-09",
       "entry_date": "2026-10-01T19:44:07.373297",
       "sps_score": 175.76617415721407,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "entry_price": 352.8299865722656,
+      "shares": 4.267255036389752,
+      "entry_value": 1505.6155371898292,
+      "current_price": 352.8299865722656,
+      "peak_price": 352.8299865722656,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-09",
+      "entry_date": "2026-10-09T19:38:51.306934",
+      "sps_score": 54.04010525806346,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1345,6 +1361,10 @@
     {
       "date": "2026-10-08",
       "equity": 9010.727025405726
+    },
+    {
+      "date": "2026-10-09",
+      "equity": 9153.251103222141
     }
   ]
 }
