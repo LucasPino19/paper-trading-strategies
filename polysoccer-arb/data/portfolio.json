@@ -12,8 +12,8 @@
       "current_price": 0.03049999999999997,
       "peak_price": 0.03049999999999997,
       "entry_date": "2026-09-30T02:01:43.174887",
-      "trading_days_held": 8,
-      "last_update_date": "2026-10-08"
+      "trading_days_held": 9,
+      "last_update_date": "2026-10-09"
     },
     "0x8f72baed1e5ec5392569d9b5414ceda10761f5f1c8748650000e4780d74772b8": {
       "ticker": "[NO] Porto 2: Otto Virtanen vs Tiago Pereir",
@@ -25,8 +25,8 @@
       "current_price": 0.255,
       "peak_price": 0.255,
       "entry_date": "2026-09-30T02:01:43.174887",
-      "trading_days_held": 8,
-      "last_update_date": "2026-10-08"
+      "trading_days_held": 9,
+      "last_update_date": "2026-10-09"
     },
     "0xd961e85c58d27699749eaa069e629519e2f4af701a7c2a02a486dca77e101fdc": {
       "ticker": "[YES] Will Manchester City win the 2026-27 U",
@@ -38,8 +38,8 @@
       "current_price": 0.055,
       "peak_price": 0.055,
       "entry_date": "2026-10-07T02:16:46.263315",
-      "trading_days_held": 1,
-      "last_update_date": "2026-10-08"
+      "trading_days_held": 2,
+      "last_update_date": "2026-10-09"
     }
   },
   "closed_trades": [
@@ -674,6 +674,10 @@
     },
     {
       "date": "2026-10-08",
+      "equity": 11697.229396203697
+    },
+    {
+      "date": "2026-10-09",
       "equity": 11697.229396203697
     }
   ]
