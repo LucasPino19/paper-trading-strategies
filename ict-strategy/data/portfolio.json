@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5785.478224897348,
+  "cash": 4049.8347574281433,
   "open_positions": {
     "XOM": {
       "ticker": "XOM",
       "entry_price": 163.82000732421875,
       "shares": 10.460859572470506,
       "entry_value": 1713.698091779742,
-      "current_price": 168.5,
-      "peak_price": 168.5,
+      "current_price": 168.94000244140625,
+      "peak_price": 168.94000244140625,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-08",
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-09",
       "entry_date": "2026-10-01T22:50:00.073405",
       "sps_score": 23.311206676286087,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 147.5800018310547,
       "shares": 11.624726540323486,
       "entry_value": 1715.5771641064503,
-      "current_price": 147.5800018310547,
-      "peak_price": 147.5800018310547,
+      "current_price": 148.1999969482422,
+      "peak_price": 148.1999969482422,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-10-08",
+      "trading_days_held": 2,
+      "last_update_date": "2026-10-09",
       "entry_date": "2026-10-08T23:30:19.918754",
       "sps_score": 6.911066452808583,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "entry_price": 336.6400146484375,
+      "shares": 5.155784790711184,
+      "entry_value": 1735.6434674692043,
+      "current_price": 336.6400146484375,
+      "peak_price": 336.6400146484375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-09",
+      "entry_date": "2026-10-09T22:48:11.205904",
+      "sps_score": 5.317436113708913,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1275,6 +1291,10 @@
     {
       "date": "2026-10-08",
       "equity": 9263.710226965079
+    },
+    {
+      "date": "2026-10-09",
+      "equity": 9275.520304409813
     }
   ]
 }
