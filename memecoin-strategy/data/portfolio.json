@@ -8,11 +8,11 @@
       "entry_price": 0.052857,
       "shares": 58861.28564086399,
       "entry_value": 3829.099994644811,
-      "current_price": 0.075525,
-      "peak_price": 0.076315,
+      "current_price": 0.076693,
+      "peak_price": 0.076693,
       "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 11,
-      "last_update_date": "2026-10-09",
+      "trading_days_held": 12,
+      "last_update_date": "2026-10-10",
       "momentum_7d": 60.0925
     },
     "boner-coin": {
@@ -24,8 +24,8 @@
       "current_price": 0.056749,
       "peak_price": 0.066455,
       "entry_date": "2026-10-05T00:53:18.236368",
-      "trading_days_held": 4,
-      "last_update_date": "2026-10-09",
+      "trading_days_held": 5,
+      "last_update_date": "2026-10-10",
       "momentum_7d": 60.0965
     },
     "pump-fun": {
@@ -34,11 +34,11 @@
       "entry_price": 0.00644864,
       "shares": 605239.8844212748,
       "entry_value": 3902.9741282744094,
-      "current_price": 0.00553837,
+      "current_price": 0.00546135,
       "peak_price": 0.00644864,
       "entry_date": "2026-10-05T00:53:18.236368",
-      "trading_days_held": 4,
-      "last_update_date": "2026-10-09",
+      "trading_days_held": 5,
+      "last_update_date": "2026-10-10",
       "momentum_7d": 28.199
     },
     "purr-2": {
@@ -47,11 +47,11 @@
       "entry_price": 0.170908,
       "shares": 22836.696516689735,
       "entry_value": 3902.9741282744094,
-      "current_price": 0.115431,
+      "current_price": 0.114718,
       "peak_price": 0.170908,
       "entry_date": "2026-10-05T00:53:18.236368",
-      "trading_days_held": 4,
-      "last_update_date": "2026-10-09",
+      "trading_days_held": 5,
+      "last_update_date": "2026-10-10",
       "momentum_7d": 10.2601
     },
     "bonk": {
@@ -60,11 +60,11 @@
       "entry_price": 3.96e-06,
       "shares": 985599527.3420223,
       "entry_value": 3902.9741282744085,
-      "current_price": 3.28e-06,
+      "current_price": 3.41e-06,
       "peak_price": 3.96e-06,
       "entry_date": "2026-10-05T00:53:18.236368",
-      "trading_days_held": 4,
-      "last_update_date": "2026-10-09",
+      "trading_days_held": 5,
+      "last_update_date": "2026-10-10",
       "momentum_7d": 6.2671
     }
   },
@@ -1302,6 +1302,10 @@
     {
       "date": "2026-10-09",
       "equity": 16999.300417587987
+    },
+    {
+      "date": "2026-10-10",
+      "equity": 17133.280197256452
     }
   ],
   "last_rebalance": "2026-40"
