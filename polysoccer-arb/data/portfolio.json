@@ -1,33 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4762.818068050652,
+  "cash": 9357.783516962958,
   "open_positions": {
-    "0xbce9de4866ae9e1e778ab2632ad33ae1fe14967f3142b6e808798e85721a39cd": {
-      "ticker": "[NO] Porto 2: Hugo Grenier vs Carl Overbeck",
-      "direction": "NO",
-      "condition_id": "0xbce9de4866ae9e1e778ab2632ad33ae1fe14967f3142b6e808798e85721a39cd",
-      "entry_price": 0.03049999999999997,
-      "shares": 75327.3024411854,
-      "entry_value": 2297.4827244561525,
-      "current_price": 0.03049999999999997,
-      "peak_price": 0.03049999999999997,
-      "entry_date": "2026-09-30T02:01:43.174887",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-09"
-    },
-    "0x8f72baed1e5ec5392569d9b5414ceda10761f5f1c8748650000e4780d74772b8": {
-      "ticker": "[NO] Porto 2: Otto Virtanen vs Tiago Pereir",
-      "direction": "NO",
-      "condition_id": "0x8f72baed1e5ec5392569d9b5414ceda10761f5f1c8748650000e4780d74772b8",
-      "entry_price": 0.255,
-      "shares": 9009.736174337853,
-      "entry_value": 2297.4827244561525,
-      "current_price": 0.255,
-      "peak_price": 0.255,
-      "entry_date": "2026-09-30T02:01:43.174887",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-09"
-    },
     "0xd961e85c58d27699749eaa069e629519e2f4af701a7c2a02a486dca77e101fdc": {
       "ticker": "[YES] Will Manchester City win the 2026-27 U",
       "direction": "YES",
@@ -38,8 +12,8 @@
       "current_price": 0.055,
       "peak_price": 0.055,
       "entry_date": "2026-10-07T02:16:46.263315",
-      "trading_days_held": 2,
-      "last_update_date": "2026-10-09"
+      "trading_days_held": 3,
+      "last_update_date": "2026-10-10"
     }
   },
   "closed_trades": [
@@ -339,6 +313,32 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-09-28T01:34:09.399312",
       "exit_date": "2026-10-08T02:39:18.592712",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[NO] Porto 2: Hugo Grenier vs Carl Overbeck",
+      "entry_price": 0.03049999999999997,
+      "exit_price": 0.03049999999999997,
+      "shares": 75327.3024411854,
+      "entry_value": 2297.4827244561525,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-09-30T02:01:43.174887",
+      "exit_date": "2026-10-10T02:15:57.795108",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[NO] Porto 2: Otto Virtanen vs Tiago Pereir",
+      "entry_price": 0.255,
+      "exit_price": 0.255,
+      "shares": 9009.736174337853,
+      "entry_value": 2297.4827244561525,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-09-30T02:01:43.174887",
+      "exit_date": "2026-10-10T02:15:57.795122",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -678,6 +678,10 @@
     },
     {
       "date": "2026-10-09",
+      "equity": 11697.229396203697
+    },
+    {
+      "date": "2026-10-10",
       "equity": 11697.229396203697
     }
   ]
