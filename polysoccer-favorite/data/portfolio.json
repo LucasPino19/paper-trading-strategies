@@ -12,8 +12,8 @@
       "current_price": 0.725,
       "peak_price": 0.725,
       "entry_date": "2026-10-03T01:30:21.149107",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-09"
+      "trading_days_held": 7,
+      "last_update_date": "2026-10-10"
     },
     "0x3d9a0dc31e65e139d812dc5b0fa6f01669f4671f458902acd3669df3add280e5": {
       "ticker": "[YES] Dallas Wings vs. Golden State Valkyrie",
@@ -25,8 +25,8 @@
       "current_price": 0.695,
       "peak_price": 0.695,
       "entry_date": "2026-10-03T01:30:21.149107",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-09"
+      "trading_days_held": 7,
+      "last_update_date": "2026-10-10"
     },
     "0xdd2bd57c2edca3502344ba23d1eeaada13ab3f07c812ef1201c1532877be77ec": {
       "ticker": "[YES] Dallas Wings vs. Golden State Valkyrie",
@@ -38,8 +38,8 @@
       "current_price": 0.635,
       "peak_price": 0.635,
       "entry_date": "2026-10-03T01:30:21.149107",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-09"
+      "trading_days_held": 7,
+      "last_update_date": "2026-10-10"
     },
     "0xea33be22543767de5acf367da99381ae355b1b91b7e4f4a9a5cf133883161b37": {
       "ticker": "[YES] Washington vs. USC",
@@ -51,8 +51,8 @@
       "current_price": 0.615,
       "peak_price": 0.615,
       "entry_date": "2026-10-04T02:11:34.960812",
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-09"
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-10"
     },
     "0xd3f380a89143c863067dcfb220c314403c063787a73214097418ced69dc585bd": {
       "ticker": "[YES] Army vs. Louisiana Tech",
@@ -64,8 +64,8 @@
       "current_price": 0.785,
       "peak_price": 0.785,
       "entry_date": "2026-10-04T02:11:34.960812",
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-09"
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-10"
     }
   },
   "closed_trades": [
@@ -1357,6 +1357,10 @@
     },
     {
       "date": "2026-10-09",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-10-10",
       "equity": 9809.190731134111
     }
   ]
