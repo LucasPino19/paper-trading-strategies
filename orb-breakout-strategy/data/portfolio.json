@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4365.6420235802325,
+  "cash": 6087.093686455717,
   "open_positions": {
     "AAPL": {
       "ticker": "AAPL",
       "entry_price": 330.07000732421875,
       "shares": 5.7001035418400035,
       "entry_value": 1881.4332178039351,
-      "current_price": 336.6966857910156,
-      "peak_price": 340.4200134277344,
+      "current_price": 340.9700012207031,
+      "peak_price": 340.9700012207031,
       "volume_spiked": false,
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-09",
+      "trading_days_held": 10,
+      "last_update_date": "2026-10-12",
       "entry_date": "2026-09-29T19:34:51.857440",
       "sps_score": 11.976228271826212,
       "short_float_pct": 0,
@@ -23,29 +23,13 @@
       "entry_price": 198.13999938964844,
       "shares": 9.054535443882287,
       "entry_value": 1794.0656473243864,
-      "current_price": 198.64999389648438,
+      "current_price": 196.36000061035156,
       "peak_price": 202.11500549316406,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-10-09",
+      "trading_days_held": 8,
+      "last_update_date": "2026-10-12",
       "entry_date": "2026-10-01T19:44:29.631317",
       "sps_score": 2.166694875899668,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "AMD": {
-      "ticker": "AMD",
-      "entry_price": 645.8599853515625,
-      "shares": 2.896896356969386,
-      "entry_value": 1870.9894386772423,
-      "current_price": 607.1806030273438,
-      "peak_price": 645.8599853515625,
-      "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-10-09",
-      "entry_date": "2026-10-07T20:05:49.979296",
-      "sps_score": 8.245621190881515,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -645,6 +629,28 @@
       "pnl": 98.58320713920284,
       "pnl_pct": 0.050506406952365315,
       "exit_reason": "Stop de tiempo: 12d \u2014 +5.1%"
+    },
+    {
+      "ticker": "AMD",
+      "entry_price": 645.8599853515625,
+      "shares": 2.896896356969386,
+      "entry_value": 1870.9894386772423,
+      "current_price": 594.239990234375,
+      "peak_price": 645.8599853515625,
+      "volume_spiked": false,
+      "trading_days_held": 4,
+      "last_update_date": "2026-10-12",
+      "entry_date": "2026-10-07T20:05:49.979296",
+      "sps_score": 8.245621190881515,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 594.239990234375,
+      "exit_date": "2026-10-12T22:11:58.766663",
+      "proceeds": 1721.4516628754843,
+      "pnl": -149.53777580175802,
+      "pnl_pct": -0.07992443608205435,
+      "exit_reason": "Stop loss: -8.0%"
     }
   ],
   "equity_history": [
@@ -1035,6 +1041,10 @@
     {
       "date": "2026-10-09",
       "equity": 9842.470682378496
+    },
+    {
+      "date": "2026-10-12",
+      "equity": 9808.606583362212
     }
   ]
 }
