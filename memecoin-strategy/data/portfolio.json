@@ -6,66 +6,53 @@
       "ticker": "MUBARAK",
       "name": "Mubarak",
       "entry_price": 0.052857,
-      "shares": 58861.28564086399,
-      "entry_value": 3829.099994644811,
-      "current_price": 0.073865,
+      "shares": 60493.91544246408,
+      "entry_value": 3944.814264463019,
+      "current_price": 0.070876,
       "peak_price": 0.076693,
       "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 13,
-      "last_update_date": "2026-10-11",
+      "trading_days_held": 14,
+      "last_update_date": "2026-10-12",
       "momentum_7d": 60.0925
     },
-    "boner-coin": {
-      "ticker": "BONER",
-      "name": "Boner Coin",
-      "entry_price": 0.066455,
-      "shares": 58731.08311299991,
-      "entry_value": 3902.9741282744094,
-      "current_price": 0.056749,
-      "peak_price": 0.066455,
-      "entry_date": "2026-10-05T00:53:18.236368",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-11",
-      "momentum_7d": 60.0965
+    "bianrensheng": {
+      "ticker": "\u5e01\u5b89\u4eba\u751f",
+      "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+      "entry_price": 0.617334,
+      "shares": 6945.295011938568,
+      "entry_value": 4287.566750900084,
+      "current_price": 0.617334,
+      "peak_price": 0.617334,
+      "entry_date": "2026-10-12T01:18:00.714982",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-12",
+      "momentum_7d": 23.3431
     },
-    "pump-fun": {
-      "ticker": "PUMP",
-      "name": "Pump.fun",
-      "entry_price": 0.00644864,
-      "shares": 605239.8844212748,
-      "entry_value": 3902.9741282744094,
-      "current_price": 0.00544926,
-      "peak_price": 0.00644864,
-      "entry_date": "2026-10-05T00:53:18.236368",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-11",
-      "momentum_7d": 28.199
+    "book-of-meme": {
+      "ticker": "BOME",
+      "name": "BOOK OF MEME",
+      "entry_price": 0.00109047,
+      "shares": 3931852.092125491,
+      "entry_value": 4287.566750900084,
+      "current_price": 0.00109047,
+      "peak_price": 0.00109047,
+      "entry_date": "2026-10-12T01:18:00.714982",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-12",
+      "momentum_7d": 6.3669
     },
-    "purr-2": {
-      "ticker": "PURR",
-      "name": "Purr",
-      "entry_price": 0.170908,
-      "shares": 22836.696516689735,
-      "entry_value": 3902.9741282744094,
-      "current_price": 0.118317,
-      "peak_price": 0.170908,
-      "entry_date": "2026-10-05T00:53:18.236368",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-11",
-      "momentum_7d": 10.2601
-    },
-    "bonk": {
-      "ticker": "BONK",
-      "name": "Bonk",
-      "entry_price": 3.96e-06,
-      "shares": 985599527.3420223,
-      "entry_value": 3902.9741282744085,
-      "current_price": 3.38e-06,
-      "peak_price": 3.96e-06,
-      "entry_date": "2026-10-05T00:53:18.236368",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-11",
-      "momentum_7d": 6.2671
+    "non-playable-coin": {
+      "ticker": "NPC",
+      "name": "Non-Playable Coin",
+      "entry_price": 0.02184476,
+      "shares": 196274.38117425333,
+      "entry_value": 4287.566750900082,
+      "current_price": 0.02184476,
+      "peak_price": 0.02184476,
+      "entry_date": "2026-10-12T01:18:00.714982",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-12",
+      "momentum_7d": 0.9106
     }
   },
   "closed_trades": [
@@ -796,6 +783,58 @@
       "exit_date": "2026-10-05T00:53:18.236368",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 7
+    },
+    {
+      "ticker": "pump-fun",
+      "entry_price": 0.00644864,
+      "exit_price": 0.00559147,
+      "shares": 605239.8844212748,
+      "entry_value": 3902.9741282744094,
+      "pnl": -518.7934717293841,
+      "pnl_pct": -0.13292260073441842,
+      "entry_date": "2026-10-05T00:53:18.236368",
+      "exit_date": "2026-10-12T01:18:00.714982",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "purr-2",
+      "entry_price": 0.170908,
+      "exit_price": 0.124417,
+      "shares": 22836.696516689735,
+      "entry_value": 3902.9741282744094,
+      "pnl": -1061.7008577574227,
+      "pnl_pct": -0.2720235448311372,
+      "entry_date": "2026-10-05T00:53:18.236368",
+      "exit_date": "2026-10-12T01:18:00.714982",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "boner-coin",
+      "entry_price": 0.066455,
+      "exit_price": 0.056749,
+      "shares": 58731.08311299991,
+      "entry_value": 3902.9741282744094,
+      "pnl": -570.0438926947771,
+      "pnl_pct": -0.14605372056278684,
+      "entry_date": "2026-10-05T00:53:18.236368",
+      "exit_date": "2026-10-12T01:18:00.714982",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "bonk",
+      "entry_price": 3.96e-06,
+      "exit_price": 3.47e-06,
+      "shares": 985599527.3420223,
+      "entry_value": 3902.9741282744085,
+      "pnl": -482.9437683975913,
+      "pnl_pct": -0.12373737373737383,
+      "entry_date": "2026-10-05T00:53:18.236368",
+      "exit_date": "2026-10-12T01:18:00.714982",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
     }
   ],
   "equity_history": [
@@ -1310,7 +1349,11 @@
     {
       "date": "2026-10-11",
       "equity": 17012.12441620474
+    },
+    {
+      "date": "2026-10-12",
+      "equity": 17150.26700360034
     }
   ],
-  "last_rebalance": "2026-40"
+  "last_rebalance": "2026-41"
 }
