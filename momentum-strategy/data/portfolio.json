@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5274.382481189761,
+  "cash": 3692.067736832833,
   "open_positions": {
     "PLTR": {
       "ticker": "PLTR",
       "entry_price": 190.9600067138672,
       "shares": 11.525662729986056,
       "entry_value": 2200.940632299906,
-      "current_price": 209.0,
+      "current_price": 208.6699981689453,
       "peak_price": 209.0,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-10-12",
+      "trading_days_held": 9,
+      "last_update_date": "2026-10-13",
       "entry_date": "2026-10-01T19:44:07.373297",
       "sps_score": 175.76617415721407,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 352.8299865722656,
       "shares": 4.267255036389752,
       "entry_value": 1505.6155371898292,
-      "current_price": 352.7200012207031,
-      "peak_price": 352.8299865722656,
+      "current_price": 353.7799987792969,
+      "peak_price": 353.7799987792969,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-10-12",
+      "trading_days_held": 3,
+      "last_update_date": "2026-10-13",
       "entry_date": "2026-10-09T19:38:51.306934",
       "sps_score": 54.04010525806346,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "COIN": {
+      "ticker": "COIN",
+      "entry_price": 181.7899932861328,
+      "shares": 8.704080547857247,
+      "entry_value": 1582.3147443569283,
+      "current_price": 181.7899932861328,
+      "peak_price": 181.7899932861328,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-13",
+      "entry_date": "2026-10-13T20:18:39.640848",
+      "sps_score": 77.57905868501669,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1375,6 +1391,10 @@
     {
       "date": "2026-10-12",
       "equity": 9188.39219340129
+    },
+    {
+      "date": "2026-10-13",
+      "equity": 9189.111983516746
     }
   ]
 }
