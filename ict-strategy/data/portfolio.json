@@ -1,14 +1,14 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5850.671668980921,
+  "cash": 4095.4701682866444,
   "open_positions": {
     "USO": {
       "ticker": "USO",
       "entry_price": 147.5800018310547,
       "shares": 11.624726540323486,
       "entry_value": 1715.5771641064503,
-      "current_price": 151.02999877929688,
-      "peak_price": 151.02999877929688,
+      "current_price": 153.08999633789062,
+      "peak_price": 153.08999633789062,
       "volume_spiked": false,
       "trading_days_held": 3,
       "last_update_date": "2026-10-13",
@@ -23,13 +23,29 @@
       "entry_price": 336.6400146484375,
       "shares": 5.155784790711184,
       "entry_value": 1735.6434674692043,
-      "current_price": 340.9700012207031,
-      "peak_price": 340.9700012207031,
+      "current_price": 341.2699890136719,
+      "peak_price": 341.2699890136719,
       "volume_spiked": false,
       "trading_days_held": 2,
       "last_update_date": "2026-10-13",
       "entry_date": "2026-10-09T22:48:11.205904",
       "sps_score": 5.317436113708913,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "GS": {
+      "ticker": "GS",
+      "entry_price": 891.9099731445312,
+      "shares": 1.9679133023999176,
+      "entry_value": 1755.2015006942763,
+      "current_price": 891.9099731445312,
+      "peak_price": 891.9099731445312,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-13",
+      "entry_date": "2026-10-13T23:00:20.491031",
+      "sps_score": 5.122006012191845,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1304,7 +1320,7 @@
     },
     {
       "date": "2026-10-13",
-      "equity": 9364.322050558112
+      "equity": 9389.815631350884
     }
   ]
 }
