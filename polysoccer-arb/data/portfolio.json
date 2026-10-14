@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9357.783516962958,
+  "cash": 7018.3376377222185,
   "open_positions": {
     "0xd961e85c58d27699749eaa069e629519e2f4af701a7c2a02a486dca77e101fdc": {
       "ticker": "[YES] Will Manchester City win the 2026-27 U",
@@ -12,8 +12,21 @@
       "current_price": 0.055,
       "peak_price": 0.055,
       "entry_date": "2026-10-07T02:16:46.263315",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-13"
+      "trading_days_held": 7,
+      "last_update_date": "2026-10-14"
+    },
+    "0xabb68414dc31c89f672d88bf8e82e7f7117032958a86d5330382b74a1d812d90": {
+      "ticker": "[YES] Will Manchester United win the 2026-27",
+      "direction": "YES",
+      "condition_id": "0xabb68414dc31c89f672d88bf8e82e7f7117032958a86d5330382b74a1d812d90",
+      "entry_price": 0.0165,
+      "shares": 141784.59874186298,
+      "entry_value": 2339.4458792407395,
+      "current_price": 0.0165,
+      "peak_price": 0.0165,
+      "entry_date": "2026-10-14T01:48:59.331070",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-14"
     }
   },
   "closed_trades": [
@@ -694,6 +707,10 @@
     },
     {
       "date": "2026-10-13",
+      "equity": 11697.229396203697
+    },
+    {
+      "date": "2026-10-14",
       "equity": 11697.229396203697
     }
   ]
