@@ -1,49 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4635.088457494563,
+  "cash": 8163.339304270378,
   "open_positions": {
-    "SMCI": {
-      "ticker": "SMCI",
-      "entry_price": 41.027400970458984,
-      "shares": 46.3428764674615,
-      "entry_value": 1901.3277749549907,
-      "current_price": 39.06999969482422,
-      "peak_price": 44.939998626708984,
-      "volume_spiked": false,
-      "trading_days_held": 17,
-      "last_update_date": "2026-10-13",
-      "entry_date": "2026-09-21T19:39:52.489262",
-      "sps_score": 147.70495972755668,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "GS": {
-      "ticker": "GS",
-      "entry_price": 950.27001953125,
-      "shares": 2.1514301002902605,
-      "entry_value": 2044.4395234229448,
-      "current_price": 891.9099731445312,
-      "peak_price": 950.27001953125,
-      "volume_spiked": false,
-      "trading_days_held": 16,
-      "last_update_date": "2026-10-13",
-      "entry_date": "2026-09-22T18:13:33.051727",
-      "sps_score": 36.640686658758405,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "MSFT": {
       "ticker": "MSFT",
       "entry_price": 541.1500244140625,
       "shares": 3.6708239714749293,
       "entry_value": 1986.4664817833839,
-      "current_price": 543.4500122070312,
+      "current_price": 534.1199951171875,
       "peak_price": 543.4500122070312,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-10-13",
+      "trading_days_held": 3,
+      "last_update_date": "2026-10-14",
       "entry_date": "2026-10-12T22:12:17.149893",
       "sps_score": 117.4821784418194,
       "short_float_pct": 0,
@@ -535,6 +503,50 @@
       "pnl": -201.2491596585753,
       "pnl_pct": -0.0983218222988132,
       "exit_reason": "Stop loss: -9.8%"
+    },
+    {
+      "ticker": "SMCI",
+      "entry_price": 41.027400970458984,
+      "shares": 46.3428764674615,
+      "entry_value": 1901.3277749549907,
+      "current_price": 35.83000183105469,
+      "peak_price": 44.939998626708984,
+      "volume_spiked": false,
+      "trading_days_held": 18,
+      "last_update_date": "2026-10-14",
+      "entry_date": "2026-09-21T19:39:52.489262",
+      "sps_score": 147.70495972755668,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 35.83000183105469,
+      "exit_date": "2026-10-14T18:48:33.076960",
+      "proceeds": 1660.4653486854868,
+      "pnl": -240.86242626950389,
+      "pnl_pct": -0.12668116957119913,
+      "exit_reason": "Stop loss: -12.7%"
+    },
+    {
+      "ticker": "GS",
+      "entry_price": 950.27001953125,
+      "shares": 2.1514301002902605,
+      "entry_value": 2044.4395234229448,
+      "current_price": 868.1599731445312,
+      "peak_price": 950.27001953125,
+      "volume_spiked": false,
+      "trading_days_held": 17,
+      "last_update_date": "2026-10-14",
+      "entry_date": "2026-09-22T18:13:33.051727",
+      "sps_score": 36.640686658758405,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 868.1599731445312,
+      "exit_date": "2026-10-14T18:48:33.078760",
+      "proceeds": 1867.7854980903287,
+      "pnl": -176.65402533261613,
+      "pnl_pct": -0.08640706820070153,
+      "exit_reason": "Stop loss: -8.6%"
     }
   ],
   "equity_history": [
@@ -933,6 +945,10 @@
     {
       "date": "2026-10-13",
       "equity": 10359.495922015696
+    },
+    {
+      "date": "2026-10-14",
+      "equity": 10123.999785990622
     }
   ]
 }
