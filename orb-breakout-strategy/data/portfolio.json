@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4260.965580519002,
+  "cash": 6216.4430876663655,
   "open_positions": {
-    "AAPL": {
-      "ticker": "AAPL",
-      "entry_price": 330.07000732421875,
-      "shares": 5.7001035418400035,
-      "entry_value": 1881.4332178039351,
-      "current_price": 341.2699890136719,
-      "peak_price": 341.2699890136719,
-      "volume_spiked": false,
-      "trading_days_held": 11,
-      "last_update_date": "2026-10-13",
-      "entry_date": "2026-09-29T19:34:51.857440",
-      "sps_score": 11.976228271826212,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "XLK": {
       "ticker": "XLK",
       "entry_price": 198.13999938964844,
       "shares": 9.054535443882287,
       "entry_value": 1794.0656473243864,
-      "current_price": 196.24000549316406,
+      "current_price": 190.35000610351562,
       "peak_price": 202.11500549316406,
       "volume_spiked": false,
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-13",
+      "trading_days_held": 10,
+      "last_update_date": "2026-10-14",
       "entry_date": "2026-10-01T19:44:29.631317",
       "sps_score": 2.166694875899668,
       "short_float_pct": 0,
@@ -39,11 +23,11 @@
       "entry_price": 396.05999755859375,
       "shares": 4.6107360430071065,
       "entry_value": 1826.128105936715,
-      "current_price": 396.05999755859375,
+      "current_price": 391.42498779296875,
       "peak_price": 396.05999755859375,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-10-13",
+      "trading_days_held": 2,
+      "last_update_date": "2026-10-14",
       "entry_date": "2026-10-13T20:18:47.130420",
       "sps_score": 10.537323757986565,
       "short_float_pct": 0,
@@ -667,6 +651,28 @@
       "pnl": -149.53777580175802,
       "pnl_pct": -0.07992443608205435,
       "exit_reason": "Stop loss: -8.0%"
+    },
+    {
+      "ticker": "AAPL",
+      "entry_price": 330.07000732421875,
+      "shares": 5.7001035418400035,
+      "entry_value": 1881.4332178039351,
+      "current_price": 343.05999755859375,
+      "peak_price": 343.05999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 12,
+      "last_update_date": "2026-10-14",
+      "entry_date": "2026-09-29T19:34:51.857440",
+      "sps_score": 11.976228271826212,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 343.05999755859375,
+      "exit_date": "2026-10-14T18:48:33.272320",
+      "proceeds": 1955.4775071473632,
+      "pnl": 74.04428934342809,
+      "pnl_pct": 0.03935525781236859,
+      "exit_reason": "Stop de tiempo: 12d \u2014 +3.9%"
     }
   ],
   "equity_history": [
@@ -1065,6 +1071,10 @@
     {
       "date": "2026-10-13",
       "equity": 9809.230044801756
+    },
+    {
+      "date": "2026-10-14",
+      "equity": 9744.731264024515
     }
   ]
 }
