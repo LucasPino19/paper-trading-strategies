@@ -2,32 +2,6 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "0xea33be22543767de5acf367da99381ae355b1b91b7e4f4a9a5cf133883161b37": {
-      "ticker": "[YES] Washington vs. USC",
-      "direction": "YES",
-      "condition_id": "0xea33be22543767de5acf367da99381ae355b1b91b7e4f4a9a5cf133883161b37",
-      "entry_price": 0.615,
-      "shares": 3189.980725572069,
-      "entry_value": 1961.8381462268223,
-      "current_price": 0.615,
-      "peak_price": 0.615,
-      "entry_date": "2026-10-04T02:11:34.960812",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-13"
-    },
-    "0xd3f380a89143c863067dcfb220c314403c063787a73214097418ced69dc585bd": {
-      "ticker": "[YES] Army vs. Louisiana Tech",
-      "direction": "YES",
-      "condition_id": "0xd3f380a89143c863067dcfb220c314403c063787a73214097418ced69dc585bd",
-      "entry_price": 0.785,
-      "shares": 2499.156874174296,
-      "entry_value": 1961.8381462268223,
-      "current_price": 0.785,
-      "peak_price": 0.785,
-      "entry_date": "2026-10-04T02:11:34.960812",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-13"
-    },
     "0x587a72a6a00a6e395178fcab9bf4398f5f15bb9b87c25c0dc3e1aef342c4f125": {
       "ticker": "[YES] Bills vs. Rams",
       "direction": "YES",
@@ -38,8 +12,8 @@
       "current_price": 0.605,
       "peak_price": 0.605,
       "entry_date": "2026-10-13T03:14:38.199263",
-      "trading_days_held": 0,
-      "last_update_date": "2026-10-13"
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-14"
     },
     "0x028cd92dfbc0e7307fca7cefc35a09232e701a4a6b9dcb38988d767a38199255": {
       "ticker": "[YES] Counter-Strike: Team Falcons vs NIP (B",
@@ -51,8 +25,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-10-13T03:14:38.199263",
-      "trading_days_held": 0,
-      "last_update_date": "2026-10-13"
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-14"
     },
     "0xa01c50482d7787ab543d82d4cdc470bb2077e2d9b54e8f7499d50d98a82009e9": {
       "ticker": "[YES] Shanghai Rolex Masters: Arthur Gea vs ",
@@ -64,8 +38,34 @@
       "current_price": 0.615,
       "peak_price": 0.615,
       "entry_date": "2026-10-13T03:14:38.199263",
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-14"
+    },
+    "0x6727bdd4fa6695739a54b585465ba7511ff4ecf9608f81f9eb963bdad2783daa": {
+      "ticker": "[YES] Avalanche vs. Stars",
+      "direction": "YES",
+      "condition_id": "0x6727bdd4fa6695739a54b585465ba7511ff4ecf9608f81f9eb963bdad2783daa",
+      "entry_price": 0.655,
+      "shares": 2995.1727423310263,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.655,
+      "peak_price": 0.655,
+      "entry_date": "2026-10-14T01:27:02.615180",
       "trading_days_held": 0,
-      "last_update_date": "2026-10-13"
+      "last_update_date": "2026-10-14"
+    },
+    "0x7e6caffbe31c54aca9223ca91302fc6a591b257fdfa6b4f0b54c36d25a89c52f": {
+      "ticker": "[YES] Florida International vs. Jacksonville",
+      "direction": "YES",
+      "condition_id": "0x7e6caffbe31c54aca9223ca91302fc6a591b257fdfa6b4f0b54c36d25a89c52f",
+      "entry_price": 0.605,
+      "shares": 3242.707679713756,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.605,
+      "peak_price": 0.605,
+      "entry_date": "2026-10-14T01:27:02.615180",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-14"
     }
   },
   "closed_trades": [
@@ -887,6 +887,32 @@
       "exit_date": "2026-10-13T03:14:38.199252",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Washington vs. USC",
+      "entry_price": 0.615,
+      "exit_price": 0.615,
+      "shares": 3189.980725572069,
+      "entry_value": 1961.8381462268223,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-10-04T02:11:34.960812",
+      "exit_date": "2026-10-14T01:27:02.615156",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Army vs. Louisiana Tech",
+      "entry_price": 0.785,
+      "exit_price": 0.785,
+      "shares": 2499.156874174296,
+      "entry_value": 1961.8381462268223,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-10-04T02:11:34.960812",
+      "exit_date": "2026-10-14T01:27:02.615165",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -1412,6 +1438,10 @@
     },
     {
       "date": "2026-10-13",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-10-14",
       "equity": 9809.190731134111
     }
   ]
