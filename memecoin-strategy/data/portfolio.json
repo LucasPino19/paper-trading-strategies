@@ -8,11 +8,11 @@
       "entry_price": 0.052857,
       "shares": 60493.91544246408,
       "entry_value": 3944.814264463019,
-      "current_price": 0.072025,
+      "current_price": 0.066554,
       "peak_price": 0.076693,
       "entry_date": "2026-09-28T00:41:20.598554",
-      "trading_days_held": 15,
-      "last_update_date": "2026-10-13",
+      "trading_days_held": 16,
+      "last_update_date": "2026-10-14",
       "momentum_7d": 60.0925
     },
     "bianrensheng": {
@@ -21,11 +21,11 @@
       "entry_price": 0.617334,
       "shares": 6945.295011938568,
       "entry_value": 4287.566750900084,
-      "current_price": 0.545701,
+      "current_price": 0.521426,
       "peak_price": 0.617334,
       "entry_date": "2026-10-12T01:18:00.714982",
-      "trading_days_held": 1,
-      "last_update_date": "2026-10-13",
+      "trading_days_held": 2,
+      "last_update_date": "2026-10-14",
       "momentum_7d": 23.3431
     },
     "book-of-meme": {
@@ -34,11 +34,11 @@
       "entry_price": 0.00109047,
       "shares": 3931852.092125491,
       "entry_value": 4287.566750900084,
-      "current_price": 0.00077364,
+      "current_price": 0.00080107,
       "peak_price": 0.00109047,
       "entry_date": "2026-10-12T01:18:00.714982",
-      "trading_days_held": 1,
-      "last_update_date": "2026-10-13",
+      "trading_days_held": 2,
+      "last_update_date": "2026-10-14",
       "momentum_7d": 6.3669
     },
     "non-playable-coin": {
@@ -47,11 +47,11 @@
       "entry_price": 0.02184476,
       "shares": 196274.38117425333,
       "entry_value": 4287.566750900082,
-      "current_price": 0.0205063,
+      "current_price": 0.01956186,
       "peak_price": 0.02184476,
       "entry_date": "2026-10-12T01:18:00.714982",
-      "trading_days_held": 1,
-      "last_update_date": "2026-10-13",
+      "trading_days_held": 2,
+      "last_update_date": "2026-10-14",
       "momentum_7d": 0.9106
     }
   },
@@ -1357,6 +1357,10 @@
     {
       "date": "2026-10-13",
       "equity": 15213.82808827892
+    },
+    {
+      "date": "2026-10-14",
+      "equity": 14636.75016680918
     }
   ],
   "last_rebalance": "2026-41"
