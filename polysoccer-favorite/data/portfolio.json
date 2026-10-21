@@ -12,8 +12,8 @@
       "current_price": 0.605,
       "peak_price": 0.605,
       "entry_date": "2026-10-13T03:14:38.199263",
-      "trading_days_held": 7,
-      "last_update_date": "2026-10-20"
+      "trading_days_held": 8,
+      "last_update_date": "2026-10-21"
     },
     "0x028cd92dfbc0e7307fca7cefc35a09232e701a4a6b9dcb38988d767a38199255": {
       "ticker": "[YES] Counter-Strike: Team Falcons vs NIP (B",
@@ -25,8 +25,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-10-13T03:14:38.199263",
-      "trading_days_held": 7,
-      "last_update_date": "2026-10-20"
+      "trading_days_held": 8,
+      "last_update_date": "2026-10-21"
     },
     "0xa01c50482d7787ab543d82d4cdc470bb2077e2d9b54e8f7499d50d98a82009e9": {
       "ticker": "[YES] Shanghai Rolex Masters: Arthur Gea vs ",
@@ -38,8 +38,8 @@
       "current_price": 0.615,
       "peak_price": 0.615,
       "entry_date": "2026-10-13T03:14:38.199263",
-      "trading_days_held": 7,
-      "last_update_date": "2026-10-20"
+      "trading_days_held": 8,
+      "last_update_date": "2026-10-21"
     },
     "0x6727bdd4fa6695739a54b585465ba7511ff4ecf9608f81f9eb963bdad2783daa": {
       "ticker": "[YES] Avalanche vs. Stars",
@@ -51,8 +51,8 @@
       "current_price": 0.655,
       "peak_price": 0.655,
       "entry_date": "2026-10-14T01:27:02.615180",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-20"
+      "trading_days_held": 7,
+      "last_update_date": "2026-10-21"
     },
     "0x7e6caffbe31c54aca9223ca91302fc6a591b257fdfa6b4f0b54c36d25a89c52f": {
       "ticker": "[YES] Florida International vs. Jacksonville",
@@ -64,8 +64,8 @@
       "current_price": 0.605,
       "peak_price": 0.605,
       "entry_date": "2026-10-14T01:27:02.615180",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-20"
+      "trading_days_held": 7,
+      "last_update_date": "2026-10-21"
     }
   },
   "closed_trades": [
@@ -1466,6 +1466,10 @@
     },
     {
       "date": "2026-10-20",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-10-21",
       "equity": 9809.190731134111
     }
   ]
