@@ -1,35 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5925.778626845216,
+  "cash": 5928.455504085196,
   "open_positions": {
-    "GS": {
-      "ticker": "GS",
-      "entry_price": 891.9099731445312,
-      "shares": 1.9679133023999176,
-      "entry_value": 1755.2015006942763,
-      "current_price": 884.8099975585938,
-      "peak_price": 891.9099731445312,
-      "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-20",
-      "entry_date": "2026-10-13T23:00:20.491031",
-      "sps_score": 5.122006012191845,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "TSLA": {
       "ticker": "TSLA",
       "entry_price": 373.7099914550781,
       "shares": 4.788345951065418,
       "entry_value": 1789.4527244566152,
-      "current_price": 373.7099914550781,
-      "peak_price": 373.7099914550781,
+      "current_price": 386.4700012207031,
+      "peak_price": 386.4700012207031,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-10-20",
+      "trading_days_held": 2,
+      "last_update_date": "2026-10-21",
       "entry_date": "2026-10-20T21:47:21.427461",
       "sps_score": 40.802163250624574,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "CVX": {
+      "ticker": "CVX",
+      "entry_price": 226.77999877929688,
+      "shares": 7.839022831037502,
+      "entry_value": 1777.733588053565,
+      "current_price": 226.77999877929688,
+      "peak_price": 226.77999877929688,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-21",
+      "entry_date": "2026-10-21T21:53:29.252782",
+      "sps_score": 18.60916850198959,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -959,6 +959,28 @@
       "pnl": 14.745468977242808,
       "pnl_pct": 0.008495678550125063,
       "exit_reason": "Stop de tiempo: 7d \u2014 +0.8%"
+    },
+    {
+      "ticker": "GS",
+      "entry_price": 891.9099731445312,
+      "shares": 1.9679133023999176,
+      "entry_value": 1755.2015006942763,
+      "current_price": 904.719970703125,
+      "peak_price": 904.719970703125,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-10-21",
+      "entry_date": "2026-10-13T23:00:20.491031",
+      "sps_score": 5.122006012191845,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 904.719970703125,
+      "exit_date": "2026-10-21T21:53:29.518168",
+      "proceeds": 1780.4104652935434,
+      "pnl": 25.20896459926712,
+      "pnl_pct": 0.014362433366935717,
+      "exit_reason": "Stop de tiempo: 7d \u2014 +1.4%"
     }
   ],
   "equity_history": [
@@ -1369,6 +1391,10 @@
     {
       "date": "2026-10-20",
       "equity": 9456.460715593827
+    },
+    {
+      "date": "2026-10-21",
+      "equity": 9556.741157692162
     }
   ]
 }
