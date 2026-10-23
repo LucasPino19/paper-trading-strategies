@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6814.973441908996,
+  "cash": 4770.4814093362975,
   "open_positions": {
     "TSLA": {
       "ticker": "TSLA",
       "entry_price": 364.8299865722656,
       "shares": 5.73045980821959,
       "entry_value": 2090.6435748856607,
-      "current_price": 377.67999267578125,
+      "current_price": 371.35198974609375,
       "peak_price": 387.0284118652344,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-10-22",
+      "trading_days_held": 8,
+      "last_update_date": "2026-10-23",
       "entry_date": "2026-10-14T18:06:29.388296",
       "sps_score": 24.82009832879198,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 263.2900085449219,
       "shares": 8.102153279601488,
       "entry_value": 2133.2160062185426,
-      "current_price": 250.08999633789062,
+      "current_price": 248.81500244140625,
       "peak_price": 264.010009765625,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-10-22",
+      "trading_days_held": 5,
+      "last_update_date": "2026-10-23",
       "entry_date": "2026-10-19T19:24:40.353534",
       "sps_score": 6.96999860087673,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "CVX": {
+      "ticker": "CVX",
+      "entry_price": 232.24000549316406,
+      "shares": 8.803358526586317,
+      "entry_value": 2044.492032572699,
+      "current_price": 232.24000549316406,
+      "peak_price": 232.24000549316406,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-23",
+      "entry_date": "2026-10-23T17:55:59.193374",
+      "sps_score": 2.500446613917495,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1165,6 +1181,10 @@
     {
       "date": "2026-10-22",
       "equity": 11005.520944330794
+    },
+    {
+      "date": "2026-10-23",
+      "equity": 10958.928381896052
     }
   ]
 }
