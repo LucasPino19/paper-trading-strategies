@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6917.779718555605,
+  "cash": 3389.712062092246,
   "open_positions": {
     "TSLA": {
       "ticker": "TSLA",
       "entry_price": 375.12060546875,
       "shares": 4.5350989943906255,
       "entry_value": 1701.2090806365306,
-      "current_price": 376.3450012207031,
+      "current_price": 372.04998779296875,
       "peak_price": 386.9100036621094,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-10-22",
+      "trading_days_held": 4,
+      "last_update_date": "2026-10-23",
       "entry_date": "2026-10-20T18:37:39.686907",
       "sps_score": 56.23006233169492,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "MSTR": {
+      "ticker": "MSTR",
+      "entry_price": 148.05999755859375,
+      "shares": 14.016844183354669,
+      "entry_value": 2075.3339155666813,
+      "current_price": 148.05999755859375,
+      "peak_price": 148.05999755859375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-23",
+      "entry_date": "2026-10-23T18:37:19.348795",
+      "sps_score": 75.03468822879044,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "PLTR": {
+      "ticker": "PLTR",
+      "entry_price": 195.9499969482422,
+      "shares": 7.413798231802978,
+      "entry_value": 1452.7337408966769,
+      "current_price": 195.9499969482422,
+      "peak_price": 195.9499969482422,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-23",
+      "entry_date": "2026-10-23T18:37:19.411016",
+      "sps_score": 54.393999686565884,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1501,6 +1533,10 @@
     {
       "date": "2026-10-22",
       "equity": 8624.541555135555
+    },
+    {
+      "date": "2026-10-23",
+      "equity": 8605.063244058541
     }
   ]
 }
