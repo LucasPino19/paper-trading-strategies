@@ -1,21 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9357.783516962958,
-  "open_positions": {
-    "0xabb68414dc31c89f672d88bf8e82e7f7117032958a86d5330382b74a1d812d90": {
-      "ticker": "[YES] Will Manchester United win the 2026-27",
-      "direction": "YES",
-      "condition_id": "0xabb68414dc31c89f672d88bf8e82e7f7117032958a86d5330382b74a1d812d90",
-      "entry_price": 0.0165,
-      "shares": 141784.59874186298,
-      "entry_value": 2339.4458792407395,
-      "current_price": 0.0165,
-      "peak_price": 0.0165,
-      "entry_date": "2026-10-14T01:48:59.331070",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-23"
-    }
-  },
+  "cash": 11697.229396203697,
+  "open_positions": {},
   "closed_trades": [
     {
       "ticker": "[YES] Will Manchester City win the 2026-27 E",
@@ -352,6 +338,19 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-10-07T02:16:46.263315",
       "exit_date": "2026-10-17T01:15:19.149767",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Manchester United win the 2026-27",
+      "entry_price": 0.0165,
+      "exit_price": 0.0165,
+      "shares": 141784.59874186298,
+      "entry_value": 2339.4458792407395,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-10-14T01:48:59.331070",
+      "exit_date": "2026-10-24T01:30:25.058854",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -747,6 +746,10 @@
     },
     {
       "date": "2026-10-23",
+      "equity": 11697.229396203697
+    },
+    {
+      "date": "2026-10-24",
       "equity": 11697.229396203697
     }
   ]
