@@ -2,32 +2,6 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "0x6727bdd4fa6695739a54b585465ba7511ff4ecf9608f81f9eb963bdad2783daa": {
-      "ticker": "[YES] Avalanche vs. Stars",
-      "direction": "YES",
-      "condition_id": "0x6727bdd4fa6695739a54b585465ba7511ff4ecf9608f81f9eb963bdad2783daa",
-      "entry_price": 0.655,
-      "shares": 2995.1727423310263,
-      "entry_value": 1961.8381462268223,
-      "current_price": 0.655,
-      "peak_price": 0.655,
-      "entry_date": "2026-10-14T01:27:02.615180",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-23"
-    },
-    "0x7e6caffbe31c54aca9223ca91302fc6a591b257fdfa6b4f0b54c36d25a89c52f": {
-      "ticker": "[YES] Florida International vs. Jacksonville",
-      "direction": "YES",
-      "condition_id": "0x7e6caffbe31c54aca9223ca91302fc6a591b257fdfa6b4f0b54c36d25a89c52f",
-      "entry_price": 0.605,
-      "shares": 3242.707679713756,
-      "entry_value": 1961.8381462268223,
-      "current_price": 0.605,
-      "peak_price": 0.605,
-      "entry_date": "2026-10-14T01:27:02.615180",
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-23"
-    },
     "0x3274464d5a09edb00cdb2f4e9243531eb9bb0a7a1003d6190f42f2f6a9f1f6c5": {
       "ticker": "[YES] Patriots vs. Bears",
       "direction": "YES",
@@ -38,8 +12,8 @@
       "current_price": 0.735,
       "peak_price": 0.735,
       "entry_date": "2026-10-23T01:03:12.451432",
-      "trading_days_held": 0,
-      "last_update_date": "2026-10-23"
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-24"
     },
     "0x3adb3ca4a12b16d8081e6458dbf4fbe13a33e873eedc93f228cbe96f87f8efa8": {
       "ticker": "[YES] Nuggets vs. Thunder",
@@ -51,8 +25,8 @@
       "current_price": 0.735,
       "peak_price": 0.735,
       "entry_date": "2026-10-23T01:03:12.451432",
-      "trading_days_held": 0,
-      "last_update_date": "2026-10-23"
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-24"
     },
     "0xd6dbdfc2229e6321b7c632aa2ef3c063be407aae091ed2152a156e10b2d2e0ba": {
       "ticker": "[YES] Golden Knights vs. Blues",
@@ -64,8 +38,34 @@
       "current_price": 0.785,
       "peak_price": 0.785,
       "entry_date": "2026-10-23T01:03:12.451432",
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-24"
+    },
+    "0xa5c9eb748481b6e9a612ab74c8f195b3c2969aa0370ca0299214854ed2863d7d": {
+      "ticker": "[YES] Duke vs. Virginia",
+      "direction": "YES",
+      "condition_id": "0xa5c9eb748481b6e9a612ab74c8f195b3c2969aa0370ca0299214854ed2863d7d",
+      "entry_price": 0.655,
+      "shares": 2995.1727423310263,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.655,
+      "peak_price": 0.655,
+      "entry_date": "2026-10-24T01:12:48.732879",
       "trading_days_held": 0,
-      "last_update_date": "2026-10-23"
+      "last_update_date": "2026-10-24"
+    },
+    "0xcc1bbd8876abdb6a8c587d13a78bc6c3ac0eb26e64aced95b4d2812f76eab391": {
+      "ticker": "[YES] Trail Blazers vs. Kings",
+      "direction": "YES",
+      "condition_id": "0xcc1bbd8876abdb6a8c587d13a78bc6c3ac0eb26e64aced95b4d2812f76eab391",
+      "entry_price": 0.795,
+      "shares": 2467.720938650091,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.795,
+      "peak_price": 0.795,
+      "entry_date": "2026-10-24T01:12:48.732879",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-24"
     }
   },
   "closed_trades": [
@@ -952,6 +952,32 @@
       "exit_date": "2026-10-23T01:03:12.451421",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Avalanche vs. Stars",
+      "entry_price": 0.655,
+      "exit_price": 0.655,
+      "shares": 2995.1727423310263,
+      "entry_value": 1961.8381462268223,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-10-14T01:27:02.615180",
+      "exit_date": "2026-10-24T01:12:48.732850",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Florida International vs. Jacksonville",
+      "entry_price": 0.605,
+      "exit_price": 0.605,
+      "shares": 3242.707679713756,
+      "entry_value": 1961.8381462268223,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-10-14T01:27:02.615180",
+      "exit_date": "2026-10-24T01:12:48.732861",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -1517,6 +1543,10 @@
     },
     {
       "date": "2026-10-23",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-10-24",
       "equity": 9809.190731134111
     }
   ]
