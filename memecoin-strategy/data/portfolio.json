@@ -2,18 +2,70 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "hood-sword-inu": {
-      "ticker": "HOODINU",
-      "name": "Hood Sword Inu",
-      "entry_price": 0.066316,
-      "shares": 202055.64575907405,
-      "entry_value": 13399.522204158755,
-      "current_price": 0.161167,
-      "peak_price": 0.161167,
-      "entry_date": "2026-10-19T00:11:40.957204",
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-25",
-      "momentum_7d": 32.8578
+    "memecore": {
+      "ticker": "M",
+      "name": "MemeCore",
+      "entry_price": 0.926083,
+      "shares": 7032.782646923156,
+      "entry_value": 6512.940452010537,
+      "current_price": 0.926083,
+      "peak_price": 0.926083,
+      "entry_date": "2026-10-26T00:17:51.937566",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-26",
+      "momentum_7d": 23.2034
+    },
+    "useless-3": {
+      "ticker": "USELESS",
+      "name": "Useless Coin",
+      "entry_price": 0.167746,
+      "shares": 38826.2042135761,
+      "entry_value": 6512.940452010537,
+      "current_price": 0.167746,
+      "peak_price": 0.167746,
+      "entry_date": "2026-10-26T00:17:51.937566",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-26",
+      "momentum_7d": 16.0419
+    },
+    "comedian": {
+      "ticker": "BAN",
+      "name": "Comedian",
+      "entry_price": 0.057474,
+      "shares": 113319.76984393878,
+      "entry_value": 6512.940452010537,
+      "current_price": 0.057474,
+      "peak_price": 0.057474,
+      "entry_date": "2026-10-26T00:17:51.937566",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-26",
+      "momentum_7d": 6.4667
+    },
+    "pepe": {
+      "ticker": "PEPE",
+      "name": "Pepe",
+      "entry_price": 4.27e-06,
+      "shares": 1525278794.3818588,
+      "entry_value": 6512.940452010537,
+      "current_price": 4.27e-06,
+      "peak_price": 4.27e-06,
+      "entry_date": "2026-10-26T00:17:51.937566",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-26",
+      "momentum_7d": 7.3669
+    },
+    "pump-fun": {
+      "ticker": "PUMP",
+      "name": "Pump.fun",
+      "entry_price": 0.00425443,
+      "shares": 1530860.8796032688,
+      "entry_value": 6512.940452010535,
+      "current_price": 0.00425443,
+      "peak_price": 0.00425443,
+      "entry_date": "2026-10-26T00:17:51.937566",
+      "trading_days_held": 0,
+      "last_update_date": "2026-10-26",
+      "momentum_7d": 2.6703
     }
   },
   "closed_trades": [
@@ -848,6 +900,19 @@
       "exit_date": "2026-10-19T00:11:40.957204",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 7
+    },
+    {
+      "ticker": "hood-sword-inu",
+      "entry_price": 0.066316,
+      "exit_price": 0.161167,
+      "shares": 202055.64575907405,
+      "entry_value": 13399.522204158755,
+      "pnl": 19165.180055893932,
+      "pnl_pct": 1.4302883165450269,
+      "entry_date": "2026-10-19T00:11:40.957204",
+      "exit_date": "2026-10-26T00:17:51.937566",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
     }
   ],
   "equity_history": [
@@ -1418,7 +1483,11 @@
     {
       "date": "2026-10-25",
       "equity": 32564.702260052687
+    },
+    {
+      "date": "2026-10-26",
+      "equity": 32564.702260052687
     }
   ],
-  "last_rebalance": "2026-42"
+  "last_rebalance": "2026-43"
 }
