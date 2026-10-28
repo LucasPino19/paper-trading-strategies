@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6233.804711477984,
+  "cash": 4363.6632980345885,
   "open_positions": {
     "MA": {
       "ticker": "MA",
       "entry_price": 574.4199829101562,
       "shares": 4.303139085858107,
       "entry_value": 2471.809080158639,
-      "current_price": 613.5,
+      "current_price": 609.85,
       "peak_price": 633.21,
       "volume_spiked": false,
-      "trading_days_held": 28,
-      "last_update_date": "2026-10-27",
+      "trading_days_held": 29,
+      "last_update_date": "2026-10-28",
       "entry_date": "2026-09-14T23:57:13.752884",
       "sps_score": 26.476681811395245,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 212.1699981689453,
       "shares": 8.155094363215682,
       "entry_value": 1730.2663561110476,
-      "current_price": 216.0,
+      "current_price": 217.94,
       "peak_price": 239.24000549316406,
       "volume_spiked": false,
-      "trading_days_held": 27,
-      "last_update_date": "2026-10-27",
+      "trading_days_held": 28,
+      "last_update_date": "2026-10-28",
       "entry_date": "2026-09-15T23:35:59.140803",
       "sps_score": 23.021255867157905,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "XLK": {
+      "ticker": "XLK",
+      "entry_price": 189.49,
+      "shares": 9.869340933259776,
+      "entry_value": 1870.141413443395,
+      "current_price": 189.49,
+      "peak_price": 189.49,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-28",
+      "entry_date": "2026-10-28T00:39:58.173513",
+      "sps_score": 48.66266197990652,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -651,6 +667,10 @@
     {
       "date": "2026-10-27",
       "equity": 10635.280923106518
+    },
+    {
+      "date": "2026-10-28",
+      "equity": 10635.395348507776
     }
   ]
 }
