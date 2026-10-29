@@ -1,35 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6085.464059044449,
+  "cash": 6074.245118433212,
   "open_positions": {
-    "CVX": {
-      "ticker": "CVX",
-      "entry_price": 226.77999877929688,
-      "shares": 7.839022831037502,
-      "entry_value": 1777.733588053565,
-      "current_price": 229.1999969482422,
-      "peak_price": 233.2100067138672,
-      "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-28",
-      "entry_date": "2026-10-21T21:53:29.252782",
-      "sps_score": 18.60916850198959,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "SPY": {
       "ticker": "SPY",
       "entry_price": 763.9600219726562,
       "shares": 2.328049374407207,
       "entry_value": 1778.5366512255587,
-      "current_price": 772.3099975585938,
+      "current_price": 769.3599853515625,
       "peak_price": 772.3099975585938,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-28",
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-29",
       "entry_date": "2026-10-22T21:50:34.116010",
       "sps_score": 3.717361342126346,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "entry_price": 51.13999938964844,
+      "shares": 35.69885098752804,
+      "entry_value": 1825.6392177133346,
+      "current_price": 51.13999938964844,
+      "peak_price": 51.13999938964844,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-29",
+      "entry_date": "2026-10-29T22:54:14.512124",
+      "sps_score": 21.118459703697823,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1003,6 +1003,28 @@
       "pnl": 146.09248172819684,
       "pnl_pct": 0.08164087250338466,
       "exit_reason": "Stop de tiempo: 7d \u2014 +8.2%"
+    },
+    {
+      "ticker": "CVX",
+      "entry_price": 226.77999877929688,
+      "shares": 7.839022831037502,
+      "entry_value": 1777.733588053565,
+      "current_price": 231.4600067138672,
+      "peak_price": 233.2100067138672,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-10-29",
+      "entry_date": "2026-10-21T21:53:29.252782",
+      "sps_score": 18.60916850198959,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 231.4600067138672,
+      "exit_date": "2026-10-29T22:54:14.780569",
+      "proceeds": 1814.4202771020985,
+      "pnl": 36.68668904853348,
+      "pnl_pct": 0.020636775552349003,
+      "exit_reason": "Stop de tiempo: 7d \u2014 +2.1%"
     }
   ],
   "equity_history": [
@@ -1437,6 +1459,10 @@
     {
       "date": "2026-10-28",
       "equity": 9680.14387466016
+    },
+    {
+      "date": "2026-10-29",
+      "equity": 9690.992368738189
     }
   ]
 }
