@@ -12,8 +12,8 @@
       "current_price": 0.735,
       "peak_price": 0.735,
       "entry_date": "2026-10-23T01:03:12.451432",
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-28"
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-29"
     },
     "0x3adb3ca4a12b16d8081e6458dbf4fbe13a33e873eedc93f228cbe96f87f8efa8": {
       "ticker": "[YES] Nuggets vs. Thunder",
@@ -25,8 +25,8 @@
       "current_price": 0.735,
       "peak_price": 0.735,
       "entry_date": "2026-10-23T01:03:12.451432",
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-28"
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-29"
     },
     "0xd6dbdfc2229e6321b7c632aa2ef3c063be407aae091ed2152a156e10b2d2e0ba": {
       "ticker": "[YES] Golden Knights vs. Blues",
@@ -38,8 +38,8 @@
       "current_price": 0.785,
       "peak_price": 0.785,
       "entry_date": "2026-10-23T01:03:12.451432",
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-28"
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-29"
     },
     "0xa5c9eb748481b6e9a612ab74c8f195b3c2969aa0370ca0299214854ed2863d7d": {
       "ticker": "[YES] Duke vs. Virginia",
@@ -51,8 +51,8 @@
       "current_price": 0.655,
       "peak_price": 0.655,
       "entry_date": "2026-10-24T01:12:48.732879",
-      "trading_days_held": 4,
-      "last_update_date": "2026-10-28"
+      "trading_days_held": 5,
+      "last_update_date": "2026-10-29"
     },
     "0xcc1bbd8876abdb6a8c587d13a78bc6c3ac0eb26e64aced95b4d2812f76eab391": {
       "ticker": "[YES] Trail Blazers vs. Kings",
@@ -64,8 +64,8 @@
       "current_price": 0.795,
       "peak_price": 0.795,
       "entry_date": "2026-10-24T01:12:48.732879",
-      "trading_days_held": 4,
-      "last_update_date": "2026-10-28"
+      "trading_days_held": 5,
+      "last_update_date": "2026-10-29"
     }
   },
   "closed_trades": [
@@ -1563,6 +1563,10 @@
     },
     {
       "date": "2026-10-28",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-10-29",
       "equity": 9809.190731134111
     }
   ]
