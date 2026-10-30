@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6960.106656607054,
+  "cash": 4872.074659624937,
   "open_positions": {
     "CVX": {
       "ticker": "CVX",
       "entry_price": 232.24000549316406,
       "shares": 8.803358526586317,
       "entry_value": 2044.492032572699,
-      "current_price": 230.91000366210938,
-      "peak_price": 232.24000549316406,
+      "current_price": 234.91000366210938,
+      "peak_price": 234.91000366210938,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-10-29",
+      "trading_days_held": 6,
+      "last_update_date": "2026-10-30",
       "entry_date": "2026-10-23T17:55:59.193374",
       "sps_score": 2.500446613917495,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 636.4600830078125,
       "shares": 3.3469459430558963,
       "entry_value": 2130.197492740017,
-      "current_price": 636.4600830078125,
-      "peak_price": 636.4600830078125,
+      "current_price": 638.8599853515625,
+      "peak_price": 638.8599853515625,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-10-29",
+      "trading_days_held": 2,
+      "last_update_date": "2026-10-30",
       "entry_date": "2026-10-29T19:05:16.932318",
       "sps_score": 35.17888114439129,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "entry_price": 343.17999267578125,
+      "shares": 6.084364011729498,
+      "entry_value": 2088.031996982116,
+      "current_price": 343.17999267578125,
+      "peak_price": 343.17999267578125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-10-30",
+      "entry_date": "2026-10-30T18:42:49.754811",
+      "sps_score": 1.282399917049952,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1229,6 +1245,10 @@
     {
       "date": "2026-10-29",
       "equity": 11123.087698959978
+    },
+    {
+      "date": "2026-10-30",
+      "equity": 11166.333476479469
     }
   ]
 }
