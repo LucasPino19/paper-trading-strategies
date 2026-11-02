@@ -1,40 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5212.883087683621,
-  "open_positions": {
-    "TSLA": {
-      "ticker": "TSLA",
-      "entry_price": 375.12060546875,
-      "shares": 4.5350989943906255,
-      "entry_value": 1701.2090806365306,
-      "current_price": 398.04180908203125,
-      "peak_price": 408.0950012207031,
-      "volume_spiked": false,
-      "trading_days_held": 9,
-      "last_update_date": "2026-10-30",
-      "entry_date": "2026-10-20T18:37:39.686907",
-      "sps_score": 56.23006233169492,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "PLTR": {
-      "ticker": "PLTR",
-      "entry_price": 195.9499969482422,
-      "shares": 7.413798231802978,
-      "entry_value": 1452.7337408966769,
-      "current_price": 185.6300048828125,
-      "peak_price": 200.4600067138672,
-      "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-10-30",
-      "entry_date": "2026-10-23T18:37:19.411016",
-      "sps_score": 54.393999686565884,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    }
-  },
+  "cash": 8366.423546324104,
+  "open_positions": {},
   "closed_trades": [
     {
       "ticker": "AVGO",
@@ -1113,6 +1080,50 @@
       "pnl": -252.1628899753066,
       "pnl_pct": -0.12150473139955029,
       "exit_reason": "Stop loss: -12.2%"
+    },
+    {
+      "ticker": "TSLA",
+      "entry_price": 375.12060546875,
+      "shares": 4.5350989943906255,
+      "entry_value": 1701.2090806365306,
+      "current_price": 403.82000732421875,
+      "peak_price": 408.0950012207031,
+      "volume_spiked": false,
+      "trading_days_held": 10,
+      "last_update_date": "2026-11-02",
+      "entry_date": "2026-10-20T18:37:39.686907",
+      "sps_score": 56.23006233169492,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 403.82000732421875,
+      "exit_date": "2026-11-02T22:51:04.694724",
+      "proceeds": 1831.3637091308794,
+      "pnl": 130.1546284943488,
+      "pnl_pct": 0.0765071324717181,
+      "exit_reason": "Stop de tiempo: 10d \u2014 +7.7%"
+    },
+    {
+      "ticker": "PLTR",
+      "entry_price": 195.9499969482422,
+      "shares": 7.413798231802978,
+      "entry_value": 1452.7337408966769,
+      "current_price": 178.33999633789062,
+      "peak_price": 200.4600067138672,
+      "volume_spiked": false,
+      "trading_days_held": 7,
+      "last_update_date": "2026-11-02",
+      "entry_date": "2026-10-23T18:37:19.411016",
+      "sps_score": 54.393999686565884,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 178.33999633789062,
+      "exit_date": "2026-11-02T22:51:04.696568",
+      "proceeds": 1322.176749509603,
+      "pnl": -130.55699138707382,
+      "pnl_pct": -0.0898698692759002,
+      "exit_reason": "Stop loss: -9.0%"
     }
   ],
   "equity_history": [
@@ -1563,6 +1574,10 @@
     {
       "date": "2026-10-30",
       "equity": 8394.26549774674
+    },
+    {
+      "date": "2026-11-02",
+      "equity": 8366.423546324104
     }
   ]
 }
