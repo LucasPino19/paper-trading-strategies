@@ -1,7 +1,24 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8366.423546324104,
-  "open_positions": {},
+  "cash": 5856.496482426873,
+  "open_positions": {
+    "META": {
+      "ticker": "META",
+      "entry_price": 618.9423828125,
+      "shares": 4.055186934350848,
+      "entry_value": 2509.927063897231,
+      "current_price": 618.9423828125,
+      "peak_price": 618.9423828125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-03",
+      "entry_date": "2026-11-03T20:34:19.700445",
+      "sps_score": 64.1934027330211,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    }
+  },
   "closed_trades": [
     {
       "ticker": "AVGO",
@@ -1577,6 +1594,10 @@
     },
     {
       "date": "2026-11-02",
+      "equity": 8366.423546324104
+    },
+    {
+      "date": "2026-11-03",
       "equity": 8366.423546324104
     }
   ]
