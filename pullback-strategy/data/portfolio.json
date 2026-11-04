@@ -7,11 +7,11 @@
       "entry_price": 715.34,
       "shares": 2.9314362877196785,
       "entry_value": 2096.973634057395,
-      "current_price": 681.0900268554688,
+      "current_price": 685.28,
       "peak_price": 715.34,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-03",
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-04",
       "entry_date": "2026-10-30T01:16:21.075308",
       "sps_score": 41.181300206565105,
       "short_float_pct": 0,
@@ -721,6 +721,10 @@
     {
       "date": "2026-11-03",
       "equity": 10351.364550480062
+    },
+    {
+      "date": "2026-11-04",
+      "equity": 10363.647189800513
     }
   ]
 }
