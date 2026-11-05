@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8283.581879010033,
+  "cash": 4058.955120714916,
   "open_positions": {
     "QQQ": {
       "ticker": "QQQ",
       "entry_price": 717.63,
       "shares": 2.5428574397091688,
       "entry_value": 1824.8307844584908,
-      "current_price": 685.28,
+      "current_price": 691.95,
       "peak_price": 725.61,
       "volume_spiked": false,
-      "trading_days_held": 10,
-      "last_update_date": "2026-11-04",
+      "trading_days_held": 11,
+      "last_update_date": "2026-11-05",
       "entry_date": "2026-10-21T00:02:45.754329",
       "sps_score": 35.136129419977905,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "SPY": {
+      "ticker": "SPY",
+      "entry_price": 766.81,
+      "shares": 3.240795716935108,
+      "entry_value": 2485.07456370301,
+      "current_price": 766.81,
+      "peak_price": 766.81,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-05",
+      "entry_date": "2026-11-05T01:41:52.617733",
+      "sps_score": 38.12387687753216,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "XLK": {
+      "ticker": "XLK",
+      "entry_price": 176.5,
+      "shares": 9.855819799388707,
+      "entry_value": 1739.5521945921066,
+      "current_price": 176.5,
+      "peak_price": 176.5,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-05",
+      "entry_date": "2026-11-05T01:41:52.683455",
+      "sps_score": 32.2451904856527,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -725,6 +757,10 @@
     {
       "date": "2026-11-04",
       "equity": 10026.151225293932
+    },
+    {
+      "date": "2026-11-05",
+      "equity": 10043.112084416793
     }
   ]
 }
