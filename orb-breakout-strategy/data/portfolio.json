@@ -1,51 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3757.9511250326887,
+  "cash": 7228.162789734184,
   "open_positions": {
     "V": {
       "ticker": "V",
       "entry_price": 410.2300109863281,
       "shares": 4.437496780816109,
       "entry_value": 1820.3943531459881,
-      "current_price": 435.5299987792969,
+      "current_price": 422.3299865722656,
       "peak_price": 435.5299987792969,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-04",
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-05",
       "entry_date": "2026-10-29T19:46:38.125046",
       "sps_score": 10.537323757986565,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "AMD": {
-      "ticker": "AMD",
-      "entry_price": 466.8399963378906,
-      "shares": 4.928426058456159,
-      "entry_value": 2300.786403081238,
-      "current_price": 481.9599914550781,
-      "peak_price": 488.32000732421875,
-      "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-04",
-      "entry_date": "2026-11-02T22:51:20.172660",
-      "sps_score": 8.245621190881515,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "XLE": {
-      "ticker": "XLE",
-      "entry_price": 67.25,
-      "shares": 23.948706054377197,
-      "entry_value": 1610.5504821568666,
-      "current_price": 63.525001525878906,
-      "peak_price": 67.25,
-      "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-04",
-      "entry_date": "2026-11-02T22:51:20.257347",
-      "sps_score": 5.538134412556013,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -777,6 +745,50 @@
       "pnl": -129.3811928343755,
       "pnl_pct": -0.07165054471084784,
       "exit_reason": "Stop loss: -7.2%"
+    },
+    {
+      "ticker": "AMD",
+      "entry_price": 466.8399963378906,
+      "shares": 4.928426058456159,
+      "entry_value": 2300.786403081238,
+      "current_price": 404.3999938964844,
+      "peak_price": 488.32000732421875,
+      "volume_spiked": false,
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-05",
+      "entry_date": "2026-11-02T22:51:20.172660",
+      "sps_score": 8.245621190881515,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 404.3999938964844,
+      "exit_date": "2026-11-05T21:09:58.787995",
+      "proceeds": 1993.0554679589452,
+      "pnl": -307.73093512229275,
+      "pnl_pct": -0.13375032758806996,
+      "exit_reason": "Stop loss: -13.4%"
+    },
+    {
+      "ticker": "XLE",
+      "entry_price": 67.25,
+      "shares": 23.948706054377197,
+      "entry_value": 1610.5504821568666,
+      "current_price": 61.68000030517578,
+      "peak_price": 67.25,
+      "volume_spiked": false,
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-05",
+      "entry_date": "2026-11-02T22:51:20.257347",
+      "sps_score": 5.538134412556013,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 61.68000030517578,
+      "exit_date": "2026-11-05T21:09:58.789654",
+      "proceeds": 1477.1561967425507,
+      "pnl": -133.39428541431585,
+      "pnl_pct": -0.08282527427247904,
+      "exit_reason": "Stop loss: -8.3%"
     }
   ],
   "equity_history": [
@@ -1239,6 +1251,10 @@
     {
       "date": "2026-11-04",
       "equity": 9587.259862232313
+    },
+    {
+      "date": "2026-11-05",
+      "equity": 9102.250745590723
     }
   ]
 }
