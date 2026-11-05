@@ -1,34 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7018.3376377222185,
-  "open_positions": {
-    "0xa23467e95abf6544819a9dcb90b7719846aacf300b991ea07204e1f1649097cb": {
-      "ticker": "[YES] Will Barcelona win the 2026-27 UEFA Ch",
-      "direction": "YES",
-      "condition_id": "0xa23467e95abf6544819a9dcb90b7719846aacf300b991ea07204e1f1649097cb",
-      "entry_price": 0.215,
-      "shares": 10881.143624375532,
-      "entry_value": 2339.4458792407395,
-      "current_price": 0.215,
-      "peak_price": 0.215,
-      "entry_date": "2026-10-26T01:05:45.895324",
-      "trading_days_held": 9,
-      "last_update_date": "2026-11-04"
-    },
-    "0x6001a45766cc00627798fc4d6fdc251f8e0762c04d92856ceb1878d18debc078": {
-      "ticker": "[YES] Will Hull City win the 2026-27 English",
-      "direction": "YES",
-      "condition_id": "0x6001a45766cc00627798fc4d6fdc251f8e0762c04d92856ceb1878d18debc078",
-      "entry_price": 0.013,
-      "shares": 179957.37532621075,
-      "entry_value": 2339.4458792407395,
-      "current_price": 0.013,
-      "peak_price": 0.013,
-      "entry_date": "2026-10-26T01:05:45.895324",
-      "trading_days_held": 9,
-      "last_update_date": "2026-11-04"
-    }
-  },
+  "cash": 11697.229396203697,
+  "open_positions": {},
   "closed_trades": [
     {
       "ticker": "[YES] Will Manchester City win the 2026-27 E",
@@ -378,6 +351,32 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-10-14T01:48:59.331070",
       "exit_date": "2026-10-24T01:30:25.058854",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Barcelona win the 2026-27 UEFA Ch",
+      "entry_price": 0.215,
+      "exit_price": 0.215,
+      "shares": 10881.143624375532,
+      "entry_value": 2339.4458792407395,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-10-26T01:05:45.895324",
+      "exit_date": "2026-11-05T03:26:09.356824",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Hull City win the 2026-27 English",
+      "entry_price": 0.013,
+      "exit_price": 0.013,
+      "shares": 179957.37532621075,
+      "entry_value": 2339.4458792407395,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-10-26T01:05:45.895324",
+      "exit_date": "2026-11-05T03:26:09.356859",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -813,6 +812,10 @@
     },
     {
       "date": "2026-11-04",
+      "equity": 11697.229396203697
+    },
+    {
+      "date": "2026-11-05",
       "equity": 11697.229396203697
     }
   ]
