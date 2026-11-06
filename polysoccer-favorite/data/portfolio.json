@@ -12,8 +12,8 @@
       "current_price": 0.615,
       "peak_price": 0.615,
       "entry_date": "2026-11-02T01:56:53.718262",
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-05"
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-06"
     },
     "0xada9785d374575caa4a972ba5793b21831c75dc409a0566392fa10cd4425ca92": {
       "ticker": "[YES] Senators vs. Ducks: O/U 6.5",
@@ -25,8 +25,8 @@
       "current_price": 0.705,
       "peak_price": 0.705,
       "entry_date": "2026-11-02T01:56:53.718262",
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-05"
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-06"
     },
     "0xb043efc40b18a318667c71f48f25021996e838548bb8657936a288b2f9e5b488": {
       "ticker": "[YES] Clippers vs. Warriors: O/U 220.5",
@@ -38,8 +38,8 @@
       "current_price": 0.61,
       "peak_price": 0.61,
       "entry_date": "2026-11-02T01:56:53.718262",
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-05"
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-06"
     },
     "0xc138f7ba5966e0ec354a50479099578139e6ad25ddd6c3101aea81a3916aa43b": {
       "ticker": "[YES] Bears vs. Seahawks",
@@ -51,8 +51,8 @@
       "current_price": 0.675,
       "peak_price": 0.675,
       "entry_date": "2026-11-03T03:45:18.248786",
-      "trading_days_held": 2,
-      "last_update_date": "2026-11-05"
+      "trading_days_held": 3,
+      "last_update_date": "2026-11-06"
     },
     "0x69c219dff0d22c6300835f978ced88f96ec76ec98c61cac162d4a25d2d573e14": {
       "ticker": "[YES] Counter-Strike: Liquid vs PARIVISION (",
@@ -64,8 +64,8 @@
       "current_price": 0.725,
       "peak_price": 0.725,
       "entry_date": "2026-11-03T03:45:18.248786",
-      "trading_days_held": 2,
-      "last_update_date": "2026-11-05"
+      "trading_days_held": 3,
+      "last_update_date": "2026-11-06"
     }
   },
   "closed_trades": [
@@ -1660,6 +1660,10 @@
     },
     {
       "date": "2026-11-05",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-11-06",
       "equity": 9809.190731134111
     }
   ]
