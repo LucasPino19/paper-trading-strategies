@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4466.9657103219,
+  "cash": 3126.87599722533,
   "open_positions": {
     "META": {
       "ticker": "META",
       "entry_price": 618.9423828125,
       "shares": 4.055186934350848,
       "entry_value": 2509.927063897231,
-      "current_price": 605.0800170898438,
+      "current_price": 615.760009765625,
       "peak_price": 628.5499877929688,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-05",
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-06",
       "entry_date": "2026-11-03T20:34:19.700445",
       "sps_score": 64.1934027330211,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 290.07000732421875,
       "shares": 4.239887717639804,
       "entry_value": 1229.864261309643,
-      "current_price": 282.57000732421875,
+      "current_price": 286.30999755859375,
       "peak_price": 290.07000732421875,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-11-05",
+      "trading_days_held": 3,
+      "last_update_date": "2026-11-06",
       "entry_date": "2026-11-04T20:53:16.186022",
       "sps_score": 54.04010525806346,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "entry_price": 532.2449951171875,
+      "shares": 2.517806133247931,
+      "entry_value": 1340.0897130965698,
+      "current_price": 532.2449951171875,
+      "peak_price": 532.2449951171875,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-06",
+      "entry_date": "2026-11-06T20:30:16.172909",
+      "sps_score": 58.017927246744264,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1645,6 +1661,10 @@
     {
       "date": "2026-11-05",
       "equity": 8118.743393288767
+    },
+    {
+      "date": "2026-11-06",
+      "equity": 8177.909898705377
     }
   ]
 }
