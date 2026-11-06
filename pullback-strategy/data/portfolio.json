@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5848.35477138638,
+  "cash": 7745.140621355398,
   "open_positions": {
-    "QQQ": {
-      "ticker": "QQQ",
-      "entry_price": 715.34,
-      "shares": 2.9314362877196785,
-      "entry_value": 2096.973634057395,
-      "current_price": 691.95,
-      "peak_price": 715.34,
-      "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-05",
-      "entry_date": "2026-10-30T01:16:21.075308",
-      "sps_score": 41.181300206565105,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "UNH": {
       "ticker": "UNH",
       "entry_price": 409.38,
       "shares": 6.1225212740377914,
       "entry_value": 2506.437759165591,
-      "current_price": 409.38,
+      "current_price": 395.72,
       "peak_price": 409.38,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-11-05",
+      "trading_days_held": 2,
+      "last_update_date": "2026-11-06",
       "entry_date": "2026-11-05T01:41:51.504524",
       "sps_score": 34.9827351658384,
       "short_float_pct": 0,
@@ -299,6 +283,28 @@
       "pnl": -150.70482400334163,
       "pnl_pct": -0.0805847209842044,
       "exit_reason": "Stop loss: -8.1%"
+    },
+    {
+      "ticker": "QQQ",
+      "entry_price": 715.34,
+      "shares": 2.9314362877196785,
+      "entry_value": 2096.973634057395,
+      "current_price": 647.05,
+      "peak_price": 715.34,
+      "volume_spiked": false,
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-06",
+      "entry_date": "2026-10-30T01:16:21.075308",
+      "sps_score": 41.181300206565105,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 647.05,
+      "exit_date": "2026-11-06T01:43:30.572252",
+      "proceeds": 1896.7858499690178,
+      "pnl": -200.18778408837716,
+      "pnl_pct": -0.09546509352196172,
+      "exit_reason": "Stop loss: -9.5%"
     }
   ],
   "equity_history": [
@@ -745,6 +751,10 @@
     {
       "date": "2026-11-05",
       "equity": 10383.199869839602
+    },
+    {
+      "date": "2026-11-06",
+      "equity": 10167.944739917633
     }
   ]
 }
