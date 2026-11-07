@@ -1,7 +1,21 @@
 {
   "initial_capital": 10000.0,
-  "cash": 11697.229396203697,
-  "open_positions": {},
+  "cash": 9357.783516962958,
+  "open_positions": {
+    "0x67a633090f9ce7993fe2e310a591444f5a9e1ba74f60b9674ecaf7c42a0c7905": {
+      "ticker": "[YES] Will Liverpool win the 2026-27 UEFA Ch",
+      "direction": "YES",
+      "condition_id": "0x67a633090f9ce7993fe2e310a591444f5a9e1ba74f60b9674ecaf7c42a0c7905",
+      "entry_price": 0.0355,
+      "shares": 65899.88392227436,
+      "entry_value": 2339.4458792407395,
+      "current_price": 0.0355,
+      "peak_price": 0.0355,
+      "entry_date": "2026-11-07T02:43:05.096507",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-07"
+    }
+  },
   "closed_trades": [
     {
       "ticker": "[YES] Will Manchester City win the 2026-27 E",
