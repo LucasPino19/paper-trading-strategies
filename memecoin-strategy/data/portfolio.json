@@ -8,11 +8,11 @@
       "entry_price": 4.27e-06,
       "shares": 1250190926.4394982,
       "entry_value": 6512.940452010537,
-      "current_price": 5.02e-06,
+      "current_price": 4.82e-06,
       "peak_price": 5.03e-06,
       "entry_date": "2026-10-26T00:17:51.937566",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-07",
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-08",
       "momentum_7d": 7.3669
     },
     "niu-lai": {
@@ -21,11 +21,11 @@
       "entry_price": 0.070321,
       "shares": 88536.15297946133,
       "entry_value": 6225.9508136687,
-      "current_price": 0.055091,
+      "current_price": 0.058111,
       "peak_price": 0.070321,
       "entry_date": "2026-11-02T01:29:10.886564",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-07",
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-08",
       "momentum_7d": 26.2667
     },
     "official-trump": {
@@ -34,11 +34,11 @@
       "entry_price": 1.75,
       "shares": 3557.686179239257,
       "entry_value": 6225.9508136687,
-      "current_price": 1.2,
+      "current_price": 1.18,
       "peak_price": 1.75,
       "entry_date": "2026-11-02T01:29:10.886564",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-07",
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-08",
       "momentum_7d": 4.6885
     },
     "ape-and-pepe": {
@@ -50,8 +50,8 @@
       "current_price": 1.18e-06,
       "peak_price": 1.2e-06,
       "entry_date": "2026-11-02T01:29:10.886564",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-07",
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-08",
       "momentum_7d": 2.559
     },
     "bianrensheng": {
@@ -60,11 +60,11 @@
       "entry_price": 0.523024,
       "shares": 11903.757406292445,
       "entry_value": 6225.9508136687,
-      "current_price": 0.518948,
+      "current_price": 0.505036,
       "peak_price": 0.531643,
       "entry_date": "2026-11-02T01:29:10.886564",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-07",
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-08",
       "momentum_7d": 3.9564
     }
   },
@@ -1587,6 +1587,10 @@
     {
       "date": "2026-11-07",
       "equity": 27722.343134859766
+    },
+    {
+      "date": "2026-11-08",
+      "equity": 27502.925334948715
     }
   ],
   "last_rebalance": "2026-44"
