@@ -12,8 +12,8 @@
       "current_price": 0.0355,
       "peak_price": 0.0355,
       "entry_date": "2026-11-07T02:43:05.096507",
-      "trading_days_held": 1,
-      "last_update_date": "2026-11-08"
+      "trading_days_held": 2,
+      "last_update_date": "2026-11-09"
     }
   },
   "closed_trades": [
@@ -834,6 +834,10 @@
     },
     {
       "date": "2026-11-08",
+      "equity": 11697.229396203697
+    },
+    {
+      "date": "2026-11-09",
       "equity": 11697.229396203697
     }
   ]
