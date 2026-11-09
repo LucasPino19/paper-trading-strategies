@@ -1,71 +1,45 @@
 {
   "initial_capital": 10000.0,
-  "cash": 0.0,
+  "cash": 1.8189894035458565e-12,
   "open_positions": {
     "pepe": {
       "ticker": "PEPE",
       "name": "Pepe",
       "entry_price": 4.27e-06,
-      "shares": 1250190926.4394982,
-      "entry_value": 6512.940452010537,
-      "current_price": 4.82e-06,
-      "peak_price": 5.03e-06,
+      "shares": 1831818155.6728215,
+      "entry_value": 9455.974231931154,
+      "current_price": 5.06e-06,
+      "peak_price": 5.06e-06,
       "entry_date": "2026-10-26T00:17:51.937566",
-      "trading_days_held": 13,
-      "last_update_date": "2026-11-08",
+      "trading_days_held": 14,
+      "last_update_date": "2026-11-09",
       "momentum_7d": 7.3669
-    },
-    "niu-lai": {
-      "ticker": "\u725b\u6765",
-      "name": "\u725b\u6765 (Niu Lai)",
-      "entry_price": 0.070321,
-      "shares": 88536.15297946133,
-      "entry_value": 6225.9508136687,
-      "current_price": 0.058111,
-      "peak_price": 0.070321,
-      "entry_date": "2026-11-02T01:29:10.886564",
-      "trading_days_held": 6,
-      "last_update_date": "2026-11-08",
-      "momentum_7d": 26.2667
-    },
-    "official-trump": {
-      "ticker": "TRUMP",
-      "name": "Official Trump",
-      "entry_price": 1.75,
-      "shares": 3557.686179239257,
-      "entry_value": 6225.9508136687,
-      "current_price": 1.18,
-      "peak_price": 1.75,
-      "entry_date": "2026-11-02T01:29:10.886564",
-      "trading_days_held": 6,
-      "last_update_date": "2026-11-08",
-      "momentum_7d": 4.6885
     },
     "ape-and-pepe": {
       "ticker": "APEPE",
       "name": "Ape and Pepe",
       "entry_price": 1.2e-06,
-      "shares": 5188292344.723917,
-      "entry_value": 6225.9508136687,
-      "current_price": 1.18e-06,
-      "peak_price": 1.2e-06,
+      "shares": 7298425092.680691,
+      "entry_value": 8905.819403573802,
+      "current_price": 1.27e-06,
+      "peak_price": 1.27e-06,
       "entry_date": "2026-11-02T01:29:10.886564",
-      "trading_days_held": 6,
-      "last_update_date": "2026-11-08",
+      "trading_days_held": 7,
+      "last_update_date": "2026-11-09",
       "momentum_7d": 2.559
     },
-    "bianrensheng": {
-      "ticker": "\u5e01\u5b89\u4eba\u751f",
-      "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
-      "entry_price": 0.523024,
-      "shares": 11903.757406292445,
-      "entry_value": 6225.9508136687,
-      "current_price": 0.505036,
-      "peak_price": 0.531643,
-      "entry_date": "2026-11-02T01:29:10.886564",
-      "trading_days_held": 6,
-      "last_update_date": "2026-11-08",
-      "momentum_7d": 3.9564
+    "dessa": {
+      "ticker": "DESSA",
+      "name": "Dessa",
+      "entry_price": 0.055076,
+      "shares": 168294.71762118666,
+      "entry_value": 9268.999867704477,
+      "current_price": 0.055076,
+      "peak_price": 0.055076,
+      "entry_date": "2026-11-09T01:42:17.011561",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-09",
+      "momentum_7d": 199.9427
     }
   },
   "closed_trades": [
@@ -965,6 +939,45 @@
       "exit_date": "2026-11-02T01:29:10.886564",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 7
+    },
+    {
+      "ticker": "official-trump",
+      "entry_price": 1.75,
+      "exit_price": 1.15,
+      "shares": 3557.686179239257,
+      "entry_value": 6225.9508136687,
+      "pnl": -2134.6117075435545,
+      "pnl_pct": -0.3428571428571429,
+      "entry_date": "2026-11-02T01:29:10.886564",
+      "exit_date": "2026-11-09T01:42:17.011561",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "bianrensheng",
+      "entry_price": 0.523024,
+      "exit_price": 0.495188,
+      "shares": 11903.757406292445,
+      "entry_value": 6225.9508136687,
+      "pnl": -331.3529911615568,
+      "pnl_pct": -0.05322126709290592,
+      "entry_date": "2026-11-02T01:29:10.886564",
+      "exit_date": "2026-11-09T01:42:17.011561",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "niu-lai",
+      "entry_price": 0.070321,
+      "exit_price": 0.055412,
+      "shares": 88536.15297946133,
+      "entry_value": 6225.9508136687,
+      "pnl": -1319.9855047707883,
+      "pnl_pct": -0.212013481036959,
+      "entry_date": "2026-11-02T01:29:10.886564",
+      "exit_date": "2026-11-09T01:42:17.011561",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
     }
   ],
   "equity_history": [
@@ -1591,7 +1604,11 @@
     {
       "date": "2026-11-08",
       "equity": 27502.925334948715
+    },
+    {
+      "date": "2026-11-09",
+      "equity": 27806.999603113436
     }
   ],
-  "last_rebalance": "2026-44"
+  "last_rebalance": "2026-45"
 }
