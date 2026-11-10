@@ -1,19 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7304.699046103472,
+  "cash": 5113.28933227243,
   "open_positions": {
     "SPY": {
       "ticker": "SPY",
       "entry_price": 766.81,
       "shares": 3.240795716935108,
       "entry_value": 2485.07456370301,
-      "current_price": 735.29,
+      "current_price": 752.6900024414062,
       "peak_price": 766.81,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-07",
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-10",
       "entry_date": "2026-11-05T01:41:52.617733",
       "sps_score": 38.12387687753216,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "XLE": {
+      "ticker": "XLE",
+      "entry_price": 61.939998626708984,
+      "shares": 35.379557029665314,
+      "entry_value": 2191.4097138310417,
+      "current_price": 61.939998626708984,
+      "peak_price": 61.939998626708984,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-10",
+      "entry_date": "2026-11-10T03:44:10.264157",
+      "sps_score": 34.059791096538774,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -781,6 +797,10 @@
     {
       "date": "2026-11-07",
       "equity": 9687.623728808689
+    },
+    {
+      "date": "2026-11-10",
+      "equity": 9744.013582195457
     }
   ]
 }
