@@ -10,8 +10,8 @@
       "current_price": 508.5799865722656,
       "peak_price": 649.4199829101562,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 112,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 113,
+      "last_update_date": "2026-11-11"
     },
     "MRVL": {
       "ticker": "MRVL",
@@ -21,8 +21,8 @@
       "current_price": 154.60000610351562,
       "peak_price": 287.010009765625,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 46,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 47,
+      "last_update_date": "2026-11-11"
     },
     "DELL": {
       "ticker": "DELL",
@@ -32,8 +32,8 @@
       "current_price": 346.30999755859375,
       "peak_price": 588.4000244140625,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 46,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 47,
+      "last_update_date": "2026-11-11"
     },
     "VLO": {
       "ticker": "VLO",
@@ -43,8 +43,8 @@
       "current_price": 356.75,
       "peak_price": 456.4599914550781,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 46,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 47,
+      "last_update_date": "2026-11-11"
     },
     "CNC": {
       "ticker": "CNC",
@@ -54,8 +54,8 @@
       "current_price": 68.54000091552734,
       "peak_price": 76.01000213623047,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 46,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 47,
+      "last_update_date": "2026-11-11"
     },
     "STX": {
       "ticker": "STX",
@@ -65,8 +65,8 @@
       "current_price": 506.1400146484375,
       "peak_price": 945.5700073242188,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 46,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 47,
+      "last_update_date": "2026-11-11"
     },
     "HPE": {
       "ticker": "HPE",
@@ -76,8 +76,8 @@
       "current_price": 47.540000915527344,
       "peak_price": 71.0,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 46,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 47,
+      "last_update_date": "2026-11-11"
     },
     "CRWD": {
       "ticker": "CRWD",
@@ -87,8 +87,8 @@
       "current_price": 228.5800018310547,
       "peak_price": 278.8599853515625,
       "entry_date": "2026-10-01T00:50:01.029513",
-      "trading_days_held": 26,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 27,
+      "last_update_date": "2026-11-11"
     },
     "WDC": {
       "ticker": "WDC",
@@ -98,8 +98,8 @@
       "current_price": 289.7799987792969,
       "peak_price": 462.55999755859375,
       "entry_date": "2026-10-01T00:50:01.029513",
-      "trading_days_held": 26,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 27,
+      "last_update_date": "2026-11-11"
     },
     "MPC": {
       "ticker": "MPC",
@@ -109,8 +109,8 @@
       "current_price": 389.8800048828125,
       "peak_price": 478.07000732421875,
       "entry_date": "2026-10-01T00:50:01.029513",
-      "trading_days_held": 26,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 27,
+      "last_update_date": "2026-11-11"
     },
     "ILMN": {
       "ticker": "ILMN",
@@ -120,8 +120,8 @@
       "current_price": 220.77999877929688,
       "peak_price": 293.69000244140625,
       "entry_date": "2026-10-01T00:50:01.029513",
-      "trading_days_held": 26,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 27,
+      "last_update_date": "2026-11-11"
     },
     "NUE": {
       "ticker": "NUE",
@@ -131,8 +131,8 @@
       "current_price": 249.24000549316406,
       "peak_price": 277.6499938964844,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "TRGP": {
       "ticker": "TRGP",
@@ -142,8 +142,8 @@
       "current_price": 273.6300048828125,
       "peak_price": 298.55999755859375,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "CRL": {
       "ticker": "CRL",
@@ -153,8 +153,8 @@
       "current_price": 353.3399963378906,
       "peak_price": 353.3399963378906,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "APA": {
       "ticker": "APA",
@@ -164,8 +164,8 @@
       "current_price": 44.54999923706055,
       "peak_price": 48.81999969482422,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "LITE": {
       "ticker": "LITE",
@@ -175,8 +175,8 @@
       "current_price": 596.1599731445312,
       "peak_price": 684.4000244140625,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "MU": {
       "ticker": "MU",
@@ -186,8 +186,8 @@
       "current_price": 733.1500244140625,
       "peak_price": 855.0999755859375,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "VTRS": {
       "ticker": "VTRS",
@@ -197,19 +197,19 @@
       "current_price": 20.489999771118164,
       "peak_price": 20.489999771118164,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "PSX": {
       "ticker": "PSX",
       "entry_price": 275.0400085449219,
       "shares": 1.2754557204564216,
       "entry_value": 350.8013522530037,
-      "current_price": 247.0399932861328,
+      "current_price": 253.02000427246094,
       "peak_price": 275.0400085449219,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "SNDK": {
       "ticker": "SNDK",
@@ -219,8 +219,8 @@
       "current_price": 886.510009765625,
       "peak_price": 1126.52001953125,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "ADI": {
       "ticker": "ADI",
@@ -230,8 +230,8 @@
       "current_price": 394.6600036621094,
       "peak_price": 419.7900085449219,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "MRK": {
       "ticker": "MRK",
@@ -241,8 +241,8 @@
       "current_price": 148.75999450683594,
       "peak_price": 150.36000061035156,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "TXN": {
       "ticker": "TXN",
@@ -252,8 +252,8 @@
       "current_price": 295.7300109863281,
       "peak_price": 312.489990234375,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     },
     "COP": {
       "ticker": "COP",
@@ -263,8 +263,8 @@
       "current_price": 134.47000122070312,
       "peak_price": 146.83999633789062,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-10"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-11"
     }
   },
   "closed_trades": [
@@ -1280,6 +1280,10 @@
     {
       "date": "2026-11-10",
       "equity": 7895.755246050166
+    },
+    {
+      "date": "2026-11-11",
+      "equity": 7903.38248527107
     }
   ],
   "last_rebalance": "2026-11"
