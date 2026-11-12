@@ -2,45 +2,6 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "0x3451162823be88866f4404fa8ea6793db33ddd30fbb2451804f83b70fd47c6c0": {
-      "ticker": "[YES] Counter-Strike: Heroic vs B8 (BO3) - I",
-      "direction": "YES",
-      "condition_id": "0x3451162823be88866f4404fa8ea6793db33ddd30fbb2451804f83b70fd47c6c0",
-      "entry_price": 0.615,
-      "shares": 3189.980725572069,
-      "entry_value": 1961.8381462268223,
-      "current_price": 0.615,
-      "peak_price": 0.615,
-      "entry_date": "2026-11-02T01:56:53.718262",
-      "trading_days_held": 9,
-      "last_update_date": "2026-11-11"
-    },
-    "0xada9785d374575caa4a972ba5793b21831c75dc409a0566392fa10cd4425ca92": {
-      "ticker": "[YES] Senators vs. Ducks: O/U 6.5",
-      "direction": "YES",
-      "condition_id": "0xada9785d374575caa4a972ba5793b21831c75dc409a0566392fa10cd4425ca92",
-      "entry_price": 0.705,
-      "shares": 2782.7491435841453,
-      "entry_value": 1961.8381462268223,
-      "current_price": 0.705,
-      "peak_price": 0.705,
-      "entry_date": "2026-11-02T01:56:53.718262",
-      "trading_days_held": 9,
-      "last_update_date": "2026-11-11"
-    },
-    "0xb043efc40b18a318667c71f48f25021996e838548bb8657936a288b2f9e5b488": {
-      "ticker": "[YES] Clippers vs. Warriors: O/U 220.5",
-      "direction": "YES",
-      "condition_id": "0xb043efc40b18a318667c71f48f25021996e838548bb8657936a288b2f9e5b488",
-      "entry_price": 0.61,
-      "shares": 3216.1281085685605,
-      "entry_value": 1961.838146226822,
-      "current_price": 0.61,
-      "peak_price": 0.61,
-      "entry_date": "2026-11-02T01:56:53.718262",
-      "trading_days_held": 9,
-      "last_update_date": "2026-11-11"
-    },
     "0xc138f7ba5966e0ec354a50479099578139e6ad25ddd6c3101aea81a3916aa43b": {
       "ticker": "[YES] Bears vs. Seahawks",
       "direction": "YES",
@@ -51,8 +12,8 @@
       "current_price": 0.675,
       "peak_price": 0.675,
       "entry_date": "2026-11-03T03:45:18.248786",
-      "trading_days_held": 8,
-      "last_update_date": "2026-11-11"
+      "trading_days_held": 9,
+      "last_update_date": "2026-11-12"
     },
     "0x69c219dff0d22c6300835f978ced88f96ec76ec98c61cac162d4a25d2d573e14": {
       "ticker": "[YES] Counter-Strike: Liquid vs PARIVISION (",
@@ -64,8 +25,47 @@
       "current_price": 0.725,
       "peak_price": 0.725,
       "entry_date": "2026-11-03T03:45:18.248786",
-      "trading_days_held": 8,
-      "last_update_date": "2026-11-11"
+      "trading_days_held": 9,
+      "last_update_date": "2026-11-12"
+    },
+    "0xbb0e6ceb165858ed1b831f9548fee86f43c602ef70c072d51e38a6647b6f5d4f": {
+      "ticker": "[YES] Magic vs. Jazz",
+      "direction": "YES",
+      "condition_id": "0xbb0e6ceb165858ed1b831f9548fee86f43c602ef70c072d51e38a6647b6f5d4f",
+      "entry_price": 0.745,
+      "shares": 2633.33979359305,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.745,
+      "peak_price": 0.745,
+      "entry_date": "2026-11-12T03:27:32.375358",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-12"
+    },
+    "0xc8cfc009e5ef7798f16727298e98712da56877f3c78d0bd1a69992c91371ef69": {
+      "ticker": "[YES] UFC 334: Josh Hokit vs. Ciryl Gane (He",
+      "direction": "YES",
+      "condition_id": "0xc8cfc009e5ef7798f16727298e98712da56877f3c78d0bd1a69992c91371ef69",
+      "entry_price": 0.635,
+      "shares": 3089.5088916957834,
+      "entry_value": 1961.8381462268223,
+      "current_price": 0.635,
+      "peak_price": 0.635,
+      "entry_date": "2026-11-12T03:27:32.375358",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-12"
+    },
+    "0xe9c7fcc366ee4b104e086744204877e92014145fd5efbdf6d4d8823d77efd0a9": {
+      "ticker": "[YES] Counter-Strike: FURIA vs Vitality (BO3",
+      "direction": "YES",
+      "condition_id": "0xe9c7fcc366ee4b104e086744204877e92014145fd5efbdf6d4d8823d77efd0a9",
+      "entry_price": 0.675,
+      "shares": 2906.426883298995,
+      "entry_value": 1961.838146226822,
+      "current_price": 0.675,
+      "peak_price": 0.675,
+      "entry_date": "2026-11-12T03:27:32.375358",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-12"
     }
   },
   "closed_trades": [
@@ -1043,6 +1043,45 @@
       "exit_date": "2026-11-03T03:45:18.248771",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Counter-Strike: Heroic vs B8 (BO3) - I",
+      "entry_price": 0.615,
+      "exit_price": 0.615,
+      "shares": 3189.980725572069,
+      "entry_value": 1961.8381462268223,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-11-02T01:56:53.718262",
+      "exit_date": "2026-11-12T03:27:32.375324",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Senators vs. Ducks: O/U 6.5",
+      "entry_price": 0.705,
+      "exit_price": 0.705,
+      "shares": 2782.7491435841453,
+      "entry_value": 1961.8381462268223,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-11-02T01:56:53.718262",
+      "exit_date": "2026-11-12T03:27:32.375336",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Clippers vs. Warriors: O/U 220.5",
+      "entry_price": 0.61,
+      "exit_price": 0.61,
+      "shares": 3216.1281085685605,
+      "entry_value": 1961.838146226822,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-11-02T01:56:53.718262",
+      "exit_date": "2026-11-12T03:27:32.375344",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -1684,6 +1723,10 @@
     },
     {
       "date": "2026-11-11",
+      "equity": 9809.190731134111
+    },
+    {
+      "date": "2026-11-12",
       "equity": 9809.190731134111
     }
   ]
