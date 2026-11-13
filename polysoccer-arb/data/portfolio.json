@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9357.783516962958,
+  "cash": 7018.3376377222185,
   "open_positions": {
     "0x67a633090f9ce7993fe2e310a591444f5a9e1ba74f60b9674ecaf7c42a0c7905": {
       "ticker": "[YES] Will Liverpool win the 2026-27 UEFA Ch",
@@ -12,8 +12,21 @@
       "current_price": 0.0355,
       "peak_price": 0.0355,
       "entry_date": "2026-11-07T02:43:05.096507",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-12"
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-13"
+    },
+    "0x3f67a0bbef53b112984c3fe112b98ade275b2f7aa7e3c44e7bc61ff0ed55d899": {
+      "ticker": "[YES] Will Real Madrid win the 2026-27 UEFA ",
+      "direction": "YES",
+      "condition_id": "0x3f67a0bbef53b112984c3fe112b98ade275b2f7aa7e3c44e7bc61ff0ed55d899",
+      "entry_price": 0.145,
+      "shares": 16134.109512005101,
+      "entry_value": 2339.4458792407395,
+      "current_price": 0.145,
+      "peak_price": 0.145,
+      "entry_date": "2026-11-13T03:21:29.322008",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-13"
     }
   },
   "closed_trades": [
@@ -850,6 +863,10 @@
     },
     {
       "date": "2026-11-12",
+      "equity": 11697.229396203697
+    },
+    {
+      "date": "2026-11-13",
       "equity": 11697.229396203697
     }
   ]
