@@ -8,11 +8,11 @@
       "entry_price": 4.27e-06,
       "shares": 1831818155.6728215,
       "entry_value": 9455.974231931154,
-      "current_price": 4.61e-06,
+      "current_price": 4.6e-06,
       "peak_price": 5.46e-06,
       "entry_date": "2026-10-26T00:17:51.937566",
-      "trading_days_held": 17,
-      "last_update_date": "2026-11-12",
+      "trading_days_held": 18,
+      "last_update_date": "2026-11-13",
       "momentum_7d": 7.3669
     },
     "ape-and-pepe": {
@@ -21,11 +21,11 @@
       "entry_price": 1.2e-06,
       "shares": 7298425092.680691,
       "entry_value": 8905.819403573802,
-      "current_price": 1.24e-06,
+      "current_price": 1.22e-06,
       "peak_price": 1.29e-06,
       "entry_date": "2026-11-02T01:29:10.886564",
-      "trading_days_held": 10,
-      "last_update_date": "2026-11-12",
+      "trading_days_held": 11,
+      "last_update_date": "2026-11-13",
       "momentum_7d": 2.559
     },
     "dessa": {
@@ -37,8 +37,8 @@
       "current_price": 0.055076,
       "peak_price": 0.055076,
       "entry_date": "2026-11-09T01:42:17.011561",
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-12",
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-13",
       "momentum_7d": 199.9427
     }
   },
@@ -1620,6 +1620,10 @@
     {
       "date": "2026-11-12",
       "equity": 26763.72868028024
+    },
+    {
+      "date": "2026-11-13",
+      "equity": 26599.4419968699
     }
   ],
   "last_rebalance": "2026-45"
