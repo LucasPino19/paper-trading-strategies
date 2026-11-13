@@ -1,19 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7745.140621355398,
+  "cash": 5421.598434948779,
   "open_positions": {
     "UNH": {
       "ticker": "UNH",
       "entry_price": 409.38,
       "shares": 6.1225212740377914,
       "entry_value": 2506.437759165591,
-      "current_price": 402.94,
+      "current_price": 405.13,
       "peak_price": 409.38,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-11-12",
+      "trading_days_held": 7,
+      "last_update_date": "2026-11-13",
       "entry_date": "2026-11-05T01:41:51.504524",
       "sps_score": 34.9827351658384,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "TSM": {
+      "ticker": "TSM",
+      "entry_price": 405.49,
+      "shares": 5.730208356325974,
+      "entry_value": 2323.5421864066193,
+      "current_price": 405.49,
+      "peak_price": 405.49,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-13",
+      "entry_date": "2026-11-13T02:01:52.529481",
+      "sps_score": 40.662341428774674,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -771,6 +787,10 @@
     {
       "date": "2026-11-12",
       "equity": 10212.149343516186
+    },
+    {
+      "date": "2026-11-13",
+      "equity": 10225.55766510633
     }
   ]
 }
