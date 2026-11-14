@@ -12,8 +12,8 @@
       "current_price": 0.745,
       "peak_price": 0.745,
       "entry_date": "2026-11-12T03:27:32.375358",
-      "trading_days_held": 1,
-      "last_update_date": "2026-11-13"
+      "trading_days_held": 2,
+      "last_update_date": "2026-11-14"
     },
     "0xc8cfc009e5ef7798f16727298e98712da56877f3c78d0bd1a69992c91371ef69": {
       "ticker": "[YES] UFC 334: Josh Hokit vs. Ciryl Gane (He",
@@ -25,8 +25,8 @@
       "current_price": 0.655,
       "peak_price": 0.655,
       "entry_date": "2026-11-12T03:27:32.375358",
-      "trading_days_held": 1,
-      "last_update_date": "2026-11-13"
+      "trading_days_held": 2,
+      "last_update_date": "2026-11-14"
     },
     "0xe9c7fcc366ee4b104e086744204877e92014145fd5efbdf6d4d8823d77efd0a9": {
       "ticker": "[YES] Counter-Strike: FURIA vs Vitality (BO3",
@@ -38,8 +38,8 @@
       "current_price": 0.675,
       "peak_price": 0.675,
       "entry_date": "2026-11-12T03:27:32.375358",
-      "trading_days_held": 1,
-      "last_update_date": "2026-11-13"
+      "trading_days_held": 2,
+      "last_update_date": "2026-11-14"
     },
     "0xa78998bdf212722f63a450a5c7cef8185aa01f5cd951c57aadbb17e2186bb5eb": {
       "ticker": "[YES] Sabres vs. Blackhawks",
@@ -51,8 +51,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-11-13T02:59:38.251551",
-      "trading_days_held": 0,
-      "last_update_date": "2026-11-13"
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-14"
     },
     "0xab6e8f5ee717b36c301f06c3a86820dc160120cfa7619671f6b51731d7e4e0a2": {
       "ticker": "[YES] Counter-Strike: G2 vs Team Falcons (BO",
@@ -64,8 +64,8 @@
       "current_price": 0.685,
       "peak_price": 0.685,
       "entry_date": "2026-11-13T02:59:38.251551",
-      "trading_days_held": 0,
-      "last_update_date": "2026-11-13"
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-14"
     }
   },
   "closed_trades": [
@@ -1757,6 +1757,10 @@
     },
     {
       "date": "2026-11-13",
+      "equity": 9870.980908968028
+    },
+    {
+      "date": "2026-11-14",
       "equity": 9870.980908968028
     }
   ]
