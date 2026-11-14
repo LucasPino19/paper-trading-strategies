@@ -12,8 +12,8 @@
       "current_price": 0.0355,
       "peak_price": 0.0355,
       "entry_date": "2026-11-07T02:43:05.096507",
-      "trading_days_held": 6,
-      "last_update_date": "2026-11-13"
+      "trading_days_held": 7,
+      "last_update_date": "2026-11-14"
     },
     "0x3f67a0bbef53b112984c3fe112b98ade275b2f7aa7e3c44e7bc61ff0ed55d899": {
       "ticker": "[YES] Will Real Madrid win the 2026-27 UEFA ",
@@ -25,8 +25,8 @@
       "current_price": 0.145,
       "peak_price": 0.145,
       "entry_date": "2026-11-13T03:21:29.322008",
-      "trading_days_held": 0,
-      "last_update_date": "2026-11-13"
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-14"
     }
   },
   "closed_trades": [
@@ -867,6 +867,10 @@
     },
     {
       "date": "2026-11-13",
+      "equity": 11697.229396203697
+    },
+    {
+      "date": "2026-11-14",
       "equity": 11697.229396203697
     }
   ]
