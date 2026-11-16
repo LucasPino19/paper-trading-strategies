@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7939.756470938561,
+  "cash": 3890.4806707598946,
   "open_positions": {
     "XLE": {
       "ticker": "XLE",
       "entry_price": 61.834999084472656,
       "shares": 24.54781609635927,
       "entry_value": 1517.9141858441785,
-      "current_price": 64.8550033569336,
+      "current_price": 63.689998626708984,
       "peak_price": 64.8550033569336,
       "volume_spiked": false,
-      "trading_days_held": 6,
-      "last_update_date": "2026-11-13",
+      "trading_days_held": 7,
+      "last_update_date": "2026-11-16",
       "entry_date": "2026-11-06T20:30:26.792544",
       "sps_score": 5.538134412556013,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "V": {
+      "ticker": "V",
+      "entry_price": 426.4599914550781,
+      "shares": 5.585346782835248,
+      "entry_value": 2381.926941281568,
+      "current_price": 426.4599914550781,
+      "peak_price": 426.4599914550781,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-16",
+      "entry_date": "2026-11-16T23:28:30.684155",
+      "sps_score": 10.537323757986565,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "JPM": {
+      "ticker": "JPM",
+      "entry_price": 338.2099914550781,
+      "shares": 4.929921945013144,
+      "entry_value": 1667.3488588970977,
+      "current_price": 338.2099914550781,
+      "peak_price": 338.2099914550781,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-16",
+      "entry_date": "2026-11-16T23:28:30.782734",
+      "sps_score": 3.6174952612809728,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1345,6 +1377,10 @@
     {
       "date": "2026-11-13",
       "equity": 9531.80516627333
+    },
+    {
+      "date": "2026-11-16",
+      "equity": 9503.206844404387
     }
   ]
 }
