@@ -1,45 +1,32 @@
 {
   "initial_capital": 10000.0,
-  "cash": 1.8189894035458565e-12,
+  "cash": 0.0,
   "open_positions": {
-    "pepe": {
-      "ticker": "PEPE",
-      "name": "Pepe",
-      "entry_price": 4.27e-06,
-      "shares": 1831818155.6728215,
-      "entry_value": 9455.974231931154,
-      "current_price": 3.78e-06,
-      "peak_price": 5.46e-06,
-      "entry_date": "2026-10-26T00:17:51.937566",
-      "trading_days_held": 20,
-      "last_update_date": "2026-11-15",
-      "momentum_7d": 7.3669
+    "meme-horse": {
+      "ticker": "MHORSE",
+      "name": "MEME HORSE",
+      "entry_price": 0.058588,
+      "shares": 214187.54339214764,
+      "entry_value": 12548.819792259146,
+      "current_price": 0.058588,
+      "peak_price": 0.058588,
+      "entry_date": "2026-11-16T01:58:28.862479",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-16",
+      "momentum_7d": 43.9342
     },
-    "ape-and-pepe": {
-      "ticker": "APEPE",
-      "name": "Ape and Pepe",
-      "entry_price": 1.2e-06,
-      "shares": 7298425092.680691,
-      "entry_value": 8905.819403573802,
-      "current_price": 1.21e-06,
-      "peak_price": 1.29e-06,
-      "entry_date": "2026-11-02T01:29:10.886564",
-      "trading_days_held": 13,
-      "last_update_date": "2026-11-15",
-      "momentum_7d": 2.559
-    },
-    "dessa": {
-      "ticker": "DESSA",
-      "name": "Dessa",
-      "entry_price": 0.055076,
-      "shares": 168294.71762118666,
-      "entry_value": 9268.999867704477,
-      "current_price": 0.055076,
-      "peak_price": 0.055076,
-      "entry_date": "2026-11-09T01:42:17.011561",
-      "trading_days_held": 6,
-      "last_update_date": "2026-11-15",
-      "momentum_7d": 199.9427
+    "memecore": {
+      "ticker": "M",
+      "name": "MemeCore",
+      "entry_price": 0.826682,
+      "shares": 15179.742382511227,
+      "entry_value": 12548.819792259146,
+      "current_price": 0.826682,
+      "peak_price": 0.826682,
+      "entry_date": "2026-11-16T01:58:28.862479",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-16",
+      "momentum_7d": 7.9378
     }
   },
   "closed_trades": [
@@ -978,6 +965,45 @@
       "exit_date": "2026-11-09T01:42:17.011561",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 7
+    },
+    {
+      "ticker": "pepe",
+      "entry_price": 4.27e-06,
+      "exit_price": 3.82e-06,
+      "shares": 1831818155.6728215,
+      "entry_value": 9455.974231931154,
+      "pnl": -824.3181700527696,
+      "pnl_pct": -0.10538641686182669,
+      "entry_date": "2026-10-26T00:17:51.937566",
+      "exit_date": "2026-11-16T01:58:28.862479",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 21
+    },
+    {
+      "ticker": "dessa",
+      "entry_price": 0.055076,
+      "exit_price": 0.055076,
+      "shares": 168294.71762118666,
+      "entry_value": 9268.999867704477,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-11-09T01:42:17.011561",
+      "exit_date": "2026-11-16T01:58:28.862479",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "ape-and-pepe",
+      "entry_price": 1.2e-06,
+      "exit_price": 1.21e-06,
+      "shares": 7298425092.680691,
+      "entry_value": 8905.819403573802,
+      "pnl": 72.98425092680776,
+      "pnl_pct": 0.00833333333333343,
+      "entry_date": "2026-11-02T01:29:10.886564",
+      "exit_date": "2026-11-16T01:58:28.862479",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 14
     }
   ],
   "equity_history": [
@@ -1632,7 +1658,11 @@
     {
       "date": "2026-11-15",
       "equity": 25024.36685829138
+    },
+    {
+      "date": "2026-11-16",
+      "equity": 25097.639584518292
     }
   ],
-  "last_rebalance": "2026-45"
+  "last_rebalance": "2026-46"
 }
