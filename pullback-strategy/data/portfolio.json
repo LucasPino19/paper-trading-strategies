@@ -1,35 +1,19 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5421.598434948779,
+  "cash": 7561.544815567547,
   "open_positions": {
     "UNH": {
       "ticker": "UNH",
       "entry_price": 409.38,
       "shares": 6.1225212740377914,
       "entry_value": 2506.437759165591,
-      "current_price": 407.4599914550781,
-      "peak_price": 409.38,
+      "current_price": 412.0199890136719,
+      "peak_price": 412.0199890136719,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-11-14",
+      "trading_days_held": 9,
+      "last_update_date": "2026-11-17",
       "entry_date": "2026-11-05T01:41:51.504524",
       "sps_score": 34.9827351658384,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
-    "TSM": {
-      "ticker": "TSM",
-      "entry_price": 405.49,
-      "shares": 5.730208356325974,
-      "entry_value": 2323.5421864066193,
-      "current_price": 398.7300109863281,
-      "peak_price": 405.49,
-      "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-11-14",
-      "entry_date": "2026-11-13T02:01:52.529481",
-      "sps_score": 40.662341428774674,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -321,6 +305,28 @@
       "pnl": -200.18778408837716,
       "pnl_pct": -0.09546509352196172,
       "exit_reason": "Stop loss: -9.5%"
+    },
+    {
+      "ticker": "TSM",
+      "entry_price": 405.49,
+      "shares": 5.730208356325974,
+      "entry_value": 2323.5421864066193,
+      "current_price": 373.45001220703125,
+      "peak_price": 405.49,
+      "volume_spiked": false,
+      "trading_days_held": 3,
+      "last_update_date": "2026-11-17",
+      "entry_date": "2026-11-13T02:01:52.529481",
+      "sps_score": 40.662341428774674,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 373.45001220703125,
+      "exit_date": "2026-11-17T04:05:50.972336",
+      "proceeds": 2139.9463806187678,
+      "pnl": -183.59580578785153,
+      "pnl_pct": -0.07901548199208049,
+      "exit_reason": "Stop loss: -7.9%"
     }
   ],
   "equity_history": [
@@ -795,6 +801,10 @@
     {
       "date": "2026-11-14",
       "equity": 10201.086941823556
+    },
+    {
+      "date": "2026-11-17",
+      "equity": 10084.14596363257
     }
   ]
 }
