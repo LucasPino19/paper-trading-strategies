@@ -1,20 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7018.3376377222185,
+  "cash": 9160.083865196135,
   "open_positions": {
-    "0x67a633090f9ce7993fe2e310a591444f5a9e1ba74f60b9674ecaf7c42a0c7905": {
-      "ticker": "[YES] Will Liverpool win the 2026-27 UEFA Ch",
-      "direction": "YES",
-      "condition_id": "0x67a633090f9ce7993fe2e310a591444f5a9e1ba74f60b9674ecaf7c42a0c7905",
-      "entry_price": 0.0355,
-      "shares": 65899.88392227436,
-      "entry_value": 2339.4458792407395,
-      "current_price": 0.0325,
-      "peak_price": 0.0355,
-      "entry_date": "2026-11-07T02:43:05.096507",
-      "trading_days_held": 9,
-      "last_update_date": "2026-11-16"
-    },
     "0x3f67a0bbef53b112984c3fe112b98ade275b2f7aa7e3c44e7bc61ff0ed55d899": {
       "ticker": "[YES] Will Real Madrid win the 2026-27 UEFA ",
       "direction": "YES",
@@ -25,8 +12,8 @@
       "current_price": 0.145,
       "peak_price": 0.145,
       "entry_date": "2026-11-13T03:21:29.322008",
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-16"
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-17"
     }
   },
   "closed_trades": [
@@ -404,6 +391,19 @@
       "pnl_pct": 0.0,
       "entry_date": "2026-10-26T01:05:45.895324",
       "exit_date": "2026-11-05T03:26:09.356859",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Will Liverpool win the 2026-27 UEFA Ch",
+      "entry_price": 0.0355,
+      "exit_price": 0.0325,
+      "shares": 65899.88392227436,
+      "entry_value": 2339.4458792407395,
+      "pnl": -197.6996517668228,
+      "pnl_pct": -0.08450704225352101,
+      "entry_date": "2026-11-07T02:43:05.096507",
+      "exit_date": "2026-11-17T05:01:30.699003",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
     }
@@ -879,6 +879,10 @@
     },
     {
       "date": "2026-11-16",
+      "equity": 11499.529744436873
+    },
+    {
+      "date": "2026-11-17",
       "equity": 11499.529744436873
     }
   ]
