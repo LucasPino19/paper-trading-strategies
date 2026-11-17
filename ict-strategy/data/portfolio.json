@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8233.749665643512,
+  "cash": 4034.537336165321,
   "open_positions": {
     "TLT": {
       "ticker": "TLT",
       "entry_price": 80.87999725341797,
       "shares": 20.931158700086403,
       "entry_value": 1692.912058173844,
-      "current_price": 79.37999725341797,
+      "current_price": 79.38,
       "peak_price": 80.91999816894531,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-13",
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-17",
       "entry_date": "2026-11-10T23:38:14.735868",
       "sps_score": 7.170159550457094,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "entry_price": 379.74,
+      "shares": 6.5047793218861685,
+      "entry_value": 2470.1248996930535,
+      "current_price": 379.74,
+      "peak_price": 379.74,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-17",
+      "entry_date": "2026-11-17T01:56:46.360732",
+      "sps_score": 21.06458600500087,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "entry_price": 517.99,
+      "shares": 3.3380710627331367,
+      "entry_value": 1729.0874297851376,
+      "current_price": 517.99,
+      "peak_price": 517.99,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-17",
+      "entry_date": "2026-11-17T01:56:46.420470",
+      "sps_score": 14.756730602367396,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1567,6 +1599,10 @@
     {
       "date": "2026-11-13",
       "equity": 9895.264985767226
+    },
+    {
+      "date": "2026-11-17",
+      "equity": 9895.265043256371
     }
   ]
 }
