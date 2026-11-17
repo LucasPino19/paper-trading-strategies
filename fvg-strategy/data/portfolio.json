@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6553.6080629038825,
+  "cash": 4587.5256440327175,
   "open_positions": {
     "TSLA": {
       "ticker": "TSLA",
       "entry_price": 397.4599914550781,
       "shares": 5.2439809724049224,
       "entry_value": 2084.2726324826526,
-      "current_price": 379.739990234375,
+      "current_price": 380.1099853515625,
       "peak_price": 397.4599914550781,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-16",
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-17",
       "entry_date": "2026-11-12T20:59:29.394232",
       "sps_score": 16.255235785795517,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 144.4600067138672,
       "shares": 19.44267644524714,
       "entry_value": 2808.6891698159493,
-      "current_price": 144.4600067138672,
+      "current_price": 143.3699951171875,
       "peak_price": 144.4600067138672,
       "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-11-16",
+      "trading_days_held": 2,
+      "last_update_date": "2026-11-17",
       "entry_date": "2026-11-16T22:58:12.008068",
       "sps_score": 15.016249750411985,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "MA": {
+      "ticker": "MA",
+      "entry_price": 645.72998046875,
+      "shares": 3.0447438996776035,
+      "entry_value": 1966.0824188711647,
+      "current_price": 645.72998046875,
+      "peak_price": 645.72998046875,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-17",
+      "entry_date": "2026-11-17T21:51:00.587748",
+      "sps_score": 0.8521151024826316,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1365,6 +1381,10 @@
     {
       "date": "2026-11-16",
       "equity": 11353.646515970126
+    },
+    {
+      "date": "2026-11-17",
+      "equity": 11334.394020528729
     }
   ]
 }
