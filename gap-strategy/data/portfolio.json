@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7260.622939263218,
+  "cash": 3557.7052402389763,
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
       "entry_price": 523.0,
       "shares": 4.882570137976872,
       "entry_value": 2553.584182161904,
-      "current_price": 517.989990234375,
+      "current_price": 506.239990234375,
       "peak_price": 523.9299926757812,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-16",
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-17",
       "entry_date": "2026-11-12T21:32:01.918692",
       "sps_score": 44.33812422822649,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "entry_price": 155.4600067138672,
+      "shares": 14.011236251829317,
+      "entry_value": 2178.186881778965,
+      "current_price": 155.4600067138672,
+      "peak_price": 155.4600067138672,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-17",
+      "entry_date": "2026-11-17T22:33:49.645088",
+      "sps_score": 65.96760892264517,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "SOXL": {
+      "ticker": "SOXL",
+      "entry_price": 49.06999969482422,
+      "shares": 31.07256626712595,
+      "entry_value": 1524.7308172452756,
+      "current_price": 49.06999969482422,
+      "peak_price": 49.06999969482422,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-17",
+      "entry_date": "2026-11-17T22:33:49.741553",
+      "sps_score": 57.72940091285919,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1151,6 +1183,10 @@
     {
       "date": "2026-11-16",
       "equity": 9789.745397352508
+    },
+    {
+      "date": "2026-11-17",
+      "equity": 9732.375198231279
     }
   ]
 }
