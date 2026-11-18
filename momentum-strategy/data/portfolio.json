@@ -1,19 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6855.102126107213,
+  "cash": 4798.571488275049,
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
       "entry_price": 532.2449951171875,
       "shares": 2.517806133247931,
       "entry_value": 1340.0897130965698,
-      "current_price": 506.239990234375,
+      "current_price": 508.2900085449219,
       "peak_price": 545.1799926757812,
       "volume_spiked": false,
-      "trading_days_held": 8,
-      "last_update_date": "2026-11-17",
+      "trading_days_held": 9,
+      "last_update_date": "2026-11-18",
       "entry_date": "2026-11-06T20:30:16.172909",
       "sps_score": 58.017927246744264,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "entry_price": 267.739990234375,
+      "shares": 7.681073850910027,
+      "entry_value": 2056.530637832164,
+      "current_price": 267.739990234375,
+      "peak_price": 267.739990234375,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-18",
+      "entry_date": "2026-11-18T22:13:47.978855",
+      "sps_score": 44.38535845160585,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1705,6 +1721,10 @@
     {
       "date": "2026-11-17",
       "equity": 8129.716278414695
+    },
+    {
+      "date": "2026-11-18",
+      "equity": 8134.87782709026
     }
   ]
 }
