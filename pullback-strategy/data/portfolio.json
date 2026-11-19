@@ -1,24 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7561.544815567547,
-  "open_positions": {
-    "UNH": {
-      "ticker": "UNH",
-      "entry_price": 409.38,
-      "shares": 6.1225212740377914,
-      "entry_value": 2506.437759165591,
-      "current_price": 389.67999267578125,
-      "peak_price": 412.0199890136719,
-      "volume_spiked": false,
-      "trading_days_held": 10,
-      "last_update_date": "2026-11-18",
-      "entry_date": "2026-11-05T01:41:51.504524",
-      "sps_score": 34.9827351658384,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    }
-  },
+  "cash": 9703.876256987453,
+  "open_positions": {},
   "closed_trades": [
     {
       "ticker": "GOOGL",
@@ -327,6 +310,28 @@
       "pnl": -183.59580578785153,
       "pnl_pct": -0.07901548199208049,
       "exit_reason": "Stop loss: -7.9%"
+    },
+    {
+      "ticker": "UNH",
+      "entry_price": 409.38,
+      "shares": 6.1225212740377914,
+      "entry_value": 2506.437759165591,
+      "current_price": 349.9100036621094,
+      "peak_price": 412.0199890136719,
+      "volume_spiked": false,
+      "trading_days_held": 11,
+      "last_update_date": "2026-11-19",
+      "entry_date": "2026-11-05T01:41:51.504524",
+      "sps_score": 34.9827351658384,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 349.9100036621094,
+      "exit_date": "2026-11-19T02:44:06.290413",
+      "proceeds": 2142.3314414199062,
+      "pnl": -364.1063177456849,
+      "pnl_pct": -0.14526844579092926,
+      "exit_reason": "Stop loss: -14.5%"
     }
   ],
   "equity_history": [
@@ -809,6 +814,10 @@
     {
       "date": "2026-11-18",
       "equity": 9947.368860791908
+    },
+    {
+      "date": "2026-11-19",
+      "equity": 9703.876256987453
     }
   ]
 }
