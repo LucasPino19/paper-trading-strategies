@@ -7,22 +7,22 @@
       "entry_price": 516.0999755859375,
       "shares": 0.7514380837221578,
       "entry_value": 2918.8832589579183,
-      "current_price": 530.1400146484375,
+      "current_price": 489.19000244140625,
       "peak_price": 649.4199829101562,
       "entry_date": "2026-05-31T16:47:53.987437",
-      "trading_days_held": 119,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 120,
+      "last_update_date": "2026-11-20"
     },
     "MRVL": {
       "ticker": "MRVL",
       "entry_price": 211.66000366210938,
       "shares": 2.046562888736168,
       "entry_value": 466.7192568272071,
-      "current_price": 145.5399932861328,
+      "current_price": 138.47000122070312,
       "peak_price": 287.010009765625,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 53,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 54,
+      "last_update_date": "2026-11-20"
     },
     "DELL": {
       "ticker": "DELL",
@@ -32,41 +32,41 @@
       "current_price": 313.1099853515625,
       "peak_price": 588.4000244140625,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 53,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 54,
+      "last_update_date": "2026-11-20"
     },
     "VLO": {
       "ticker": "VLO",
       "entry_price": 358.9200134277344,
       "shares": 0.9196281657609042,
       "entry_value": 408.86262990873854,
-      "current_price": 343.70001220703125,
+      "current_price": 338.4599914550781,
       "peak_price": 456.4599914550781,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 53,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 54,
+      "last_update_date": "2026-11-20"
     },
     "CNC": {
       "ticker": "CNC",
       "entry_price": 64.33999633789062,
       "shares": 5.27282968118989,
       "entry_value": 454.5619408465909,
-      "current_price": 67.44999694824219,
+      "current_price": 65.58000183105469,
       "peak_price": 76.01000213623047,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 53,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 54,
+      "last_update_date": "2026-11-20"
     },
     "STX": {
       "ticker": "STX",
       "entry_price": 828.3800048828125,
       "shares": 0.5908133698520309,
       "entry_value": 467.1876149918212,
-      "current_price": 515.9000244140625,
+      "current_price": 521.3900146484375,
       "peak_price": 945.5700073242188,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 53,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 54,
+      "last_update_date": "2026-11-20"
     },
     "HPE": {
       "ticker": "HPE",
@@ -76,8 +76,8 @@
       "current_price": 45.779998779296875,
       "peak_price": 71.0,
       "entry_date": "2026-09-01T00:47:02.771580",
-      "trading_days_held": 53,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 54,
+      "last_update_date": "2026-11-20"
     },
     "CRWD": {
       "ticker": "CRWD",
@@ -87,85 +87,85 @@
       "current_price": 237.02999877929688,
       "peak_price": 278.8599853515625,
       "entry_date": "2026-10-01T00:50:01.029513",
-      "trading_days_held": 33,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 34,
+      "last_update_date": "2026-11-20"
     },
     "WDC": {
       "ticker": "WDC",
       "entry_price": 453.4800109863281,
       "shares": 1.036065318075514,
       "entry_value": 462.5838503134632,
-      "current_price": 288.19000244140625,
+      "current_price": 296.7799987792969,
       "peak_price": 462.55999755859375,
       "entry_date": "2026-10-01T00:50:01.029513",
-      "trading_days_held": 33,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 34,
+      "last_update_date": "2026-11-20"
     },
     "MPC": {
       "ticker": "MPC",
       "entry_price": 392.0299987792969,
       "shares": 0.8150778138743635,
       "entry_value": 441.21439625237053,
-      "current_price": 373.8599853515625,
+      "current_price": 367.92999267578125,
       "peak_price": 478.07000732421875,
       "entry_date": "2026-10-01T00:50:01.029513",
-      "trading_days_held": 33,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 34,
+      "last_update_date": "2026-11-20"
     },
     "ILMN": {
       "ticker": "ILMN",
       "entry_price": 272.0,
       "shares": 1.548244988163485,
       "entry_value": 441.21439625237053,
-      "current_price": 210.00999450683594,
+      "current_price": 200.66000366210938,
       "peak_price": 293.69000244140625,
       "entry_date": "2026-10-01T00:50:01.029513",
-      "trading_days_held": 33,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 34,
+      "last_update_date": "2026-11-20"
     },
     "NUE": {
       "ticker": "NUE",
       "entry_price": 277.6499938964844,
       "shares": 1.2634660902740456,
       "entry_value": 350.8013522530037,
-      "current_price": 250.4199981689453,
+      "current_price": 247.42999267578125,
       "peak_price": 277.6499938964844,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "TRGP": {
       "ticker": "TRGP",
       "entry_price": 294.7300109863281,
       "shares": 1.190246460070456,
       "entry_value": 350.8013522530037,
-      "current_price": 290.1700134277344,
+      "current_price": 285.4200134277344,
       "peak_price": 298.55999755859375,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "CRL": {
       "ticker": "CRL",
       "entry_price": 338.5400085449219,
       "shares": 1.036218300344418,
       "entry_value": 350.8013522530037,
-      "current_price": 333.25,
+      "current_price": 327.92999267578125,
       "peak_price": 353.3399963378906,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "APA": {
       "ticker": "APA",
       "entry_price": 48.81999969482422,
       "shares": 7.185607424126937,
       "entry_value": 350.8013522530037,
-      "current_price": 45.52000045776367,
+      "current_price": 44.619998931884766,
       "peak_price": 48.81999969482422,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "LITE": {
       "ticker": "LITE",
@@ -175,30 +175,30 @@
       "current_price": 551.0700073242188,
       "peak_price": 684.4000244140625,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "MU": {
       "ticker": "MU",
       "entry_price": 833.5900268554688,
       "shares": 0.42083199288782647,
       "entry_value": 350.8013522530037,
-      "current_price": 705.27001953125,
+      "current_price": 690.4400024414062,
       "peak_price": 855.0999755859375,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "VTRS": {
       "ticker": "VTRS",
       "entry_price": 18.670000076293945,
       "shares": 18.789574227074073,
       "entry_value": 350.8013522530037,
-      "current_price": 20.280000686645508,
+      "current_price": 19.8799991607666,
       "peak_price": 21.059999465942383,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "PSX": {
       "ticker": "PSX",
@@ -208,8 +208,8 @@
       "current_price": 244.8300018310547,
       "peak_price": 275.0400085449219,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "SNDK": {
       "ticker": "SNDK",
@@ -219,52 +219,52 @@
       "current_price": 776.219970703125,
       "peak_price": 1126.52001953125,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "ADI": {
       "ticker": "ADI",
       "entry_price": 412.8500061035156,
       "shares": 0.849706544911727,
       "entry_value": 350.8013522530037,
-      "current_price": 381.9800109863281,
+      "current_price": 377.44000244140625,
       "peak_price": 419.7900085449219,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "MRK": {
       "ticker": "MRK",
       "entry_price": 148.36000061035156,
       "shares": 2.364527843150515,
       "entry_value": 350.8013522530037,
-      "current_price": 137.77999877929688,
+      "current_price": 132.80999755859375,
       "peak_price": 150.36000061035156,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "TXN": {
       "ticker": "TXN",
       "entry_price": 302.0199890136719,
       "shares": 1.1615170022310133,
       "entry_value": 350.8013522530037,
-      "current_price": 292.42999267578125,
+      "current_price": 285.75,
       "peak_price": 312.489990234375,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     },
     "COP": {
       "ticker": "COP",
       "entry_price": 146.83999633789062,
       "shares": 2.389004092902465,
       "entry_value": 350.8013522530037,
-      "current_price": 134.39999389648438,
+      "current_price": 134.99000549316406,
       "peak_price": 146.83999633789062,
       "entry_date": "2026-11-03T03:04:52.827896",
-      "trading_days_held": 12,
-      "last_update_date": "2026-11-19"
+      "trading_days_held": 13,
+      "last_update_date": "2026-11-20"
     }
   },
   "closed_trades": [
@@ -1308,6 +1308,10 @@
     {
       "date": "2026-11-19",
       "equity": 7709.594471586891
+    },
+    {
+      "date": "2026-11-20",
+      "equity": 7585.381970031543
     }
   ],
   "last_rebalance": "2026-11"
