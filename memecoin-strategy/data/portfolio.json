@@ -11,8 +11,8 @@
       "current_price": 0.058588,
       "peak_price": 0.058588,
       "entry_date": "2026-11-16T01:58:28.862479",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-21",
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-22",
       "momentum_7d": 43.9342
     },
     "memecore": {
@@ -21,11 +21,11 @@
       "entry_price": 0.826682,
       "shares": 15179.742382511227,
       "entry_value": 12548.819792259146,
-      "current_price": 0.834183,
+      "current_price": 0.750577,
       "peak_price": 0.90429,
       "entry_date": "2026-11-16T01:58:28.862479",
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-21",
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-22",
       "momentum_7d": 7.9378
     }
   },
@@ -1682,6 +1682,10 @@
     {
       "date": "2026-11-21",
       "equity": 25211.50283212951
+    },
+    {
+      "date": "2026-11-22",
+      "equity": 23942.385290497277
     }
   ],
   "last_rebalance": "2026-46"
