@@ -2,31 +2,31 @@
   "initial_capital": 10000.0,
   "cash": 0.0,
   "open_positions": {
-    "meme-horse": {
-      "ticker": "MHORSE",
-      "name": "MEME HORSE",
-      "entry_price": 0.058588,
-      "shares": 214187.54339214764,
-      "entry_value": 12548.819792259146,
-      "current_price": 0.058588,
-      "peak_price": 0.058588,
-      "entry_date": "2026-11-16T01:58:28.862479",
-      "trading_days_held": 6,
-      "last_update_date": "2026-11-22",
-      "momentum_7d": 43.9342
+    "ape-and-pepe": {
+      "ticker": "APEPE",
+      "name": "Ape and Pepe",
+      "entry_price": 1.38e-06,
+      "shares": 8655582604.921127,
+      "entry_value": 11944.703994791154,
+      "current_price": 1.38e-06,
+      "peak_price": 1.38e-06,
+      "entry_date": "2026-11-23T02:41:37.425038",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-23",
+      "momentum_7d": 15.4482
     },
-    "memecore": {
-      "ticker": "M",
-      "name": "MemeCore",
-      "entry_price": 0.826682,
-      "shares": 15179.742382511227,
-      "entry_value": 12548.819792259146,
-      "current_price": 0.750577,
-      "peak_price": 0.90429,
-      "entry_date": "2026-11-16T01:58:28.862479",
-      "trading_days_held": 6,
-      "last_update_date": "2026-11-22",
-      "momentum_7d": 7.9378
+    "moolah": {
+      "ticker": "MOOLAH",
+      "name": "Moolah",
+      "entry_price": 0.064967,
+      "shares": 183858.02014547624,
+      "entry_value": 11944.703994791154,
+      "current_price": 0.064967,
+      "peak_price": 0.064967,
+      "entry_date": "2026-11-23T02:41:37.425038",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-23",
+      "momentum_7d": 11.264
     }
   },
   "closed_trades": [
@@ -1004,6 +1004,32 @@
       "exit_date": "2026-11-16T01:58:28.862479",
       "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
       "trading_days_held": 14
+    },
+    {
+      "ticker": "meme-horse",
+      "entry_price": 0.058588,
+      "exit_price": 0.058588,
+      "shares": 214187.54339214764,
+      "entry_value": 12548.819792259146,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-11-16T01:58:28.862479",
+      "exit_date": "2026-11-23T02:41:37.425038",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
+    },
+    {
+      "ticker": "memecore",
+      "entry_price": 0.826682,
+      "exit_price": 0.747087,
+      "shares": 15179.742382511227,
+      "entry_value": 12548.819792259146,
+      "pnl": -1208.2315949359825,
+      "pnl_pct": -0.09628248830868469,
+      "entry_date": "2026-11-16T01:58:28.862479",
+      "exit_date": "2026-11-23T02:41:37.425038",
+      "exit_reason": "Rebalanceo semanal \u2014 sali\u00f3 del top",
+      "trading_days_held": 7
     }
   ],
   "equity_history": [
@@ -1686,7 +1712,11 @@
     {
       "date": "2026-11-22",
       "equity": 23942.385290497277
+    },
+    {
+      "date": "2026-11-23",
+      "equity": 23889.40798958231
     }
   ],
-  "last_rebalance": "2026-46"
+  "last_rebalance": "2026-47"
 }
