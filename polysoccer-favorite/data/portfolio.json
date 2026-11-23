@@ -1,33 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 37.07410670034824,
+  "cash": 0.0,
   "open_positions": {
-    "0xa78998bdf212722f63a450a5c7cef8185aa01f5cd951c57aadbb17e2186bb5eb": {
-      "ticker": "[YES] Sabres vs. Blackhawks",
-      "direction": "YES",
-      "condition_id": "0xa78998bdf212722f63a450a5c7cef8185aa01f5cd951c57aadbb17e2186bb5eb",
-      "entry_price": 0.765,
-      "shares": 2580.6486036517717,
-      "entry_value": 1974.1961817936055,
-      "current_price": 0.765,
-      "peak_price": 0.765,
-      "entry_date": "2026-11-13T02:59:38.251551",
-      "trading_days_held": 9,
-      "last_update_date": "2026-11-22"
-    },
-    "0xab6e8f5ee717b36c301f06c3a86820dc160120cfa7619671f6b51731d7e4e0a2": {
-      "ticker": "[YES] Counter-Strike: G2 vs Team Falcons (BO",
-      "direction": "YES",
-      "condition_id": "0xab6e8f5ee717b36c301f06c3a86820dc160120cfa7619671f6b51731d7e4e0a2",
-      "entry_price": 0.685,
-      "shares": 2845.9563659270643,
-      "entry_value": 1949.4801106600391,
-      "current_price": 0.685,
-      "peak_price": 0.685,
-      "entry_date": "2026-11-13T02:59:38.251551",
-      "trading_days_held": 9,
-      "last_update_date": "2026-11-22"
-    },
     "0x5439899c63e831c3e5cd5cdc7fd452486bb46036dd66329cdb588b2448bdec2d": {
       "ticker": "[YES] Virginia Tech vs. Miami (FL)",
       "direction": "YES",
@@ -38,8 +12,8 @@
       "current_price": 0.765,
       "peak_price": 0.765,
       "entry_date": "2026-11-22T02:42:43.763321",
-      "trading_days_held": 0,
-      "last_update_date": "2026-11-22"
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-23"
     },
     "0x435b2c6481af246af6f219d8b968f0733a6050ebe3fc8c087bc58af1cac0681b": {
       "ticker": "[YES] Clippers vs. Mavericks",
@@ -51,8 +25,8 @@
       "current_price": 0.645,
       "peak_price": 0.645,
       "entry_date": "2026-11-22T02:42:43.763321",
-      "trading_days_held": 0,
-      "last_update_date": "2026-11-22"
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-23"
     },
     "0x1db3fa719c3f5b29ce86debe00b52e53fac73e355e5b12b9aa2eacf3a1bd6f9c": {
       "ticker": "[YES] Arizona vs. Kansas State",
@@ -64,8 +38,34 @@
       "current_price": 0.605,
       "peak_price": 0.605,
       "entry_date": "2026-11-22T02:42:43.763321",
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-23"
+    },
+    "0xff071d6a70d0f20a676cb8fadd55e0569d20f5b8a0789c4bd771919852285e93": {
+      "ticker": "[YES] Exact Score: Any Other Score?",
+      "direction": "YES",
+      "condition_id": "0xff071d6a70d0f20a676cb8fadd55e0569d20f5b8a0789c4bd771919852285e93",
+      "entry_price": 0.755,
+      "shares": 2623.013509373506,
+      "entry_value": 1980.3751995769971,
+      "current_price": 0.755,
+      "peak_price": 0.755,
+      "entry_date": "2026-11-23T03:17:32.927930",
       "trading_days_held": 0,
-      "last_update_date": "2026-11-22"
+      "last_update_date": "2026-11-23"
+    },
+    "0x13aa6f3ff3fdc35f40bec722e7c07e6961a3eb72b51bb99d8cf12a6fc6d7206d": {
+      "ticker": "[YES] Exact Score: Any Other Score?",
+      "direction": "YES",
+      "condition_id": "0x13aa6f3ff3fdc35f40bec722e7c07e6961a3eb72b51bb99d8cf12a6fc6d7206d",
+      "entry_price": 0.76,
+      "shares": 2605.756841548678,
+      "entry_value": 1980.3751995769953,
+      "current_price": 0.76,
+      "peak_price": 0.76,
+      "entry_date": "2026-11-23T03:17:32.927930",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-23"
     }
   },
   "closed_trades": [
@@ -1147,6 +1147,32 @@
       "exit_date": "2026-11-22T02:42:43.763309",
       "exit_reason": "Max hold (10d)",
       "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Sabres vs. Blackhawks",
+      "entry_price": 0.765,
+      "exit_price": 0.765,
+      "shares": 2580.6486036517717,
+      "entry_value": 1974.1961817936055,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-11-13T02:59:38.251551",
+      "exit_date": "2026-11-23T03:17:32.927907",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
+    },
+    {
+      "ticker": "[YES] Counter-Strike: G2 vs Team Falcons (BO",
+      "entry_price": 0.685,
+      "exit_price": 0.685,
+      "shares": 2845.9563659270643,
+      "entry_value": 1949.4801106600391,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "entry_date": "2026-11-13T02:59:38.251551",
+      "exit_date": "2026-11-23T03:17:32.927916",
+      "exit_reason": "Max hold (10d)",
+      "trading_days_held": 10
     }
   ],
   "equity_history": [
@@ -1832,6 +1858,10 @@
     },
     {
       "date": "2026-11-22",
+      "equity": 9901.875997884985
+    },
+    {
+      "date": "2026-11-23",
       "equity": 9901.875997884985
     }
   ]
