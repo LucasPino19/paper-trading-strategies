@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7965.838738515951,
+  "cash": 3903.260981872816,
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
       "entry_price": 517.99,
       "shares": 3.3380710627331367,
       "entry_value": 1729.0874297851376,
-      "current_price": 484.5199890136719,
+      "current_price": 492.5,
       "peak_price": 517.99,
       "volume_spiked": false,
-      "trading_days_held": 5,
-      "last_update_date": "2026-11-21",
+      "trading_days_held": 6,
+      "last_update_date": "2026-11-24",
       "entry_date": "2026-11-17T01:56:46.420470",
       "sps_score": 14.756730602367396,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "entry_price": 385.4599914550781,
+      "shares": 6.199739725343945,
+      "entry_value": 2389.7516215547853,
+      "current_price": 385.4599914550781,
+      "peak_price": 385.4599914550781,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-24",
+      "entry_date": "2026-11-24T04:01:05.910595",
+      "sps_score": 47.5820675015383,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "entry_price": 255.38999938964844,
+      "shares": 6.550084729575175,
+      "entry_value": 1672.8261350883497,
+      "current_price": 255.38999938964844,
+      "peak_price": 255.38999938964844,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-24",
+      "entry_date": "2026-11-24T04:01:05.982141",
+      "sps_score": 25.68317909960479,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1631,6 +1663,10 @@
     {
       "date": "2026-11-21",
       "equity": 9583.200893158266
+    },
+    {
+      "date": "2026-11-24",
+      "equity": 9609.838736912021
     }
   ]
 }
