@@ -1,19 +1,51 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6276.056530079265,
+  "cash": 3075.26769973884,
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
       "entry_price": 523.0,
       "shares": 4.882570137976872,
       "entry_value": 2553.584182161904,
-      "current_price": 484.5199890136719,
+      "current_price": 492.5,
       "peak_price": 523.9299926757812,
       "volume_spiked": false,
-      "trading_days_held": 7,
-      "last_update_date": "2026-11-20",
+      "trading_days_held": 8,
+      "last_update_date": "2026-11-24",
       "entry_date": "2026-11-12T21:32:01.918692",
       "sps_score": 44.33812422822649,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "MSTR": {
+      "ticker": "MSTR",
+      "entry_price": 84.4,
+      "shares": 22.308257808338617,
+      "entry_value": 1882.8169590237794,
+      "current_price": 84.4,
+      "peak_price": 84.4,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-24",
+      "entry_date": "2026-11-24T01:48:31.435050",
+      "sps_score": 28.826596657550837,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "entry_price": 282.1,
+      "shares": 4.672002379711611,
+      "entry_value": 1317.9718713166455,
+      "current_price": 282.1,
+      "peak_price": 282.1,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-24",
+      "entry_date": "2026-11-24T01:48:31.568252",
+      "sps_score": 14.124456561779517,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1211,6 +1243,10 @@
     {
       "date": "2026-11-20",
       "equity": 8641.759359690303
+    },
+    {
+      "date": "2026-11-24",
+      "equity": 8680.722323032875
     }
   ]
 }
