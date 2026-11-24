@@ -1,13 +1,13 @@
 {
   "initial_capital": 10000.0,
-  "cash": 3075.26769973884,
+  "cash": 4805.273160854899,
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
       "entry_price": 523.0,
       "shares": 4.882570137976872,
       "entry_value": 2553.584182161904,
-      "current_price": 492.5,
+      "current_price": 496.1300048828125,
       "peak_price": 523.9299926757812,
       "volume_spiked": false,
       "trading_days_held": 8,
@@ -18,28 +18,12 @@
       "float_shares_m": 0,
       "dtc": 0
     },
-    "MSTR": {
-      "ticker": "MSTR",
-      "entry_price": 84.4,
-      "shares": 22.308257808338617,
-      "entry_value": 1882.8169590237794,
-      "current_price": 84.4,
-      "peak_price": 84.4,
-      "volume_spiked": false,
-      "trading_days_held": 1,
-      "last_update_date": "2026-11-24",
-      "entry_date": "2026-11-24T01:48:31.435050",
-      "sps_score": 28.826596657550837,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "GOOGL": {
       "ticker": "GOOGL",
       "entry_price": 282.1,
       "shares": 4.672002379711611,
       "entry_value": 1317.9718713166455,
-      "current_price": 282.1,
+      "current_price": 279.04998779296875,
       "peak_price": 282.1,
       "volume_spiked": false,
       "trading_days_held": 1,
@@ -733,6 +717,28 @@
       "pnl": -565.2099969935616,
       "pnl_pct": -0.3706949388054765,
       "exit_reason": "Stop loss: -37.1%"
+    },
+    {
+      "ticker": "MSTR",
+      "entry_price": 84.4,
+      "shares": 22.308257808338617,
+      "entry_value": 1882.8169590237794,
+      "current_price": 77.55000305175781,
+      "peak_price": 84.4,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-24",
+      "entry_date": "2026-11-24T01:48:31.435050",
+      "sps_score": 28.826596657550837,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 77.55000305175781,
+      "exit_date": "2026-11-24T23:35:31.468662",
+      "proceeds": 1730.0054611160597,
+      "pnl": -152.81149790771974,
+      "pnl_pct": -0.0811611012824905,
+      "exit_reason": "Stop loss: -8.1%"
     }
   ],
   "equity_history": [
@@ -1246,7 +1252,7 @@
     },
     {
       "date": "2026-11-24",
-      "equity": 8680.722323032875
+      "equity": 8531.384914277285
     }
   ]
 }
