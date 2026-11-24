@@ -1,19 +1,35 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7348.822617859338,
+  "cash": 5144.175832501536,
   "open_positions": {
     "XLE": {
       "ticker": "XLE",
       "entry_price": 61.939998626708984,
       "shares": 35.379557029665314,
       "entry_value": 2191.4097138310417,
-      "current_price": 60.5099983215332,
+      "current_price": 59.869998931884766,
       "peak_price": 64.95999908447266,
       "volume_spiked": false,
-      "trading_days_held": 10,
-      "last_update_date": "2026-11-21",
+      "trading_days_held": 11,
+      "last_update_date": "2026-11-24",
       "entry_date": "2026-11-10T03:44:10.264157",
       "sps_score": 34.059791096538774,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "entry_price": 492.5,
+      "shares": 4.476440173315332,
+      "entry_value": 2204.646785357801,
+      "current_price": 492.5,
+      "peak_price": 492.5,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-24",
+      "entry_date": "2026-11-24T05:27:07.741167",
+      "sps_score": 35.01517114116065,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -843,6 +859,10 @@
     {
       "date": "2026-11-21",
       "equity": 9489.639554340974
+    },
+    {
+      "date": "2026-11-24",
+      "equity": 9466.996659435956
     }
   ]
 }
