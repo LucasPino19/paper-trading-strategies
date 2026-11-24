@@ -1,7 +1,56 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7949.036957877032,
-  "open_positions": {},
+  "cash": 2726.5196765518226,
+  "open_positions": {
+    "NVDA": {
+      "ticker": "NVDA",
+      "entry_price": 155.3800048828125,
+      "shares": 15.347605949437684,
+      "entry_value": 2384.7110873631095,
+      "current_price": 155.3800048828125,
+      "peak_price": 155.3800048828125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-24",
+      "entry_date": "2026-11-24T23:35:34.396875",
+      "sps_score": 98.90476472550525,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "entry_price": 384.67999267578125,
+      "shares": 4.339445234837327,
+      "entry_value": 1669.297761154177,
+      "current_price": 384.67999267578125,
+      "peak_price": 384.67999267578125,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-24",
+      "entry_date": "2026-11-24T23:35:34.461259",
+      "sps_score": 68.46812786677359,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "entry_price": 354.07000732421875,
+      "shares": 3.3002186252334305,
+      "entry_value": 1168.5084328079238,
+      "current_price": 354.07000732421875,
+      "peak_price": 354.07000732421875,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-24",
+      "entry_date": "2026-11-24T23:35:34.553172",
+      "sps_score": 51.72896629325741,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    }
+  },
   "closed_trades": [
     {
       "ticker": "AVGO",
@@ -1747,7 +1796,7 @@
     },
     {
       "date": "2026-11-24",
-      "equity": 7949.036957877032
+      "equity": 7949.036957877033
     }
   ]
 }
