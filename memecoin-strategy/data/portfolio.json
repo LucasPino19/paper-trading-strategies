@@ -8,11 +8,11 @@
       "entry_price": 1.38e-06,
       "shares": 8655582604.921127,
       "entry_value": 11944.703994791154,
-      "current_price": 1.39e-06,
+      "current_price": 1.37e-06,
       "peak_price": 1.39e-06,
       "entry_date": "2026-11-23T02:41:37.425038",
-      "trading_days_held": 1,
-      "last_update_date": "2026-11-24",
+      "trading_days_held": 2,
+      "last_update_date": "2026-11-25",
       "momentum_7d": 15.4482
     },
     "moolah": {
@@ -21,11 +21,11 @@
       "entry_price": 0.064967,
       "shares": 183858.02014547624,
       "entry_value": 11944.703994791154,
-      "current_price": 0.064357,
+      "current_price": 0.063163,
       "peak_price": 0.064967,
       "entry_date": "2026-11-23T02:41:37.425038",
-      "trading_days_held": 1,
-      "last_update_date": "2026-11-24",
+      "trading_days_held": 2,
+      "last_update_date": "2026-11-25",
       "momentum_7d": 11.264
     }
   },
@@ -1720,6 +1720,10 @@
     {
       "date": "2026-11-24",
       "equity": 23863.81042334278
+    },
+    {
+      "date": "2026-11-25",
+      "equity": 23471.17229519066
     }
   ],
   "last_rebalance": "2026-47"
