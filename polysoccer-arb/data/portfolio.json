@@ -1,7 +1,47 @@
 {
   "initial_capital": 10000.0,
-  "cash": 11499.529744436873,
-  "open_positions": {},
+  "cash": 4599.811897774747,
+  "open_positions": {
+    "0x0b701a510fe36844eb7a9839839b98dead384780e20b9504efcad1ab4b5b79af": {
+      "ticker": "[YES] Will Borussia Dortmund win the 2026-27",
+      "direction": "YES",
+      "condition_id": "0x0b701a510fe36844eb7a9839839b98dead384780e20b9504efcad1ab4b5b79af",
+      "entry_price": 0.0115,
+      "shares": 199991.82164238044,
+      "entry_value": 2299.905948887375,
+      "current_price": 0.0115,
+      "peak_price": 0.0115,
+      "entry_date": "2026-11-25T05:23:07.774558",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-25"
+    },
+    "0xd961e85c58d27699749eaa069e629519e2f4af701a7c2a02a486dca77e101fdc": {
+      "ticker": "[YES] Will Manchester City win the 2026-27 U",
+      "direction": "YES",
+      "condition_id": "0xd961e85c58d27699749eaa069e629519e2f4af701a7c2a02a486dca77e101fdc",
+      "entry_price": 0.0445,
+      "shares": 51683.27975027809,
+      "entry_value": 2299.905948887375,
+      "current_price": 0.0445,
+      "peak_price": 0.0445,
+      "entry_date": "2026-11-25T05:23:07.774558",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-25"
+    },
+    "0xa23467e95abf6544819a9dcb90b7719846aacf300b991ea07204e1f1649097cb": {
+      "ticker": "[NO] Will Barcelona win the 2026-27 UEFA Ch",
+      "direction": "NO",
+      "condition_id": "0xa23467e95abf6544819a9dcb90b7719846aacf300b991ea07204e1f1649097cb",
+      "entry_price": 0.795,
+      "shares": 2892.9634577199686,
+      "entry_value": 2299.905948887375,
+      "current_price": 0.795,
+      "peak_price": 0.795,
+      "entry_date": "2026-11-25T05:23:07.774558",
+      "trading_days_held": 0,
+      "last_update_date": "2026-11-25"
+    }
+  },
   "closed_trades": [
     {
       "ticker": "[YES] Will Manchester City win the 2026-27 E",
