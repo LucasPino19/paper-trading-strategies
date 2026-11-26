@@ -10,8 +10,8 @@
       "current_price": 489.92999267578125,
       "peak_price": 523.9299926757812,
       "volume_spiked": false,
-      "trading_days_held": 9,
-      "last_update_date": "2026-11-25",
+      "trading_days_held": 10,
+      "last_update_date": "2026-11-26",
       "entry_date": "2026-11-12T21:32:01.918692",
       "sps_score": 44.33812422822649,
       "short_float_pct": 0,
@@ -26,8 +26,8 @@
       "current_price": 273.1000061035156,
       "peak_price": 282.1,
       "volume_spiked": false,
-      "trading_days_held": 2,
-      "last_update_date": "2026-11-25",
+      "trading_days_held": 3,
+      "last_update_date": "2026-11-26",
       "entry_date": "2026-11-24T01:48:31.568252",
       "sps_score": 14.124456561779517,
       "short_float_pct": 0,
@@ -1256,6 +1256,10 @@
     },
     {
       "date": "2026-11-25",
+      "equity": 8473.314591207778
+    },
+    {
+      "date": "2026-11-26",
       "equity": 8473.314591207778
     }
   ]
