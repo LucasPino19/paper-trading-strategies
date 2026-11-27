@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4805.273160854899,
+  "cash": 3363.6912125984295,
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
       "entry_price": 523.0,
       "shares": 4.882570137976872,
       "entry_value": 2553.584182161904,
-      "current_price": 489.92999267578125,
+      "current_price": 492.8500061035156,
       "peak_price": 523.9299926757812,
       "volume_spiked": false,
-      "trading_days_held": 10,
-      "last_update_date": "2026-11-26",
+      "trading_days_held": 11,
+      "last_update_date": "2026-11-27",
       "entry_date": "2026-11-12T21:32:01.918692",
       "sps_score": 44.33812422822649,
       "short_float_pct": 0,
@@ -23,13 +23,29 @@
       "entry_price": 282.1,
       "shares": 4.672002379711611,
       "entry_value": 1317.9718713166455,
-      "current_price": 273.1000061035156,
+      "current_price": 274.9599914550781,
       "peak_price": 282.1,
       "volume_spiked": false,
-      "trading_days_held": 3,
-      "last_update_date": "2026-11-26",
+      "trading_days_held": 4,
+      "last_update_date": "2026-11-27",
       "entry_date": "2026-11-24T01:48:31.568252",
       "sps_score": 14.124456561779517,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0
+    },
+    "HOOD": {
+      "ticker": "HOOD",
+      "entry_price": 67.91999816894531,
+      "shares": 21.224705346290726,
+      "entry_value": 1441.5819482564698,
+      "current_price": 67.91999816894531,
+      "peak_price": 67.91999816894531,
+      "volume_spiked": false,
+      "trading_days_held": 1,
+      "last_update_date": "2026-11-27",
+      "entry_date": "2026-11-27T22:52:20.305032",
+      "sps_score": 61.297004239938836,
       "short_float_pct": 0,
       "float_shares_m": 0,
       "dtc": 0
@@ -1261,6 +1277,10 @@
     {
       "date": "2026-11-26",
       "equity": 8473.314591207778
+    },
+    {
+      "date": "2026-11-27",
+      "equity": 8496.261617561253
     }
   ]
 }
