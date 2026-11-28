@@ -1,33 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5144.175832501536,
+  "cash": 7326.033049739092,
   "open_positions": {
-    "XLE": {
-      "ticker": "XLE",
-      "entry_price": 61.939998626708984,
-      "shares": 35.379557029665314,
-      "entry_value": 2191.4097138310417,
-      "current_price": 60.900001525878906,
-      "peak_price": 64.95999908447266,
-      "volume_spiked": false,
-      "trading_days_held": 14,
-      "last_update_date": "2026-11-27",
-      "entry_date": "2026-11-10T03:44:10.264157",
-      "sps_score": 34.059791096538774,
-      "short_float_pct": 0,
-      "float_shares_m": 0,
-      "dtc": 0
-    },
     "MSFT": {
       "ticker": "MSFT",
       "entry_price": 492.5,
       "shares": 4.476440173315332,
       "entry_value": 2204.646785357801,
-      "current_price": 489.92999267578125,
+      "current_price": 492.8500061035156,
       "peak_price": 496.1300048828125,
       "volume_spiked": false,
-      "trading_days_held": 4,
-      "last_update_date": "2026-11-27",
+      "trading_days_held": 5,
+      "last_update_date": "2026-11-28",
       "entry_date": "2026-11-24T05:27:07.741167",
       "sps_score": 35.01517114116065,
       "short_float_pct": 0,
@@ -365,6 +349,28 @@
       "pnl": -249.54127811610215,
       "pnl_pct": -0.10041601236473993,
       "exit_reason": "Stop loss: -10.0%"
+    },
+    {
+      "ticker": "XLE",
+      "entry_price": 61.939998626708984,
+      "shares": 35.379557029665314,
+      "entry_value": 2191.4097138310417,
+      "current_price": 61.66999816894531,
+      "peak_price": 64.95999908447266,
+      "volume_spiked": false,
+      "trading_days_held": 15,
+      "last_update_date": "2026-11-28",
+      "entry_date": "2026-11-10T03:44:10.264157",
+      "sps_score": 34.059791096538774,
+      "short_float_pct": 0,
+      "float_shares_m": 0,
+      "dtc": 0,
+      "exit_price": 61.66999816894531,
+      "exit_date": "2026-11-28T03:26:47.603011",
+      "proceeds": 2181.857217237556,
+      "pnl": -9.552496593485557,
+      "pnl_pct": -0.0043590646391659,
+      "exit_reason": "Stop de tiempo: 15d \u2014 -0.4%"
     }
   ],
   "equity_history": [
@@ -875,6 +881,10 @@
     {
       "date": "2026-11-27",
       "equity": 9491.933210919027
+    },
+    {
+      "date": "2026-11-28",
+      "equity": 9532.246616479577
     }
   ]
 }
